@@ -1,0 +1,46 @@
+.interruption
+	padding-top: 90px
+	padding-bottom: 110px
+	background: $blue url('../img/svg/interruption_bg.svg') no-repeat
+	background-position: center 73px
+	&__title
+		text-align: center
+		margin-bottom: 62px
+	&__form-int
+		display: flex
+		align-items: center
+		justify-content: center
+
+
+
+.form-int
+	height: 60px
+	&__select, .select2-container .select2-selection--single
+		width: 196px
+		height: 60px
+		border-radius: 10px 0px 0px 10px
+		position: relative
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			right: 0
+			top: 10px
+			bottom: 10px
+			width: 1px
+			background: #CCD5DC
+	&__input
+		height: 100%
+		max-width: 383px
+		width: 100%
+		flex-shrink: 0
+	&__btn
+		font-size: 18px
+		height: 100%
+		max-width: 260px
+		border-radius: 0
+		border-radius: 0px 10px 10px 0px
+	.select2-container--default
+		.select2-selection--single
+			.select2-selection__rendered
+				line-height: 60px

@@ -1,7 +1,12 @@
-// Main JS module
-// objectFitImages polyfill
-import objectFitImages from "object-fit-images";
+import "select2/dist/js/select2.full";
 
-$(function() {
-  objectFitImages();
+$(function () {
+  $(".js-select").select2({
+    minimumResultsForSearch: Infinity,
+  });
+
+  $(".js-select--product").select2({
+    minimumResultsForSearch: Infinity,
+    placeholder: "Продукт",
+  });
 });

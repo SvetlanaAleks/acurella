@@ -92,6 +92,7 @@ img
 	padding: 10px 18px
 	border-radius: 5px
 	width: 100%
+	border: none
 	&--full
 		background: $light-blue
 		color: $white
@@ -101,3 +102,66 @@ img
 	&--empty-dark
 		color: $grey
 		border: 1px solid $grey
+
+
+//Стилі для інпатів і селекту
+.input, .select2-container .select2-selection--single
+	background: $white
+	padding: 0 20px
+	box-sizing: border-box
+	font-size: 16px
+	color: $light-grey
+	outline: none
+	border: none
+	border-radius: 0
+	+placeholder
+		font-family: 'Inter', sans-serif
+		font-size: 16px
+		color: $light-grey
+.select2
+	box-sizing: border-box
+	&-dropdown
+		background: #FFFFFF
+		box-shadow: 0px 35px 60px rgba(54, 44, 98, 0.2)
+		border-radius: 10px
+		border: none
+		overflow: hidden
+	&-container
+		.select2-selection--single
+			.select2-selection__rendered
+				padding: 0
+		&--default
+			.select2-selection--single
+				.select2-selection__rendered
+					color: $light-grey
+		.select2-selection
+			&--single
+				background-color: $white
+				border: none
+				border-radius: 0px
+				.select2-selection__placeholder
+					color: $light-grey
+					font-size: 16px
+				.select2-selection__rendered
+					padding: 0
+				.select2-selection__arrow
+					width: 12px
+					height: 7px
+					background: url('../img/svg/arrow-select.svg') no-repeat center
+					background-size: 100%
+					top: 50%
+					transform: translateY(-50%)
+					right: 15px
+					transition: all .3s
+					b
+						display: none
+		&--open
+			.select2-selection__arrow
+				transform: translateY(-50%) rotate(180deg) !important
+			.select2-results__option
+				font-size: 16px
+				padding-left: 20px
+			.select2-results__option[aria-selected=true]
+				background: transparentize($blue, .8)
+			.select2-results__option--highlighted[aria-selected]
+				background: transparentize($blue, .2)
