@@ -1,0 +1,47 @@
+mixin new(item)
+	.new
+		img.new__img(src=item.src, alt="photo")
+		.new__info
+			p.new__ttl.title.title--dark.title--5!=item.ttl
+			p.new__date!=item.date
+
+-
+	const newArray = [
+		{
+			src: 'img/new_1.jpg',
+			ttl: 'Теперь СPА-маркетингом управлять проще: новая система от Acurella',
+			date: 'Sep 12 2020'
+		},
+		{
+			src: 'img/new_2.jpg',
+			ttl: 'Эталонная работа операторов и менеджеров за счет современной CRM',
+			date: 'Sep 12 2020'
+		},
+		{
+			src: 'img/new_3.jpg',
+			ttl: 'Своевременные закупки в нужном объеме с новым решением от Acurella',
+			date: 'Sep 12 2020'
+		},
+		{
+			src: 'img/new_3.jpg',
+			ttl: 'Своевременные закупки в нужном объеме с новым решением от Acurella',
+			date: 'Sep 12 2020'
+		},
+		{
+			src: 'img/new_3.jpg',
+			ttl: 'Своевременные закупки в нужном объеме с новым решением от Acurella',
+			date: 'Sep 12 2020'
+		},
+		{
+			src: 'img/new_3.jpg',
+			ttl: 'Своевременные закупки в нужном объеме с новым решением от Acurella',
+			date: 'Sep 12 2020'
+		}
+	];
+
+section.news
+	.container
+		h2.news__title.title.title--dark.title--3 Новости
+		.news__slider.js-news-slider
+			each item in newArray
+				+new(item)
