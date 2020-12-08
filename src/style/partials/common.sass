@@ -1,0 +1,103 @@
+body
+	font-family: 'Inter', sans-serif
+	font-size: 18px
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscal
+	text-size-adjust: none
+	-moz-text-size-adjust: none
+	-webkit-text-size-adjust: none
+	-ms-text-size-adjust: none
+	overflow-x: hidden
+html
+	-ms-text-size-adjust: 100%
+	-moz-text-size-adjust: 100%
+	-webkit-text-size-adjust: 100%
+::-ms-clear
+	display: none
+*:focus, *:visited, *:active, *:hover
+	outline: 0!important
+a, a:focus, a:visited, a:active, a:hover
+	outline: 0!important
+*::-moz-focus-inner
+	border: 0
+	outline: none
+img
+	max-width: 100%
+
+// Font icons
+.fico
+	display: inline-block
+	font-size: 3rem
+	&::before
+		display: block
+
+//Колонки
+.column
+	max-width: 290px
+	width: 100%
+	margin-right: 40px
+	flex-shrink: 0
+
+
+//Розміри шрифтів заголовків
+.title
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif
+	&--dark
+		color: $grey
+	&--light
+		color: $white
+	&--1
+		font-size: 55px
+		line-height: 110%
+	&--2
+		font-size: 50px
+		line-height: 120%
+	&--3
+		font-size: 35px
+		line-height: 100%
+	&--4
+		font-size: 30px
+		line-height: 130%
+	&--5
+		font-size: 23px
+		line-height: 130%
+
+//Розміри шрифтів тексту
+.text
+	&--1
+		font-size: 20px
+		line-height: 150%
+	&--2
+		font-size: 18px
+		&-1
+			line-height: 160%
+		&-2
+			line-height: 180%
+	&--3
+		font-size: 16px
+		line-height: 160%
+	&--4
+		font-size: 14px
+		line-height: 120%
+
+
+//Кнопка
+.btn
+	outline: none
+	cursor: pointer
+	text-decoration: none
+	font-family: 'Inter', sans-serif
+	font-size: 16px
+	text-align: center
+	padding: 10px 18px
+	border-radius: 5px
+	width: 100%
+	&--full
+		background: $light-blue
+		color: $white
+	&--empty
+		border: 1px solid $light-blue
+		color: $white
+	&--empty-dark
+		color: $grey
+		border: 1px solid $grey
