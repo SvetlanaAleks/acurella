@@ -1,0 +1,97 @@
+.chart
+	padding-top: 90px
+	padding-bottom: 180px
+	&__top
+		display: flex
+		align-items: flex-start
+		margin-bottom: 92px
+	&__desc
+		color: $light-grey
+		max-width: 44%
+		margin-right: 18px
+	&__btn
+		max-width: 180px
+	&__bottom
+		margin-top: -211px
+
+
+.graph
+	display: flex
+	align-items: flex-end
+	position: relative
+	&::before
+		content: ''
+		display: block
+		position: absolute
+		width: 1542px
+		height: 328px
+		background: url('../img/svg/graph.svg') no-repeat
+		background-size: 100%
+		z-index: 1
+		top: 151px
+		left: -130px
+	&::after
+		content: ''
+		display: block
+		position: absolute
+		top: 0
+		right: 0
+		transform: translateX(100%)
+		width: 0
+		height: 0
+		border-style: solid
+		border-width: 11.5px 0 11.5px 20px
+		border-color: transparent transparent transparent $light-blue
+	&__col
+		width: calc(100%/4)
+		border-bottom: 1px solid #918FAD
+		&:not(:first-of-type)
+			.graph__wrap
+				border-left: 1px solid #E3E7EA
+				&::before
+					background: $light-blue
+		&:nth-of-type(1)
+			border-bottom-left-radius: 10px
+			border-left: 1px solid #918FAD
+			.graph__wrap
+				height: 215px
+		&:nth-of-type(2)
+			.graph__wrap
+				height: 230px
+		&:nth-of-type(3)
+			.graph__wrap
+				height: 267px
+		&:nth-of-type(4)
+			height: 540px
+			border-right: 1px solid #918FAD
+			border-bottom-right-radius: 10px
+			display: flex
+			align-items: flex-end
+			.graph__wrap
+				height: 335px
+				width: 100%
+	&__wrap
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		position: relative
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			top: 0
+			left: 0
+			transform: translateX(-50%)
+			width: 7px
+			height: 7px
+			border-radius: 50%
+			background: #4F00F7
+	&__ttl
+		font-weight: 500
+		font-size: 20px
+		line-height: 120%
+		padding-left: 20px
+	&__label
+		border-top: 1px solid #E3E7EA
+		padding: 14px 20px
+		color: $light-grey
