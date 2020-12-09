@@ -1,0 +1,58 @@
+.information
+	padding-top: 138px
+	padding-bottom: 144px
+	background: #0084E4 url('../img/svg/information_bg.svg') no-repeat
+	background-position: 87px 273px
+	&__wrapper
+		display: flex
+		padding-left: 70px
+	&__left
+		max-width: 550px
+		width: 100%
+		padding-top: 56px
+		flex-shrink: 0
+		margin-right: 40px
+		position: relative
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			top: -18px
+			right: 95px
+			width: 111px
+			height: 110px
+			background: url('../img/svg/information_photo_decor.svg') no-repeat center
+			background-size: 100%
+	&__photo-wrap
+		max-width: 400px
+		width: 100%
+		border-radius: 10px
+		overflow: hidden
+		font-size: 0
+	.fico
+		color: #0051AF
+		margin-bottom: 53px
+		font-size: 54px
+	&__text-wrap
+		padding-bottom: 50px
+		margin-bottom: 41px
+		border-bottom: 1px solid #84CBFF
+	&__text
+		color: $white
+		font-size: 22px
+		line-height: 150%
+		max-width: 96%
+	&__bottom
+		display: flex
+		align-items: center
+	&__desc
+		color: #84CBFF
+		margin-right: 42px
+	&__name
+		font-family: 'Montserrat', Arial, Helvetica, sans-serif
+		font-weight: 500
+		font-size: 28px
+		line-height: 130%
+		margin-bottom: 9px
+	&__post
+		font-size: 14px
