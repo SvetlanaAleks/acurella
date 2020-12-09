@@ -1,0 +1,100 @@
+.products
+	padding-top: 100px
+	padding-bottom: 93px
+	position: relative
+	&::before
+		content: ''
+		display: block
+		position: absolute
+		top: 1170px
+		left: calc(50% - 874px)
+		width: 151px
+		height: 150px
+		background: url('../img/svg/products_decor.svg') no-repeat
+		background-position: center
+	&__top
+		display: flex
+		align-items: flex-start
+		padding-bottom: 102px
+		margin-bottom: 125px
+		border-bottom: 1px solid #CFD8E0
+	&__center
+		display: flex
+		align-items: flex-start
+		margin-bottom: 105px
+	&__desc
+		color: $light-grey
+		max-width: 58%
+		margin-top: 13px
+	&__list
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+		align-items: flex-start
+
+.product
+	display: block
+	text-decoration: none
+	padding: 40px
+	border-radius: 10px
+	max-width: 620px
+	width: 100%
+	min-height: 410px
+	position: relative
+	&:nth-of-type(-n+2)
+		margin-bottom: 40px
+	&:nth-of-type(1)
+		background: #FFFAEC
+		.fico
+			color: #FFAC42
+	&:nth-of-type(2)
+		background: #E7FAFA
+		margin-top: 60px
+		.fico
+			color: #13ACAC
+	&:nth-of-type(3)
+		background:#F1ECE4
+		margin-top: -60px
+		.fico
+			color: #CDB06D
+	&:nth-of-type(4)
+		background:#F7F2FF
+		.fico
+			color: #8953CD
+		.product__name
+			font-size: 230px
+			bottom: -60px
+	&__ttl
+		color: $grey
+		margin-bottom: 22px
+	&__text
+		color: $light-grey
+		max-width: 69%
+	&__name
+		font-family: 'Montserrat', Arial, Helvetica, sans-serif
+		font-weight: 900
+		font-size: 180px
+		letter-spacing: -0.03em
+		color: $white
+		position: absolute
+		left: 40px
+		bottom: -32px
+	.fico
+		position: absolute
+		top: 38px
+		right: 39px
+		font-size: 40px
+
+
+.list-adv
+	&__item
+		max-width: 400px
+		width: 100%
+		+nlt
+			margin-right: 40px
+	.fico
+		margin-bottom: 30px
+		font-size: 42px
+		color: #0084E4
+	&__text
+		max-width: 80%

@@ -1,0 +1,53 @@
+mixin product(product)
+	a.product(href=product.link)
+		p.product__ttl.title.title--dark.title--4!=product.ttl
+		p.product__text.text-2--1!=product.text
+		p.product__name!=product.name
+		i.fico.fico-arrowSlider
+
+-
+	const productArray = [
+		{
+			link: '#',
+			ttl: 'Cost Per Action<br> Marketing',
+			text: 'Готовое решение для CPA-сетей, которое защищает и упрощает взаимодействие веб-мастеров и рекламодателей. ',
+			name: 'CPA'
+		},
+		{
+			link: '#',
+			ttl: 'Customer Relationship Management',
+			text: 'Система для автоматизации сложных стратегий взаимодействия с заказчиками и увеличения продаж.',
+			name: 'CRM'
+		},
+		{
+			link: '#',
+			ttl: 'Supply Chain<br> Management',
+			text: 'Cистема, позволяющая в режиме реального времени управлять сложными цепочками поставок.',
+			name: 'SCM'
+		},
+		{
+			link: '#',
+			ttl: 'Интеграции',
+			text: 'Решения Acurella легко интегрируются в инфраструктуру онлайн-бизнеса.',
+			name: '<>'
+		}
+	];
+
+section.products
+	.container
+		ul.products__top.list-adv
+			li.list-adv__item
+				i.fico.fico-check
+				p.list-adv__text.title.title--dark.title--5 Доступ к сайтам и подсистемам платформы 24/7/365
+			li.list-adv__item
+				i.fico.fico-check
+				p.list-adv__text.title--dark.title--5 Создание эффективной экосистемы внутри предприятия
+			li.list-adv__item
+				i.fico.fico-check
+				p.list-adv__text.title--dark.title--5 HTTP API для упрощения интеграции систем
+		.products__center
+			h2.products__title.title.title--dark.title--2.column-big Продукты
+			p.products__desc.text-2--2 Acurella предоставляет гибкие решения для онлайн-бизнеса, учитывая отраслевые особенности и помогая компаниям адаптироваться к вызовам современной бизнес-среды.
+		.products__list
+			each product in productArray
+				+product(product)
