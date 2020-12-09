@@ -1,4 +1,64 @@
 .header
-	padding-top: 240px
 	padding-bottom: 92px
 	background: radial-gradient(36.83% 66.63% at 62.01% 60.3%, rgba(0, 160, 228, 0.2) 0%, rgba(0, 119, 228, 0) 100%), #212A7A
+	position: relative
+	&__wrap-img
+		position: absolute
+		bottom: 0
+		right: calc(50% - 728px)
+		font-size: 0
+		z-index: 0
+		pointer-events: none
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			bottom: 4px
+			right: -99px
+			width: 1151px
+			height: 710px
+			background: url('../img/svg/header_decor.svg') no-repeat
+			background-size: 100%
+			z-index: -1
+	.slick-list
+		margin: 0 -50px
+		margin-bottom: 86px
+	.slick-slide
+		margin: 0 50px
+
+
+.slide
+	display: flex !important
+	align-items: flex-end
+	padding-top: 240px
+	&--1
+		.slide__wrap-img
+			bottom: 148px
+			right: -43px
+	&--2
+		.slide__wrap-img
+			bottom: 6px
+			right: -20px
+	&--3
+		.slide__wrap-img
+			bottom: 154px
+			right: -39px
+	&__title
+		max-width: 710px
+		width: 100%
+		margin-bottom: 53px
+	&__text
+		margin-bottom: 60px
+		color: $white
+		max-width: 435px
+		width: 100%
+	&__btn
+		max-width: 210px
+	&__wrap-img
+		font-size: 0
+		position: absolute
+		right: 0
+		bottom: 0
+		box-shadow: -15px 40px 60px -9.04122px rgba(22, 21, 44, 0.2)
+		border-radius: 7.05px
+		overflow: hidden

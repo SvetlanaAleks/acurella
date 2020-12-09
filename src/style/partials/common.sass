@@ -98,6 +98,7 @@ img
 	border-radius: 5px
 	width: 100%
 	border: none
+	display: block
 	&--full
 		background: $light-blue
 		color: $white
@@ -184,11 +185,11 @@ img
 			background: transparentize($grey, .6)
 			&.slick-active
 				background: $grey
-	// &--light
-	// 	li
-	// 		border: 1px solid transparentize($white, .6)
-	// 		&.slick-active
-	// 			border: 1px solid $white
+	&--light
+		li
+			background: transparentize($white, .8)
+			&.slick-active
+				background: $light-blue
 	li
 		width: 8px
 		height: 8px

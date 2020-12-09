@@ -1,6 +1,7 @@
 const Sliders = (function () {
   "use strict";
   const newsSlider = $(".js-news-slider");
+  const headerSlider = $(".js-header-slider");
   return {
     initNewsSlider: function () {
       newsSlider.slick({
@@ -14,8 +15,21 @@ const Sliders = (function () {
         dotsClass: "slick-dots slick-dots--dark",
       });
     },
+    initHeaderSlider: function () {
+      headerSlider.slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false,
+        dotsClass: "slick-dots slick-dots--light",
+        fade: true,
+        cssEase: "linear",
+      });
+    },
     init: function () {
       Sliders.initNewsSlider();
+      Sliders.initHeaderSlider();
     },
   };
 })();
