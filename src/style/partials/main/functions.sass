@@ -1,0 +1,34 @@
+.functions
+	padding-top: 130px
+	padding-bottom: 165px
+	background: $blue url('../img/svg/functions_bg.svg') no-repeat
+	background-position: center
+	&__title
+		margin-bottom: 94px
+		font-weight: normal
+	&__wrapper
+		display: flex
+		align-items: flex-start
+		flex-wrap: wrap
+
+.function
+	max-width: 400px
+	width: 100%
+	min-height: 315px
+	padding-top: 6px
+	&:not(:nth-child(3n+1))
+		max-width: 440px
+		padding-left: 40px
+		border-left: 1px solid transparentize($white, .9)
+	&:not(:nth-of-type(-n+3))
+		border-top: 1px solid transparentize($white, .9)
+		min-height: 335px
+		padding-top: 66px
+	&__top
+		margin-bottom: 22px
+	&__img
+		margin-bottom: 27px
+	&__text
+		color: #96A3D2
+		line-height: 180%
+		max-width: 87%
