@@ -1,3 +1,4 @@
+import "slick-carousel";
 const Sliders = (function () {
   "use strict";
   const newsSlider = $(".js-news-slider");

@@ -1,5 +1,4 @@
 import "select2/dist/js/select2.full";
-import "slick-carousel";
 import Sliders from "./modules/Sliders";
 
 $(function () {
