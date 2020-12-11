@@ -3,6 +3,16 @@
 		max-width: 620px
 		width: 100%
 		margin-right: 40px
+		+r(1440)
+			max-width: 540px
+		+r(1300)
+			max-width: 470px
+		+r(1140)
+			max-width: 420px
+		+r(1024)
+			margin-right: 20px
+		+r(768)
+			margin-right: 0
 	&__row
 		&--1
 			padding-top: 140px
@@ -11,6 +21,26 @@
 			padding-top: 130px
 			padding-bottom: 168px
 			background: #F3FAFD
+		+r(1300)
+			&--1
+				padding-top: 110px
+				padding-bottom: 70px
+			&--2
+				padding-top: 100px
+				padding-bottom: 140px
+		+r(1140)
+			&--1, &--2
+				padding: 90px 0
+		+r(1024)
+			padding: 80px 0
+		+r(768)
+			padding: 60px 0
+		+r(480)
+			&--1
+				padding-bottom: 33px
+			&--2
+				padding-top: 39px
+				padding-bottom: 48px
 	&__wrap
 		display: flex
 		&--top
@@ -26,11 +56,89 @@
 					padding-right: 9px
 				&__desc
 					padding-top: 114px
+		+r(1300)
+			align-items: center
+			&--top, &--bottom
+				.advantages
+					&__col
+						padding-left: 0
+						padding-right: 0
+					&__desc
+						padding-top: 0
+		+r(1024)
+			justify-content: space-between
+			&--top
+				.advantages
+					&__col img
+						max-width: 82%
+			&--bottom
+				.advantages
+					&--desc
+						max-width: 100%
+						width: calc(100%/2 - 15px)
+		+r(768)
+			flex-direction: column
+		+r(640)
+			&--bottom
+				.advantages
+					&__col
+						max-width: 420px
+		+r(480)
+			&--top
+				.advantages
+					&__col
+						max-width: 260px
+						img
+							max-width: 100%
+			&--bottom
+				.advantages
+					&__col
+						max-width: 306px
+						margin-bottom: 30px
 	&__col
 		flex-shrink: 0
+		+r(1300)
+			max-width: 590px
+		+r(1140)
+			max-width: 510px
+		+r(1024)
+			max-width: inherit
+			flex: 1
+		+r(768)
+			max-width: 460px
+			text-align: center
+			margin-bottom: 30px
+		+r(640)
+			max-width: 400px
+		+r(480)
+			margin-bottom: 18px
+	&__desc
+		+r(1024)
+			max-width: calc(100%/2 - 15px)
+			width: 100%
+			&.col
+				max-width: calc(100%/2 - 15px)
+		+r(768)
+			max-width: 100%
+			width: 100%
+			&.col
+				max-width: 100%
 	&__ttl
 		margin-bottom: 37px
+		+r(1300)
+			margin-bottom: 30px
+		+r(1140)
+			margin-bottom: 20px
+		+r(1024)
+			margin-bottom: 12px
 	&__text
 		color: $light-grey
 		max-width: 510px
 		width: 100%
+		+r(1024)
+			font-size: 17px
+		+r(768)
+			max-width: 100%
+		+r(480)
+			font-size: 16px
+			line-height: 167%
