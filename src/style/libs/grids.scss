@@ -20,4 +20,7 @@
   @include r(640) {
     padding: 0 28px;
   }
+  @include r(374) {
+    padding: 0 20px;
+  }
 }

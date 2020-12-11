@@ -1,24 +1,66 @@
 .support
 	padding-top: 120px
+	+r(1300)
+		padding-top: 80px
+	+r(768)
+		padding-top: 60px
+	+r(480)
+		padding-top: 30px
 	&__wrapper
 		display: flex
 		justify-content: space-between
 		align-items: flex-start
 		border-bottom: 1px solid #CFD8E0
+		+r(1024)
+			align-items: flex-end
+		+r(768)
+			flex-direction: column-reverse
+			padding-bottom: 40px
+		+r(480)
+			padding-bottom: 30px
 	&__content
 		max-width: 510px
 		width: 100%
 		padding-top: 10px
+		+r(1024)
+			padding-top: 0
+			margin-bottom: 30px
+		+r(768)
+			max-width: 100%
+			margin-bottom: 0
 	&__title
 		margin-bottom: 32px
 		line-height: 130%
+		+r(1024)
+			margin-bottom: 20px
+		+r(640)
+			margin-bottom: 18px
 	&__text
 		color: $light-grey
 		margin-bottom: 36px
+		+r(1024)
+			margin-bottom: 25px
+		+r(640)
+			margin-bottom: 15px
 	&__link
 		color: #0084E4
 		text-decoration: none
+		&:hover
+			text-decoration: underline
 	&__photo
 		margin-bottom: -10px
 		padding-right: 10px
 		pointer-events: none
+		+r(1140)
+			max-width: 50%
+			margin-bottom: -8px
+		+r(768)
+			max-width: 460px
+			margin: auto
+			margin-bottom: 30px
+		+r(640)
+			max-width: 400px
+		+r(480)
+			max-width: 272px
+			margin: auto
+			margin-bottom: 43px
