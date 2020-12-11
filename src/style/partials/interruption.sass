@@ -3,9 +3,39 @@
 	padding-bottom: 110px
 	background: $blue url('../img/svg/interruption_bg.svg') no-repeat
 	background-position: center 73px
+	+r(1300)
+		padding: 80px 0
+		background-position: center
+	+r(768)
+		padding: 60px 0
+		background-position: center bottom
+	+r(480)
+		padding: 30px 0
+		background: $blue
+		position: relative
+		z-index: 1
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			width: 480px
+			height: 100px
+			background: url('../img/svg/interruption_bg_mob.svg') no-repeat
+			bottom: -16px
+			left: calc(50% - 190px)
+			z-index: -1
 	&__title
 		text-align: center
 		margin-bottom: 62px
+		+r(1300)
+			margin-bottom: 50px
+		+r(1024)
+			margin-bottom: 40px
+		+r(640)
+			br
+				display: none
+		+r(480)
+			margin-bottom: 32px
 	&__form-int
 		display: flex
 		align-items: center
@@ -15,11 +45,18 @@
 
 .form-int
 	height: 60px
+	+r(768)
+		height: 50px
+	+r(640)
+		display: flex
+		flex-direction: column
+		height: auto
 	.select2-container--default.select2-container--open.select2-container--below .select2-selection--single
 		border-bottom-left-radius: 10px
+		+r(640)
+		border-bottom-right-radius: 10px
 	&__select, .select2-container .select2-selection--single
 		width: 196px
-		height: 60px
 		border-radius: 10px 0px 0px 10px
 		position: relative
 		&::after
@@ -33,8 +70,15 @@
 			background: #CCD5DC
 		&:hover, &:focus
 			border: none
+		+r(768)
+			width: 155px
+		+r(640)
+			width: 100%
+			border-top-right-radius: 10px
+			border-bottom-left-radius: 0
+			&::after
+				display: none
 	&__input
-		height: 100%
 		max-width: 383px
 		width: 100%
 		flex-shrink: 0
@@ -42,13 +86,36 @@
 		border-radius: 0
 		&:hover, &:focus
 			border: none
+		+r(1024)
+			max-width: 100%
+			flex: 1
+		+r(640)
+			flex: inherit
+			margin-bottom: 10px
+			border-bottom-left-radius: 10px
+			border-bottom-right-radius: 10px
+			border-top: 1px solid #CCD5DC
+			&:hover, &:focus
+				border-top: 1px solid #CCD5DC
+
 	&__btn
 		font-size: 18px
 		height: 100%
 		max-width: 260px
 		border-radius: 0
 		border-radius: 0px 10px 10px 0px
+		+r(1024)
+			flex-shrink: 0
+			max-width: 230px
+		+r(890)
+			max-width: 200px
+		+r(640)
+			max-width: 100%
+			border-radius: 10px
+			height: 50px
 	.select2-container--default
 		.select2-selection--single
 			.select2-selection__rendered
 				line-height: 60px
+				+r(768)
+					line-height: 50px

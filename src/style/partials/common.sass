@@ -9,6 +9,7 @@ body
 	-ms-text-size-adjust: none
 	overflow-x: hidden
 html
+	overflow-x: hidden
 	-ms-text-size-adjust: 100%
 	-moz-text-size-adjust: 100%
 	-webkit-text-size-adjust: 100%
@@ -80,6 +81,14 @@ img
 	&--4
 		font-size: 30px
 		line-height: 130%
+		+r(1024)
+			font-size: 28px
+		+r(768)
+			font-size: 26px
+		+r(640)
+			font-size: 24px
+		+r(480)
+			font-size: 20px
 	&--5
 		font-size: 23px
 		line-height: 130%
@@ -161,6 +170,8 @@ img
 	&:hover, &:focus
 		background: #F2FBFF
 		border: 1px solid $light-blue
+	+r(768)
+		height: 50px
 .textarea
 	border-radius: 10px
 	background: $white
