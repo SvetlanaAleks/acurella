@@ -14,6 +14,16 @@ const Sliders = (function () {
         nextArrow:
           '<button class="next"><i class="fico fico-arrowSlider"></i></button>',
         dotsClass: "slick-dots slick-dots--dark",
+        responsive: [
+          {
+            breakpoint: 891,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              variableWidth: true,
+            },
+          },
+        ],
       });
     },
     initHeaderSlider: function () {
