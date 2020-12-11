@@ -15,6 +15,8 @@
 
 .form-int
 	height: 60px
+	.select2-container--default.select2-container--open.select2-container--below .select2-selection--single
+		border-bottom-left-radius: 10px
 	&__select, .select2-container .select2-selection--single
 		width: 196px
 		height: 60px
@@ -29,11 +31,17 @@
 			bottom: 10px
 			width: 1px
 			background: #CCD5DC
+		&:hover, &:focus
+			border: none
 	&__input
 		height: 100%
 		max-width: 383px
 		width: 100%
 		flex-shrink: 0
+		border: none
+		border-radius: 0
+		&:hover, &:focus
+			border: none
 	&__btn
 		font-size: 18px
 		height: 100%

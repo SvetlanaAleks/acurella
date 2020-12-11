@@ -1,0 +1,115 @@
+.popup-demo
+	overflow-x: hidden
+	overflow-y: auto
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
+	position: fixed
+	z-index: 50
+	display: none
+	&.active
+		display: flex
+	&__close
+		position: absolute
+		top: 0
+		right: 0
+		width: 42px
+		height: 42px
+		border-radius: 50%
+		background: #F0F8FC
+		cursor: pointer
+		z-index: 1
+		display: flex
+		align-items: center
+		justify-content: center
+		.fico
+			font-size: 18px
+			color: $grey
+	&__wrap
+		position: relative
+		max-width: 930px
+		margin: auto
+		width: auto
+		padding: 21px
+	&__content
+		display: flex
+		border-radius: 10px
+		overflow: hidden
+		box-shadow: 0px 40px 60px rgba(22, 21, 44, 0.2)
+	&__left
+		background: $blue url('../img/svg/popup_bg.svg') no-repeat
+		background-position: 0px 270px
+		padding: 40px
+		max-width: 340px
+		width: 100%
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+	&__title
+		font-family: 'Montserrat', Arial, Helvetica, sans-serif
+		font-weight: 500
+		font-size: 35px
+		line-height: 110%
+		margin-bottom: 20px
+	&__desc
+		color: #96A3D2
+	&__bottom
+		font-size: 18px
+		line-height: 160%
+	&__link-tel
+		color: $white
+		display: block
+		text-decoration: none
+	&__link-email
+		color: $light-blue
+		text-decoration: none
+	&__right
+		padding: 40px
+		flex: 1
+		background: $white
+		max-width: 590px
+		width: 100%
+		flex-shrink: 0
+
+.form-p
+	.select2-container--default.select2-container--open.select2-container--below .select2-selection--single
+		border-radius: 10px
+	&__wrap
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+		margin-bottom: 29px
+	&__input
+		border: 1px solid #CFD8E0
+		height: 60px
+		border-radius: 10px
+		+nlt
+			margin-bottom: 20px
+		&--max
+			max-width: 100%
+			width: 100%
+		&--med
+			width: calc(50% - 10px)
+	&__select
+		width: 224px
+	&__select, .select2-container .select2-selection--single
+		border: 1px solid #CFD8E0
+		height: 60px
+		border-radius: 10px
+		&:hover, &:focus
+			border: 1px solid $light-blue
+	.select2-container--default
+		.select2-selection--single
+			.select2-selection__rendered
+				line-height: 60px
+	&__textarea
+		margin-top: 20px
+		width: 100%
+		height: 160px
+		
+	&__checkbox
+		margin-bottom: 26px
+	&__btn
+		max-width: 100%
+		padding: 20px

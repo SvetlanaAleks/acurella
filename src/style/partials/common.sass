@@ -37,11 +37,28 @@ img
 	width: 100%
 	margin-right: 40px
 	flex-shrink: 0
+	+r(1440)
+		margin-right: 30px
+		max-width: 270px
+	+r(1300)
+		max-width: 240px
+	+r(1140)
+		max-width: 220px
+		margin-right: 20px
 .column-big
 	max-width: 400px
 	width: 100%
 	margin-right: 40px
 	flex-shrink: 0
+	+r(1440)
+		margin-right: 30px
+		max-width: 370px
+	+r(1300)
+		max-width: 330px
+	+r(1140)
+		max-width: 300px
+		margin-right: 20px
+
 
 //Розміри шрифтів заголовків
 .title
@@ -81,6 +98,12 @@ img
 	&-3
 		font-size: 16px
 		line-height: 160%
+		+r(1300)
+			font-size: 15px
+			line-height: 150%
+		+r(640)
+			font-size: 16px
+			line-height: 160%
 	&-4
 		font-size: 14px
 		line-height: 120%
@@ -99,16 +122,23 @@ img
 	width: 100%
 	border: none
 	display: block
+	transition: all .3s
 	&--full
 		background: $light-blue
 		color: $white
+		&:hover
+			background: #0084E4
 	&--empty
 		border: 1px solid $light-blue
 		color: $white
+		&:hover
+			background: rgba(0, 176, 247, 0.1)
 	&--empty-dark
 		color: $grey
 		border: 1px solid $grey
-
+		&:hover
+			border: 1px solid $light-blue
+			background: rgba(0, 176, 247, 0.1)
 
 //Стилі для інпатів і селекту
 .input, .select2-container .select2-selection--single
@@ -116,20 +146,46 @@ img
 	padding: 0 20px
 	box-sizing: border-box
 	font-size: 16px
-	color: $light-grey
+	color: $grey
 	outline: none
 	border: none
 	border-radius: 0
+	height: 60px
+	border: 1px solid #CFD8E0
+	border-radius: 10px
+	transition: all .3s
 	+placeholder
 		font-family: 'Inter', sans-serif
 		font-size: 16px
 		color: $light-grey
+	&:hover, &:focus
+		background: #F2FBFF
+		border: 1px solid $light-blue
+.textarea
+	border-radius: 10px
+	background: $white
+	padding: 20px
+	box-sizing: border-box
+	font-size: 16px
+	color: $grey
+	outline: none
+	font-family: 'Inter', sans-serif
+	resize: none
+	border: 1px solid #CFD8E0
+	transition: all .3s
+	+placeholder
+		font-family: 'Inter', sans-serif
+		font-size: 16px
+		color: $light-grey
+	&:hover, &:focus
+		background: #F2FBFF
+		border: 1px solid $light-blue
 .select2
 	box-sizing: border-box
 	&-dropdown
 		background: #FFFFFF
-		box-shadow: 0px 35px 60px rgba(54, 44, 98, 0.2)
-		border-radius: 10px
+		box-shadow: 0px 20px 50px rgba(22, 21, 44, 0.15)
+		border-radius: 10px !important
 		border: none
 		overflow: hidden
 	&-container
@@ -139,12 +195,12 @@ img
 		&--default
 			.select2-selection--single
 				.select2-selection__rendered
-					color: $light-grey
+					color: $grey
 		.select2-selection
 			&--single
 				background-color: $white
 				border: none
-				border-radius: 0px
+				border-radius: 10px
 				.select2-selection__placeholder
 					color: $light-grey
 					font-size: 16px
@@ -166,11 +222,16 @@ img
 				transform: translateY(-50%) rotate(180deg) !important
 			.select2-results__option
 				font-size: 16px
+				padding: 15px 0
 				padding-left: 20px
-			.select2-results__option[aria-selected=true]
-				background: transparentize($blue, .8)
+				+nlt
+					border-bottom: 1px solid #CFD8E0
 			.select2-results__option--highlighted[aria-selected]
-				background: transparentize($blue, .2)
+				background: #E4F7FF
+				color: $grey
+			.select2-results__option[aria-selected=true]
+				background: #E4F7FF
+
 
 
 //sliders
@@ -214,13 +275,74 @@ img
 	.fico
 		font-size: 40px
 		outline: 0
-		color: transparentize($grey, .6)
+		color: $grey
 		transition: all .3s
 		line-height: 1
 	&:hover
 		.fico
-			color: $grey
+			color: $light-blue
 	&.next
 		padding-right: 0
 	&.prev
 		transform: scaleX(-1.1)
+
+
+//checkbox
+.checkbox
+	display: flex
+	align-items: flex-start
+	position: relative
+	padding-left: 35px
+	cursor: pointer
+	font-size: 16px
+	line-height: 160%
+	color: $light-grey
+	user-select: none
+	&__input
+		position: absolute
+		opacity: 0
+		cursor: pointer
+		height: 0
+		width: 0
+		&:checked 
+			~ .checkbox__checkmark
+				background-color: $light-blue
+				.fico
+					opacity: 1
+					color: $white
+	&__checkmark
+		position: absolute
+		top: 5px
+		left: 0
+		height: 20px
+		width: 20px
+		background-color: white
+		border: 1px solid $light-blue
+		border-radius: 5px
+		display: flex
+		align-items: center
+		justify-content: center
+		transition: all .3s
+		.fico
+			opacity: 0
+			color: $white
+			font-size: 9px
+			transition: all .3s
+
+//overlay
+.overlay
+	opacity: 0
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	width: 100%
+	height: 100%
+	z-index: 49
+	background: transparentize(#827EB9, .5)
+	transition: all .5s
+	pointer-events: none
+	&.active
+		opacity: 1
+		pointer-events: visible

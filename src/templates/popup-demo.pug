@@ -1,0 +1,31 @@
+.popup-demo.js-popup#popup-demo
+	.popup-demo__wrap
+		.popup-demo__close.js-close
+			i.fico.fico-close
+		.popup-demo__content
+			.popup-demo__left
+				.popup-demo__top
+					h2.popup-demo__title.title.title--light Попробуйте демо-версию
+					p.popup-demo__desc.text-3 Отправьте ваш запрос — и мы подберем индивидуальное решение, которое наилучшим образом решит ваши бизнес-задачи
+				.popup-demo__bottom
+					a.popup-demo__link-tel(href="tel:(+357) 29 660724") (+357) 29 660724
+					a.popup-demo__link-email.column(href="mailto:c.office@acurella-tl.com") c.office@acurella-tl.com
+			.popup-demo__right
+				form.popup-demo__form-p.form-p(action="/", method="post")
+					.form-p__wrap
+						input.form-p__input.form-p__input--max.input(type="text", name="name" placeholder="Ваше имя" required)
+						input.form-p__input.form-p__input--med.input(type="tel", name="name" placeholder="Телефон" required)
+						input.form-p__input.form-p__input--med.input(type="email", name="name" placeholder="Email" required)
+						input.form-p__input.form-p__input--med.input(type="text", name="company" placeholder="Компания" required)
+						select.select.form-p__select.js-select--product
+							option
+							option(value="CPA") CPA
+							option(value="CRM") CRM
+							option(value="SCM") SCM
+						textarea.form-p__textarea.textarea(name="textarea" placeholder="Комментарий")
+					.form-p__checkbox.checkbox
+						label.checkbox__label Form agreement text or opt in to receive emails on Acurella ltd products and services. 
+							input.checkbox__input(type="checkbox" checked)
+							span.checkbox__checkmark
+								i.fico.fico-checkOrder
+					button.form-p__btn.btn.btn--full(type="submit") Отправить сообщение

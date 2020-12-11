@@ -16,12 +16,18 @@
 			left: -119px
 
 .new
-	border-radius: 13px
 	overflow: hidden
-	border: 1px solid #CFD8E0
 	min-height: 500px
 	display: flex !important
 	flex-direction: column
+	cursor: pointer
+	&:hover
+		.new__ttl
+			text-decoration: underline
+		.new__info
+			border-left: 1px solid $light-blue
+			border-right: 1px solid $light-blue
+			border-bottom: 1px solid $light-blue
 	&__img
 		font-size: 0
 	&__info
@@ -30,6 +36,12 @@
 		justify-content: space-between
 		padding: 30px
 		flex: 1
+		border-left: 1px solid #CFD8E0
+		border-right: 1px solid #CFD8E0
+		border-bottom: 1px solid #CFD8E0
+		border-bottom-left-radius: 13px
+		border-bottom-right-radius: 13px
+		transition: all .3s
 	&__date
 		font-size: 16px
 		line-height: 20px

@@ -8,9 +8,11 @@ html(lang=LANG.locale)
     block head
       title Acurella
   body
-    include ../menu/menu.pug
+    //- include ../menu/menu.pug
     block content
-    include ../interruption.pug
+    //- include ../interruption.pug
     include ../footer.pug
+    //- include ../popup-demo
+    .overlay.js-overlay
     include scripts.pug
     block scripts
