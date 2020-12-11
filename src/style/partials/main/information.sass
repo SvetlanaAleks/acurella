@@ -2,10 +2,34 @@
 	padding-top: 138px
 	padding-bottom: 144px
 	background: #0084E4 url('../img/svg/information_bg.svg') no-repeat
-	background-position: 87px 273px
+	background-position: calc(50% - 430px) 273px
+	+r(1440)
+		background-position: calc(50% - 380px) 273px
+	+r(1300)
+		padding: 80px 0
+		background-position: calc(50% - 340px) 193px
+	+r(1140)
+		background-position: calc(50% - 300px) 193px
+		background-size: 540px
+	+r(1024)
+		background-position: -80px 173px
+	+r(768)
+		background-position: -70px 73px
+		background-size: 510px
+		padding: 60px 0
+	+r(480)
+		padding-bottom: 74px
+		background-position: calc(50% - 27px) 110px
+		background-size: 380px
 	&__wrapper
 		display: flex
 		padding-left: 70px
+		+r(1300)
+			padding-left: 60px
+		+r(1024)
+			padding-left: 0
+		+r(768)
+			display: block
 	&__left
 		max-width: 550px
 		width: 100%
@@ -23,36 +47,115 @@
 			height: 110px
 			background: url('../img/svg/information_photo_decor.svg') no-repeat center
 			background-size: 100%
+		+r(1440)
+			max-width: 470px
+			&::before
+				right: 35px
+		+r(1300)
+			max-width: 390px
+		+r(1140)
+			max-width: 350px
+			&::before
+				right: -5px
+		+r(1024)
+			padding-top: 35px
+			&::before
+				top: -28px
+		+r(890)
+			max-width: 290px
+			margin-right: 30px
+			&::before
+				width: 91px
+				height: 90px
+				top: 2px
+				right: 15px
+		+r(768)
+			padding-top: 0
+			margin-right: 0
+			margin-bottom: 30px
+			&::before
+				top: -48px
+				right: -35px
+		+r(640)
+			max-width: 270px
+		+r(480)
+			max-width: 250px
+			margin: auto
+			margin-bottom: 47px
+			&::before
+				width: 70px
+				height: 69px
+
 	&__photo-wrap
 		max-width: 400px
 		width: 100%
 		border-radius: 10px
 		overflow: hidden
 		font-size: 0
+		+r(1440)
+			max-width: 380px
+		+r(1300)
+			max-width: 350px
+		+r(1140)
+			max-width: 320px
+		+r(1024)
+			max-width: 100%
 	.fico
 		color: #0051AF
 		margin-bottom: 53px
 		font-size: 54px
+		+r(1300)
+			margin-bottom: 40px
+		+r(1140)
+			margin-bottom: 32px
 	&__text-wrap
 		padding-bottom: 50px
 		margin-bottom: 41px
 		border-bottom: 1px solid #84CBFF
+		+r(1300)
+			padding-bottom: 40px
+			margin-bottom: 30px
+		+r(1140)
+			padding-bottom: 30px
+			margin-bottom: 20px
+		+r(480)
+			padding-bottom: 26px
+			margin-bottom: 9px
 	&__text
 		color: $white
 		font-size: 22px
 		line-height: 150%
 		max-width: 96%
+		+r(1024)
+			font-size: 20px
+			max-width: 100%
+		+r(640)
+			font-size: 19px
+		+r(480)
+			font-size: 18px
+			line-height: 140%
 	&__bottom
 		display: flex
 		align-items: center
 	&__desc
 		color: #84CBFF
 		margin-right: 42px
+		+r(480)
+			margin-right: 20px
 	&__name
 		font-family: 'Montserrat', Arial, Helvetica, sans-serif
 		font-weight: 500
 		font-size: 28px
 		line-height: 130%
 		margin-bottom: 9px
+		+r(1024)
+			font-size: 26px
+		+r(640)
+			font-size: 24px
+		+r(480)
+			font-size: 20px
 	&__post
 		font-size: 14px
+	&__callcenter
+		+r(480)
+			width: 95px
