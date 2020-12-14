@@ -2,10 +2,12 @@ import layout from "./global/layout";
 import "select2/dist/js/select2.full";
 import Sliders from "./modules/Sliders";
 import Popup from "./modules/Popup";
+import Controls from "./modules/Controls";
 
 $(function () {
   Sliders.init();
   Popup.init();
+  Controls.init();
   layout.layoutHandler({
     afterResize: (layout) => {
       $(".js-select--product").select2({
