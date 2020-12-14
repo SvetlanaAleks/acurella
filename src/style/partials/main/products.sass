@@ -12,25 +12,83 @@
 		height: 150px
 		background: url('../img/svg/products_decor.svg') no-repeat
 		background-position: center
+	+r(1300)
+		padding: 80px 0
+	+r(1024)
+		padding: 60px 0
+	+r(890)
+		padding-bottom: 0
 	&__top
 		display: flex
 		align-items: flex-start
 		padding-bottom: 102px
 		margin-bottom: 125px
 		border-bottom: 1px solid #CFD8E0
+		+r(1300)
+			padding-bottom: 80px
+			margin-bottom: 100px
+		+r(1140)
+			padding-bottom: 70px
+			margin-bottom: 90px
+		+r(1024)
+			padding-bottom: 50px
+			margin-bottom: 70px
+		+r(768)
+			padding-bottom: 40px
+			margin-bottom: 60px
+		+r(640)
+			display: block
+			margin-bottom: 50px
+		+r(480)
+			margin-bottom: 37px
 	&__center
 		display: flex
 		align-items: flex-start
 		margin-bottom: 105px
+		+r(1300)
+			margin-bottom: 80px
+		+r(1140)
+			margin-bottom: 70px
+		+r(1024)
+			margin-bottom: 60px
+		+r(768)
+			display: block
+			margin-bottom: 50px
+		+r(480)
+			margin-bottom: 40px
+	&__title
+		+r(1024)
+			&.column-big
+				max-width: calc(100%/3)
+		+r(768)
+			margin-bottom: 13px
+			&.column-big
+				max-width: 100%
+				margin-right: 0
+		+r(480)
+			font-size: 35px
+			margin-bottom: 18px
 	&__desc
 		color: $light-grey
 		max-width: 58%
 		margin-top: 13px
+		+r(1300)
+			max-width: 70%
+		+r(1140)
+			margin-top: 6px
+		+r(1024)
+			max-width: 100%
+			margin-top: 0
+		+r(480)
+			font-size: 16px
+			line-height: 160%
 	&__list
 		display: flex
 		flex-wrap: wrap
 		justify-content: space-between
 		align-items: flex-start
+		+r(480)
+			margin: 0 -10px
 
 .product
 	display: block
@@ -41,6 +99,26 @@
 	width: 100%
 	min-height: 410px
 	position: relative
+	transition: all .3s
+	&:hover
+		&:nth-of-type(1)
+			background: #FFEEB1
+		&:nth-of-type(2)
+			background: #B2E5E5
+		&:nth-of-type(3)
+			background: #EFDFC8
+		&:nth-of-type(4)
+			background: #E3D3FF
+		.product__ttl
+			text-decoration: underline
+		.fico
+			right: 30px
+		+r(1140)
+			.fico
+				right: 25px
+		+r(1024)
+			.fico
+				right: 15px
 	&:nth-of-type(-n+2)
 		margin-bottom: 40px
 	&:nth-of-type(1)
@@ -64,12 +142,74 @@
 		.product__name
 			font-size: 230px
 			bottom: -60px
+	+r(1440)
+		max-width: 570px
+		&:nth-of-type(-n+2)
+			margin-bottom: 30px
+		&:nth-of-type(2)
+			margin-top: 50px
+		&:nth-of-type(3)
+			margin-top: -50px
+	+r(1300)
+		max-width: 510px
+	+r(1140)
+		max-width: 460px
+		padding: 30px
+		&:nth-of-type(-n+2)
+			margin-bottom: 20px
+		&:nth-of-type(2)
+			margin-top: 40px
+		&:nth-of-type(3)
+			margin-top: -40px
+		&:nth-of-type(4)
+			.product__name
+				font-size: 200px
+	+r(1024)
+		max-width: 100%
+		width: calc(50% - 10px)
+		padding: 20px
+		min-height: 380px
+		&:nth-of-type(4)
+			.product__name
+				font-size: 190px
+	+r(890)
+		&:nth-of-type(4)
+			.product__name
+				font-size: 180px
+	+r(768)
+		width: 100%
+		min-height: 300px
+		&:nth-of-type(2),
+		&:nth-of-type(3)
+			margin-top: 0
+		+nlt
+			margin-bottom: 20px
+	+r(480)
+		min-height: 310px
+	+r(374)
+		&:nth-of-type(4)
+			.product__name
+				font-size: 160px
+				bottom: -50px
 	&__ttl
 		color: $grey
 		margin-bottom: 22px
+		+r(1140)
+			max-width: 87%
+		+r(480)
+			margin-bottom: 16px
 	&__text
 		color: $light-grey
 		max-width: 69%
+		+r(1300)
+			max-width: 80%
+		+r(1140)
+			max-width: 90%
+		+r(890)
+			max-width: 100%
+		+r(480)
+			font-size: 16px
+			line-height: 160%
 	&__name
 		font-family: 'Montserrat', Arial, Helvetica, sans-serif
 		font-weight: 900
@@ -79,11 +219,32 @@
 		position: absolute
 		left: 40px
 		bottom: -32px
+		+r(1140)
+			font-size: 160px
+			left: 30px
+		+r(1024)
+			left: 20px
+			font-size: 140px
+			bottom: -25px
+		+r(890)
+			font-size: 130px
+		+r(374)
+			font-size: 110px
 	.fico
 		position: absolute
 		top: 38px
 		right: 39px
 		font-size: 40px
+		transition: all .3s
+		+r(1140)
+			top: 30px
+			right: 30px
+		+r(1024)
+			top: 20px
+			right: 20px
+			font-size: 38px
+		+r(480)
+			font-size: 30px
 
 
 .list-adv
@@ -92,9 +253,37 @@
 		width: 100%
 		+nlt
 			margin-right: 40px
+		+r(1440)
+			+nlt
+				margin-right: 30px
+		+r(1140)
+			+nlt
+				margin-right: 20px
+		+r(640)
+			display: flex
+			align-items: flex-start
+			max-width: 100%
+			+nlt
+				margin-right: 0
+				margin-bottom: 20px
 	.fico
 		margin-bottom: 30px
 		font-size: 42px
 		color: #0084E4
+		+r(1140)
+			margin-bottom: 20px
+		+r(1024)
+			font-size: 38px
+			margin-bottom: 15px
+		+r(640)
+			margin-bottom: 0
+			margin-right: 25px
+			font-size: 30px
+		+r(480)
+			font-size: 25px
 	&__text
 		max-width: 80%
+		+r(1300)
+			max-width: 100%
+		+r(480)
+			font-size: 18px

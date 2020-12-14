@@ -36,6 +36,15 @@ const Sliders = (function () {
         dotsClass: "slick-dots slick-dots--light",
         fade: true,
         cssEase: "linear",
+        responsive: [
+          {
+            breakpoint: 641,
+            settings: {
+              dots: false,
+              autoplay: true,
+            },
+          },
+        ],
       });
     },
     init: function () {
