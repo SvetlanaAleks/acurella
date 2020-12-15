@@ -41,7 +41,6 @@ const Sliders = (function () {
             breakpoint: 641,
             settings: {
               dots: false,
-              autoplay: true,
             },
           },
         ],

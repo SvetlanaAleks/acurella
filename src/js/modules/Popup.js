@@ -12,11 +12,13 @@ const Popup = (function () {
         const target = $(_this.data("target"));
         target.toggleClass("active");
         overlay.addClass("active");
+        $(".menu-mobile").removeClass("menu-mobile--active");
+        $(".js-burger").removeClass("burger--active");
         noScroll.on();
       });
     },
     closePopup: function () {
-      $(".js-close, .js-overlay").click(function (e) {
+      $(".js-close").click(function (e) {
         e.preventDefault();
         popUpBlock.removeClass("active");
         overlay.removeClass("active");
