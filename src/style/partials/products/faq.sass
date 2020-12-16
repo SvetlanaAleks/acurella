@@ -1,0 +1,52 @@
+.faq
+	padding-top: 170px
+	padding-bottom: 184px
+	&__wrapper
+		display: flex
+		align-items: flex-start
+	&__title
+		margin-bottom: 30px
+	&__text
+		max-width: 290px
+		width: 100%
+		margin-bottom: 20px
+		color: #818C97
+	&__link-email
+		text-decoration: none
+		color: $light-blue
+		font-size: 16px
+		&:hover
+			text-decoration: underline
+	&__right
+		flex: 1
+		padding-top: 4px
+
+.question
+	+nlt
+		margin-bottom: 23px
+		padding-bottom: 24px
+		border-bottom: 1px solid #CFD8E0
+	&__top
+		display: flex
+		align-items: center
+		justify-content: space-between
+		cursor: pointer
+		&.active
+			.fico
+				color: $light-blue
+				transform: rotate(90deg)
+		&:hover
+			.question__ttl
+				text-decoration: underline
+	&__ttl
+		font-size: 18px
+	.fico
+		font-size: 32px
+		color: #BABCCD
+		transition: all .3s
+	&__text
+		color: #818C97
+		display: none
+		max-width: 90%
+		margin-top: 20px
+		margin-bottom: 18px

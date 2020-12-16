@@ -1,0 +1,14 @@
+mixin review(review)
+	.review
+		.review__left
+			.review__photo-wrap
+				img.review__photo(src=review.src, alt="photo")
+		.review__right
+			i.fico.fico-mark
+			.review__text-wrap
+				p.review__text!=review.text
+			.review__bottom
+				.review__desc
+					p.review__name!=review.name
+					p.review__post!=review.post
+				img.review__callcenter(src="img/svg/callcenter.svg", alt="callcenter")

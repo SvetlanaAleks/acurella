@@ -1,0 +1,7 @@
+mixin list-optm(list)
+	ul.list-optm(class="list-optm--" + list.color)
+		each item in list.list
+			li.list-optm__item
+				.list-optm__ico
+					i.fico.fico-checkArrow
+				p.list-optm__text!=item

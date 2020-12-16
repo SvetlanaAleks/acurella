@@ -3,6 +3,7 @@ const Sliders = (function () {
   "use strict";
   const newsSlider = $(".js-news-slider");
   const headerSlider = $(".js-header-slider");
+  const integrationSlider = $(".js-integration-slider");
   return {
     initNewsSlider: function () {
       newsSlider.slick({
@@ -46,9 +47,20 @@ const Sliders = (function () {
         ],
       });
     },
+    initintegrationSlider: function () {
+      integrationSlider.slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: true,
+        dotsClass: "slick-dots slick-dots--green",
+        centerMode: true,
+        variableWidth: true,
+      });
+    },
     init: function () {
       Sliders.initNewsSlider();
       Sliders.initHeaderSlider();
+      Sliders.initintegrationSlider();
     },
   };
 })();

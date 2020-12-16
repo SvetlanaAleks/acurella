@@ -1,0 +1,42 @@
+include ../../mixins/list-optm
+
+-
+	const listArray = {
+		color: 'green',
+		list: [
+			'Полный список заказов (утвержденных, отклоненных, ожидающих)',
+			'Доступ к результатам оценки качества своих разговоров',
+			'Динамический скрипт<br> продаж',
+			'Просмотр статистики<br> выполнения плана продаж'
+		]
+	};
+
+section.integration
+	.container
+		h2.integration__title.title.title--dark.title--2 Простая интеграция
+		p.integration__subtitle.text-2--2 С помощью инструментов API система может быть интегрирована с программным обеспечением Acurella, а также сторонним программным обеспечением.
+		.integration__wrap
+			.integration__col
+				img.integration__img(src="img/svg/integration_crm_1.svg", alt="integration_crm")
+			.integration__info
+				h2.integration__ttl.title.title--dark.title--3 Оптимизация работы менеджеров колл-центров
+				+list-optm(listArray)
+	.integration__center
+		h2.integration__ttl-small.title.title--dark.title--4 Широкие функциональные возможности
+		.integration__slider.slider-int.js-integration-slider
+			.slider-int__photo
+				img(src="img/integration_slider_crm_1.jpg", alt="photo")
+			.slider-int__photo
+				img(src="img/integration_slider_crm_2.jpg", alt="photo")
+			.slider-int__photo
+				img(src="img/integration_slider_crm_3.jpg", alt="photo")
+			.slider-int__photo
+				img(src="img/integration_slider_crm_4.jpg", alt="photo")
+			.slider-int__photo
+				img(src="img/integration_slider_crm_5.jpg", alt="photo")
+	.container
+		.integration__bottom
+			.integration__desc
+				h2.integration__subject.title.title--dark.title--3 Интеллектуальное распределение заявок
+				p.integration__text.text-2--1 Система управляет серверами вызовов таким образом, чтобы оператор с лучшим выполнением плана продаж принимал новые вызовы первым. Кроме этого, она регулярно отправляет несколько вызовов на операторов-новичков.
+			img(src="img/svg/integration_crm_2.svg", alt="integration_crm")

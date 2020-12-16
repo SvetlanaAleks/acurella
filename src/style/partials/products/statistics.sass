@@ -1,0 +1,66 @@
+.statistics-prod
+	background: #F3FAFD
+	padding-top: 155px
+	padding-bottom: 152px
+	position: relative
+	+r(1300)
+		padding: 100px 0
+	+r(1140)
+		&::before
+			left: calc(50% - 592px)
+	+r(1024)
+		padding: 80px 0
+		&::before
+			left: calc(50% - 512px)
+			top: -55px
+			width: 91px
+			height: 120px
+	+r(768)
+		padding: 60px 0
+	+r(480)
+		padding-bottom: 48px
+	&__top
+		display: flex
+		align-items: flex-start
+		margin-bottom: 92px
+		+r(1300)
+			margin-bottom: 80px
+		+r(1140)
+			margin-bottom: 70px
+		+r(1024)
+			margin-bottom: 60px
+		+r(768)
+			display: block
+			margin-bottom: 50px
+		+r(640)
+			margin-bottom: 40px
+	&__title
+		line-height: 120%
+		+r(1024)
+			&.column-big
+				max-width: calc(100%/3)
+		+r(768)
+			margin-bottom: 13px
+			&.column-big
+				max-width: 100%
+				margin-right: 0
+		+r(374)
+			font-size: 21px
+	&__desc
+		color: $light-grey
+		max-width: 72%
+		margin-top: 7px
+		+r(1300)
+			max-width: 90%
+		+r(1024)
+			max-width: 100%
+		+r(768)
+			font-size: 16px
+			line-height: 167%
+	&__bottom
+		display: flex
+		align-items: flex-start
+		+r(374)
+			display: block
+		.item-st:nth-child(n+2)
+			padding-left: 20px

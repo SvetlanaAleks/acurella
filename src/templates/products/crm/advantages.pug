@@ -1,0 +1,13 @@
+include ../../mixins/advantage.pug
+
+-
+	const advantageArray = [
+		'Единая актуальная база заказов с указанием их статуса для всех офисов компании.',
+		'Автоматизированные сценарии общения с клиентами для менеджера колл-центра',
+		'Настраиваемые отчеты с возможностью фильтрации, группировки и детализации для ТОПов'
+	];
+
+section.advantages-prod.advantages-prod--green
+	.container
+		.advantages-prod__wrap
+			+advantage(advantageArray)

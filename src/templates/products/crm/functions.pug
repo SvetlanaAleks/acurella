@@ -1,0 +1,42 @@
+include ../../mixins/function.pug
+
+-
+	const functionsArray = [
+		{
+			src: 'img/svg/function_ico_crm_1.svg',
+			ttl: 'Динамический скрипт<br> продаж',
+			text: 'Алгоритм продаж, который запускается в зависимости от ответов покупателей'
+		},
+		{
+			src: 'img/svg/function_ico_crm_2.svg',
+			ttl: 'Комплексная<br> аналитика',
+			text: 'Анализ качества разговора, времени  обработки заказа и показателей эффективности'
+		},
+		{
+			src: 'img/svg/function_ico_crm_3.svg',
+			ttl: 'Автоматизированная<br> логистика',
+			text: 'Возможность выбирать и настраивать алгоритмы распределения заказов между службами доставки'
+		},
+		{
+			src: 'img/svg/function_ico_crm_4.svg',
+			ttl: 'Списки для апсейлов и<br> кросс-сейлов',
+			text: 'Полный список продуктов с учетом их отношений (основной продукт, продукт перекрестных продаж и т. д)'
+		},
+		{
+			src: 'img/svg/function_ico_crm_5.svg',
+			ttl: 'Быстрый поиск<br> заказа',
+			text: 'Возможность найти заказ за несколько секунд: по ID, номеру телефона, имени клиента и адресу'
+		},
+		{
+			src: 'img/svg/function_ico_crm_6.svg',
+			ttl: 'Актуальная<br> статистика',
+			text: 'Детализированный план и факт продаж команды и отдельного менеджера в режиме реального времени'
+		}
+	];
+
+section.functions
+	.container
+		h2.functions__title.title.title--light.title--2 Ключевые функции
+		.functions__wrapper
+			each item in functionsArray
+				+function(item)

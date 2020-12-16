@@ -1,9 +1,4 @@
-mixin function(item)
-	.function
-		.function__top
-			img.function__img(src=item.src, alt="icon")
-			p.function__ttl.title.title--light.title--5!=item.ttl
-		p.function__text.text-3!=item.text
+include ../mixins/function.pug
 
 -
 	const functionsArray = [

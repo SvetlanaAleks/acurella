@@ -1,0 +1,87 @@
+.header-prod
+	padding-top: 240px
+	background: radial-gradient(36.83% 66.63% at 62.01% 60.3%, rgba(0, 160, 228, 0.2) 0%, rgba(0, 119, 228, 0) 100%), url('../img/svg/header_bg.svg') no-repeat -65px 186px, $blue
+	position: relative
+	&__content
+		padding-bottom: 224px
+	&__title
+		max-width: 710px
+		width: 100%
+		margin-bottom: 45px
+		+r(1440)
+			margin-bottom: 40px
+			max-width: 700px
+		+r(1300)
+			max-width: 650px
+		+r(1140)
+			max-width: 560px
+			margin-bottom: 30px
+		+r(1024)
+			max-width: 60%
+			margin-bottom: 25px
+		+r(890)
+			margin-bottom: 20px
+		+r(768)
+			max-width: 100%
+		+r(480)
+			margin-bottom: 10px
+	&__text
+		margin-bottom: 65px
+		color: $white
+		max-width: 365px
+		width: 100%
+		+r(1140)
+			margin-bottom: 50px
+		+r(1140)
+			max-width: 365px
+		+r(1024)
+			max-width: 42%
+			margin-bottom: 40px
+		+r(890)
+			font-size: 16px
+			margin-bottom: 30px
+		+r(768)
+			max-width: 100%
+		+r(480)
+			margin-bottom: 24px
+	&__btn
+		max-width: 210px
+	&__wrap-img
+		width: 1000px
+		font-size: 0
+		position: absolute
+		right: calc(50% - 801px)
+		bottom: 0
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			width: 1151px
+			height: 710px
+			background-image: url('../img/svg/header_decor.svg')
+			background-repeat: no-repeat
+			background-position: center
+			background-size: 100%
+			top: -30px
+			right: -101px
+			z-index: -1
+		+r(1300)
+			&::before
+				width: 1061px
+				height: 670px
+		+r(1140)
+			&::before
+				width: 961px
+				height: 620px
+		+r(890)
+			&::before
+				width: 801px
+				height: 480px
+		+r(768)
+			&::before
+				width: 711px
+				height: 350px
+		+r(480)
+			&::before
+				width: 621px
+				height: 310px

@@ -1,0 +1,13 @@
+include ../../mixins/review
+
+-
+	const review = {
+		src: 'img/review_photo_crm.jpg',
+		text: 'Мы выбрали CRM от Acurella когда появилась необходимость расширить географию и выходить на новые рынки. Благодаря тому, что система полностью автономна, понятна и автоматизированна, мы смогли быстро наладить работу удаленных офисов и не просрочили ни одного заказа.',
+		name: 'Богдан Бровый',
+		post: 'Head of Sales Department'
+	};
+
+.information.information--green.information--prod
+	.container
+		+review(review)

@@ -1,0 +1,62 @@
+.description
+	padding-top: 140px
+	padding-bottom: 140px
+	&__top
+		padding-bottom: 91px
+		margin-bottom: 110px
+		border-bottom: 1px solid #CFD8E0
+	&__row
+		display: flex
+		&:nth-of-type(1)
+			padding-left: 17px
+			margin-bottom: 98px
+			.description
+				&__col
+					margin-right: 110px
+				&__desc
+					padding-top: 140px
+					max-width: 463px
+		&:nth-of-type(2)
+			.description
+				&__col
+					max-width: 792px
+					width: 100%
+					position: relative
+					right: -52px
+				&__desc
+					padding-top: 134px
+	&__col
+		flex-shrink: 0
+	&__ttl
+		margin-bottom: 37px
+		line-height: 115%
+		+r(1300)
+			margin-bottom: 30px
+		+r(1140)
+			margin-bottom: 20px
+		+r(1024)
+			margin-bottom: 12px
+	&__text
+		color: $light-grey
+		max-width: 510px
+		width: 100%
+		+r(1024)
+			font-size: 17px
+		+r(768)
+			max-width: 100%
+		+r(480)
+			font-size: 16px
+			line-height: 167%
+	&__title
+		text-align: center
+		max-width: 750px
+		width: 100%
+		margin: auto
+		margin-bottom: 61px
+	.form-int
+		&__input
+			border-top: 1px solid #cfd8e0
+			border-bottom: 1px solid #cfd8e0
+		&__select, .select2-container .select2-selection--single, .form-int__select
+			border: 1px solid #cfd8e0
+			border-right: none
