@@ -45,8 +45,12 @@ section.faq
 		.faq__wrapper
 			.faq__left.column-big
 				h2.faq__title.title.title--dark.title--2 FAQ
-				p.faq__text.text-3 Ответы на популярные вопросы. Если вы не нашли ответ на ваш вопрос, вы можете задать его написав в службу поддержки 
-				a.faq__link-email(href="mailto:support@acurella-tl.com") support@acurella-tl.com
+				.faq__info.faq__info--desc
+					p.faq__text.text-3 Ответы на популярные вопросы. Если вы не нашли ответ на ваш вопрос, вы можете задать его написав в службу поддержки 
+					a.faq__link-email(href="mailto:support@acurella-tl.com") support@acurella-tl.com
 			.faq__right.js-accordeon
 				each question in questionArray
 					+question(question)
+			.faq__info.faq__info--mob
+				p.faq__text.text-3 Ответы на популярные вопросы. Если вы не нашли ответ на ваш вопрос, вы можете задать его написав в службу поддержки 
+				a.faq__link-email(href="mailto:support@acurella-tl.com") support@acurella-tl.com

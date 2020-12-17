@@ -2,18 +2,66 @@
 	padding-top: 150px
 	padding-bottom: 176px
 	background: #F3FAFD
+	+r(1300)
+		padding: 120px 0
+	+r(1140)
+		padding: 100px 0
+	+r(768)
+		padding: 80px 0
+	+r(640)
+		padding: 60px 0
+	+r(480)
+		padding: 50px 0
 	&__wrap
 		display: flex
+		+r(1440)
+			align-items: center
+		+r(768)
+			display: block
 	&__left
 		flex-shrink: 0
 		margin-left: -44px
 		margin-right: 68px
+		flex-shrink: 0
+		+r(1440)
+			margin-left: -24px
+			margin-right: 48px
+			max-width: 580px
+			width: 100%
+		+r(1300)
+			margin-right: 30px
+			max-width: 540px
+		+r(1140)
+			max-width: 480px
+		+r(1024)
+			max-width: 50%
+		+r(768)
+			max-width: 420px
+			margin: auto
+			margin-bottom: 25px
+		+r(640)
+			max-width: 390px
+		+r(480)
+			max-width: 350px
 	&__desc
 		max-width: 420px
 		width: 100%
 		padding-top: 89px
+		+r(1440)
+			padding-top: 0
+		+r(1024)
+			max-width: 50%
+			width: 100%
+		+r(768)
+			max-width: 100%
 	&__title
 		margin-bottom: 26px
 		line-height: 130%
+		+r(768)
+			margin-bottom: 20px
+		+r(480)
+			margin-bottom: 12px
 	&__text
 		color: $light-grey
+		+r(1024)
+			font-size: 17px

@@ -1,0 +1,13 @@
+include ../../mixins/review
+
+-
+	const review = {
+		src: 'img/review_photo_cpa.jpg',
+		text: 'Благодаря решению от Acurella мы смогли реализовать сотни офферов на разных уголках земли, получая регулярный поток качественных и целевых лидов.Acurella — это надежное и безопасное решение для тех, у кого нет времени на ошибки.',
+		name: 'Наталия Островчкая',
+		post: 'Head of Sales Department'
+	};
+
+.information.information--purple.information--prod
+	.container
+		+review(review)

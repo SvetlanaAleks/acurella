@@ -8,6 +8,15 @@
 		.review__text
 			font-size: 28px
 			line-height: 140%
+		+r(1300)
+			.review__text
+				font-size: 27px
+		+r(1140)
+			.review__text
+				font-size: 23px
+		+r(768)
+			.review__text
+				font-size: 21px
 	&--green
 		background-color: #38A7A9
 		.fico
@@ -16,6 +25,28 @@
 			border-bottom: 1px solid #A5DCDC
 		.review__desc
 			color: #A5DCDC
+	&--purple
+		background: #6A3D80 url('../img/svg/information_bg_cpa.svg') no-repeat
+		background-position: calc(50% - 430px) 273px
+		+r(1440)
+			background-position: calc(50% - 380px) 273px
+		+r(1300)
+			padding: 80px 0
+			background-position: calc(50% - 340px) 193px
+		+r(1140)
+			background-position: calc(50% - 300px) 193px
+			background-size: 540px
+		+r(1024)
+			background-position: -80px 173px
+		+r(768)
+			background-position: -70px 73px
+			background-size: 510px
+		.fico
+			color: #502A67
+		.review__text-wrap
+			border-bottom: 1px solid #A48CAF
+		.review__desc
+			color: #A48CAF
 	+r(1440)
 		background-position: calc(50% - 380px) 273px
 	+r(1300)

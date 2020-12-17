@@ -52,7 +52,7 @@ const Sliders = (function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         dots: true,
-        dotsClass: "slick-dots slick-dots--green",
+        dotsClass: "slick-dots slick-dots--dark",
         centerMode: true,
         variableWidth: true,
       });

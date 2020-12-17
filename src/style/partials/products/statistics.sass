@@ -18,7 +18,7 @@
 	+r(768)
 		padding: 60px 0
 	+r(480)
-		padding-bottom: 48px
+		padding: 50px 0
 	&__top
 		display: flex
 		align-items: flex-start
@@ -33,9 +33,16 @@
 			display: block
 			margin-bottom: 50px
 		+r(640)
-			margin-bottom: 40px
+			margin-bottom: 30px
 	&__title
 		line-height: 120%
+		font-size: 35px
+		+r(1440)
+			font-size: 32px
+		+r(1300)
+			font-size: 30px
+		+r(1140)
+			font-size: 26px
 		+r(1024)
 			&.column-big
 				max-width: calc(100%/3)
@@ -44,8 +51,8 @@
 			&.column-big
 				max-width: 100%
 				margin-right: 0
-		+r(374)
-			font-size: 21px
+		+r(640)
+			font-size: 23px
 	&__desc
 		color: $light-grey
 		max-width: 72%
@@ -59,8 +66,13 @@
 			line-height: 167%
 	&__bottom
 		display: flex
-		align-items: flex-start
-		+r(374)
-			display: block
 		.item-st:nth-child(n+2)
 			padding-left: 20px
+		+r(480)
+			.item-st:nth-child(n+2)
+				padding-left: 0
+				margin-left: 20px
+		+r(374)
+			display: block
+			.item-st:nth-child(n+2)
+				margin-left: 0

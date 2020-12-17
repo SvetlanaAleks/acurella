@@ -3,11 +3,30 @@
 	padding-bottom: 122px
 	&--green
 		background: #38A7A9
+	&--orange
+		background: #FFA234
+	+r(1300)
+		padding: 80px 0
+	+r(768)
+		padding: 60px 0
+	+r(480)
+		padding: 50px 0
 	.list-adv
-		display: flex
-		align-items: flex-start
 		.fico
 			color: $white
 		&__text
 			color: $white
 			max-width: 89%
+		+r(1300)
+			&__text
+				max-width: 100%
+		+r(768)
+			display: block
+			&__item
+				display: flex
+				width: 100%
+				+nlt
+					margin-bottom: 20px
+			.fico
+				margin-right: 25px
+

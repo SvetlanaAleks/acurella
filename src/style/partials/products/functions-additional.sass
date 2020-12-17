@@ -1,6 +1,14 @@
 .functions-additional
 	padding-top: 148px
 	padding-bottom: 172px
+	+r(1300)
+		padding: 130px 0
+	+r(1024)
+		padding: 100px 0
+	+r(768)
+		padding: 80px 0
+	+r(480)
+		padding: 50px 0
 	&__top
 		display: flex
 		align-items: flex-start
@@ -18,6 +26,13 @@
 			margin-bottom: 40px
 	&__title
 		line-height: 120%
+		font-size: 35px
+		+r(1440)
+			font-size: 32px
+		+r(1300)
+			font-size: 30px
+		+r(1140)
+			font-size: 26px
 		+r(1024)
 			&.column-big
 				max-width: calc(100%/3)
@@ -26,8 +41,8 @@
 			&.column-big
 				max-width: 100%
 				margin-right: 0
-		+r(374)
-			font-size: 21px
+		+r(640)
+			font-size: 23px
 	&__desc
 		color: $light-grey
 		max-width: 72%
@@ -40,7 +55,8 @@
 			line-height: 167%
 	&__bottom
 		display: flex
-		align-items: flex-start
+		+r(768)
+			display: block
 
 .benefit
 	width: 100%
@@ -56,6 +72,8 @@
 		max-width: 370px
 		&:nth-child(n+2)
 			width: calc(100%/2)
+			max-width: 100%
+			padding-left: 30px
 	+r(1300)
 		max-width: 330px
 		&::before
@@ -64,20 +82,28 @@
 		max-width: 300px
 		padding-top: 25px
 		padding-bottom: 35px
+		padding-right: 20px
+		&:nth-child(n+2)
+			padding-left: 20px
 	+r(1024)
-		padding: 20px 0
+		padding: 15px 0
 		width: calc(100%/3)
 		max-width: 100%
 		padding-right: 20px
 		&:nth-child(n+2)
-			padding: 20px
+			padding: 15px 10px 15px 20px
 			width: calc(100%/3)
-	+r(640)
+	+r(768)
+		width: 100%
 		padding: 0
 		&:nth-child(n+2)
+			width: 100%
 			border-left: none
 			padding: 0
-			padding-left: 20px
+		+nlt
+			margin-bottom: 10px
+			padding-bottom: 10px
+			border-bottom: 1px solid #CFD8E0
 	+r(374)
 		width: 100%
 		&:nth-child(n+2)
@@ -88,9 +114,44 @@
 			margin-bottom: 20px
 	&__ico
 		margin-bottom: 30px
+		+r(1300)
+			margin-bottom: 20px
+		+r(1024)
+			margin-bottom: 15px
+		+r(768)
+			margin-bottom: 0
+			margin-right: 25px
+			width: 50px
+		+r(480)
+			width: 40px
+			margin-right: 20px
+		+r(374)
+			margin-right: 10px
+	&__title
+		+r(768)
+			max-width: 70%
+			width: 100%
+		+r(480)
+			max-width: 100%
+		+r(374)
+			font-size: 18px
 	&__top
 		margin-bottom: 23px
+		+r(1300)
+			margin-bottom: 15px
+		+r(1024)
+			margin-bottom: 10px
+		+r(768)
+			display: flex
+			align-items: flex-start
 	&__text
 		line-height: 180%
 		font-size: 16px
 		color: $light-grey
+		+r(768)
+			padding-left: 75px
+		+r(480)
+			padding-left: 60px
+			line-height: 160%
+		+r(374)
+			padding-left: 50px

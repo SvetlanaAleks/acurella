@@ -1,0 +1,41 @@
+include ../../mixins/list-optm
+
+-
+	const listArray = {
+		color: 'orange',
+		list: [
+			'Быстрая фильтрация <br>предложений от<br> рекламодателей',
+			'Создание и настройка промо-материалов',
+			'Удобный вывод дохода после реализации оффера',
+			'Управление работой команды'
+		]
+	};
+
+section.integration.integration--cpa
+	.container
+		h2.integration__title.title.title--dark.title--2 Простая интеграция
+		p.integration__subtitle.text-2--2 С помощью инструментов API система может быть интегрирована с программным обеспечением Acurella, а также сторонним программным обеспечением.
+		.integration__wrap
+			.integration__col
+				img.integration__img(src="img/svg/integration_cpa_1.svg", alt="integration_crm")
+			.integration__info
+				h2.integration__ttl.title.title--dark.title--3 Оптимизация нагрузки 
+					span веб-мастеров
+				+list-optm(listArray)
+	.integration__center
+		h2.integration__ttl-small.title.title--dark.title--4 Широкие функциональные возможности
+		.integration__slider.slider-int.js-integration-slider
+			.slider-int__photo
+				img(src="img/integration_slider_cpa_1.jpg", alt="photo")
+			.slider-int__photo
+				img(src="img/integration_slider_cpa_2.jpg", alt="photo")
+			.slider-int__photo
+				img(src="img/integration_slider_cpa_3.jpg", alt="photo")
+			.slider-int__photo
+				img(src="img/integration_slider_cpa_4.jpg", alt="photo")
+	.container
+		.integration__bottom
+			.integration__desc
+				h2.integration__subject.title.title--dark.title--3 Инструменты контроля для топ-менеджеров
+				p.integration__text.text-2.text-2--1 Руководители компаний могут в любой момент зайти в систему и проверить качество работы маркетинга: просмотреть данные в виде преднастроенных дашбордов, проанализировать их через систему фильтров и сгруппировать в удобные отчеты.
+			img.integration__photo(src="img/svg/integration_cpa_2.svg", alt="integration_cpa")

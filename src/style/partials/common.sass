@@ -104,11 +104,11 @@ ul, li
 		font-size: 35px
 		line-height: 100%
 		+r(1300)
-			font-size: 33px
+			font-size: 32px
 		+r(1024)
-			font-size: 30px
+			font-size: 27px
 		+r(768)
-			font-size: 28px
+			font-size: 26px
 		+r(480)
 			font-size: 25px
 	&--4
@@ -299,11 +299,6 @@ ul, li
 			background: transparentize($white, .8)
 			&.slick-active
 				background: $light-blue
-	&--green
-		li
-			background: transparentize($grey, .8)
-			&.slick-active
-				background: #13ACAC
 	li
 		width: 8px
 		height: 8px
@@ -414,6 +409,9 @@ ul, li
 	&--green
 		.item-st__ttl
 			color: #38A6A9
+	&--orange
+		.item-st__ttl
+			color: #FFA800
 	&:nth-child(n+2)
 		border-left: 1px solid #CFD8E0
 		max-width: 440px
@@ -440,7 +438,7 @@ ul, li
 		&:nth-child(n+2)
 			padding: 20px
 			width: calc(100%/3)
-	+r(640)
+	+r(480)
 		padding: 0
 		&:nth-child(n+2)
 			border-left: none
@@ -518,16 +516,17 @@ ul, li
 			background: url('../img/svg/information_photo_decor.svg') no-repeat center
 			background-size: 100%
 		+r(1440)
-			max-width: 470px
+			max-width: 491px
 			&::before
 				right: 35px
 		+r(1300)
-			max-width: 390px
+			max-width: 441px
 		+r(1140)
-			max-width: 350px
+			max-width: 381px
 			&::before
 				right: -5px
 		+r(1024)
+			max-width: 350px
 			padding-top: 35px
 			&::before
 				top: -28px
@@ -565,9 +564,9 @@ ul, li
 		+r(1440)
 			max-width: 380px
 		+r(1300)
-			max-width: 350px
+			max-width: 370px
 		+r(1140)
-			max-width: 320px
+			max-width: 330px
 		+r(1024)
 			max-width: 100%
 	.fico
