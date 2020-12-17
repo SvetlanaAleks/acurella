@@ -1,0 +1,42 @@
+include ../../mixins/function.pug
+
+-
+	const functionsArray = [
+		{
+			src: 'img/svg/function_ico_scm_1.svg',
+			ttl: 'Единая база<br> данных',
+			text: 'Все записи о размещенных заказах, стоимости продукта и запланированных датах поступления.'
+		},
+		{
+			src: 'img/svg/function_ico_scm_2.svg',
+			ttl: 'Актуальная<br> информация 24/7',
+			text: 'Редактирование информации о запасах, заказах и поставках в режиме реального времени.'
+		},
+		{
+			src: 'img/svg/function_ico_scm_3.svg',
+			ttl: 'Оптимизация<br> бизнес-процессов',
+			text: 'Ограниченный доступ к отдельным функциям для всех ролей, участвующих в бизнес-процессе.'
+		},
+		{
+			src: 'img/svg/function_ico_scm_4.svg',
+			ttl: 'Интеллектуальные<br> прогнозы',
+			text: 'Встроенные функции планирования графика платежей на основе планов закупок'
+		},
+		{
+			src: 'img/svg/function_ico_scm_5.svg',
+			ttl: 'Агрегированная<br> отчетность',
+			text: 'Настраиваемые отчеты с инструментами фильтрации, группировки и детализации.'
+		},
+		{
+			src: 'img/svg/function_ico_scm_6.svg',
+			ttl: 'Автоматизация<br> доставки',
+			text: 'Возможность распределить заказы между курьерами и контролировать их выполнение.'
+		}
+	];
+
+section.functions
+	.container
+		h2.functions__title.title.title--light.title--2 Ключевые функции
+		.functions__wrapper
+			each item in functionsArray
+				+function(item)

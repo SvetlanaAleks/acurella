@@ -1,0 +1,35 @@
+mixin benefit(item)
+	.benefit
+		.benefit__top
+			img.benefit__ico(src=item.src, alt="ico")
+			p.benefit__title.title.title--dark.title--5!=item.title
+		p.benefit__text!=item.text
+
+-
+	const benefitArray = [
+		{
+			src: 'img/svg/benefit_1.svg',
+			title: 'Увеличивает количество продаж и помогает выполнять план',
+			text: 'Контролируя весь путь клиента и помогая подобрать оптимальный сценарий коммуникации, система увеличивает конверсию и количество продаж в целом.'
+		},
+		{
+			src: 'img/svg/benefit_2.svg',
+			title: 'Повышает обучаемость и&nbsp;продуктивность менеджеров',
+			text: 'Автоматизируя рутинные задачи и сохраняя лучшие скрипты, CRM повышает обучаемость и продуктивность менеджеров продаж и работников колл-центра'
+		},
+		{
+			src: 'img/svg/benefit_3.svg',
+			title: 'Контролирует своевременную доставку товара',
+			text: 'За счет встроенного функционала для логистов, CRM сиюминутно передает сигнал о заказе и отслеживает доставку товара'
+		}
+	];
+
+
+section.functions-additional
+	.container
+		.functions-additional__top
+			h2.functions-additional__title.title.title--dark.title--3.column-big Дополни&shy;тельные функции для логистов
+			p.functions-additional__desc.text-2--2 В СRM встроены дополнительные возможности для логистов. Можно ставить задачи упаковщикам, отправлять информацию о заказе в службу доставки, следить за статусом отгрузки заказов и т.д.
+		.functions-additional__bottom
+			each item in benefitArray
+				+benefit(item)

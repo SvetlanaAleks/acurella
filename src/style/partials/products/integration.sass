@@ -111,7 +111,89 @@
 				background: transparentize($grey, .8)
 				&.slick-active
 					background: #FEAC42
-
+	&--scm
+		.integration
+			&__wrap
+				padding-left: 19px
+				justify-content: space-between
+			&__info
+				max-width: 390px
+				width: 100%
+				padding-top: 84px
+			&__col
+				position: relative
+				right: -10px
+			&__bottom
+				padding-left: 7px
+			&__photo
+				margin-right: 39px
+			&__desc
+				padding-top: 80px
+		+r(1440)
+			.integration
+				&__wrap
+					padding-left: 0
+				&__col
+					max-width: 650px
+					width: 100%
+				&__photo
+					max-width: 558px
+					width: 100%
+				&__desc
+					padding-top: 0
+		+r(1300)
+			.integration
+				&__col
+					max-width: 580px
+				&__photo
+					max-width: 518px
+		+r(1140)
+			.integration
+				&__wrap
+					align-items: center
+				&__info
+					padding-top: 0
+				&__col
+					max-width: 490px
+				&__photo
+					max-width: 439px
+		+r(1024)
+			.integration
+				&__ttl, &__subject
+					margin-bottom: 12px
+				&__col, &__photo
+					max-width: 48%
+					position: static
+				&__info, &__desc
+					max-width: 50%
+		+r(890)
+			.integration
+				&__wrap
+					display: flex
+		+r(768)
+			.integration
+				&__bottom
+					flex-direction: column
+				&__wrap
+					flex-direction: column-reverse
+				&__col, &__photo
+					margin-bottom: 20px
+					max-width: 390px
+				&__info, &__desc
+					max-width: 100%
+		+r(640)
+			.integration
+				&__col, &__photo
+					max-width: 320px
+		+r(480)
+			.integration
+				&__col, &__photo
+					max-width: 260px
+		.slick-dots
+			li
+				background: transparentize($grey, .8)
+				&.slick-active
+					background: #A79873
 	+r(1300)
 		padding: 100px 0
 	+r(1024)

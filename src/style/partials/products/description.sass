@@ -1,7 +1,7 @@
 .description
 	padding-top: 140px
 	padding-bottom: 140px
-	&--crm, &--cpa
+	&--crm, &--cpa, &--scm
 		+r(1024)
 			.description
 				&__row
@@ -185,6 +185,133 @@
 							&__col
 								max-width: 610px
 								right: -40px
+	&--scm
+		.description
+			&__row
+				&:nth-of-type(1)
+					margin-bottom: 16px
+					.description
+						&__col
+							max-width: 709px
+							width: 100%
+							margin-left: -94px
+							margin-right: 43px
+						&__desc
+							padding-top: 103px
+				&:nth-of-type(2)
+					.description
+						&__col
+							width: 100%
+							max-width: 495px
+						&__desc
+							max-width: 520px
+							width: 100%
+							flex-shrink: 0
+							padding-top: 103px
+							margin-right: 130px
+		+r(1440)
+			.description
+				&__row
+					&:nth-of-type(1)
+						.description
+							&__col
+								max-width: 653px
+					&:nth-of-type(2)
+						.description
+							&__col
+								max-width: 455px
+							&__desc
+								margin-right: 74px
+					&:nth-of-type(1), &:nth-of-type(2)
+						.description
+							&__desc
+								padding-top: 0
+		+r(1300)
+			.description
+				&__row
+					&:nth-of-type(1)
+						.description
+							&__col
+								max-width: 599px
+								margin-right: 37px
+					&:nth-of-type(2)
+						.description
+							&__col
+								max-width: 425px
+							&__desc
+								margin-right: 74px
+								max-width: 459px
+		+r(1140)
+			.description
+				&__row
+					&:nth-of-type(1)
+						.description
+							&__col
+								max-width: 539px
+					&:nth-of-type(2)
+						.description
+							&__col
+								max-width: 395px
+							&__desc
+								margin-right: 54px
+								max-width: 420px
+		+r(1024)
+			.description
+				&__row
+					&:nth-of-type(1)
+						.description
+							&__col
+								max-width: 48%
+								margin-right: 30px
+								margin-left: -20px
+					&:nth-of-type(2)
+						.description
+							&__col
+								max-width: 40%
+							&__desc
+								max-width: 45%
+		+r(768)
+			.description
+				&__row
+					&:nth-of-type(1)
+						.description
+							&__col
+								max-width: 60%
+								margin-right: 0
+								margin-left: 0
+								margin-bottom: -20px
+					&:nth-of-type(2)
+						.description
+							&__col
+								max-width: 45%
+								margin-bottom: 30px
+							&__desc
+								max-width: 100%
+								margin-right: 0
+		+r(640)
+			.description
+				&__row
+					&:nth-of-type(1)
+						.description
+							&__col
+								max-width: 450px
+					&:nth-of-type(2)
+						.description
+							&__col
+								max-width: 320px
+		+r(480)
+			.description
+				&__row
+					&:nth-of-type(1)
+						.description
+							&__col
+								max-width: 400px
+					&:nth-of-type(2)
+						.description
+							&__col
+								max-width: 260px
+								margin-bottom: 20px
+								
 	+r(1300)
 		padding: 120px 0
 	+r(1140)

@@ -1,0 +1,13 @@
+include ../../mixins/review
+
+-
+	const review = {
+		src: 'img/review_photo_crm.jpg',
+		text: 'Никогда еще управление заказами не было таким простым. Acurella создает интуитивно понятные решения, которые не требуют специального обучения и позволяют новичку включаться в бизнес-процессы уже с первого рабочего дня.',
+		name: 'Богдан Бровый',
+		post: 'Head of Sales Department'
+	};
+
+.information.information--yellow.information--prod
+	.container
+		+review(review)

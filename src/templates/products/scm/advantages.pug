@@ -1,0 +1,13 @@
+include ../../mixins/advantage.pug
+
+-
+	const advantageArray = [
+		'Удобный детальный учет плановых и уже реализованных закупок для логистов',
+		'Полный учет продуктов, их статусов, спецификаций и другой соответствующей информации для товароведов',
+		'Возможность постановки и контроля выполнения задач на доставку для курьеров и диспетчеров'
+	];
+
+section.advantages-prod.advantages-prod--gold
+	.container
+		.advantages-prod__wrap
+			+advantage(advantageArray)
