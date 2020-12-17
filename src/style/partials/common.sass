@@ -406,6 +406,9 @@ ul, li
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif
 	width: 100%
 	max-width: 400px
+	&--grey
+		.item-st__ttl
+			color: $grey
 	&--green
 		.item-st__ttl
 			color: #38A6A9
@@ -632,3 +635,21 @@ ul, li
 		width: 128px
 		+r(480)
 			width: 95px
+
+
+.list-tasks
+	&__item
+		position: relative
+		padding-left: 40px
+		+nlt
+			margin-bottom: 6px
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			top: 13px
+			left: 0
+			width: 8px
+			height: 8px
+			border-radius: 50%
+			background: #028BFC
