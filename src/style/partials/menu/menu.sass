@@ -11,6 +11,47 @@
 		padding-top: 40px
 	+r(480)
 		padding-top: 26px
+	&--fixed
+		position: fixed
+		background: #FFFFFF
+		box-shadow: 0px 0px 20px rgba(52, 49, 89, 0.1)
+		padding: 10px 0
+		.container
+			width: 100%
+			padding: 0 30px
+		.menu
+			&__wrap
+				justify-content: space-between
+			&__right
+				margin-left: 0
+			&__logo
+				margin-right: 0
+				width: 164px
+				height: auto
+				.logo__img
+					max-width: 100%
+					path
+						fill: $grey
+		.nav__link
+			color: $grey
+		.lang .fico
+			color: $grey
+		+r(1140)
+			padding-top: 10px
+			.menu
+				&__logo
+					width: 150px
+		+r(1024)
+			padding-top: 10px
+		+r(890)
+			.burger
+				&__line
+					background: $grey
+		+r(480)
+			padding-top: 10px
+			.menu
+				&__logo
+					width: 112px
 	&__wrap
 		display: flex
 		align-items: center
@@ -20,6 +61,8 @@
 	&__logo
 		margin-right: 205px
 		flex-shrink: 0
+		.logo__img
+			max-width: 100%
 		+r(1440)
 			margin-right: 125px
 		+r(1300)
