@@ -1,14 +1,39 @@
 .steps
 	padding-top: 130px
 	padding-bottom: 140px
+	+r(1300)
+		padding: 100px 0
+	+r(1024)
+		padding: 80px 0
+	+r(768)
+		padding: 60px 0
+	+r(480)
+		padding: 50px 0
 	&__row
 		+nlt
 			padding-bottom: 89px
 			margin-bottom: 90px
 			border-bottom: 1px solid #CFD8E0
-
+		+r(1300)
+			+nlt
+				padding-bottom: 70px
+				margin-bottom: 70px
+		+r(1140)
+			+nlt
+				padding-bottom: 50px
+				margin-bottom: 50px
+		+r(1024)
+			+nlt
+				padding-bottom: 40px
+				margin-bottom: 40px
+		+r(480)
+			+nlt
+				padding-bottom: 20px
+				margin-bottom: 20px
 .step
 	display: flex
+	+r(768)
+		display: block
 	&__wrap
 		display: flex
 		.step__text
@@ -16,13 +41,50 @@
 			width: 100%
 			margin-right: 70px
 			flex-shrink: 0
+		+r(1440)
+			.step__text
+				max-width: 510px
+				margin-right: 60px
+		+r(1300)
+			.step__text
+				max-width: 450px
+		+r(1140)
+			.step__text
+				max-width: 380px
+				margin-right: 20px
+		+r(1024)
+			display: block
+			.step__text
+				max-width: 100%
+				margin-right: 0
+				margin-bottom: 20px
+	&__title
+		+r(1024)
+			&.column-big
+				max-width: calc(100%/3)
+		+r(768)
+			margin-bottom: 13px
+			&.column-big
+				max-width: 100%
+				margin-right: 0
 	&__text
 		color: $light-grey
+		+r(768)
+			font-size: 16px
+			line-height: 167%
 	&__img
 		margin-bottom: 20px
+		+r(1300)
+			max-width: 170px
+			width: 100%
+		+r(1024)
+			margin-bottom: 10px
+		+r(480)
+			max-width: 150px
 	&__link
 		color: #028BFC
 		text-decoration: none
 		font-size: 16px
+		display: block
 		&:hover
 			text-decoration: underline
