@@ -1,0 +1,75 @@
+.integrations
+	padding-top: 251px
+	padding-bottom: 144px
+	background: url('../img/svg/bg.svg') no-repeat calc(50% - 0px) calc(50% - -35px), url('../img/svg/integrations_bg.svg') no-repeat calc(50% - 0px) calc(50% - -98px)
+	background-color: $blue
+	+r(1440)
+		background-size: 1690px, 1720px
+		background-position: calc(50% - -40px) calc(50% - -35px), calc(50% - -70px) calc(50% - -98px)
+	+r(1300)
+		padding-top: 220px
+		padding-bottom: 115px
+		background-size: 1600px,1640px
+		background-position: calc(50% - -60px) calc(50% - -35px),calc(50% - -60px) calc(50% - -98px)
+	+r(1140)
+		background-size: 1390px,1520px
+		background-position: calc(50% - -50px) calc(50% - -45px),calc(50% - -60px) calc(50% - -98px)
+	+r(1024)
+		background-size: 1390px,160%
+		background-position: calc(50% - -50px) calc(50% - -45px),calc(50% - -42px) calc(50% - -108px)
+	+r(890)
+		padding-top: 180px
+		padding-bottom: 85px
+		background-position: calc(50% - -50px) calc(50% - -45px),calc(50% - -32px) calc(50% - -108px)
+	+r(768)
+		padding-top: 140px
+		padding-bottom: 85px
+		background: $blue
+		position: relative
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			bottom: 0
+			right: 0
+			width: 1920px
+			height: 835px
+			background: url(/../img/svg/integrations_bg.svg) no-repeat
+			background-size: 80%
+			background-position: calc(50% - -522px) calc(50% - -318px)
+			opacity: .4
+			pointer-events: none
+	+r(640)
+		&::before
+			background-size: 63%
+			background-position: calc(50% - -610px) calc(50% - -328px)
+	+r(480)
+		padding-top: 100px
+		padding-bottom: 65px
+	&__title
+		margin-bottom: 40px
+		+r(1140)
+			margin-bottom: 30px
+		+r(1024)
+			margin-bottom: 25px
+		+r(890)
+			margin-bottom: 20px
+		+r(480)
+			margin-bottom: 10px
+	&__text
+		max-width: 617px
+		width: 100%
+		color: #96A3D2
+		line-height: 162%
+		+r(1300)
+			max-width: 525px
+		+r(1140)
+			max-width: 485px
+		+r(1024)
+			max-width: 57%
+		+r(890)
+			font-size: 16px
+		+r(768)
+			max-width: 83%
+		+r(480)
+			max-width: 100%

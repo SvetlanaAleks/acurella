@@ -1,0 +1,29 @@
+include ../mixins/benefit
+
+-
+	const benefitArray = [
+		{
+			src: 'img/svg/benefit_1.svg',
+			title: 'Актуальная<br> информация',
+			text: 'Эффективная коммуникация между программами и приложениями проходит в режиме реального времени'
+		},
+		{
+			src: 'img/svg/benefit_2.svg',
+			title: 'Высокая скорость<br> обмена данными',
+			text: 'API могут эффективно и быстро подключаться к приложениям-партнерам и SaaS-приложениям, обеспечивая бесперебойность процессов'
+		},
+		{
+			src: 'img/svg/benefit_3.svg',
+			title: 'Функциональная<br> расширяемость',
+			text: 'При необходимости, вы можете позже интегрировать любой дополнительный сервис или ПО по API — и это не снизит общую производительность системы'
+		}
+	];
+
+section.functions-additional
+	.container
+		.functions-additional__top
+			h2.functions-additional__title.title.title--dark.title--3.column-big 3-сторонняя интеграция
+			p.functions-additional__desc.text-2--2 API от Acurella допускает возможность трехсторонней интеграции как с нашими, так и сторонними приложениями, создавая уникальную IT-инфраструктуру для бизнеса. Больше никакой рутины и переноса информации вручную! Управляйте сервисами, сайтами и ПО через единое окно.
+		.functions-additional__bottom
+			each item in benefitArray
+				+benefit(item)

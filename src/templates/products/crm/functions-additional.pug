@@ -1,9 +1,4 @@
-mixin benefit(item)
-	.benefit
-		.benefit__top
-			img.benefit__ico(src=item.src, alt="ico")
-			p.benefit__title.title.title--dark.title--5!=item.title
-		p.benefit__text!=item.text
+include ../../mixins/benefit
 
 -
 	const benefitArray = [
