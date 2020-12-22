@@ -1,0 +1,177 @@
+.team
+	padding-top: 145px
+	padding-bottom: 134px
+	background: $blue url('../img/svg/team_bg.svg') no-repeat center
+	+r(1300)
+		padding: 110px 0
+	+r(1024)
+		padding: 100px 0
+	+r(768)
+		padding: 70px 0
+	+r(480)
+		padding: 50px 0
+	&__title
+		margin-bottom: 124px
+		font-weight: normal
+		text-align: center
+		+r(1300)
+			margin-bottom: 80px
+		+r(890)
+			margin-bottom: 60px
+		+r(640)
+			margin-bottom: 40px
+	&__list
+		display: flex
+		align-items: flex-start
+		flex-wrap: wrap
+		padding-bottom: 133px
+		margin-bottom: 120px
+		border-bottom: 1px solid transparentize($white, .9)
+		+r(1440)
+			padding-bottom: 120px
+			margin-bottom: 110px
+		+r(1300)
+			padding-bottom: 100px
+			margin-bottom: 90px
+		+r(1024)
+			padding-bottom: 80px
+			margin-bottom: 70px
+		+r(890)
+			padding-bottom: 60px
+			margin-bottom: 50px
+	&__bottom
+		display: flex
+		align-items: flex-start
+		+r(890)
+			display: block
+	&__ttl
+		+r(1024)
+			&.column-big
+				max-width: calc(100%/3)
+		+r(890)
+			&.column-big
+				max-width: 100%
+				margin-right: 0
+				margin-bottom: 12px
+			br
+				display: none
+	&__desc
+		color: #96A3D2
+		max-width: 540px
+		width: 100%
+		padding-top: 10px
+		+r(1440)
+			max-width: 480px
+		+r(1300)
+			max-width: 410px
+			padding-top: 0
+		+r(1140)
+			margin-right: 20px
+		+r(890)
+			max-width: 95%
+			margin-bottom: 15px
+			margin-right: 0
+		+r(768)
+			font-size: 17px
+	&__btn
+		max-width: 260px
+		margin-left: auto
+		margin-top: 12px
+		+r(1140)
+			max-width: 220px
+		+r(1024)
+			max-width: 190px
+		+r(890)
+			margin-left: 0
+
+
+.employee
+	text-align: center
+	max-width: 290px
+	width: 100%
+	&:nth-of-type(-n+4)
+		margin-bottom: 68px
+	&:last-of-type
+		margin-right: auto
+	&:not(:nth-child(4n))
+		margin-right: 40px
+	+r(1440)
+		max-width: 270px
+		&:not(:nth-child(4n))
+			margin-right: 30px
+		&:nth-of-type(-n+4)
+			margin-bottom: 60px
+	+r(1300)
+		max-width: 240px
+	+r(1140)
+		max-width: 220px
+		&:not(:nth-child(4n))
+			margin-right: 20px
+		&:nth-of-type(-n+4)
+			margin-bottom: 50px
+	+r(1024)
+		max-width: 100%
+		width: calc(100%/4 - 15px)
+	+r(890)
+		width: calc(100%/3 - 15px)
+		&:not(:nth-child(4n))
+			margin-right: 0
+		&:not(:nth-child(3n))
+			margin-right: 20px
+		&:nth-of-type(-n+6)
+			margin-bottom: 50px
+	+r(640)
+		width: calc(100%/2 - 15px)
+		&:not(:nth-child(3n))
+			margin-right: 0
+		&:not(:nth-child(2n))
+			margin-right: 20px
+		&:nth-of-type(-n+6)
+			margin-bottom: 40px
+	+r(480)
+		width: calc(100%/2 - 5px)
+		&:not(:nth-child(3n))
+			margin-right: 0
+		&:not(:nth-child(2n))
+			margin-right: 10px
+		&:nth-of-type(-n+6)
+			margin-bottom: 30px
+	&__photo
+		width: 220px
+		height: 220px
+		border-radius: 50%
+		overflow: hidden
+		margin: auto
+		margin-bottom: 35px
+		font-size: 0
+		+r(1300)
+			width: 200px
+			height: 200px
+			margin-bottom: 25px
+		+r(1140)
+			width: 180px
+			height: 180px
+			margin-bottom: 20px
+		+r(1024)
+			width: 80%
+			height: 80%
+			margin-bottom: 15px
+		+r(640)
+			width: 170px
+			height: 170px
+		+r(480)
+			width: 80%
+			height: 80%
+	&__name
+		margin-bottom: 8px
+		+r(890)
+			margin-bottom: 5px
+		+r(480)
+			font-size: 18px
+	&__post
+		color: #96A3D2
+		font-size: 16px
+		line-height: 160%
+		+r(480)
+			font-size: 15px
+			line-height: 150%

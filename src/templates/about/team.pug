@@ -1,0 +1,59 @@
+mixin employee(employee)
+	.employee
+		.employee__photo
+			img.employee__img(src=employee.src, alt="employee")
+		p.employee__name.title.title--light.title--5!=employee.name
+		p.employee__post!=employee.post
+
+
+-
+	const employeeArray = [
+		{
+			src: 'img/employee_1.jpg',
+			name: 'Carlos Gustalino',
+			post: 'CEO'
+		},
+		{
+			src: 'img/employee_1.jpg',
+			name: 'Alexey Truzhinin',
+			post: 'CTO'
+		},
+		{
+			src: 'img/employee_3.jpg',
+			name: 'Alisa Pushkina',
+			post: 'Head of Business Development (EMEA)'
+		},
+		{
+			src: 'img/employee_4.jpg',
+			name: 'Spyros Platis',
+			post: 'Team Lead'
+		},
+		{
+			src: 'img/employee_5.jpg',
+			name: 'Andreas Karpasitis',
+			post: 'Software Developer'
+		},
+		{
+			src: 'img/employee_6.jpg',
+			name: 'Bojko Olga',
+			post: 'Lawyer'
+		},
+		{
+			src: 'img/employee_7.jpg',
+			name: 'Anna Prokhorova',
+			post: 'QA Team Lead'
+		}
+	];
+
+section.team
+	.container
+		h2.team__title.title.title--light.title--2 Ключевая команда
+		.team__list
+			each employee in employeeArray
+				+employee(employee)
+		.team__bottom
+			h2.team__ttl.title.title--light.title--4.column-big Мы всегда рады
+				br
+				|  новым талантам
+			p.team__desc.text-2.text-2--1 Мы ищем мбициозных и талантливых профессионалов, которые не боятся бросать себе вызовы и отстаивают интересы наших клиентов.
+			a.team__btn.btn.btn--empty.js-show-popup(data-target="#popup-demo") Присоединиться
