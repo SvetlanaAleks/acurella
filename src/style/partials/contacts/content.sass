@@ -12,25 +12,113 @@
 			font-size: 20px
 		&__select
 			width: 245px
+	+r(1440)
+		.form-p
+			&__select
+				width: 225px
+	+r(1300)
+		padding-top: 225px
+		padding-bottom: 105px
+		background-size: 764px, 541px
+		.form-p
+			&__select
+				width: 200px
+	+r(1140)
+		padding-top: 205px
+		padding-bottom: 85px
+		background-size: 714px, 491px
+		.form-p
+			&__checkbox
+				margin-bottom: 26px
+			&__select
+				width: 180px
+			&__textarea
+				height: 130px
+	+r(1024)
+		background-size: 624px, 49%
+		background-position: calc(50% - -450px) calc(50% - 163px),calc(50% - 90px) bottom
+	+r(890)
+		padding-top: 165px
+		padding-bottom: 65px
+		background-position: calc(50% - -410px) calc(50% - 213px),calc(50% - 150px) bottom
+		.form-p
+			&__select
+				width: 100%
+	+r(768)
+		background-position: calc(50% - -230px) calc(50% - 213px),calc(50% - 150px) bottom
+		.form-p
+			&__input
+				&--med
+					width: 100%
+					margin-bottom: 20px
+			&__btn
+				font-size: 18px
+	+r(640)
+		padding-top: 145px
+		background-position: calc(50% - -120px) calc(50% - 493px),calc(50% - -80px) calc(50% - 190px)
+		background-size: 434px,78%
+	+r(480)
+		padding-top: 104px
+		padding-bottom: 40px
+		background-size: 354px, 561px
+		background-position: calc(50% - -120px) 61px,calc(50% - -122px) calc(50% - 124px)
+		.form-p
+			&__input
+				&--med
+					margin-bottom: 10px
+			&__textarea
+				height: 160px
 	&__inner
 		display: flex
 		align-items: flex-start
 		justify-content: space-between
+		+r(640)
+			display: block
 	&__left
 		max-width: 620px
 		width: 100%
+		+r(1300)
+			max-width: 550px
+		+r(1024)
+			max-width: 57%
+			margin-right: 20px
+		+r(640)
+			max-width: 100%
+			margin-right: 0
+			margin-bottom: 30px
+		+r(480)
+			margin-bottom: 63px
 	&__title
 		line-height: 100%
 		margin-bottom: 40px
+		+r(1140)
+			margin-bottom: 30px
+		+r(640)
+			margin-bottom: 23px
+		+r(480)
+			font-size: 35px
 	&__desc
 		color: $light-grey
 		margin-bottom: 86px
 		font-size: 20px
 		line-height: 160%
 		max-width: 95%
+		+r(1140)
+			margin-bottom: 65px
+			font-size: 18px
+		+r(640)
+			margin-bottom: 40px
+		+r(480)
+			font-size: 16px
 	&__col
 		max-width: 290px
 		width: 100%
+		+r(1440)
+			max-width: 270px
+		+r(1300)
+			max-width: 240px
+		+r(890)
+			max-width: 220px
 	&__place
 		font-weight: 500
 		font-size: 20px
@@ -38,8 +126,16 @@
 		padding-bottom: 36px
 		margin-bottom: 33px
 		border-bottom: 1px solid #CFD8E0
+		+r(1140)
+			padding-bottom: 30px
+			margin-bottom: 30px
+		+r(640)
+			padding-bottom: 25px
+			margin-bottom: 25px
 	&__links
 		margin-bottom: 28px
+		+r(480)
+			margin-bottom: 12px
 	&__link
 		text-decoration: none
 		display: block
@@ -48,8 +144,18 @@
 		color: $grey
 		&:hover
 			text-decoration: underline
+		+r(1140)
+			font-size: 18px
 	&__text
 		color: $light-grey
 	&__form
 		max-width: 510px
 		width: 100%
+		+r(1440)
+			max-width: 470px
+		+r(1300)
+			max-width: 420px
+		+r(1140)
+			max-width: 380px
+		+r(640)
+			max-width: 100%
