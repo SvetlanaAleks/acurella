@@ -1,0 +1,112 @@
+.new-content
+	margin-top: -90px
+	background: url(/../img/svg/philosophy_decor_1.svg) no-repeat calc(50% - -790px) calc(50% - 145px),url(/../img/svg/philosophy_decor_2.svg) no-repeat calc(50% - 754px) calc(50% - 311px),url(/../img/svg/philosophy_decor_2.svg) no-repeat calc(50% - 794px) calc(50% - -309px)
+	.bold
+		font-weight: bold
+	+r(1024)
+		margin-top: -70px
+	&__wrapper
+		padding-bottom: 95px
+		border-bottom: 1px solid #CFD8E0
+		max-width: 1060px
+		width: 100%
+		padding-left: 220px
+		+r(1440)
+			padding-left: 200px
+			max-width: 970px
+		+r(1300)
+			padding-left: 180px
+			max-width: 870px
+		+r(1140)
+			padding-left: 160px
+			max-width: 780px
+			padding-bottom: 80px
+		+r(1024)
+			padding-left: 17%
+			max-width: 85%
+		+r(768)
+			max-width: 100%
+		+r(640)
+			padding-left: 0
+			padding-bottom: 60px
+	&__photo
+		font-size: 0
+		margin-bottom: 60px
+		border-radius: 10px
+		overflow: hidden
+		+r(1300)
+			margin-bottom: 50px
+		+r(1140)
+			margin-bottom: 40px
+		+r(768)
+			margin-bottom: 30px
+		+r(640)
+			max-width: 90%
+	&__desc
+		color: #7A8692
+		max-width: 92%
+		+nlt
+			margin-bottom: 33px
+		+r(1300)
+			max-width: 100%
+		+r(1140)
+			+nlt
+				margin-bottom: 25px
+		+r(768)
+			+nlt
+				margin-bottom: 20px
+	&__text
+		+nlt
+			margin-bottom: 33px
+		&--bold
+			font-weight: bold
+			padding-left: 40px
+			color: $grey
+		+r(1140)
+			&--bold
+				padding-left: 30px
+			+nlt
+				margin-bottom: 25px
+		+r(768)
+			&--bold
+				padding-left: 20px
+			+nlt
+				margin-bottom: 15px
+		+r(640)
+			font-size: 17px
+	&__link
+		text-decoration: none
+		color: $light-blue
+		&:hover
+			text-decoration: underline
+	&__list
+		padding-left: 40px
+		color: #7A8692
+		margin-bottom: 30px
+		counter-reset: section
+		+r(1140)
+			padding-left: 30px
+		+r(768)
+			padding-left: 20px
+
+.list-new
+	&__item
+		position: relative
+		padding-left: 40px
+		&::before
+			counter-increment: section
+			content: counter(section) "."
+			display: block
+			position: absolute
+			left: 0
+			top: 0
+			color: $grey
+			font-size: 18px
+		+nlt
+			margin-bottom: 12px
+		+r(768)
+			padding-left: 30px
+		+r(640)
+			font-size: 17px
+			+nlt
+				margin-bottom: 8px

@@ -1,0 +1,89 @@
+.header-new
+	padding-top: 180px
+	padding-bottom: 170px
+	background: #F3FAFD url('../img/svg/privacy_bg.svg') no-repeat center
+	overflow: hidden
+	+r(1300)
+		padding-top: 160px
+		padding-bottom: 150px
+	+r(1024)
+		padding-bottom: 120px
+		padding-top: 130px
+	+r(480)
+		padding-bottom: 110px
+		padding-top: 110px
+	&__content
+		display: flex
+		align-items: flex-start
+		+r(640)
+			flex-direction: column-reverse
+	&__col
+		max-width: 220px
+		width: 100%
+		position: relative
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			top: 0
+			right: 90px
+			width: 1px
+			height: calc(100% + 290px)
+			background: #CFD8E0
+		+r(1440)
+			max-width: 200px
+			&::after
+				right: 85px
+		+r(1300)
+			max-width: 180px
+			&::after
+				right: 75px
+		+r(1140)
+			max-width: 160px
+			&::after
+				right: 68px
+		+r(1024)
+			max-width: 17%
+			&::after
+				right: 20px
+		+r(640)
+			max-width: 100%
+			padding-top: 10px
+			&::after
+				right: auto
+				left: 0
+				top: 0
+				width: 70%
+				height: 1px
+	&__title
+		line-height: 100%
+		max-width: 770px
+		width: 100%
+		+r(640)
+			margin-bottom: 20px
+
+
+.date
+	color: #9DA8B2
+	+r(640)
+		display: flex
+		align-items: baseline
+	&__day
+		font-size: 50px
+		margin-bottom: 5px
+		+r(768)
+			font-size: 45px
+			margin-bottom: 3px
+		+r(640)
+			margin-bottom: 0
+			margin-right: 5px
+	&__month
+		font-size: 16px
+		line-height: 130%
+		+r(768)
+			font-size: 15px
+		+r(640)
+			display: flex
+			align-items: flex-end
+			br
+				display: none
