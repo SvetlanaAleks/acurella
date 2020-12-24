@@ -1,0 +1,92 @@
+mixin vacancy(vacancy)
+	a.vacancy(href=vacancy.href)
+		p.vacancy__position.title.title--dark!=vacancy.position
+		p.vacancy__direction!=vacancy.direction
+		p.vacancy__place!=vacancy.place
+		i.fico.fico-questionArrow
+
+-
+	const vacancyArray = [
+		{
+			href: '#',
+			position: 'Business Systems Analyst',
+			direction: 'BA',
+			place: 'Anywhere'
+		},
+		{
+			href: '#',
+			position: 'Engineering Lead - Android (Unfold)',
+			direction: 'Managements, Development',
+			place: 'Ukraine, Kyiv'
+		},
+		{
+			href: '#',
+			position: 'Engineering Manager, Product Platform',
+			direction: 'Management',
+			place: 'Ukraine, Kyiv'
+		},
+		{
+			href: '#',
+			position: 'Engineering Team Lead - Frontend, Interface Architecture',
+			direction: 'Architector',
+			place: 'Anywhere'
+		},
+		{
+			href: '#',
+			position: 'Engineering Team Manager - Site Reliability (Databases)',
+			direction: 'Development',
+			place: 'Anywhere'
+		},
+		{
+			href: '#',
+			position: 'GRC Operations, Sr Analyst',
+			direction: 'QA',
+			place: 'Ukraine, Kyiv'
+		},
+		{
+			href: '#',
+			position: 'Senior Data Engineer, Finance Products',
+			direction: 'Data, Dev',
+			place: 'Cyprus, Nicosia'
+		},
+		{
+			href: '#',
+			position: 'Senior Security Engineer, Incident Response',
+			direction: 'BA',
+			place: 'Anywhere'
+		},
+		{
+			href: '#',
+			position: 'Senior Site Reliability Engineer - Observability',
+			direction: 'Managements, Architector Development',
+			place: 'Cyprus, Nicosia'
+		},
+		{
+			href: '#',
+			position: 'Senior Site Reliability Engineer - Release',
+			direction: 'Management',
+			place: 'Cyprus, Nicosia'
+		}
+	];
+
+section.vacancies
+	.container
+		.vacancies__top
+			.vacancies__col
+				i.fico.fico-vacancies1
+				h4.vacancies__title.title.title--dark.title--3 Кто мы
+				p.vacancies__text.text-2.text-2--1 Команда идейников, которые стремятся упростить и оптимизировать работу онлайн-компаний через надежное, безопасное и высокотехнологичное ПО. Нас объединяет любовь к технологиям и желание реализовать потенциал в смелых решениях, которые будут использоваться в тысячах компаний по всему миру.
+			.vacancies__col
+				i.fico.fico-vacancies2
+				h4.vacancies__title.title.title--dark.title--3 Кого мы ищем
+				p.vacancies__text.text-2.text-2--1 Амбициозных и талантливых профессионалов, которые не боятся бросать себе вызовы и отстаивают интересы наших клиентов. Мы ищем своих людей во всех уголках земного шара и готовы поддержать их стремление развиваться и воплощать перспективные идеи в жизнь 
+		.vacancies__wrap
+			h4.vacancies__caption.title.title--dark.title--3 Открытые вакансии 
+				span 9
+			.vacancies__table-ttl.table-ttl
+				p.table-ttl__text Позиция
+				p.table-ttl__text Направление
+				p.table-ttl__text Место
+			.vacancies__list
+				each vacancy in vacancyArray
+					+vacancy(vacancy)

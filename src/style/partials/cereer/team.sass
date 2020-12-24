@@ -1,0 +1,50 @@
+.team-cereer
+	padding-top: 160px
+	padding-bottom: 160px
+	background: #F3FAFD
+	+r(1440)
+		.photos
+			right: -30px
+	+r(1300)
+		padding: 130px 0
+		.photos
+			right: 0px
+	+r(1024)
+		padding: 100px 0
+	+r(890)
+		.photos
+			left: calc(50% - 339px)
+	+r(768)
+		padding: 80px 0
+		.photos
+			left: 0
+	+r(480)
+		padding: 50px 0
+	.photos
+		right: -110px
+	&__title
+		line-height: 100%
+	&__inner
+		display: flex
+		+r(1440)
+			align-items: center
+		+r(768)
+			display: block
+	&__desc
+		max-width: 480px
+		width: 100%
+		padding-top: 107px
+		flex-shrink: 0
+		+r(1440)
+			margin-right: 30px
+			padding-top: 0
+		+r(1300)
+			max-width: 390px
+		+r(1024)
+			max-width: 46%
+			margin-right: 20px
+			flex-shrink: inherit
+		+r(768)
+			max-width: 100%
+			margin-right: 0
+			margin-bottom: 20px

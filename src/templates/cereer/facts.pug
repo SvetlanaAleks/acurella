@@ -1,0 +1,48 @@
+mixin fact(fact)
+	.fact
+		.fact__top
+			img.fact__img(src=fact.src, alt="icon")
+			p.fact__ttl.title.title--dark.title--5!=fact.ttl
+		p.fact__text.text-3!=fact.text
+
+
+-
+	const factArray = [
+		{
+			src: 'img/svg/fact_1.svg',
+			ttl: 'Единое инфополе',
+			text: 'Мы сохраняем среду прозрачной коммуникации, избегая спорных ситуаций'
+		},
+		{
+			src: 'img/svg/fact_2.svg',
+			ttl: 'Миссия',
+			text: 'Мы желаем поднять эффективность бизнеса до пиковой точки'
+		},
+		{
+			src: 'img/svg/fact_3.svg',
+			ttl: 'Безопасность',
+			text: 'Мы ставим безопасность клиента как главный приоритет'
+		},
+		{
+			src: 'img/svg/fact_4.svg',
+			ttl: 'Корпоративные<br> ценности',
+			text: 'Мы поддерживаем стремление помочь коллеге и честную обратную связь'
+		},
+		{
+			src: 'img/svg/fact_5.svg',
+			ttl: 'Баланс работы и<br> личной жизни',
+			text: 'Мы ценим время отдыха, которых необходим для восстановления энергии.'
+		},
+		{
+			src: 'img/svg/fact_6.svg',
+			ttl: 'Непрерывный рост',
+			text: 'Мы поддерживаем желание сотрудников развиваться и всячески помогаем им в этом'
+		}
+	];
+
+section.facts
+	.container
+		h2.facts__title.title.title--dark.title--3 Несколько фактов о нас
+		.facts__wrapper
+			each fact in factArray
+				+fact(fact)

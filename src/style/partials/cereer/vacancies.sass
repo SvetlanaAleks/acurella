@@ -1,0 +1,271 @@
+.vacancies
+	padding-top: 132px
+	padding-bottom: 183px
+	background: url(/../img/svg/philosophy_decor_1.svg) no-repeat calc(50% - -650px) calc(50% - 703px), url(/../img/svg/philosophy_decor_2.svg) no-repeat calc(50% - 798px) calc(50% - 421px)
+	+r(1300)
+		padding-top: 110px
+		padding-bottom: 160px
+	+r(1024)
+		padding: 100px 0
+	+r(768)
+		padding: 80px 0
+	+r(480)
+		padding: 50px 0
+	&__top
+		display: flex
+		align-items: flex-start
+		justify-content: space-between
+		position: relative
+		margin-bottom: 116px
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			left: 50%
+			top: 0
+			bottom: 0
+			right: 0
+			width: 1px
+			background: #CFD8E0
+		+r(1300)
+			margin-bottom: 100px
+		+r(1140)
+			margin-bottom: 80px
+		+r(640)
+			display: block
+			margin-bottom: 60px
+			&::after
+				display: none
+		+r(480)
+			margin-bottom: 50px
+	&__col
+		max-width: 510px
+		width: 100%
+		padding-bottom: 60px
+		&:first-of-type
+			padding-top: 10px
+		&:last-of-type
+			padding-top: 128px
+		+r(1440)
+			max-width: 500px
+		+r(1300)
+			max-width: 420px
+			padding-bottom: 50px
+			&:last-of-type
+				padding-top: 100px
+		+r(1140)
+			max-width: 380px
+			padding-bottom: 40px
+			&:last-of-type
+				padding-top: 80px
+		+r(1024)
+			max-width: 45%
+			padding-bottom: 30px
+			&:last-of-type
+				padding-top: 6%
+		+r(640)
+			max-width: 100%
+			padding-bottom: 0
+			&:last-of-type, &:first-of-type
+				padding-top: 0
+			+nlt
+				margin-bottom: 20px
+				padding-bottom: 20px
+				border-bottom: 1px solid #CFD8E0
+		.fico
+			color: #C6D0DE
+			margin-bottom: 40px
+			&-vacancies1
+				font-size: 52px
+			&-vacancies2
+				font-size: 54px
+			+r(1024)
+				margin-bottom: 30px
+				&-vacancies1
+					font-size: 48px
+				&-vacancies2
+					font-size: 50px
+			+r(768)
+				margin-bottom: 20px
+				&-vacancies1
+					font-size: 46px
+				&-vacancies2
+					font-size: 48px
+	&__title
+		margin-bottom: 32px
+		+r(1024)
+			margin-bottom: 12px
+	&__text
+		color: $light-grey
+		max-width: 97%
+		width: 100%
+		+nlt
+			margin-bottom: 35px
+		+r(1140)
+			max-width: 100%
+		+r(1024)
+			font-size: 17px
+			+nlt
+				margin-bottom: 15px
+	&__caption
+		margin-bottom: 47px
+		span
+			color: #0084E4
+		+r(640)
+			margin-bottom: 40px
+		+r(374)
+			font-size: 23px
+
+
+.vacancy
+	display: flex
+	align-items: center
+	text-decoration: none
+	+nlt
+		margin-bottom: 23px
+		padding-bottom: 24px
+		border-bottom: 1px solid #CFD8E0
+	&:hover
+		.fico
+			color: $light-blue
+	+r(1024)
+		+nlt
+			margin-bottom: 20px
+			padding-bottom: 20px
+	+r(480)
+		display: block
+		position: relative
+		+nlt
+			margin-bottom: 15px
+			padding-bottom: 15px
+	&__position
+		max-width: 620px
+		width: 100%
+		margin-right: 40px
+		font-size: 18px
+		line-height: 120%
+		flex-shrink: 0
+		+r(1440)
+			margin-right: 30px
+			max-width: 570px
+		+r(1300)
+			max-width: 510px
+		+r(1140)
+			max-width: 460px
+			margin-right: 20px
+		+r(1024)
+			max-width: 46%
+		+r(640)
+			font-size: 16px
+			max-width: 41%
+		+r(480)
+			max-width: 89%
+			margin-bottom: 10px
+
+	&__direction
+		color: $light-grey
+		font-size: 16px
+		margin-right: 40px
+		max-width: 290px
+		width: 100%
+		+r(1440)
+			max-width: 270px
+			margin-right: 30px
+		+r(1300)
+			max-width: 240px
+		+r(1140)
+			max-width: 220px
+			margin-right: 20px
+		+r(1024)
+			max-width: 23%
+		+r(640)
+			font-size: 14px
+		+r(480)
+			max-width: 100%
+			margin-bottom: 5px
+	&__place
+		color: $light-grey
+		font-size: 16px
+		margin-right: 40px
+		max-width: 180px
+		width: 100%
+		+r(1440)
+			margin-right: 30px
+		+r(1140)
+			margin-right: 20px
+			max-width: 140px
+		+r(1024)
+			max-width: 5%
+		+r(640)
+			font-size: 14px
+		+r(480)
+			max-width: 100%
+	.fico
+		font-size: 32px
+		color: #BABCCD
+		transition: all .3s
+		margin-left: auto
+		transition: all .3s
+		+r(640)
+			font-size: 28px
+		+r(480)
+			position: absolute
+			top: 0
+			right: 0
+
+.table-ttl
+	display: flex
+	align-items: center
+	padding-bottom: 11px
+	margin-bottom: 23px
+	border-bottom: 1px solid $grey
+	+r(480)
+		margin-bottom: 15px
+	&__text
+		text-transform: uppercase
+		font-size: 13px
+		color: $grey
+		flex-shrink: 0
+		&:nth-of-type(1)
+			max-width: 620px
+			width: 100%
+			margin-right: 40px
+		&:nth-of-type(2), &:nth-of-type(3)
+			max-width: 290px
+			width: 100%
+		&:nth-of-type(2)
+			margin-right: 40px
+		+r(1440)
+			&:nth-of-type(1)
+				max-width: 570px
+				margin-right: 30px
+			&:nth-of-type(2)
+				margin-right: 30px
+			&:nth-of-type(2), &:nth-of-type(3)
+				max-width: 270px
+		+r(1300)
+			&:nth-of-type(1)
+				max-width: 510px
+			&:nth-of-type(2), &:nth-of-type(3)
+				max-width: 240px
+		+r(1140)
+			&:nth-of-type(1)
+				max-width: 460px
+				margin-right: 20px
+			&:nth-of-type(2)
+				margin-right: 20px
+			&:nth-of-type(2), &:nth-of-type(3)
+				max-width: 220px
+		+r(1024)
+			&:nth-of-type(1)
+				max-width: 46%
+			&:nth-of-type(2), &:nth-of-type(3)
+				max-width: 23%
+		+r(640)
+			&:nth-of-type(1)
+				max-width: 41%
+		+r(480)
+			&:nth-of-type(1)
+				max-width: 100%
+			&:nth-of-type(2), &:nth-of-type(3)
+				display: none
