@@ -1,0 +1,93 @@
+.content-vacancy
+	padding-top: 110px
+	padding-bottom: 140px
+	background: url(/../img/svg/philosophy_decor_1.svg) no-repeat calc(50% - -790px) calc(50% - 563px),url(/../img/svg/philosophy_decor_2.svg) no-repeat calc(50% - 758px) calc(50% - 731px)
+	.list-tasks__item
+		+nlt
+			margin-bottom: 12px
+	+r(1140)
+		padding-top: 100px
+		padding-bottom: 130px
+		.list-tasks__item
+			+nlt
+				margin-bottom: 10px
+	+r(1024)
+		padding: 100px 0
+		.list-tasks__item
+			+nlt
+				margin-bottom: 8px
+	+r(768)
+		padding: 80px 0
+	+r(480)
+		padding: 50px 0
+	&__inner
+		margin-bottom: 95px
+		+r(1300)
+			margin-bottom: 80px
+		+r(1024)
+			margin-bottom: 60px
+		+r(480)
+			margin-bottom: 50px
+	&__row
+		display: flex
+		+nlt
+			padding-bottom: 89px
+			margin-bottom: 90px
+			border-bottom: 1px solid #CFD8E0
+		+r(1300)
+			+nlt
+				padding-bottom: 70px
+				margin-bottom: 70px
+		+r(1140)
+			+nlt
+				padding-bottom: 50px
+				margin-bottom: 50px
+		+r(1024)
+			+nlt
+				padding-bottom: 40px
+				margin-bottom: 40px
+		+r(768)
+			display: block
+		+r(480)
+			+nlt
+				padding-bottom: 20px
+				margin-bottom: 20px
+	&__title
+		line-height: 130%
+		+r(1024)
+			&.column-big
+				max-width: calc(100%/3)
+		+r(768)
+			margin-bottom: 13px
+			&.column-big
+				max-width: 100%
+				margin-right: 0
+	&__info
+		color: $light-grey
+		max-width: 61%
+		+r(768)
+			max-width: 100%
+			font-size: 16px
+			line-height: 167%
+	&__text
+		+nlt
+			margin-bottom: 34px
+		+r(1140)
+			+nlt
+				margin-bottom: 15px
+		+r(768)
+			font-size: 16px
+			line-height: 167%
+	&__btn
+		max-width: 400px
+		width: 100%
+		margin: auto
+		padding: 20px
+		+r(1440)
+			max-width: 370px
+		+r(1300)
+			max-width: 330px
+		+r(1140)
+			max-width: 300px
+		+r(480)
+			max-width: 100%

@@ -1,20 +1,20 @@
+- var STATISTICS = LANG.home.statistics;
+
 section.statistics.statistics--main
 	.container
 		.statistics__top
-			h2.statistics__title.title.title--dark.column-big Решения Acurella
-				br
-				| легко масштабируются
-			p.statistics__desc.text-2--2 Разработки компании поддерживают одновременную работу: десятков административных сотрудников; тысяч филиалов; десятков рекламодателей; тысяч операторов. СРА-решения обрабатывают сотни тысяч конверсий в день, а СRM-решения — десятки тысяч заказов.
+			h2.statistics__title.title.title--dark.column-big!= STATISTICS.title
+			p.statistics__desc.text-2--2= STATISTICS.desc
 		.statistics__bottom
 			.item-st
 				.item-st__wrap
-					p.item-st__ttl 0,3 сек
-					p.item-st__text Время отклика системы
+					p.item-st__ttl= STATISTICS.item_ttl_1
+					p.item-st__text= STATISTICS.item_text_1
 			.item-st
 				.item-st__wrap
-					p.item-st__ttl 10 лет
-					p.item-st__text Ожидаемый срок службы
+					p.item-st__ttl= STATISTICS.item_ttl_2
+					p.item-st__text= STATISTICS.item_text_2
 			.item-st
 				.item-st__wrap
-					p.item-st__ttl 99,95%
-					p.item-st__text Времени безотказной работы
+					p.item-st__ttl= STATISTICS.item_ttl_3
+					p.item-st__text= STATISTICS.item_text_3

@@ -2,6 +2,8 @@ extends templates/layout/layout.pug
 block head
 	title Acurella
 block content
+	include templates/mixins/menu.pug
+	+menu("index")
 	include templates/main/header
 	include templates/main/products
 	include templates/main/chart

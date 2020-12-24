@@ -1,0 +1,61 @@
+.header-vacancy
+	padding-top: 228px
+	padding-bottom: 103px
+	background: #F3FAFD url('../img/svg/privacy_bg.svg') no-repeat center
+	+r(1140)
+		padding-top: 198px
+		padding-bottom: 93px
+	+r(1024)
+		background-position: right
+		background-size: 160%
+	+r(768)
+		padding-top: 160px
+		padding-bottom: 60px
+		background-position: calc(50% - 400px) calc(50% - -45px)
+		background-size: 1660px
+	+r(480)
+		padding-top: 110px
+		padding-bottom: 50px
+	&__title
+		margin-bottom: 24px
+		+r(1140)
+			margin-bottom: 20px
+		+r(768)
+			margin-bottom: 10px
+
+	&__detals
+		display: flex
+		font-size: 16px
+		line-height: 130%
+		color: $light-grey
+		margin-bottom: 31px
+		+r(1140)
+			margin-bottom: 26px
+		+r(768)
+			margin-bottom: 20px
+		+r(480)
+			display: block
+			font-size: 14px
+	&__text
+		+nlt
+			margin-right: 20px
+			padding-right: 19px
+			border-right: 1px solid $light-grey
+		+r(768)
+			+nlt
+				margin-right: 15px
+				padding-right: 15px
+		+r(480)
+			+nlt
+				margin-right: 0
+				padding-right: 0
+				margin-bottom: 10px
+				padding-bottom: 10px
+				border-right: none
+				border-bottom: 1px solid $light-grey
+	.fico
+		font-size: 32px
+		color: #BABCCD
+		transform: rotate(90deg)
+		+r(768)
+			font-size: 30px

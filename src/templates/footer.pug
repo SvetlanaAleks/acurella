@@ -1,42 +1,41 @@
+- var MENU = LANG.menu;
+- var FOOTER = LANG.footer;
+- var BUTTONS = LANG.btns;
+
 footer.footer
 	.container
 		.footer__top
 			.footer__col.column
 				img.footer__logo(src="img/svg/logo-b.svg", alt="logo")
-				p.footer__desc.text-3 Acurella ltd – компания разработки программного обеспечения полного&nbsp;цикла.
+				p.footer__desc.text-3!= FOOTER.desc
 			.footer__links-wrap
 				ul.links
 					li.links__item
-						a.links__link(href="about.html") О компании
+						a.links__link(href="about.html")= MENU.link9
 					li.links__item
-						a.links__link(href="contacts.html") Контакты
+						a.links__link(href="contacts.html")= MENU.link8
 					li.links__item
-						a.links__link(href="#") Карьера 
-							span 9
+						a.links__link(href="cereer.html")!= MENU.link10
 				ul.links
 					li.links__item
-						a.links__link(href="case.html") Кейсы
+						a.links__link(href="case.html")= MENU.link7
 					li.links__item
-						a.links__link(href="product-cpa.html") CPA
+						a.links__link(href="product-cpa.html")= MENU.link3
 					li.links__item
-						a.links__link(href="product-crm.html") CRM
+						a.links__link(href="product-crm.html")= MENU.link4
 					li.links__item
-						a.links__link(href="product-scm.html") SCM
+						a.links__link(href="product-scm.html")= MENU.link5
 					li.links__item
-						a.links__link(href="integrations.html") Интеграции
+						a.links__link(href="integrations.html")= MENU.link6
 			.footer__data.column
 				a.footer__link-tel(href="tel:(+357) 22 090244") (+357) 22 090244
-				p.footer__text.text-3 Цериу, 136 2 этаж,
-					br
-					| Строволос, 2045, Никосия,
-					br
-					| Кипр
-			a.footer__btn.btn.btn--empty-dark.js-show-popup(data-target="#popup-demo") Посмотреть демо
+				p.footer__text.text-3!= FOOTER.address
+			a.footer__btn.btn.btn--empty-dark.js-show-popup(data-target="#popup-demo")= BUTTONS.btn_text_1
 		.footer__bottom
-			p.footer__copy.text-3 © 2020 Acurella. Все права защищены.
+			p.footer__copy.text-3!= FOOTER.copy
 			.footer__info.column-big
-				a.footer__link(href="#") Условия
-				a.footer__link(href="politics-confidentiality.html") Политика конфиденциальности
+				a.footer__link(href="#")= MENU.link11
+				a.footer__link(href="politics-confidentiality.html")= MENU.link12
 			a.footer__link-email.column(href="mailto:support@acurella-tl.com") support@acurella-tl.com
 			.footer__social.social
 				a.social__item(href="#")

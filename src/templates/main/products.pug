@@ -1,3 +1,5 @@
+- var PRODUCTS = LANG.home.products;
+
 mixin product(product)
 	a.product(href=product.link)
 		p.product__ttl.title.title--dark.title--4!=product.ttl
@@ -5,41 +7,12 @@ mixin product(product)
 		p.product__name!=product.name
 		i.fico.fico-arrowSlider
 
-
--
-	const productArray = [
-		{
-			link: 'product-cpa.html',
-			ttl: 'Cost Per Action<br> Marketing',
-			text: 'Готовое решение для CPA-сетей, которое защищает и упрощает взаимодействие веб-мастеров и рекламодателей. ',
-			name: 'CPA'
-		},
-		{
-			link: 'product-crm.html',
-			ttl: 'Customer Relationship Management',
-			text: 'Система для автоматизации сложных стратегий взаимодействия с заказчиками и увеличения продаж.',
-			name: 'CRM'
-		},
-		{
-			link: 'product-scm.html',
-			ttl: 'Supply Chain<br> Management',
-			text: 'Cистема, позволяющая в режиме реального времени управлять сложными цепочками поставок.',
-			name: 'SCM'
-		},
-		{
-			link: 'integrations.html',
-			ttl: 'Интеграции',
-			text: 'Решения Acurella легко интегрируются в инфраструктуру онлайн-бизнеса.',
-			name: '<>'
-		}
-	];
-
 section.products
 	.container
 		include ../advantage-list
 		.products__center
-			h2.products__title.title.title--dark.title--2.column-big Продукты
-			p.products__desc.text-2--2 Acurella предоставляет гибкие решения для онлайн-бизнеса, учитывая отраслевые особенности и помогая компаниям адаптироваться к вызовам современной бизнес-среды.
+			h2.products__title.title.title--dark.title--2.column-big!=PRODUCTS.title
+			p.products__desc.text-2--2!=PRODUCTS.desc
 		.products__list
-			each product in productArray
+			each product in PRODUCTS.productArray
 				+product(product)

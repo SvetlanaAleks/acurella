@@ -1,32 +1,34 @@
+- var HEADER = LANG.home.header;
+- var BUTTONS = LANG.btns;
+
 header.header
 	.container
 		.header__slider.js-header-slider
 			.slide.slide--0
 				.slide__content
-					h1.slide__title.title.title--light.title--1 Высоко&shy;технологичные решения 
-						span для вашего бизнеса
-					p.slide__text.text-2--1 Acurella — вендор программного обеспечения полного цикла, основанного на новейших современных технологиях
-					a.slide__btn.btn.btn--empty(href="#") Узнать подробнее
+					h1.slide__title.title.title--light.title--1!= HEADER.title_1
+					p.slide__text.text-2--1= HEADER.desc_1
+					a.slide__btn.btn.btn--empty(href="#")= BUTTONS.btn_text_2
 				.slide__wrap-img
 					img.slide__img(src="img/preview_main.png", alt="preview_main")
 			.slide.slide--1
 				.slide__content
-					h2.slide__title.title.title--light.title--1 Cost Per Action Marketing (CPA)
-					p.slide__text.text-2--1 Сетевая платформа для аффилированного маркетинга создана с целью помочь рекламодателю и веб-мастеру взаимовыгодно посотрудничать, а владельцам СРА-сетей — проконтролировать выполнение условий сделки.
-					a.slide__btn.btn.btn--empty(href="product-cpa.html") Узнать подробнее
+					h2.slide__title.title.title--light.title--1= HEADER.title_2
+					p.slide__text.text-2--1= HEADER.desc_2
+					a.slide__btn.btn.btn--empty(href="product-cpa.html")=BUTTONS.btn_text_2
 				.slide__wrap-img
 					img.slide__img(src="img/preview_cpa.png", alt="cpa")
 			.slide.slide--2
 				.slide__content
-					h2.slide__title.title.title--light.title--1 Customer Relationship Management (CRM)
-					p.slide__text.text-2--1 Cистема управления взаимоотношениями с клиентами от компании Acurella контролирует поток заявок, фиксируя любые изменения в заказах и транслируя их на менеджеров.
-					a.slide__btn.btn.btn--empty(href="product-crm.html") Узнать подробнее
+					h2.slide__title.title.title--light.title--1= HEADER.title_3
+					p.slide__text.text-2--1= HEADER.desc_3
+					a.slide__btn.btn.btn--empty(href="product-crm.html")=BUTTONS.btn_text_2
 				.slide__wrap-img
 					img.slide__img(src="img/preview_crm.png", alt="crm")
 			.slide.slide--3
 				.slide__content
-					h2.slide__title.title.title--light.title--1 Supply Chain Management (SCM)
-					p.slide__text.text-2--1 Cистема управления цепями поставок предоставляет компаниям современные инструменты для отслеживания всей производственной цепочки: от планирования закупок товаров до отправки заказов.
-					a.slide__btn.btn.btn--empty(href="product-scm.html") Узнать подробнее
+					h2.slide__title.title.title--light.title--1= HEADER.title_4
+					p.slide__text.text-2--1= HEADER.desc_4
+					a.slide__btn.btn.btn--empty(href="product-scm.html")=BUTTONS.btn_text_2
 				.slide__wrap-img
 					img.slide__img(src="img/preview_scm.png", alt="scm")

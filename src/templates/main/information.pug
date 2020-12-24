@@ -1,13 +1,7 @@
-include ../mixins/review
+- var INFORMATION_MAIN = LANG.home.information;
 
--
-	const review = {
-		src: 'img/information_photo.jpg',
-		text: 'До знакомства с решениями Acurella мы думали, что высокотехнологичное ПО усложняет работу компании с огромным количеством процессов. Существуют внештатные ситуации, где необходима мгновенная реакция человека. Но на практике оказалось, что комплексные системы не только контролируют каждый процесс до мелочей, минимизируя вероятность форс-мажора, но также подсказывают оптимальные пути решения, к которым не всегда додумается человек. Это высший уровень!',
-		ttl: 'Богдан Бровый',
-		post: 'Head of Sales Department'
-	};
+include ../mixins/review
 
 .information
 	.container
-		+review(review)
+		+review('img/information_photo.jpg', INFORMATION_MAIN.text, INFORMATION_MAIN.name, INFORMATION_MAIN.post)

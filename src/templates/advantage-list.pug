@@ -1,9 +1,5 @@
-include mixins/advantage.pug
--
-	const advantageArray = [
-		'Доступ к сайтам и подсистемам платформы 24/7/365',
-		'Создание эффективной экосистемы внутри предприятия',
-		'HTTP API для упрощения интеграции систем'
-	];
+- var ADVANGE_LIST = LANG.advantage_list;
 
-+advantage(advantageArray)
+include mixins/advantage.pug
+
++advantage(ADVANGE_LIST)

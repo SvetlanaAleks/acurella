@@ -1,8 +1,11 @@
+- var SUPPORT = LANG.home.support;
+
+
 section.support
 	.container
 		.support__wrapper
 			.support__content
-				h2.support__title.title.title--dark.title--3 Поддержка в любое время&nbsp;суток
-				p.support__text.text-2.text-2--1 Сайты и подсистемы платформы доступны в режиме 24/7/365, обеспечивая 99,95% времени безотказной работы. Если у вас возникли технические вопросы или проблемы, напишите нам
+				h2.support__title.title.title--dark.title--3!= SUPPORT.title
+				p.support__text.text-2.text-2--1= SUPPORT.desc
 				a.support__link.text-2(href="mailto:support@acurella-tl.com") support@acurella-tl.com
 			img.support__photo(src="img/svg/support.svg", alt="support")

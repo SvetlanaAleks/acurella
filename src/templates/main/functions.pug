@@ -1,42 +1,20 @@
+- var FUNCTIONS = LANG.home.functions;
+
 include ../mixins/function.pug
 
 -
-	const functionsArray = [
-		{
-			src: 'img/svg/function_ico_1.svg',
-			ttl: 'Оптимизация<br> маркетинговых задач',
-			text: 'CPA-решение облегчает запуск оффера и&nbsp;помогает лучше распределить маркетинговый бюджет.'
-		},
-		{
-			src: 'img/svg/function_ico_2.svg',
-			ttl: 'Увеличение продаж',
-			text: 'CRM контролирует ход сделок, управляет процессом продаж и формирует актуальную аналитику.'
-		},
-		{
-			src: 'img/svg/function_ico_3.svg',
-			ttl: 'Автоматизация',
-			text: 'SCM автоматизирует управление сложными цепочками поставок, контролируя каждый шаг'
-		},
-		{
-			src: 'img/svg/function_ico_4.svg',
-			ttl: 'Создание уникальных интеграций',
-			text: 'API допускает возможность трехсторонней интеграции, создавая уникальную IT-инфраструктуру для бизнеса'
-		},
-		{
-			src: 'img/svg/function_ico_5.svg',
-			ttl: 'Автоматизация отчетов',
-			text: 'Система агрегированных отчетов помогает ТОПам в принятии решений и может даже запускать бизнес-процессы (например, при изменении курса валют)'
-		},
-		{
-			src: 'img/svg/function_ico_6.svg',
-			ttl: 'Создание единого инфополя',
-			text: 'Изменение данных в режиме реального времени обеспечивают сотрудников всех филиалов актуальными данными'
-		}
+	const functionIcoArray = [
+		'img/svg/function_ico_1.svg',
+		'img/svg/function_ico_2.svg',
+		'img/svg/function_ico_3.svg',
+		'img/svg/function_ico_4.svg',
+		'img/svg/function_ico_5.svg',
+		'img/svg/function_ico_6.svg',
 	];
 
 section.functions
 	.container
-		h2.functions__title.title.title--light.title--2 Ключевые функции
+		h2.functions__title.title.title--light.title--2= FUNCTIONS.title
 		.functions__wrapper
-			each item in functionsArray
-				+function(item)
+			each item, key in FUNCTIONS.functionsArray
+				+function(functionIcoArray[key], item.ttl, item.text)

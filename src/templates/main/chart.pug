@@ -1,42 +1,28 @@
+- var BUTTONS = LANG.btns;
+- var CHART = LANG.home.chart;
+
+
 section.chart
 	.container
 		.chart__top
-			h2.chart__title.title.title--dark.title--5.column-big Сила современных компаний в&nbsp;диджитализации и использовании low-code технологий
-			p.chart__desc.text-2--2 Мы создаем интуитивно понятные IT-решения. А после непрерывно их улучшаем, отвечая вызовам времени.
-			a.btn.btn--full.chart__btn.js-show-popup(data-target="#popup-demo") Посмотреть демо
+			h2.chart__title.title.title--dark.title--5.column-big!= CHART.title
+			p.chart__desc.text-2--2!= CHART.desc
+			a.btn.btn--full.chart__btn.js-show-popup(data-target="#popup-demo")= BUTTONS.btn_text_3
 		.chart__bottom
 			.graph
 				.graph__col
 					.graph__wrap
-						p.graph__ttl Разработка
-							br
-							| продукта и
-							br
-							| поиск клиентов
-						p.graph__label.text-4 1 половина 
-							br
-							| 2019
+						p.graph__ttl!= CHART.graph_ttl_1
+						p.graph__label.text-4!= CHART.graph_label_1
 				.graph__col
 					.graph__wrap
-						p.graph__ttl 800+
-							br
-							| пользователей
-						p.graph__label.text-4 2 половина 
-							br
-							| 2019
+						p.graph__ttl!= CHART.graph_ttl_2
+						p.graph__label.text-4!= CHART.graph_label_2
 				.graph__col
 					.graph__wrap
-						p.graph__ttl 2000+
-							br
-							| пользователей
-						p.graph__label.text-4 1 половина 
-							br
-							| 2020
+						p.graph__ttl!= CHART.graph_ttl_3
+						p.graph__label.text-4!= CHART.graph_label_3
 				.graph__col
 					.graph__wrap
-						p.graph__ttl 5500+
-							br
-							| пользователей
-						p.graph__label.text-4 2 половина 
-							br
-							| 2020
+						p.graph__ttl!= CHART.graph_ttl_4
+						p.graph__label.text-4!= CHART.graph_label_4

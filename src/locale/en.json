@@ -1,4 +1,150 @@
 {
   "locale": "en",
-  "hello": "Hello World"
+  "menu": {
+    "link1": "Company",
+    "link2": "Products",
+    "link3": "CPA",
+    "link4": "CRM",
+    "link5": "SCM",
+    "link6": "Integrations",
+    "link7": "Cases",
+    "link8": "Contacts",
+    "link9": "О компании",
+    "link10": "Карьера <span>9</span>",
+    "link11": "Условия",
+    "link12": "Политика конфиденциальности",
+    "menu_desc_1": "A ready-made solution for CPA networks",
+    "menu_desc_2": "System for automating complex strategies for interaction",
+    "menu_desc_3": "Cистема, управляющая сложными цепочками поставок",
+    "menu_desc_4": "Легкая интеграция модулей"
+  },
+  "footer": {
+    "desc": "Acurella ltd – компания разработки программного обеспечения полного&nbsp;цикла.",
+    "address": "Цериу, 136 2 этаж,<br />Строволос, 2045, Никосия,<br />Кипр",
+    "copy": "© 2020 Acurella. Все права защищены."
+  },
+  "form": {
+    "email": "E-mail"
+  },
+  "btns": {
+    "btn_text_1": "Try demo",
+    "btn_text_2": "Read more",
+    "btn_text_3": "Order a demo version"
+  },
+  "advantage_list": [
+    "Access to the sites and subsystems of the platform 24/7/365",
+    "Creating an effective ecosystem within the enterprise",
+    "HTTP API to simplify system integration"
+  ],
+  "home": {
+    "header": {
+      "title_1": "High-tech solutions <span>for your business</span>",
+      "desc_1": "Acurella is a full-service software vendor based on the latest state-of-the-art technologies",
+      "title_2": "Cost Per Action Marketing (CPA)",
+      "desc_2": "The network platform for affiliate marketing was created to help the advertiser and webmaster to cooperate mutually, and the owners of CPA networks to control the fulfillment of the terms of the transaction.",
+      "title_3": "Customer Relationship Management (CRM)",
+      "desc_3": "Acurella customer relationship management system monitors the flow of requests, recording any changes in orders and transmitting them to managers.",
+      "title_4": "Supply Chain Management (SCM)",
+      "desc_4": "Supply chain management system provides companies with state-of-the-art tools for tracking the entire production chain: from planning purchases of goods to sending orders."
+    },
+    "products": {
+      "title": "OUR PRODUCTS",
+      "desc": "Acurella provides flexible solutions for online business, taking into account industry specifics and helping companies to adapt to the challenges of the modern business environment.",
+      "productArray": [
+        {
+          "link": "product-cpa.html",
+          "ttl": "Cost Per Action<br> Marketing",
+          "text": "A ready-made solution for CPA networks that protects and simplifies the interaction of webmasters and advertisers. ",
+          "name": "CPA"
+        },
+        {
+          "link": "product-crm.html",
+          "ttl": "Customer Relationship Management",
+          "text": "System for automating complex strategies for interaction with customers and increasing sales.",
+          "name": "CRM"
+        },
+        {
+          "link": "product-scm.html",
+          "ttl": "Supply Chain<br> Management",
+          "text": "System that allows real-time management of complex supply chains",
+          "name": "SCM"
+        },
+        {
+          "link": "integrations.html",
+          "ttl": "INTEGRATIONS",
+          "text": "Acurella solutions are easily integrated into the online business infrastructure",
+          "name": "<>"
+        }
+      ]
+    },
+    "chart": {
+      "title": "Power of modern companies is in digitalization and the use of low-code technologies",
+      "desc": "We create intuitive IT solutions. Then we continuously improve them, responding to the challenges of time.",
+      "graph_ttl_1": "",
+      "graph_ttl_2": "",
+      "graph_ttl_3": "",
+      "graph_ttl_4": "",
+      "graph_label_1": "1st half <br />of 2019",
+      "graph_label_2": "2nd half <br />of 2019",
+      "graph_label_3": "1st half <br />of 2020",
+      "graph_label_4": "2nd half <br />of 2020"
+    },
+    "statistics": {
+      "title": "Acurella solutions are easily scaled",
+      "desc": "Company’s developments support simultaneous operation of: dozens of administrative employees; thousands of branches; dozens of advertisers; thousands of operators. CPA solutions process hundreds of thousands of conversions per day, and CRM solutions process tens of thousands of orders.",
+      "item_ttl_1": "0.3 s",
+      "item_text_1": "system response time",
+      "item_ttl_2": "10 years",
+      "item_text_2": "expected service life",
+      "item_ttl_3": "99.95%",
+      "item_text_3": "uptime"
+    },
+    "functions": {
+      "title": "Key features",
+      "functionsArray": [
+        {
+          "ttl": "Optimization <br> of marketing tasks",
+          "text": "CPA solution makes it easier to launch an offer and helps you to allocate your marketing budget"
+        },
+        {
+          "ttl": "Increase in sales",
+          "text": "CRM monitors the progress of transactions, manages the sales process and generates up-to-date analytics"
+        },
+        {
+          "ttl": "Automation",
+          "text": "SCM automates the management of complex supply chains by controlling every step"
+        },
+        {
+          "ttl": "Unique integrations creation",
+          "text": "API allows for three-way integration, creating a unique IT infrastructure for business"
+        },
+        {
+          "ttl": "Report automation",
+          "text": "The system of aggregated reports helps TOP managers in making decisions and can even start business processes (for example, when the exchange rate changes)"
+        },
+        {
+          "ttl": "Creation of single information field",
+          "text": "Real-time data changes provide employees of all branches with up-to-date data"
+        }
+      ]
+    },
+    "advantages": {
+      "title_1": "Debugging business processes",
+      "desc_1": "Acurella solutions create an efficient ecosystem within the enterprise, automate processes and reduce dependence on manual factors.",
+      "title_2": "Security",
+      "desc_2": "All sites and public subsystems are resistant to DDoS attacks, unauthorized access, cryptographic blocking attacks, etc."
+    },
+    "information": {
+      "text": "Before we got acquainted with Acurella solutions, we thought that high-tech software makes it more difficult for a company with a huge number of processes. There are emergencies where an instant reaction of a person is necessary. However, in practice, it turned out that complex systems not only control every process to the smallest detail, minimizing the probability of force majeure, but also suggest optimal solutions that people do not always think of. This is the highest level!",
+      "name": "",
+      "post": "Head of Sales Department"
+    },
+    "support": {
+      "title": "Support at any time of&nbsp;the&nbsp;day",
+      "desc": "Platform's sites and subsystems are available 24/7/365, providing 99.95% uptime."
+    },
+    "interruption": {
+      "title": "Are you looking for a way to speed<br> up your business goals? Try a demo version"
+    }
+  }
 }

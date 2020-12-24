@@ -1,0 +1,37 @@
+mixin menu-mob(page)
+	.menu-mobile#js-mobile-menu
+		.menu-mobile__wrap
+			.menu-mobile__top
+				a.logo.menu-mobile__logo(href="/")
+					img.logo__img(src="img/svg/logo-w.svg", alt="logo")
+				.burger.js-burger(data-target="#js-mobile-menu")
+					span.burger__line
+					span.burger__line
+					span.burger__line
+			ul.menu-mobile__nav.nav
+					li.nav__item
+						a.nav__link(href="about.html") Компания
+					li.nav__item
+						a.nav__link(href="product-cpa.html") CPA
+					li.nav__item
+						a.nav__link(href="product-crm.html") CRM
+					li.nav__item
+						a.nav__link(href="product-scm.html") SCM
+					li.nav__item
+						a.nav__link(href="case.html") Кейсы
+					li.nav__item
+						a.nav__link(href="integrations.html") Интеграции
+					li.nav__item
+						a.nav__link(href="contacts.html") Контакты
+			.menu-mobile__bottom
+				.menu-mobile__lang.lang
+					i.fico.fico-world
+					.lang__list-wrap
+						.lang__list
+							a.lang-item(href=url('en', `/${page}.html`))
+								img.lang-item__ico(src="img/svg/langEN.svg", alt="langEN")
+								span.lang-item__text International
+							a.lang-item(href=url('ru', `/${page}.html`))
+								img.lang-item__ico(src="img/svg/langRU.svg", alt="langRU")
+								span.lang-item__text Русский
+				button.menu-mobile__btn.btn.btn--full.js-show-popup(data-target="#popup-demo") Посмотреть демо
