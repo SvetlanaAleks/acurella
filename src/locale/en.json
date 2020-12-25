@@ -80,10 +80,10 @@
     "chart": {
       "title": "Power of modern companies is in digitalization and the use of low-code technologies",
       "desc": "We create intuitive IT solutions. Then we continuously improve them, responding to the challenges of time.",
-      "graph_ttl_1": "",
-      "graph_ttl_2": "",
-      "graph_ttl_3": "",
-      "graph_ttl_4": "",
+      "graph_ttl_1": "Разработка<br />продукта и<br />поиск клиентов",
+      "graph_ttl_2": "800+<br />пользователей",
+      "graph_ttl_3": "2000+<br />пользователей",
+      "graph_ttl_4": "5500+<br />пользователей",
       "graph_label_1": "1st half <br />of 2019",
       "graph_label_2": "2nd half <br />of 2019",
       "graph_label_3": "1st half <br />of 2020",
@@ -136,7 +136,7 @@
     },
     "information": {
       "text": "Before we got acquainted with Acurella solutions, we thought that high-tech software makes it more difficult for a company with a huge number of processes. There are emergencies where an instant reaction of a person is necessary. However, in practice, it turned out that complex systems not only control every process to the smallest detail, minimizing the probability of force majeure, but also suggest optimal solutions that people do not always think of. This is the highest level!",
-      "name": "",
+      "name": "Богдан Бровый",
       "post": "Head of Sales Department"
     },
     "support": {
@@ -145,6 +145,284 @@
     },
     "interruption": {
       "title": "Are you looking for a way to speed<br> up your business goals? Try a demo version"
+    }
+  },
+  "cpa": {
+    "header": {
+      "title": "Cost Per Action Marketing (CPA)",
+      "desc": "The network platform for affiliate marketing was created to help the advertiser and webmaster to cooperate mutually, and the owners of CPA networks to control the fulfillment of the terms of the transaction. "
+    },
+    "statistics": {
+      "title": "360°CPA network monitoring: Security management",
+      "desc": "The high-tech solution for CPA networks allows you to manage your partner network, advertising materials and relationships with affiliates in real time. By controlling each process to the smallest detail, the system automatically maintains the safety and high quality of services.",
+      "item_text_1": "More than 10 countries",
+      "item_text_2": "24/7/365 support",
+      "item_text_3": "More than 6000 users"
+    },
+    "advantages": [
+      "Accelerated process of creating, launching and testing of marketing campaigns for webmasters",
+      "Simplified control over the implementation of offers for advertisers (including anti-flood solutions)",
+      "Automated analysis of system performance indicators for network administrators"
+    ],
+    "description": {
+      "title_1": "Designed for a large number of participants",
+      "desc_1": "The platform supports simultaneous work of dozens of administrative employees, thousands of branches and dozens of advertisers.",
+      "title_2": "Built-in anti-fraud",
+      "desc_2": "Thanks to the built-in profiling mechanisms, the system can automatically monitor the quality of traffic and monitor the work of webmasters.",
+      "title_form": "Are you ready to experience all the features of the software for CPA networks?"
+    },
+    "functions": {
+      "title": "Key benefits",
+      "functionsArray": [
+        {
+          "ttl": "4-way setup",
+          "text": "Built-in features for partners, advertisers, administrators, and network owners"
+        },
+        {
+          "ttl": "Campaign management",
+          "text": "Tools for creating marketing campaigns with the possibility of A/B testing"
+        },
+        {
+          "ttl": "Ready-made templates",
+          "text": "Convenient process of offers creation through a system of fillable fields"
+        },
+        {
+          "ttl": "Process automation",
+          "text": "Automatic verification of participants' work and notification system"
+        },
+        {
+          "ttl": "Smart analytics",
+          "text": "Filtering, grouping, and granularity tools for data analysis"
+        },
+        {
+          "ttl": "Security",
+          "text": "Convenient withdrawal of income after offer implementation"
+        }
+      ]
+    },
+    "integration": {
+      "title_main": "Integration has never been so easy",
+      "desc": "With the help of API tools, the system can be integrated with Acurella software, as well as third-party software (for example, warehouse management system, logistics, etc.)",
+      "title": "Оптимизация нагрузки <span>веб-мастеров</span>",
+      "title_slider": "Широкие функциональные возможности",
+      "subject": "Инструменты контроля для топ-менеджеров",
+      "text": "Руководители компаний могут в любой момент зайти в систему и проверить качество работы маркетинга: просмотреть данные в виде преднастроенных дашбордов, проанализировать их через систему фильтров и сгруппировать в удобные отчеты.",
+      "listArray": {
+        "color": "orange",
+        "list": [
+          "Быстрая фильтрация <br>предложений от<br> рекламодателей",
+          "Создание и настройка промо-материалов",
+          "Удобный вывод дохода после реализации оффера",
+          "Управление работой команды"
+        ]
+      }
+    },
+    "capabilities": {
+      "title": "More opportunities for advertiser",
+      "listArrayCapabilities": {
+        "color": "orange",
+        "list": [
+          "Step-by-step process<br> of offer creation",
+          "Ability to create and<br> manage contests",
+          "Viewing statistics with<br> multilevel detail",
+          "Ability to view<br> partner's activity",
+          "Setting the messages<br> visibility",
+          "Ready-made anti-<br>fraud solutions"
+        ]
+      }
+    },
+    "information": {
+      "text": "Thanks to the solution from Acurella, we were able to implement hundreds of offers in different parts of the world, receiving a regular stream of high quality and targeted leads. Acurella is a reliable and secure solution for those who do not have time for mistakes.",
+      "name": "Наталия Островчкая",
+      "post": "Head of Sales Department"
+    },
+    "faq": {
+      "title": "FAQ",
+      "desc": "Answers to popular questions. Если вы не нашли ответ на ваш вопрос, вы можете задать его написав в службу поддержки",
+      "questionArray": [
+        {
+          "ttl": "Why do we need a CPA network?",
+          "text": "CPA network is a specialized marketing platform that aims to bring together different webmasters and advertisers for mutually beneficial cooperation."
+        },
+        {
+          "ttl": "How do CPA network administrators earn money?",
+          "text": "The platform charges the advertiser a commission for its work, it helps with the offer technical integration, searches and connects webmasters, and performs mutual settlements with them. In addition, the platform is struggling with violations and monitors the quality of traffic."
+        },
+        {
+          "ttl": "Who can use Acurella solutions?",
+          "text": "Network administrators, webmasters, advertisers and their managers have access to the platform through two-factor authentication."
+        },
+        {
+          "ttl": "What does a web application consist of?",
+          "text": "A typical web application consists of one page adaptive external interface and an internal interface."
+        },
+        {
+          "ttl": "How clear is the system?",
+          "text": "All user-facing parts of the system are performance-oriented. Each feature is intuitively understandable without special training."
+        },
+        {
+          "ttl": "How secure is the platform?",
+          "text": "All sites and public subsystems are resistant to DDoS attacks, unauthorized access, cryptographic blocking attacks, etc. Data is transmitted over secure channels (HTTPS, TLS)."
+        },
+        {
+          "ttl": "Where is the data stored?",
+          "text": "Permanent data is stored in a data storage system, temporary data (such as caches) is stored in an in-memory data store."
+        },
+        {
+          "ttl": "How stable is this storage system?",
+          "text": "The partner network's data storage is reliable and productive. In case of any damage, the main DBMS technology is PostgreSQL. In the event of the slightest damage to your data, a backup and recovery solution will immediately work."
+        },
+        {
+          "ttl": "Can there be any problems with the access to the system?",
+          "text": "Platform sites and subsystems are available 24/7/365. We guarantee 99.95% uptime."
+        }
+      ]
+    },
+    "interruption": {
+      "title": "Order Demo and check the capabilities of the software<br> for CPA networks"
+    }
+  },
+  "crm": {
+    "header": {
+      "title": "Cost Per Action Marketing (CPA)",
+      "desc": "Acurella customer relationship management system monitors the flow of requests, recording any changes in orders and transmitting them to managers. "
+    },
+    "statistics": {
+      "title": "Full transaction cycle control",
+      "desc": "CRM solution controls the entire order cycle: starting from the moment when the customer left the request, and ending with after-sales service. In this way, the Company minimizes the risk of error, automates routine processes, and ultimately exceeds customer expectations.",
+      "item_text_1": "More than 15 countries",
+      "item_text_2": "24/7/365 support",
+      "item_text_3": "More than 1200 users"
+    },
+    "advantages": [
+      "A single up-to-date database of orders with indication of their status for all offices of the Company",
+      "Automated customer communication scenarios for call center manager ",
+      "Customizable reports with the ability to filter, group, and drill down for TOPs"
+    ],
+    "description": {
+      "title_1": "Unified information field",
+      "desc_1": "The platform significantly simplifies the interaction of call center, sales service, customer service and logistics service, helping to fulfill orders efficiently and on time.",
+      "title_2": "Automatic<br> quality control",
+      "desc_2": "A large database of pre-configured reports helps you to monitor easily the work of team and implementation of sales plan, without wasting time filling in tables.",
+      "title_form": "Are you ready to experience all the features of the software for call centers and sales departments?"
+    },
+    "functions": {
+      "title": "Key benefits",
+      "functionsArray": [
+        {
+          "ttl": "Dynamic sales<br> script",
+          "text": "Sales algorithm that runs based on customer responses"
+        },
+        {
+          "ttl": "Comprehensive<br> analytics",
+          "text": "Analysis of conversation quality, order processing time, and performance indicators "
+        },
+        {
+          "ttl": "Automated<br> logistics",
+          "text": "Ability to select and configure the algorithms of distribution of orders between delivery services"
+        },
+        {
+          "ttl": "Lists for upsales and<br> cross-sales",
+          "text": "Complete list of products based on their affiliation (main product, cross-selling product, etc.)"
+        },
+        {
+          "ttl": "Quick order<br> search",
+          "text": "Ability to find an order in a few seconds: by ID, phone number, customer name and address"
+        },
+        {
+          "ttl": "Current<br> statistics",
+          "text": "Detailed plan and fact of sales of team and individual manager in real time"
+        }
+      ]
+    },
+    "integration": {
+      "title_main": "Integration has never been so easy",
+      "desc": "With the help of API tools, the system can be integrated with Acurella software, as well as third-party software (for example, warehouse management system, logistics, etc.)",
+      "title": "Optimization of call center managers work",
+      "title_slider": "Широкие функциональные возможности",
+      "subject": "Intelligent applications distribution",
+      "text": "The system manages the call servers so that the agent with the best sales target is the first to receive new calls. In addition, it regularly sends several calls to novice operators.",
+      "listArray": {
+        "color": "green",
+        "list": [
+          "Complete list of orders (approved, rejected, in process)",
+          "Access to the results of your conversations quality evaluation",
+          "Dynamic sales<br> script",
+          "Revision of sales plan<br> execution statistics "
+        ]
+      }
+    },
+    "logistics": {
+      "title": "Logistics automation",
+      "desc": "Based on the repayment rate and cost of the service, the system automatically selects the optimal delivery service for each request."
+    },
+    "functions_additional": {
+      "title": "Additional functions for logisticians",
+      "desc": "CRM has built-in additional features for logisticians. You can set tasks for packers, send order information to the delivery service, monitor the status of shipment of orders, etc. ",
+      "benefitArray": [
+        {
+          "title": "Увеличивает количество продаж и помогает выполнять план",
+          "text": "By controlling the entire path of the client and helping to choose the optimal communication scenario, the system increases the conversion rate and the number of sales in general"
+        },
+        {
+          "title": "Повышает обучаемость и&nbsp;продуктивность менеджеров",
+          "text": "By automating routine tasks and maintaining the best scripts, CRM increases study skills and productivity of sales managers and call center employees"
+        },
+        {
+          "title": "Контролирует своевременную доставку товара",
+          "text": "Due to the built-in functionality for logisticians, CRM instantly transmits a signal about the order and tracks the delivery of goods"
+        }
+      ]
+    },
+    "information": {
+      "text": "We chose CRM for Acurella when there was a need to expand the geography and enter new markets. Thanks to the fact that the system is completely autonomous, clear and automated, we were able to quickly establish the work of remote offices and did not overdue a single order.",
+      "name": "Богдан Бровый",
+      "post": "Head of Sales Department"
+    },
+    "faq": {
+      "title": "FAQ",
+      "desc": "Answers to popular questions. Если вы не нашли ответ на ваш вопрос, вы можете задать его написав в службу поддержки",
+      "questionArray": [
+        {
+          "ttl": "What are CRM systems for?",
+          "text": "CRM systems are designed to control the full cycle of each transaction: starting from the formation of the application and ending with after-sales services."
+        },
+        {
+          "ttl": "How do they simplify orders management?",
+          "text": "The platform stores all information about orders, saves status changes in real time, monitors the work of managers and delivery services, and generates reports itself. Transactions are executed faster, the dependence on the manual factor is reduced, and routine tasks are automated."
+        },
+        {
+          "ttl": "Who can use Acurella solutions?",
+          "text": "Call center managers, quality managers, sales managers, internal logistics service managers, team leads, system administrators and top managers of the Company have access to the platform through two-factor authentication."
+        },
+        {
+          "ttl": "What does the system consist of?",
+          "text": "The system is a set of web applications combined with background task processing servers powered by infrastructure (DBMS, memory storage, message bus, etc.)."
+        },
+        {
+          "ttl": "How clear is the system?",
+          "text": "All user-facing parts of the system are performance-oriented. Each feature is intuitively understandable without special training."
+        },
+        {
+          "ttl": " How secure is the platform?",
+          "text": "All sites and public subsystems are resistant to DDoS attacks, unauthorized access, cryptographic blocking attacks, etc. Data is transmitted over secure channels (HTTPS, TLS)."
+        },
+        {
+          "ttl": "How long will the system remain up-to-date?",
+          "text": "The expected service life of the system is at least 10 years."
+        },
+        {
+          "ttl": "How to track the effectiveness of your employees?",
+          "text": "The system already has built-in tools for analyzing key performance indicators using customizable dashboards."
+        },
+        {
+          "ttl": "Can there be any problems with the access to the system?",
+          "text": "Platform sites and subsystems are available 24/7/365. We guarantee 99.95% uptime."
+        }
+      ]
+    },
+    "interruption": {
+      "title": "Order Demo and test the capabilities of<br> customer relationship management software"
     }
   }
 }

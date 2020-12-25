@@ -1,3 +1,5 @@
+- var DESCRIPTION_CPA = LANG.cpa.description;
+
 section.description.description--cpa
 	.container
 		.description__top
@@ -5,14 +7,14 @@ section.description.description--cpa
 				.description__col
 					img(src="img/svg/description_cpa_1.svg", alt="image")
 				.description__desc
-					p.description__ttl.title.title--dark.title--3 Рассчитана на большое количество участников
-					p.description__text.text-2--1 Платформа поддерживает одновременную работу десятков административных сотрудников, тысяч филиалов и десятков рекламодателей. 
+					p.description__ttl.title.title--dark.title--3= DESCRIPTION_CPA.title_1
+					p.description__text.text-2--1= DESCRIPTION_CPA.desc_1
 			.description__row
 				.description__desc
-					p.description__ttl.title.title--dark.title--3 Встроенный антифрод
-					p.description__text.text-2--1 Благодаря встроенным механизмам профилирования, система может автоматически отслеживать качество трафика и контролировать работу веб-мастеров.
+					p.description__ttl.title.title--dark.title--3= DESCRIPTION_CPA.title_2
+					p.description__text.text-2--1= DESCRIPTION_CPA.desc_2
 				.description__col
 					img(src="img/svg/description_cpa_2.svg", alt="image")
 		.description__bottom
-			h2.description__title.title.title--dark.title--4 Готовы испытать все возможности ПО для СРА-сетей?
+			h2.description__title.title.title--dark.title--4!= DESCRIPTION_CPA.title_form
 			include ../../form-int

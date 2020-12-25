@@ -1,8 +1,11 @@
+- var LOGISTICS_CRM = LANG.crm.logistics;
+
+
 section.logistics
 	.container
 		.logistics__wrap
 			.logistics__left
 				img.logistics__photo(src="img/svg/logistics.svg", alt="logistics")
 			.logistics__desc
-				h2.logistics__title.title.title--dark.title--3 Автоматизация логистики
-				p.logistics__text.text-2--1 Ориентируясь на коэффициента погашения и стоимости услуги, система автоматически подбирает оптимальную службу доставки для каждой заявки.
+				h2.logistics__title.title.title--dark.title--3= LOGISTICS_CRM.title
+				p.logistics__text.text-2--1= LOGISTICS_CRM.desc

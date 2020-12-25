@@ -2,6 +2,8 @@ extends templates/layout/layout.pug
 block head
 	title Cost Per Action Marketing (CPA)
 block content
+	include templates/mixins/menu.pug
+	+menu("product-cpa")
 	include templates/products/cpa/header
 	include templates/products/cpa/statistics
 	include templates/products/cpa/advantages

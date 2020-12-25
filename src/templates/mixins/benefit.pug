@@ -1,6 +1,6 @@
-mixin benefit(item)
+mixin benefit(src, title, text)
 	.benefit
 		.benefit__top
-			img.benefit__ico(src=item.src, alt="ico")
-			p.benefit__title.title.title--dark.title--5!=item.title
-		p.benefit__text!=item.text
+			img.benefit__ico(src=src, alt="ico")
+			p.benefit__title.title.title--dark.title--5!=title
+		p.benefit__text!=text

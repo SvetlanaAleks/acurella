@@ -1,42 +1,20 @@
+- var FUNCTIONS_CPA = LANG.cpa.functions;
+
 include ../../mixins/function.pug
 
 -
-	const functionsArray = [
-		{
-			src: 'img/svg/function_ico_cpa_1.svg',
-			ttl: '4-сторонняя настройка',
-			text: 'Встроенные функции для партнеров, рекламодателей, администраторов и владельцев сетей'
-		},
-		{
-			src: 'img/svg/function_ico_cpa_2.svg',
-			ttl: 'Управление кампаниями',
-			text: 'Инструменты для создания маркетинговых кампаний с возможностью АВ-тестирования'
-		},
-		{
-			src: 'img/svg/function_ico_cpa_3.svg',
-			ttl: 'Готовые шаблоны',
-			text: 'Удобный процесс создания офферов через систему заполняемых полей'
-		},
-		{
-			src: 'img/svg/function_ico_cpa_4.svg',
-			ttl: 'Автоматизация процессов',
-			text: 'Автоматическая проверка работы участников и система оповещений'
-		},
-		{
-			src: 'img/svg/function_ico_cpa_5.svg',
-			ttl: 'Умная аналитика',
-			text: 'Инструменты фильтрации, группировки и детализации для анализа данных'
-		},
-		{
-			src: 'img/svg/function_ico_cpa_6.svg',
-			ttl: 'Безопасность',
-			text: 'Двухфакторная аутентификация для входа в систему'
-		}
+	const functionIcoArray = [
+		'img/svg/function_ico_cpa_1.svg',
+		'img/svg/function_ico_cpa_2.svg',
+		'img/svg/function_ico_cpa_3.svg',
+		'img/svg/function_ico_cpa_4.svg',
+		'img/svg/function_ico_cpa_5.svg',
+		'img/svg/function_ico_cpa_6.svg',
 	];
 
 section.functions
 	.container
-		h2.functions__title.title.title--light.title--2 Ключевые функции
+		h2.functions__title.title.title--light.title--2= FUNCTIONS_CPA.title
 		.functions__wrapper
-			each item in functionsArray
-				+function(item)
+			each item, key in FUNCTIONS_CPA.functionsArray
+				+function(functionIcoArray[key], item.ttl, item.text)

@@ -1,45 +1,50 @@
 mixin new(item)
 	a.new(href=item.link)
-		img.new__img(src=item.src, alt="photo")
+		picture
+			source(srcset='img/' + item.src + '.webp', type="image/webp")
+			source(srcset='img/' + item.src + '@2x.jpg')
+			img.new__img(src='img/' + item.src + '.jpg', alt="photo")
 		.new__info
 			p.new__ttl.title.title--dark.title--5!=item.ttl
 			p.new__date!=item.date
+
+
 
 -
 	const newArray = [
 		{
 			link: 'new-1.html',
-			src: 'img/new_4.jpg',
+			src: 'new_4',
 			ttl: 'Как COVID-19 навсегда изменил бизнес-процессы',
 			date: '23 октября 2020'
 		},
 		{
 			link: 'new-2.html',
-			src: 'img/new_1.jpg',
+			src: 'new_1',
 			ttl: 'Теперь СPА-маркетингом управлять проще: новая система от Acurella',
 			date: '12 сентября 2020'
 		},
 		{
 			link: 'new-3.html',
-			src: 'img/new_2.jpg',
+			src: 'new_2',
 			ttl: 'Эталонная работа операторов и менеджеров за счет современной CRM',
 			date: '04 августа 2020'
 		},
 		{
 			link: 'new-4.html',
-			src: 'img/new_5.jpg',
+			src: 'new_5',
 			ttl: 'Цифровая трансформация: бонус или залог выживания?',
 			date: '20 июня 2020'
 		},
 		{
 			link: 'new-5.html',
-			src: 'img/new_3.jpg',
+			src: 'new_3',
 			ttl: 'Своевременные закупки в нужном объеме с новым решением от Acurella',
 			date: '19 мая 2020'
 		},
 		{
 			link: 'new-6.html',
-			src: 'img/new_6.jpg',
+			src: 'new_6',
 			ttl: 'Преимущества API-интеграции',
 			date: '05 апреля 2020'
 		}

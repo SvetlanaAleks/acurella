@@ -2,6 +2,8 @@ extends templates/layout/layout.pug
 block head
 	title Customer Relationship Management (CRM)
 block content
+	include templates/mixins/menu.pug
+	+menu("product-crm")
 	include templates/products/crm/header
 	include templates/products/crm/statistics
 	include templates/products/crm/advantages

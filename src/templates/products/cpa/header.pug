@@ -1,8 +1,14 @@
+- var HEADER_CPA = LANG.cpa.header;
+- var BUTTONS = LANG.btns;
+
 header.header-main
 	.container
 		.header-main__content
-			h2.header-main__title.title.title--light.title--1 Cost Per Action Marketing (CPA)
-			p.header-main__text.text-2--1 Сетевая платформа для аффилированного маркетинга создана с целью помочь рекламодателю и веб-мастеру взаимовыгодно посотрудничать, а владельцам СРА-сетей — проконтролировать выполнение условий сделки.
-			a.header-main__btn.btn.btn--empty(href="#") Узнать подробнее
+			h2.header-main__title.title.title--light.title--1= HEADER_CPA.title
+			p.header-main__text.text-2--1= HEADER_CPA.desc
+			a.header-main__btn.btn.btn--empty(href="#")= BUTTONS.btn_text_2
 		.header-main__wrap-img
-			img.header-main__img(src="img/preview_cpa.png", alt="cpa")
+			picture
+				source(srcset="img/preview_cpa.webp", type="image/webp")
+				source(srcset="img/preview_cpa@2x.png")
+				img.header-main__img(src="img/preview_cpa.png", alt="cpa")

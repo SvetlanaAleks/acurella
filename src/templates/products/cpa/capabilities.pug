@@ -1,22 +1,12 @@
+- var CAPABILITIES_CPA = LANG.cpa.capabilities;
+
 include ../../mixins/list-optm
 
--
-	const listArrayCapabilities= {
-		color: 'orange',
-		list: [
-			'Пошаговый процесс<br> создания оффера',
-			'Возможность создавать<br> конкурсы и управлять ими',
-			'Просмотр статистики с многоуровневой детализацией',
-			'Настройка видимости <br>сообщений',
-			'Возможность просматривать активность партнера',
-			'Готовые антифрод-<br>решения'
-		]
-	};
 
 section.capabilities
 	.container
-		h2.capabilities__title.title.title--dark.title--3 Больше возможностей для рекламодателя
+		h2.capabilities__title.title.title--dark.title--3= CAPABILITIES_CPA.title
 		.capabilities__wrap
 			.capabilities__left
 				img.capabilities__img(src="img/svg/capabilities_cpa.svg", alt="integration_crm")
-			+list-optm(listArrayCapabilities)
+			+list-optm(CAPABILITIES_CPA.listArrayCapabilities)

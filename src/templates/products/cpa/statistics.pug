@@ -1,18 +1,20 @@
+- var STATISTICS_CPA = LANG.cpa.statistics;
+
 section.statistics-prod
 	.container
 		.statistics-prod__top
-			h2.statistics-prod__title.title.title--dark.column-big Контроль СРА сети&nbsp;на 360°
-			p.statistics-prod__desc.text-2--2 Высокотехнологичное решение для СРА-сетей позволяет в режиме реального времени управлять партнерской сетью, рекламными материалами и отношениями с аффилированными лицами.
+			h2.statistics-prod__title.title.title--dark.column-big!= STATISTICS_CPA.title
+			p.statistics-prod__desc.text-2--2!= STATISTICS_CPA.desc
 		.statistics-prod__bottom
 			.item-st.item-st--orange
 				.item-st__wrap
 					p.item-st__ttl 35+
-					p.item-st__text Стран в обслужи&shy;вании
+					p.item-st__text!= STATISTICS_CPA.item_text_1
 			.item-st.item-st--orange
 				.item-st__wrap
 					p.item-st__ttl 24/7
-					p.item-st__text Круглосуточная поддержка
+					p.item-st__text!= STATISTICS_CPA.item_text_2
 			.item-st.item-st--orange
 				.item-st__wrap
 					p.item-st__ttl 3 800
-					p.item-st__text Более 3 800 пользова&shy;телей
+					p.item-st__text!= STATISTICS_CPA.item_text_3
