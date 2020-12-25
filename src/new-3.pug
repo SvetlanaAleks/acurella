@@ -1,7 +1,10 @@
 extends templates/layout/layout-dark.pug
 block head
-	title Эталонная работа операторов и менеджеров за счет современной CRM
+	- var TITLE = LANG.new_3.title_main;
+	title= TITLE
 block content
+	include templates/mixins/menu-dark.pug
+	+menu-dark("new-3")
 	include templates/news/new-3/header
 	include templates/news/new-3/content
 	include templates/news
