@@ -1,9 +1,9 @@
+- var NEW_2 = LANG.new_2;
+
 header.header-new
 	.container
 		.header-new__content
 			.header-new__col.date
 				p.date__day 12
-				p.date__month Сентября 
-					br
-					| 2020
-			h1.header-new__title.title.title--dark.title--2 Теперь СPА-маркетингом управлять проще: новая система от Acurella
+				p.date__month!= NEW_2.date
+			h1.header-new__title.title.title--dark.title--2= NEW_2.title_main

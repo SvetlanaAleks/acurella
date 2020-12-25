@@ -598,5 +598,60 @@
     "interruption": {
       "title": "Are you ready to test all the features<br> of Acurella solutions for free?"
     }
+  },
+  "news": {
+    "title": "News",
+    "newArray": [
+      {
+        "link": "new-1.html",
+        "src": "new_4",
+        "ttl": "Как COVID-19 навсегда изменил бизнес-процессы",
+        "date": "23 октября 2020"
+      },
+      {
+        "link": "new-2.html",
+        "src": "new_1",
+        "ttl": "Now CPA marketing is easier to manage: a new system from Acurella",
+        "date": "12 сентября 2020"
+      },
+      {
+        "link": "new-3.html",
+        "src": "new_2",
+        "ttl": "Reference work of operators and managers at the expense of modern CRM",
+        "date": "04 августа 2020"
+      },
+      {
+        "link": "new-4.html",
+        "src": "new_5",
+        "ttl": "Цифровая трансформация: бонус или залог выживания?",
+        "date": "20 июня 2020"
+      },
+      {
+        "link": "new-5.html",
+        "src": "new_3",
+        "ttl": "Timely purchases in the right volume with the new solution from Acurella",
+        "date": "19 мая 2020"
+      },
+      {
+        "link": "new-6.html",
+        "src": "new_6",
+        "ttl": "Преимущества API-интеграции",
+        "date": "05 апреля 2020"
+      }
+    ]
+  },
+  "new_2": {
+    "title_main": "Now CPA marketing is easier to manage: a new system from Acurella",
+    "date": "Сентября <br />2020",
+    "content": {
+      "text_1": "Companies that sell a mass product to a wide audience are faced with the need to constantly attract new customers. ",
+      "text_2": "CPA networks, intermediaries between advertisers and webmasters, help to automate and optimize the process. At the same time, the first ones get high-quality traffic, and the second ones get a stipulated payment for their work. ",
+      "text_3": "Creating a system for marketing, Acurella aimed to simplify and secure the process of interaction between the parties as much as possible by digitalizing their work. CPA solution can be used by 4 parties at the same time:",
+      "item_1": "Advertisers (to configure and manage offers, monitor the quality of the traffic, carry out the payment).",
+      "item_2": "Webmasters (to find offers through a convenient filter system, launch and edit promo materials, conduct tests).",
+      "item_3": "Network administrators (to monitor the transparency of interaction between advertisers and webmasters).",
+      "item_4": "Company top managers (to monitor the performance of the team through aggregated reporting).",
+      "text_4": "Thus, the CPA marketing solution helps advertisers and webmasters to exchange effectively the services, reducing the dependence on the manual factor."
+    }
   }
 }
