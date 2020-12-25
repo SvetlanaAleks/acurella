@@ -1,27 +1,42 @@
+- var INTEGRATION_SCM = LANG.scm.integration;
+
+
 section.integration.integration--scm
 	.container
-		h2.integration__title.title.title--dark.title--2 Простая интеграция
-		p.integration__subtitle.text-2--2 С помощью инструментов API система может быть интегрирована с программным обеспечением Acurella, а также сторонним программным обеспечением.
+		h2.integration__title.title.title--dark.title--2= INTEGRATION_SCM.title_main
+		p.integration__subtitle.text-2--2= INTEGRATION_SCM.desc
 		.integration__wrap
 			.integration__info
-				h2.integration__ttl.title.title--dark.title--3 Легкое планирование
-				p.integration__text.text-2.text-2--1 Система помогает делать расчёт оптимального запаса для каждой позиции с учетом прогноза спроса и страхового запаса.
+				h2.integration__ttl.title.title--dark.title--3= INTEGRATION_SCM.title_1
+				p.integration__text.text-2.text-2--1= INTEGRATION_SCM.desc_1
 			.integration__col
 				img.integration__img(src="img/svg/integration_scm_1.svg", alt="integration_scm")
 	.integration__center
-		h2.integration__ttl-small.title.title--dark.title--4 Широкие функциональные возможности
+		h2.integration__ttl-small.title.title--dark.title--4= INTEGRATION_SCM.title_slider
 		.integration__slider.slider-int.js-integration-slider
 			.slider-int__photo
-				img(src="img/integration_slider_scm_1.jpg", alt="photo")
+				picture
+					source(srcset="img/integration_slider_scm_1.webp", type="image/webp")
+					source(srcset="img/integration_slider_scm_1@2x.png")
+					img(src="img/integration_slider_scm_1.jpg", alt="photo")
 			.slider-int__photo
-				img(src="img/integration_slider_scm_2.jpg", alt="photo")
+				picture
+					source(srcset="img/integration_slider_scm_2.webp", type="image/webp")
+					source(srcset="img/integration_slider_scm_2@2x.png")
+					img(src="img/integration_slider_scm_2.jpg", alt="photo")
 			.slider-int__photo
-				img(src="img/integration_slider_scm_3.jpg", alt="photo")
+				picture
+					source(srcset="img/integration_slider_scm_3.webp", type="image/webp")
+					source(srcset="img/integration_slider_scm_3@2x.png")
+					img(src="img/integration_slider_scm_3.jpg", alt="photo")
 			.slider-int__photo
-				img(src="img/integration_slider_scm_4.jpg", alt="photo")
+				picture
+					source(srcset="img/integration_slider_scm_4.webp", type="image/webp")
+					source(srcset="img/integration_slider_scm_4@2x.png")
+					img(src="img/integration_slider_scm_4.jpg", alt="photo")
 	.container
 		.integration__bottom
 			img.integration__photo(src="img/svg/integration_scm_2.svg", alt="integration_scm")
 			.integration__desc
-				h2.integration__subject.title.title--dark.title--3 Автоматизиро&shy;ванная сортировка
-				p.integration__text.text-2.text-2--1 Пользователи системы могут в несколько кликов группировать товары, задавать и создавать новые свойства в интерактивном режиме.
+				h2.integration__subject.title.title--dark.title--3!= INTEGRATION_SCM.title_2
+				p.integration__text.text-2.text-2--1= INTEGRATION_SCM.desc_2

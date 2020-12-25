@@ -2,6 +2,8 @@ extends templates/layout/layout.pug
 block head
 	title Supply Chain Management (SCM)
 block content
+	include templates/mixins/menu.pug
+	+menu("product-scm")
 	include templates/products/scm/header
 	include templates/products/scm/statistics
 	include templates/products/scm/advantages

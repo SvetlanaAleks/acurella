@@ -1,6 +1,7 @@
+- var INTERRUPTION_ABOUT = LANG.about.interruption;
+
+
 div.interruption
 	.container
-		h2.interruption__title.title.title--light.title--4 Готовы протестировать все возможности решений
-			br
-			| Acurella бесплатно?
+		h2.interruption__title.title.title--light.title--4!= INTERRUPTION_ABOUT.title
 		include ../form-int

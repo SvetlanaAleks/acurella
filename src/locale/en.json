@@ -424,5 +424,179 @@
     "interruption": {
       "title": "Order Demo and test the capabilities of<br> customer relationship management software"
     }
+  },
+  "scm": {
+    "header": {
+      "title": "Supply Chain Management (SCM)",
+      "desc": "Supply chain management system provides companies with state-of-the-art tools for tracking the entire production chain: from planning purchases of goods to sending orders."
+    },
+    "statistics": {
+      "title": "All the necessary functions in one place",
+      "desc": "The system collects, stores and processes data necessary for making correct management decisions and making forecasts. Now everything is under control: the system automatically keeps records of goods, controls delivery times, helps to choose the optimal volume of purchases, plan payments, make an action plan in case of force majeure and not only.",
+      "item_text_1": "More than 35 countries",
+      "item_text_2": "24/7/365 support",
+      "item_text_3": "More than 1700 users"
+    },
+    "advantages": [
+      "Convenient detailed accounting of planned and already implemented purchases for logisticians",
+      "Complete accounting of products, their statuses, specifications and other relevant information for commodity experts",
+      "The possibility of setting and monitoring tasks for a delivery for couriers and dispatchers"
+    ],
+    "description": {
+      "title_1": "Supply chain planning",
+      "desc_1": "The system allows you to create graphs, make predictions, and design the supply network to simulate different situations, etc. ",
+      "title_2": "Supply chain execution",
+      "desc_2": "The next step is the timely launch, operational tracking and control of the implementation of logistics operations.",
+      "title_form": "Are you ready to experience all the possibilities of logistics software?"
+    },
+    "functions": {
+      "title": "Key benefits",
+      "functionsArray": [
+        {
+          "ttl": "Single<br> database",
+          "text": "All records of orders placed, product costs, and planned receipt dates"
+        },
+        {
+          "ttl": "Up-to-date<br> information 24/7",
+          "text": "Editing information about stocks, orders and deliveries in real time"
+        },
+        {
+          "ttl": "Business process<br> optimization",
+          "text": "Limited access to individual functions for all roles involved in the business process"
+        },
+        {
+          "ttl": "Intelligent<br> forecasts",
+          "text": "Built-in scheduling function of the schedule of payments on the basis of the procurement plans"
+        },
+        {
+          "ttl": "Aggregated<br> reporting",
+          "text": "Customizable reports with filtering, grouping, and drill-down tools"
+        },
+        {
+          "ttl": "Delivery<br> automation",
+          "text": "The ability to distribute the orders among couriers and monitor their implementation"
+        }
+      ]
+    },
+    "integration": {
+      "title_main": "Integration has never been so easy",
+      "desc": "With the help of API tools, the system can be integrated with Acurella software, as well as third-party software (for example, warehouse management system, logistics, etc.)",
+      "title_1": "Easy planning",
+      "desc_1": "The system helps to calculate the optimal stock for each position, taking into account the demand forecast and the insurance stock.",
+      "title_2": "Automated sorting",
+      "desc_2": "Users of the system can in a few clicks organize your products, set and create new properties in an interactive way.",
+      "title_slider": "Широкие функциональные возможности"
+    },
+    "information": {
+      "text": "Order management has never been easier. Acurella creates intuitive solutions that do not require special training and do not allow a beginner to get involved in business processes from the first working day. ",
+      "name": "Богдан Бровый",
+      "post": "Head of Sales Department"
+    },
+    "faq": {
+      "title": "FAQ",
+      "desc": "Answers to popular questions. Если вы не нашли ответ на ваш вопрос, вы можете задать его написав в службу поддержки",
+      "questionArray": [
+        {
+          "ttl": "What are SCM systems for?",
+          "text": "SCM systems help you to manage easily the supply chains of any complexity."
+        },
+        {
+          "ttl": "How do they simplify orders management?",
+          "text": "The platform automates the management of all stages of the company's supply and control of goods movement: purchase of raw materials, materials, production and distribution of products."
+        },
+        {
+          "ttl": "Who can use Acurella solutions?",
+          "text": "Logisticians, commodity experts, financiers, couriers, administrators and top managers have access to the platform through two-factor authentication."
+        },
+        {
+          "ttl": "What does the system consist of?",
+          "text": "Logistics planning and management system are built on the 1C program: Enterprise 8 with MS SQL Server as the DBMS core."
+        },
+        {
+          "ttl": "How clear is the system?",
+          "text": "All user-facing parts of the system are performance-oriented. Each feature is intuitively understandable without special training."
+        },
+        {
+          "ttl": "How secure is the platform?",
+          "text": "All sites and public subsystems are resistant to DDoS attacks, unauthorized access, cryptographic blocking attacks, etc. Data is transmitted over secure channels (HTTPS, TLS)."
+        },
+        {
+          "ttl": "How long will the system remain up-to-date?",
+          "text": "The expected service life of the system is at least 10 years."
+        },
+        {
+          "ttl": "How to track the effectiveness of your employees?",
+          "text": "The system already has built-in tools for analyzing key performance indicators using customizable dashboards."
+        },
+        {
+          "ttl": "Can there be any problems with the access to the system?",
+          "text": "Platform sites and subsystems are available 24/7/365. We guarantee 99.95% uptime."
+        }
+      ]
+    },
+    "interruption": {
+      "title": "Order Demo and test the capabilities<br> of the supply chain management software"
+    }
+  },
+  "about": {
+    "header": {
+      "title": "Accelerate your business prosperity with the help of modern IT-solutions"
+    },
+    "philosophy": {
+      "title_1": "Our strategy",
+      "desc_1": "We guarantee business owners the high-quality services for software development, implementation and support 24/7. The high quality standards that apply to each product make them ultra-reliable, productive and intuitive for every user.",
+      "title_2": "Our mission",
+      "desc_2": "To provide customers with reliable and convenient solutions that will help simplify the work of the business, build up from competitors and reach new results. We strive to turn each client into a brand advocate and build an excellent reputation through practical cases from various business sectors.",
+      "title_3": "Team philosophy",
+      "desc_3_1": "Acurella solutions have been successfully implemented in thousands of companies around the world. In order to maintain an excellent reputation, we attract and retain developers who meet the highest standards of performance and ethics. ",
+      "desc_3_2": "Acurella team continuously monitors IT trends and improves its skills, challenging itself all the time."
+    },
+    "team": {
+      "title_main": "Ключевая команда",
+      "employeeArray": [
+        {
+          "name": "Carlos Gustalino",
+          "post": "CEO"
+        },
+        {
+          "name": "Alexey Truzhinin",
+          "post": "CTO"
+        },
+        {
+          "name": "Alisa Pushkina",
+          "post": "Head of Business Development (EMEA)"
+        },
+        {
+          "name": "Spyros Platis",
+          "post": "Team Lead"
+        },
+        {
+          "name": "Andreas Karpasitis",
+          "post": "Software Developer"
+        },
+        {
+          "name": "Bojko Olga",
+          "post": "Lawyer"
+        },
+        {
+          "name": "Anna Prokhorova",
+          "post": "QA Team Lead"
+        }
+      ],
+      "title": "Мы всегда рады<br /> новым талантам",
+      "desc": "Мы ищем мбициозных и талантливых профессионалов, которые не боятся бросать себе вызовы и отстаивают интересы наших клиентов.",
+      "btn": "Присоединиться"
+    },
+    "solutions": {
+      "title": "Required software in&nbsp;one place",
+      "desc": "We strive to create complete solutions that fully cover the client's tasks. Each stage of the transaction is strictly controlled and recorded by the system: starting from customer acquisition (CPA), ending with order fulfillment (CRM) and fast delivery due to timely replenishment of stocks (SCM).",
+      "solution_ttl_1": "Май 2019",
+      "solution_ttl_2": "Февраль 2020",
+      "solution_ttl_3": "Сентябрь 2020",
+      "solution_ttl_4": "Июль 2021"
+    },
+    "interruption": {
+      "title": "Are you ready to test all the features<br> of Acurella solutions for free?"
+    }
   }
 }

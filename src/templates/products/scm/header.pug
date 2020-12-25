@@ -1,8 +1,14 @@
+- var HEADER_SCM = LANG.scm.header;
+- var BUTTONS = LANG.btns;
+
 header.header-main
 	.container
 		.header-main__content
-			h2.header-main__title.title.title--light.title--1 Supply Chain Management (SCM)
-			p.header-main__text.text-2--1 Cистема управления цепями поставок предоставляет компаниям современные инструменты для отслеживания всей производственной цепочки: от планирования закупок товаров до отправки заказов.
-			a.header-main__btn.btn.btn--empty(href="#") Узнать подробнее
+			h2.header-main__title.title.title--light.title--1= HEADER_SCM.title
+			p.header-main__text.text-2--1= HEADER_SCM.desc
+			a.header-main__btn.btn.btn--empty(href="#")= BUTTONS.btn_text_2
 		.header-main__wrap-img
-			img.header-main__img(src="img/preview_scm.png", alt="scm")
+			picture
+				source(srcset="img/preview_scm.webp", type="image/webp")
+				source(srcset="img/preview_scm@2x.png")
+				img.header-main__img(src="img/preview_scm.png", alt="scm")

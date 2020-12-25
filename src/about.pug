@@ -2,6 +2,8 @@ extends templates/layout/layout.pug
 block head
 	title About us
 block content
+	include templates/mixins/menu.pug
+	+menu("about")
 	include templates/about/header
 	include templates/about/philosophy
 	include templates/about/team

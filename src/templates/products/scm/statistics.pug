@@ -1,20 +1,20 @@
+- var STATISTICS_SCM = LANG.scm.statistics;
+
 section.statistics-prod
 	.container
 		.statistics-prod__top
-			h2.statistics-prod__title.title.title--dark.column-big Все нужные
-				br
-				|  функции в одном месте
-			p.statistics-prod__desc.text-2--2 Система собирает, хранит и обрабатывает данные, необходимые для принятия правильных управленческих решений и составления прогнозов. Теперь под контролем всё: система автоматически ведет учет товара, контролирует сроки доставки, помогает подобрать оптимальный объём закупок, спланировать платежи, составить план действий на случай форс-мажора и не только.
+			h2.statistics-prod__title.title.title--dark.column-big!= STATISTICS_SCM.title
+			p.statistics-prod__desc.text-2--2= STATISTICS_SCM.desc
 		.statistics-prod__bottom
 			.item-st.item-st--gold
 				.item-st__wrap
 					p.item-st__ttl 35+
-					p.item-st__text Стран в обслужи&shy;вании
+					p.item-st__text!= STATISTICS_SCM.item_text_1
 			.item-st.item-st--gold
 				.item-st__wrap
 					p.item-st__ttl 24/7
-					p.item-st__text Круглосуточная поддержка
+					p.item-st__text!= STATISTICS_SCM.item_text_2
 			.item-st.item-st--gold
 				.item-st__wrap
 					p.item-st__ttl 1 700
-					p.item-st__text Более 1 700 пользова&shy;телей
+					p.item-st__text!= STATISTICS_SCM.item_text_3

@@ -1,3 +1,6 @@
+- var DESCRIPTION_SCM = LANG.scm.description;
+
+
 section.description.description--scm
 	.container
 		.description__top
@@ -5,14 +8,14 @@ section.description.description--scm
 				.description__col
 					img(src="img/svg/description_scm_1.svg", alt="image")
 				.description__desc
-					p.description__ttl.title.title--dark.title--3 Планирование цепочек поставок
-					p.description__text.text-2--1 Система позволяет формировать графики, составлять прогнозы, проектировать сети поставок, моделировать разные ситуации и т.д.
+					p.description__ttl.title.title--dark.title--3= DESCRIPTION_SCM.title_1
+					p.description__text.text-2--1= DESCRIPTION_SCM.desc_1
 			.description__row
 				.description__desc
-					p.description__ttl.title.title--dark.title--3 Выполнение цепочек поставок
-					p.description__text.text-2--1 Следующий шаг — своевременный запуск, оперативное отслеживание и контроль реализации логистических операций.
+					p.description__ttl.title.title--dark.title--3= DESCRIPTION_SCM.title_2
+					p.description__text.text-2--1= DESCRIPTION_SCM.desc_2
 				.description__col
 					img(src="img/svg/description_scm_2.svg", alt="image")
 		.description__bottom
-			h2.description__title.title.title--dark.title--4 Готовы испытать все возможности ПО для колл-центров и отделов продаж?
+			h2.description__title.title.title--dark.title--4= DESCRIPTION_SCM.title_form
 			include ../../form-int
