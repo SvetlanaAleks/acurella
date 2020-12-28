@@ -1,8 +1,14 @@
+- var HEADER_CASE = LANG.case.header;
+- var BUTTONS = LANG.btns;
+
 header.header-main.header-main--case
 	.container
 		.header-main__content
-			h2.header-main__title.title.title--light.title--1 3-кратный рост продаж после диджитализации
-			p.header-main__text.text-2--1 Как выйти на предсказуемые результаты с помощью цифровой экосистемы
-			a.header-main__btn.btn.btn--empty(href="#") Читать подробнее
+			h2.header-main__title.title.title--light.title--1= HEADER_CASE.title
+			p.header-main__text.text-2--1= HEADER_CASE.desc
+			a.header-main__btn.btn.btn--empty(href="#")= BUTTONS.btn_text_2
 		.header-main__wrap-img
-			img.header-main__img(src="img/preview_case.png", alt="scm")
+			picture
+				source(srcset="/img/preview_case.webp", type="image/webp")
+				source(srcset="/img/preview_case@2x.png")
+				img.header-main__img(src="/img/preview_case.png", alt="scm")

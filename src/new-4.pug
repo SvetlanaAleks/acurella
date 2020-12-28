@@ -2,6 +2,8 @@ extends templates/layout/layout-dark.pug
 block head
 	title Цифровая трансформация: бонус или залог выживания?
 block content
+	include templates/mixins/menu-dark.pug
+	+menu-dark("new-4")
 	include templates/news/new-4/header
 	include templates/news/new-4/content
 	include templates/news

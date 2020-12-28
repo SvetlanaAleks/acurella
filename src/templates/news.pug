@@ -3,12 +3,13 @@
 mixin new(item)
 	a.new(href=item.link)
 		picture
-			source(srcset='img/' + item.src + '.webp', type="image/webp")
-			source(srcset='img/' + item.src + '@2x.jpg')
-			img.new__img(src='img/' + item.src + '.jpg', alt="photo")
+			source(srcset='/img/' + item.src + '.webp', type="image/webp")
+			source(srcset='/img/' + item.src + '@2x.jpg')
+			img.new__img(src='/img/' + item.src + '.jpg', alt="photo")
 		.new__info
 			p.new__ttl.title.title--dark.title--5!=item.ttl
 			p.new__date!=item.date
+
 
 section.news
 	.container

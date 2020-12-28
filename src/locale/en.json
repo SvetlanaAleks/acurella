@@ -1,5 +1,16 @@
 {
   "locale": "en",
+  "popup_demo": {
+    "title": "Попробуйте демо-версию",
+    "desc": "Send your request and we will find an individual solution that will solve your business problems",
+    "input_name": "Your name",
+    "input_phone": "Phone number",
+    "input_email": "Email",
+    "input_company": "Company name",
+    "textarea": "Your message",
+    "checkbox": "I agree to receive information about the best developments and special offers of Acurella",
+    "btn": "Send your message"
+  },
   "menu": {
     "link1": "Company",
     "link2": "Products",
@@ -29,7 +40,8 @@
   "btns": {
     "btn_text_1": "Try demo",
     "btn_text_2": "Read more",
-    "btn_text_3": "Order a demo version"
+    "btn_text_3": "Order a demo version",
+    "btn_text_4": "Contact us"
   },
   "advantage_list": [
     "Access to the sites and subsystems of the platform 24/7/365",
@@ -52,28 +64,28 @@
       "desc": "Acurella provides flexible solutions for online business, taking into account industry specifics and helping companies to adapt to the challenges of the modern business environment.",
       "productArray": [
         {
-          "link": "product-cpa.html",
+          "link": "/product-cpa.html",
           "ttl": "Cost Per Action<br> Marketing",
           "text": "A ready-made solution for CPA networks that protects and simplifies the interaction of webmasters and advertisers. ",
           "name": "CPA"
         },
         {
-          "link": "product-crm.html",
+          "link": "/product-crm.html",
           "ttl": "Customer Relationship Management",
           "text": "System for automating complex strategies for interaction with customers and increasing sales.",
           "name": "CRM"
         },
         {
-          "link": "product-scm.html",
+          "link": "/product-scm.html",
           "ttl": "Supply Chain<br> Management",
           "text": "System that allows real-time management of complex supply chains",
           "name": "SCM"
         },
         {
-          "link": "integrations.html",
+          "link": "/integrations.html",
           "ttl": "INTEGRATIONS",
           "text": "Acurella solutions are easily integrated into the online business infrastructure",
-          "name": "<>"
+          "name": "&lt;&gt;"
         }
       ]
     },
@@ -603,37 +615,37 @@
     "title": "News",
     "newArray": [
       {
-        "link": "new-1.html",
+        "link": "/new-1.html",
         "src": "new_4",
         "ttl": "Как COVID-19 навсегда изменил бизнес-процессы",
         "date": "23 октября 2020"
       },
       {
-        "link": "new-2.html",
+        "link": "/new-2.html",
         "src": "new_1",
         "ttl": "Now CPA marketing is easier to manage: a new system from Acurella",
         "date": "12 сентября 2020"
       },
       {
-        "link": "new-3.html",
+        "link": "/new-3.html",
         "src": "new_2",
         "ttl": "Reference work of operators and managers at the expense of modern CRM",
         "date": "04 августа 2020"
       },
       {
-        "link": "new-4.html",
+        "link": "/new-4.html",
         "src": "new_5",
         "ttl": "Цифровая трансформация: бонус или залог выживания?",
         "date": "20 июня 2020"
       },
       {
-        "link": "new-5.html",
+        "link": "/new-5.html",
         "src": "new_3",
         "ttl": "Timely purchases in the right volume with the new solution from Acurella",
         "date": "19 мая 2020"
       },
       {
-        "link": "new-6.html",
+        "link": "/new-6.html",
         "src": "new_6",
         "ttl": "Преимущества API-интеграции",
         "date": "05 апреля 2020"
@@ -670,6 +682,184 @@
       "item_6": "as a top manager of the company;",
       "item_7": "as a logistics service employee.",
       "text_5": "Thus, with Acurella CRM, you can not only automate the entire process of order management, but also track the result in a few clicks through the system of aggregated reports."
+    }
+  },
+  "new_5": {
+    "title_main": "Timely purchases in the right volume with the new solution from Acurella",
+    "date": "Мая <br />2020",
+    "content": {
+      "text_1": "The ability to choose the optimal volume of the order batch is a prerequisite for improving the efficiency of the enterprise. If the batch is too large, it can be fraught with freezing of funds. In addition, if it is too small, administrative costs increase for repeated orders.",
+      "text_2": "Supply chain management (SCM) software helps to integrate the management of raw materials, materials, products and services related to production and logistics. Thus, the customer always receives the ordered goods on time and in the right amount, and the company reduces costs significantly.",
+      "text_3": "Representatives of different companies that are involved in the search for materials, the manufacturing process of products and their delivery can use the supply chain management system. At the same time, each of them will have limited access to the processes where it participates.",
+      "text_4": "Acurella system can simplify at times the interaction:",
+      "item_1": "of merchandise;",
+      "item_2": "financiers;",
+      "item_3": "employees of the logistics service;",
+      "item_4": "managers;",
+      "item_5": "administrators;",
+      "item_6": "couriers;",
+      "item_7": "top managers.",
+      "text_5": "Acurella software helps to automate the management of all stages of supply of the enterprise and control the movement of goods: the purchase of raw materials, production, and distribution of products."
+    }
+  },
+  "case": {
+    "header": {
+      "title": "3-fold sales growth after digitalization",
+      "desc": "How to achieve predictable results with the help of the digital ecosystem?"
+    },
+    "steps": {
+      "title_1": "Problem description",
+      "desc_1": "In order to meet the challenges of the market and to form an aggressive competitive position, Smart Media has reformed its business strategy in favor of digital transformation. With the help of Acurella solutions, the company sought to develop logistics and courier delivery. In fact, the built ecosystem helped not only to debug the delivery process of goods, but also to improve customer service, optimize marketing budgets and maintain the corporate atmosphere.",
+      "title_2": "Client",
+      "desc_2": "Smart Media is a diversified media holding company with a large division that sells products on the Internet and wants to develop its logistics and courier delivery.",
+      "title_3": "Solution",
+      "desc_3": "CRM for order management. CPA to optimize marketing budgets. SCM for planning and controlling logistics processes."
+    },
+    "indicators": {
+      "title": "Results",
+      "desc": "In the course of its work, Acurella used the company's internal assets to create a new, unique market offer. ",
+      "indicatorArray": [
+        "<span>1 500+</span> of new<br> clients in CRM system",
+        "Less than <span>1%</span><br> of overdue orders",
+        "Increase <span>from 10% to 30%</span> of promotional materials effectiveness ",
+        "Reduce by <span>80%</span> of manual factor dependence",
+        "Increase by <span>1,5</span> times in average check and LTV of client",
+        "Increase by <span>3</span> times of the company's net profit"
+      ]
+    },
+    "information": {
+      "text": "The best part is that now we can control every process. We have a powerful competitive advantage that fully meets the challenges of the time. The main thing is that the ecosystem is dynamic and can be easily adjusted. All Acurella systems are integrated with each other and can be integrated via API network with any third-party software",
+      "name": "Vlad Matrosov",
+      "post": "Head of Smart Media Sales Department"
+    },
+    "purpose": {
+      "title": "Goals",
+      "desc": "Our main task was to help Smart Media to gain new competitive advantages and scale its own activities.",
+      "item_1": "To create an intuitive digital ecosystem",
+      "item_2": "To allow the users of systems to interact easily with each other",
+      "item_3": "To use the functionality of the system to attract clients",
+      "item_4": "To provide additional services for data storage and analysis",
+      "item_5": "To combine the services of many external companies to quickly track order statuses",
+      "item_6": "To set up a dynamic request management process to improve communication with customers",
+      "item_7": "To open the possibility for new three-way integrations via API network",
+      "item_8": "To set up aggregated reporting for top managers",
+      "item_9": "To ensure 99.95% uptime",
+      "item_10": "To ensure data protection through encryption systems"
+    },
+    "statistics": {
+      "title": "Solution",
+      "desc": "Cyclical ecosystem for the C. O. D model helped to take control of the entire transaction cycle and achieve maximum efficiency at each stage.",
+      "item_1": "More than 10 countries ",
+      "item_2": "24/7/365 support",
+      "item_3": "More than 1500 users"
+    },
+    "interruption": {
+      "title": "Are you ready to reach new business results using<br> high-tech software?"
+    }
+  },
+  "cereer": {
+    "title": "Карьера",
+    "header": {
+      "title": "Software that units processes, systems and people"
+    },
+    "vacancies": {
+      "title_1": "Who are we?",
+      "desc_1": "The team of ideologists who strive to simplify and optimize the work of online companies through reliable, secure and high-tech software. We are united by a love of technology and a desire to realize the potential in bold solutions that will be used in thousands of companies around the world.",
+      "title_2": "Who are we looking for?",
+      "desc_2": "Ambitious and talented professionals who are not afraid to challenge themselves and defend the interests of our clients. We are looking for our people in all corners of the globe and are ready to support their desire to develop and implement promising ideas in life.",
+      "title_3": "Open vacancies",
+      "table_ttl_1": "Position",
+      "table_ttl_2": "Type",
+      "table_ttl_3": "Location",
+      "vacancyArray": [
+        {
+          "position": "Business Systems Analyst",
+          "direction": "BA",
+          "place": "Anywhere"
+        },
+        {
+          "position": "Engineering Lead - Android (Unfold)",
+          "direction": "Managements, Development",
+          "place": "Ukraine, Kyiv"
+        },
+        {
+          "position": "Engineering Manager, Product Platform",
+          "direction": "Management",
+          "place": "Ukraine, Kyiv"
+        },
+        {
+          "position": "Engineering Team Lead - Frontend, Interface Architecture",
+          "direction": "Architector",
+          "place": "Anywhere"
+        },
+        {
+          "position": "Engineering Team Manager - Site Reliability (Databases)",
+          "direction": "Development",
+          "place": "Anywhere"
+        },
+        {
+          "position": "GRC Operations, Sr Analyst",
+          "direction": "QA",
+          "place": "Ukraine, Kyiv"
+        },
+        {
+          "position": "Senior Data Engineer, Finance Products",
+          "direction": "Data, Dev",
+          "place": "Cyprus, Nicosia"
+        },
+        {
+          "position": "Senior Security Engineer, Incident Response",
+          "direction": "BA",
+          "place": "Anywhere"
+        },
+        {
+          "position": "Senior Site Reliability Engineer - Observability",
+          "direction": "Managements, Architector Development",
+          "place": "Cyprus, Nicosia"
+        },
+        {
+          "position": "Senior Site Reliability Engineer - Release",
+          "direction": "Management",
+          "place": "Cyprus, Nicosia"
+        }
+      ]
+    },
+    "team": {
+      "title": "Our team",
+      "text_1": "Acurella is a multinational group of ambitious specialists with deep expertise in the field of high technologies. Each of our projects with clients is an important strategic task, which involves the entire team.",
+      "text_2": "Project management is carried out using the SCRUM methodology and is divided into two-week scripts. At the same time, each stage of software implementation is controlled by both Acurella top management and top management of customer company."
+    },
+    "facts": {
+      "title": "Few facts about us",
+      "factArray": [
+        {
+          "ttl": "Unified information field",
+          "text": "We maintain a transparent communication environment, avoiding controversial situations"
+        },
+        {
+          "ttl": "Mission",
+          "text": "We want to raise the efficiency of the business to a peak point"
+        },
+        {
+          "ttl": "Security",
+          "text": "For us the customer's safety is a top priority"
+        },
+        {
+          "ttl": "Corporate values",
+          "text": "We support the desire to help a colleague and honest feedback"
+        },
+        {
+          "ttl": "Balance of work and personal life",
+          "text": "We appreciate the time of rest, which is necessary to restore energy."
+        },
+        {
+          "ttl": "Continuous growth",
+          "text": "We support the desire of employees to develop and help them in every possible way"
+        }
+      ]
+    },
+    "interruption": {
+      "title": "Did not find your vacancy in the list?<br /> Send us your CV: we are always looking forward to new talent"
     }
   }
 }

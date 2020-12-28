@@ -1,7 +1,10 @@
 extends templates/layout/layout-dark.pug
 block head
-	title Своевременные закупки в нужном объеме с новым решением от Acurella
+	- var TITLE = LANG.new_5.title_main;
+	title= TITLE
 block content
+	include templates/mixins/menu-dark.pug
+	+menu-dark("new-5")
 	include templates/news/new-5/header
 	include templates/news/new-5/content
 	include templates/news

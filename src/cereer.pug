@@ -1,7 +1,10 @@
 extends templates/layout/layout.pug
 block head
-	title Cereer
+	- var TITLE_CERRER = LANG.cereer.title;
+	title= TITLE_CERRER
 block content
+	include templates/mixins/menu.pug
+	+menu("cereer")
 	include templates/cereer/header
 	include templates/cereer/vacancies
 	include templates/cereer/team

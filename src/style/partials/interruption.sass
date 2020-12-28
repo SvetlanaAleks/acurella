@@ -48,6 +48,18 @@
 	align-items: center
 	justify-content: center
 	height: 60px
+	&:hover
+		.form-int__select, .select2-container .select2-selection--single
+			border-top: 1px solid #00B0F7
+			border-bottom: 1px solid #00B0F7
+			border-left: 1px solid #00B0F7
+			background: #F2FBFF
+		.form-int__input
+			background: #F2FBFF
+			border-top: 1px solid #00B0F7
+			border-bottom: 1px solid #00B0F7
+			border-left: none
+			border-right: none
 	+r(768)
 		height: 50px
 	+r(640)
@@ -71,8 +83,6 @@
 			bottom: 10px
 			width: 1px
 			background: #CCD5DC
-		&:hover, &:focus
-			border: none
 		+r(768)
 			width: 155px
 		+r(640)

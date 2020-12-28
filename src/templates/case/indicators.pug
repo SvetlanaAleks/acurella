@@ -1,23 +1,15 @@
+- var INDICATORS = LANG.case.indicators;
+
 mixin indicator(indicator)
 	.indicator
 		i.fico.fico-check
 		p.indicator__text.title.title--light.title--5!=indicator
 
--
-	const indicatorArray = [
-		'Более <span>1 500</span> новых<br> клиентов в CRM-системе',
-		'Менее <span>1%</span><br> просроченных заказов',
-		'Рост эффективности <span>с 10% до 30%</span> промо-материалов',
-		'На <span>80%</span> снижение зависимости от ручного фактора',
-		'Увеличение в <span>1,5</span> раза среднего чека и LTV клиента',
-		'В <span>3</span> раза увеличилась чистая прибыль предприятия'
-	];
-
 section.indicators
 	.container
 		.indicators__top
-			h2.indicators__title.title.title--light.title--2.column-big Показатели
-			p.indicators__text.text-3 В ходе работы Acurella использовала внутренние активы предприятия для создания нового, уникального рыночного предложения.
+			h2.indicators__title.title.title--light.title--2.column-big= INDICATORS.title
+			p.indicators__text.text-3= INDICATORS.desc
 		.indicators__bottom
-			each indicator in indicatorArray
+			each indicator in INDICATORS.indicatorArray
 				+indicator(indicator)

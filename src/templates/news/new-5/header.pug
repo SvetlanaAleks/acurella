@@ -1,9 +1,9 @@
+- var NEW_5 = LANG.new_5;
+
 header.header-new
 	.container
 		.header-new__content
 			.header-new__col.date
 				p.date__day 19
-				p.date__month Мая 
-					br
-					| 2020
-			h1.header-new__title.title.title--dark.title--2 Своевременные закупки в нужном объеме с новым решением от Acurella
+				p.date__month!= NEW_5.date
+			h1.header-new__title.title.title--dark.title--2= NEW_5.title_main

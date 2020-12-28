@@ -6,29 +6,29 @@ footer.footer
 	.container
 		.footer__top
 			.footer__col.column
-				img.footer__logo(src="img/svg/logo-b.svg", alt="logo")
+				img.footer__logo(src="/img/svg/logo-b.svg", alt="logo")
 				p.footer__desc.text-3!= FOOTER.desc
 			.footer__links-wrap
 				ul.links
 					li.links__item
-						a.links__link(href="about.html")= MENU.link9
+						a.links__link(href=url(LANG, "about"))= MENU.link9
 					li.links__item
-						a.links__link(href="contacts.html")= MENU.link8
+						a.links__link(href=url(LANG, "contacts"))= MENU.link8
 					li.links__item
-						a.links__link(href="cereer.html")!= MENU.link10
+						a.links__link(href=url(LANG, "cereer"))!= MENU.link10
 				ul.links
 					li.links__item
-						a.links__link(href="case.html")= MENU.link7
+						a.links__link(href=url(LANG, "case"))= MENU.link7
 					li.links__item
-						a.links__link(href="product-cpa.html")= MENU.link3
+						a.links__link(href=url(LANG, 'product-cpa'))= MENU.link3
 					li.links__item
-						a.links__link(href="product-crm.html")= MENU.link4
+						a.links__link(href=url(LANG, 'product-crm'))= MENU.link4
 					li.links__item
-						a.links__link(href="product-scm.html")= MENU.link5
+						a.links__link(href=url(LANG, 'product-scm'))= MENU.link5
 					li.links__item
-						a.links__link(href="integrations.html")= MENU.link6
+						a.links__link(href=url(LANG, "integrations"))= MENU.link6
 			.footer__data.column
-				a.footer__link-tel(href="tel:(+357) 22 090244") (+357) 22 090244
+				a.footer__link-tel(href="tel:+35722090244") (+357) 22 090244
 				p.footer__text.text-3!= FOOTER.address
 			a.footer__btn.btn.btn--empty-dark.js-show-popup(data-target="#popup-demo")= BUTTONS.btn_text_1
 		.footer__bottom

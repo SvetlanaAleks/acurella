@@ -1,72 +1,24 @@
-mixin vacancy(vacancy)
-	a.vacancy(href=vacancy.href)
-		p.vacancy__position.title.title--dark!=vacancy.position
-		p.vacancy__direction!=vacancy.direction
-		p.vacancy__place!=vacancy.place
+- var VACANCIES = LANG.cereer.vacancies;
+
+mixin vacancy(href, position, direction, place)
+	a.vacancy(href=href)
+		p.vacancy__position.title.title--dark!=position
+		p.vacancy__direction!=direction
+		p.vacancy__place!=place
 		i.fico.fico-questionArrow
 
 -
-	const vacancyArray = [
-		{
-			href: 'vacancy.html',
-			position: 'Business Systems Analyst',
-			direction: 'BA',
-			place: 'Anywhere'
-		},
-		{
-			href: '#',
-			position: 'Engineering Lead - Android (Unfold)',
-			direction: 'Managements, Development',
-			place: 'Ukraine, Kyiv'
-		},
-		{
-			href: '#',
-			position: 'Engineering Manager, Product Platform',
-			direction: 'Management',
-			place: 'Ukraine, Kyiv'
-		},
-		{
-			href: '#',
-			position: 'Engineering Team Lead - Frontend, Interface Architecture',
-			direction: 'Architector',
-			place: 'Anywhere'
-		},
-		{
-			href: '#',
-			position: 'Engineering Team Manager - Site Reliability (Databases)',
-			direction: 'Development',
-			place: 'Anywhere'
-		},
-		{
-			href: '#',
-			position: 'GRC Operations, Sr Analyst',
-			direction: 'QA',
-			place: 'Ukraine, Kyiv'
-		},
-		{
-			href: '#',
-			position: 'Senior Data Engineer, Finance Products',
-			direction: 'Data, Dev',
-			place: 'Cyprus, Nicosia'
-		},
-		{
-			href: '#',
-			position: 'Senior Security Engineer, Incident Response',
-			direction: 'BA',
-			place: 'Anywhere'
-		},
-		{
-			href: '#',
-			position: 'Senior Site Reliability Engineer - Observability',
-			direction: 'Managements, Architector Development',
-			place: 'Cyprus, Nicosia'
-		},
-		{
-			href: '#',
-			position: 'Senior Site Reliability Engineer - Release',
-			direction: 'Management',
-			place: 'Cyprus, Nicosia'
-		}
+	const vacancyLinks = [
+		'vacancy.html',
+		'#',
+		'#',
+		'#',
+		'#',
+		'#',
+		'#',
+		'#',
+		'#',
+		'#',
 	];
 
 section.vacancies
@@ -74,19 +26,19 @@ section.vacancies
 		.vacancies__top
 			.vacancies__col
 				i.fico.fico-vacancies1
-				h4.vacancies__title.title.title--dark.title--3 Кто мы
-				p.vacancies__text.text-2.text-2--1 Команда идейников, которые стремятся упростить и оптимизировать работу онлайн-компаний через надежное, безопасное и высокотехнологичное ПО. Нас объединяет любовь к технологиям и желание реализовать потенциал в смелых решениях, которые будут использоваться в тысячах компаний по всему миру.
+				h4.vacancies__title.title.title--dark.title--3= VACANCIES.title_1
+				p.vacancies__text.text-2.text-2--1= VACANCIES.desc_1
 			.vacancies__col
 				i.fico.fico-vacancies2
-				h4.vacancies__title.title.title--dark.title--3 Кого мы ищем
-				p.vacancies__text.text-2.text-2--1 Амбициозных и талантливых профессионалов, которые не боятся бросать себе вызовы и отстаивают интересы наших клиентов. Мы ищем своих людей во всех уголках земного шара и готовы поддержать их стремление развиваться и воплощать перспективные идеи в жизнь 
+				h4.vacancies__title.title.title--dark.title--3= VACANCIES.title_2
+				p.vacancies__text.text-2.text-2--1= VACANCIES.desc_2
 		.vacancies__wrap
-			h4.vacancies__caption.title.title--dark.title--3 Открытые вакансии 
-				span 9
+			h4.vacancies__caption.title.title--dark.title--3= VACANCIES.title_3
+				span  9
 			.vacancies__table-ttl.table-ttl
-				p.table-ttl__text Позиция
-				p.table-ttl__text Направление
-				p.table-ttl__text Место
+				p.table-ttl__text= VACANCIES.table_ttl_1
+				p.table-ttl__text= VACANCIES.table_ttl_2
+				p.table-ttl__text= VACANCIES.table_ttl_3
 			.vacancies__list
-				each vacancy in vacancyArray
-					+vacancy(vacancy)
+				each vacancy, key in VACANCIES.vacancyArray
+					+vacancy(vacancyLinks[key], vacancy.position, vacancy.direction, vacancy.place)

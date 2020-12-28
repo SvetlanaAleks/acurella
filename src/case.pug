@@ -2,6 +2,8 @@ extends templates/layout/layout.pug
 block head
 	title Acurella case
 block content
+	include templates/mixins/menu.pug
+	+menu("case")
 	include templates/case/header
 	include templates/case/steps
 	include templates/case/indicators

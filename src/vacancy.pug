@@ -2,6 +2,8 @@ extends templates/layout/layout-dark.pug
 block head
 	title Lead Product Designer
 block content
+	include templates/mixins/menu-dark.pug
+	+menu-dark("vacancy")
 	include templates/vacancy/header
 	include templates/vacancy/content
 	include templates/cereer/interruption

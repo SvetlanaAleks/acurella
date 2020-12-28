@@ -2,6 +2,8 @@ extends templates/layout/layout-dark.pug
 block head
 	title Преимущества API-интеграции
 block content
+	include templates/mixins/menu-dark.pug
+	+menu-dark("new-6")
 	include templates/news/new-6/header
 	include templates/news/new-6/content
 	include templates/news

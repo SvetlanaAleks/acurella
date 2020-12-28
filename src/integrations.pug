@@ -2,6 +2,8 @@ extends templates/layout/layout.pug
 block head
 	title Integrations
 block content
+	include templates/mixins/menu.pug
+	+menu("integrations")
 	include templates/integrations/header
 	include templates/integrations/integrations-desc
 	include templates/integrations/functions-additional

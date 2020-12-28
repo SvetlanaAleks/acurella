@@ -10,11 +10,16 @@ $(function () {
   Popup.init();
   Controls.init();
   Menu.init();
+  const selectPlaceholder = {
+    ru: "Продукт",
+    en: "Product",
+  };
+
   layout.layoutHandler({
     afterResize: (layout) => {
       $(".js-select--product").select2({
         minimumResultsForSearch: Infinity,
-        placeholder: "Продукт",
+        placeholder: selectPlaceholder[locale],
       });
     },
   });
@@ -25,6 +30,6 @@ $(function () {
 
   $(".js-select--product").select2({
     minimumResultsForSearch: Infinity,
-    placeholder: "Продукт",
+    placeholder: selectPlaceholder[locale],
   });
 });

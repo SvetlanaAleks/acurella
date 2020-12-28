@@ -1,6 +1,7 @@
+- var INTERRUPTION_CERRER = LANG.cereer.interruption;
+- var BUTTONS = LANG.btns;
+
 div.interruption
 	.container
-		h2.interruption__title.title.title--light.title--4 Не нашли вашу вакансию в списке?
-			br
-			|  Отправьте нам резюме: мы всегда рады новым талантам
-		button.interruption__btn.btn.btn--full(data-target="#") Связаться с нами
+		h2.interruption__title.title.title--light.title--4!= INTERRUPTION_CERRER.title
+		button.interruption__btn.btn.btn--full(data-target="#")= BUTTONS.btn_text_4
