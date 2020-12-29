@@ -1,7 +1,7 @@
 {
   "locale": "en",
   "popup_demo": {
-    "title": "Попробуйте демо-версию",
+    "title": "Try demo version",
     "desc": "Send your request and we will find an individual solution that will solve your business problems",
     "input_name": "Your name",
     "input_phone": "Phone number",
@@ -42,7 +42,7 @@
     "btn_text_2": "Read more",
     "btn_text_3": "Order a demo version",
     "btn_text_4": "Contact us",
-    "btn_text_5": "Отправить заявку"
+    "btn_text_5": "Send request"
   },
   "advantage_list": [
     "Access to the sites and subsystems of the platform 24/7/365",
