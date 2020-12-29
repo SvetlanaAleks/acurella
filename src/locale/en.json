@@ -41,7 +41,8 @@
     "btn_text_1": "Try demo",
     "btn_text_2": "Read more",
     "btn_text_3": "Order a demo version",
-    "btn_text_4": "Contact us"
+    "btn_text_4": "Contact us",
+    "btn_text_5": "Отправить заявку"
   },
   "advantage_list": [
     "Access to the sites and subsystems of the platform 24/7/365",
@@ -60,7 +61,7 @@
       "desc_4": "Supply chain management system provides companies with state-of-the-art tools for tracking the entire production chain: from planning purchases of goods to sending orders."
     },
     "products": {
-      "title": "OUR PRODUCTS",
+      "title": "PRODUCTS",
       "desc": "Acurella provides flexible solutions for online business, taking into account industry specifics and helping companies to adapt to the challenges of the modern business environment.",
       "productArray": [
         {
@@ -104,7 +105,7 @@
     "statistics": {
       "title": "Acurella solutions are easily scaled",
       "desc": "Company’s developments support simultaneous operation of: dozens of administrative employees; thousands of branches; dozens of advertisers; thousands of operators. CPA solutions process hundreds of thousands of conversions per day, and CRM solutions process tens of thousands of orders.",
-      "item_ttl_1": "0.3 s",
+      "item_ttl_1": "0,3 sec",
       "item_text_1": "system response time",
       "item_ttl_2": "10 years",
       "item_text_2": "expected service life",
@@ -840,6 +841,205 @@
     },
     "interruption": {
       "title": "Did not find your vacancy in the list?<br /> Send us your CV: we are always looking forward to new talent"
+    }
+  },
+  "vacancy_1": {
+    "header": {
+      "title": "Senior QA Engineer",
+      "text_1": "QA",
+      "text_2": "Cyprus, Nicosia"
+    },
+    "content": {
+      "title_1": "About",
+      "title_2": "Professional Duties",
+      "title_3": "Requirements",
+      "block_1": [
+        "In Acurella we take care of our employees — we create comfortable working conditions. We feel the contact with our person, so we have only 2 stages of the interview and. For the period of quarantine, it is possible to work both in the office (24/7) and remotely (Cyprus, Nicosia)."
+      ],
+      "block_2": [
+        "Development of test cases & scenarios.",
+        "Creation and maintenance of QA & Project documentation (use cases, requirements, sequence and process diagrams).",
+        "Test and mock data preparation.",
+        "QA & UAT tests implementation.",
+        "Defects management."
+      ],
+      "block_3": [
+        "Strong understanding of Python3 in combination with UnitTest library/framework.",
+        "Strong understanding and working experience related to relational database management systems (RDMS) Postgres/MySQL.",
+        "SQL.",
+        "RabbitMQ.",
+        "Familiarity with Nginx, CI/CD.",
+        "Practical experience & understanding of testing processes (unit, integration, manual, smoke, regression etc)."
+      ]
+    }
+  },
+  "vacancy_2": {
+    "header": {
+      "title": "Tech/Team Lead JS Developer",
+      "text_1": "Managements, Development",
+      "text_2": "Cyprus, Nicosia"
+    },
+    "content": {
+      "title_1": "About",
+      "title_2": "Professional Duties",
+      "title_3": "Requirements",
+      "title_4": "Leading team",
+      "block_1": [
+        "We looking for a team person with strong skills and experiense in JS to lead a new direction. In Acurella we take care of our employees — we create comfortable working conditions. We feel the contact with our person, so we have only 2 stages of the interview and. For the period of quarantine, it is possible to work both in the office (24/7) and remotely (Cyprus, Nicosia). "
+      ],
+      "block_2": [
+        "Participating in business requirements analysis.",
+        "Taking architectural decisions.",
+        "Developing key features.",
+        "Guiding testing activities.",
+        "Taking care about feedback cycle."
+      ],
+      "block_3": [
+        "Proven experience with JavaScript.",
+        "3+ years of experience with Node.js.",
+        "2+ years of team/tech leading experience.",
+        "2+ years of experience with Vue.js or React.js.",
+        "Experience with PostgreSQL.",
+        "Good knowledge of Linux (key OS concepts, objects, practical knowledge like how to configure iptables, how to diagnose network issues, what are docker containers, how to protect from DDoS, etc).",
+        "Strong analytics skills."
+      ],
+      "block_4": [
+        "Defining strategy of task distribution to ensure high velocity and optimal team load.",
+        "Guiding team members’ professional development in context of project needs.",
+        "Defining team roles, processes, hiring/firing people to ensure optimal team structure to achieve long term project goal."
+      ]
+    }
+  },
+  "vacancy_3": {
+    "header": {
+      "title": "QA Engineer Middle",
+      "text_1": "QA",
+      "text_2": "Cyprus, Nicosia"
+    },
+    "content": {
+      "title_1": "About",
+      "title_2": "Professional Duties",
+      "title_3": "Requirements",
+      "block_1": [
+        "In Acurella we take care of our employees — we create comfortable working conditions. We feel the contact with our person, so we have only 2 stages of the interview and. For the period of quarantine, it is possible to work both in the office (24/7) and remotely (Cyprus, Nicosia)."
+      ],
+      "block_2": [
+        "Writing test documentation from the very beginning.",
+        "Participation in validation and clarification of requirements.",
+        "Manual testing of desktop applications.",
+        "Perform different types of testing.",
+        "Estimation of testing efforts for the project.",
+        "Support of old/existing documentation."
+      ],
+      "block_3": [
+        "2+ years of experience as QA engineer in IT company.",
+        "Experience working in MacOS and Windows environments.",
+        "Experience in writing test cases and check lists.",
+        "Experience in drawing up test reports.",
+        "Good English (writing and speaking)."
+      ]
+    }
+  },
+  "vacancy_4": {
+    "header": {
+      "title": "Project manager / Coordinator",
+      "text_1": "Management",
+      "text_2": "Anywhere"
+    },
+    "content": {
+      "title_1": "About",
+      "title_2": "Professional Duties",
+      "title_3": "Requirements",
+      "block_1": [
+        "Our SCM Product is searching for a Project Coordinator who will join the company to build a strong connection with the team and customers. In Acurella we take care of our employees — we create comfortable working conditions. We feel the contact with our person, so we have only 2 stages of the interview and. For the period of quarantine, it is possible to work both in the office (24/7) and remotely (Cyprus, Nicosia)."
+      ],
+      "block_2": [
+        "Drive customer relationship: day-to-day communication, engagement development, project negotiations, etc;",
+        "Propose & implement regular improvements to the Perfectial development process;",
+        "Be the Face of the team to the rest of the company and customers;",
+        "Team Balancing, Retention, and hiring-management;",
+        "Planning and coordinating project activities;",
+        "Risk Management;",
+        "Team motivation, people management;",
+        "Control over the timing."
+      ],
+      "block_3": [
+        "at least 1+ year of experience in IT project management;",
+        "solid understanding of the SDLC process;",
+        "deep knowledge of Scrum, Kanban methodologies;",
+        "experience in managing teams up to 10 people and delivering multiple projects;",
+        "excellent communication skills;",
+        "proactive & open to changes and challenges mindset;",
+        "experience in requirement analysis;",
+        "experience in problem-solving and analyzing information;",
+        "advanced English."
+      ]
+    }
+  },
+  "vacancy_5": {
+    "header": {
+      "title": "UI/UX Designer",
+      "text_1": "Design",
+      "text_2": "Anywhere"
+    },
+    "content": {
+      "title_1": "About",
+      "title_2": "Professional Duties",
+      "title_3": "Requirements",
+      "block_1": [
+        "With the growth of our client, we’re looking an experienced UI/UX Designer with great skills and a great portfolio to showcase. Your main focus will be to conduct a full design cycle, from collecting inspiration through creating a flawless UI for all states and scenarios, and deliver to development. In Acurella we take care of our employees — we create comfortable working conditions. We feel the contact with our person, so we have only 2 stages of the interview and. For the period of quarantine, it is possible to work both in the office (24/7) and remotely (Cyprus, Nicosia)."
+      ],
+      "block_2": [
+        "3+ years of experience in UX and interactive design",
+        "Mastery over design tools like PhotoShop, Sketch, and Illustrator",
+        "Intuition for pixel-perfect design solutions",
+        "Familiarity with animation and prototyping tools, such as Invision, Principle, and Axure",
+        "Passion for solving complex product problems",
+        "English B2+ (both spoken and written)",
+        "Strong communication skills and ability to work in a team"
+      ],
+      "block_3": [
+        "collaborate with Product Managers and Software Developers and define, design and deliver pixel-perfect products",
+        "conduct extensive product research based on user feedback, data, competitor analysis and more",
+        "analyze data and conduct usability sessions with real users after product launches",
+        "map all possible scenarios and create product flows",
+        "take charge of functional design and create wireframes, from rough sketches to complete and animated prototypes"
+      ]
+    }
+  },
+  "vacancy_6": {
+    "header": {
+      "title": "Front-End, React Developer (AI-Based Platform)",
+      "text_1": "Development",
+      "text_2": "Cyprus, Nicosia"
+    },
+    "content": {
+      "title_1": "About",
+      "title_2": "Professional Duties",
+      "title_3": "Requirements",
+      "block_1": [
+        "In Acurella we take care of our employees — we create comfortable working conditions. We feel the contact with our person, so we have only 2 stages of the interview and. For the period of quarantine, it is possible to work both in the office (24/7) and remotely (Cyprus, Nicosia)."
+      ],
+      "block_2": [
+        "3+ years' experience with React.js",
+        "Experience with S3 and Cloudfront",
+        "Knowledge of Flux architecture, experience with Redux",
+        "Thorough knowledge of JavaScript (ES6+), TypeScript",
+        "Basic understanding of UI/UX design",
+        "Basic understanding of single-page applications development",
+        "Experience working with Webpack and NPM",
+        "Knowledge of related technologies: HTML5, CSS",
+        "Ability to work with version control systems",
+        "Good spoken English"
+      ],
+      "block_3": [
+        "Experience with D3.js",
+        "Knowledge of code testing techniques (including BDD, TDD)",
+        "Familiarity with CI systems",
+        "Experience with Angular.js, Vue.js",
+        "Experience with CoffeeScript, HAML, Jade",
+        "Experience with various CSS frameworks (Bootstrap, Foundation, others.)"
+      ]
     }
   }
 }

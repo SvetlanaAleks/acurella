@@ -1,0 +1,31 @@
+- var CONTENT_VACANCY = LANG.vacancy_3.content;
+- var BUTTONS = LANG.btns;
+
+section.content-vacancy
+	.container
+		.content-vacancy__inner
+			.content-vacancy__row
+				h2.content-vacancy__title.title.title--dark.title--4.column-big!= CONTENT_VACANCY.title_1
+				.content-vacancy__info
+					each text in CONTENT_VACANCY.block_1
+						p.content-vacancy__text.text-2.text-2--1!= text
+			.content-vacancy__row
+				h2.content-vacancy__title.title.title--dark.title--4.column-big!= CONTENT_VACANCY.title_2
+				.content-vacancy__info
+					ul.content-vacancy__list.list-tasks.text-2--1
+						each text in CONTENT_VACANCY.block_2
+							li.list-tasks__item!= text
+			if CONTENT_VACANCY.block_4
+				.content-vacancy__row
+					h2.content-vacancy__title.title.title--dark.title--4.column-big!= CONTENT_VACANCY.title_4
+					.content-vacancy__info
+						ul.content-vacancy__list.list-tasks.text-2--1
+							each text in CONTENT_VACANCY.block_4
+								li.list-tasks__item!= text
+			.content-vacancy__row
+				h2.content-vacancy__title.title.title--dark.title--4.column-big!= CONTENT_VACANCY.title_3
+				.content-vacancy__info
+					ul.content-vacancy__list.list-tasks.text-2--1
+						each text in CONTENT_VACANCY.block_3
+							li.list-tasks__item!= text
+		a.content-vacancy__btn.btn.btn--full(href="contacts.html")= BUTTONS.btn_text_5

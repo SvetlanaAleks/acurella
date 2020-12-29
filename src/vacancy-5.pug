@@ -1,0 +1,9 @@
+extends templates/layout/layout-dark.pug
+block head
+	title UI/UX Designer
+block content
+	include templates/mixins/menu-dark.pug
+	+menu-dark("vacancy-5")
+	include templates/vacancies/vacancy-5/header
+	include templates/vacancies/vacancy-5/content
+	include templates/cereer/interruption
