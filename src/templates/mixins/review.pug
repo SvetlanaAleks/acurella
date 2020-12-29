@@ -3,8 +3,7 @@ mixin review(src, text, name, post)
 		.review__left
 			.review__photo-wrap
 				picture
-					source(srcset='/img/' + src + '.webp', type="image/webp")
-					source(srcset='/img/' + src + '@2x.jpg')
+					source(srcset='/img/' + src + '@2x.jpg 2x, /img/' + src + '.webp 1x')
 					img.review__photo(src='/img/' + src + '.jpg', alt="photo")
 		.review__right
 			i.fico.fico-mark

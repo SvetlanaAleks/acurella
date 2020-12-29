@@ -3,8 +3,7 @@
 mixin new(item)
 	a.new(href=item.link)
 		picture
-			source(srcset='/img/' + item.src + '.webp', type="image/webp")
-			source(srcset='/img/' + item.src + '@2x.jpg')
+			source(srcset='/img/' + item.src + '@2x.jpg 2x, /img/' + item.src + '.webp 1x')
 			img.new__img(src='/img/' + item.src + '.jpg', alt="photo")
 		.new__info
 			p.new__ttl.title.title--dark.title--5!=item.ttl

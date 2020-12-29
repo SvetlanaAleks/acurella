@@ -20,10 +20,10 @@
     "link6": "Integrations",
     "link7": "Cases",
     "link8": "Contacts",
-    "link9": "О компании",
-    "link10": "Карьера <span>9</span>",
-    "link11": "Условия",
-    "link12": "Политика конфиденциальности",
+    "link9": "Company",
+    "link10": "Cereer <span>9</span>",
+    "link11": "Coockie Policy",
+    "link12": "Privacy Policy",
     "menu_desc_1": "A ready-made solution for CPA networks",
     "menu_desc_2": "System for automating complex strategies for interaction",
     "menu_desc_3": "Cистема, управляющая сложными цепочками поставок",
@@ -168,9 +168,9 @@
     "statistics": {
       "title": "360°CPA network monitoring: Security management",
       "desc": "The high-tech solution for CPA networks allows you to manage your partner network, advertising materials and relationships with affiliates in real time. By controlling each process to the smallest detail, the system automatically maintains the safety and high quality of services.",
-      "item_text_1": "More than 10 countries",
-      "item_text_2": "24/7/365 support",
-      "item_text_3": "More than 6000 users"
+      "item_text_1": "More than 35 countries",
+      "item_text_2": "round the clock support",
+      "item_text_3": "More than 3 800 users"
     },
     "advantages": [
       "Accelerated process of creating, launching and testing of marketing campaigns for webmasters",
@@ -214,10 +214,10 @@
       ]
     },
     "integration": {
-      "title_main": "Integration has never been so easy",
+      "title_main": "Easy integration",
       "desc": "With the help of API tools, the system can be integrated with Acurella software, as well as third-party software (for example, warehouse management system, logistics, etc.)",
       "title": "Оптимизация нагрузки <span>веб-мастеров</span>",
-      "title_slider": "Широкие функциональные возможности",
+      "title_slider": "Extensive functionality",
       "subject": "Инструменты контроля для топ-менеджеров",
       "text": "Руководители компаний могут в любой момент зайти в систему и проверить качество работы маркетинга: просмотреть данные в виде преднастроенных дашбордов, проанализировать их через систему фильтров и сгруппировать в удобные отчеты.",
       "listArray": {
@@ -304,7 +304,7 @@
       "title": "Full transaction cycle control",
       "desc": "CRM solution controls the entire order cycle: starting from the moment when the customer left the request, and ending with after-sales service. In this way, the Company minimizes the risk of error, automates routine processes, and ultimately exceeds customer expectations.",
       "item_text_1": "More than 15 countries",
-      "item_text_2": "24/7/365 support",
+      "item_text_2": "round the clock support",
       "item_text_3": "More than 1200 users"
     },
     "advantages": [
@@ -349,10 +349,10 @@
       ]
     },
     "integration": {
-      "title_main": "Integration has never been so easy",
+      "title_main": "Easy integration",
       "desc": "With the help of API tools, the system can be integrated with Acurella software, as well as third-party software (for example, warehouse management system, logistics, etc.)",
       "title": "Optimization of call center managers work",
-      "title_slider": "Широкие функциональные возможности",
+      "title_slider": "Extensive functionality",
       "subject": "Intelligent applications distribution",
       "text": "The system manages the call servers so that the agent with the best sales target is the first to receive new calls. In addition, it regularly sends several calls to novice operators.",
       "listArray": {
@@ -447,7 +447,7 @@
       "title": "All the necessary functions in one place",
       "desc": "The system collects, stores and processes data necessary for making correct management decisions and making forecasts. Now everything is under control: the system automatically keeps records of goods, controls delivery times, helps to choose the optimal volume of purchases, plan payments, make an action plan in case of force majeure and not only.",
       "item_text_1": "More than 35 countries",
-      "item_text_2": "24/7/365 support",
+      "item_text_2": "round the clock support",
       "item_text_3": "More than 1700 users"
     },
     "advantages": [
@@ -492,13 +492,13 @@
       ]
     },
     "integration": {
-      "title_main": "Integration has never been so easy",
+      "title_main": "Easy integration",
       "desc": "With the help of API tools, the system can be integrated with Acurella software, as well as third-party software (for example, warehouse management system, logistics, etc.)",
       "title_1": "Easy planning",
       "desc_1": "The system helps to calculate the optimal stock for each position, taking into account the demand forecast and the insurance stock.",
       "title_2": "Automated sorting",
       "desc_2": "Users of the system can in a few clicks organize your products, set and create new properties in an interactive way.",
-      "title_slider": "Широкие функциональные возможности"
+      "title_slider": "Extensive functionality"
     },
     "information": {
       "text": "Order management has never been easier. Acurella creates intuitive solutions that do not require special training and do not allow a beginner to get involved in business processes from the first working day. ",
@@ -751,7 +751,7 @@
       "title": "Solution",
       "desc": "Cyclical ecosystem for the C. O. D model helped to take control of the entire transaction cycle and achieve maximum efficiency at each stage.",
       "item_1": "More than 10 countries ",
-      "item_2": "24/7/365 support",
+      "item_2": "round the clock support",
       "item_3": "More than 1500 users"
     },
     "interruption": {
