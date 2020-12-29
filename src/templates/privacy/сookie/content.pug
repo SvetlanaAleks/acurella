@@ -1,0 +1,40 @@
+- var COOKIE = LANG.cookie.content;
+
+section.content
+	.container
+		.content__wrapper
+			.content__block
+				.content__desc
+					p.content__text.text-2--1= COOKIE.text
+			.content__block
+				h2.content__title.title.title--4.title--dark!= COOKIE.title_1
+				.content__desc
+					each text in COOKIE.block_1
+						p.content__text.text-2--1!= text
+			.content__block
+				h2.content__title.title.title--4.title--dark!= COOKIE.title_2
+				.content__desc
+					each text in COOKIE.block_2
+						p.content__text.text-2--1!= text
+			.content__block
+				h2.content__title.title.title--4.title--dark!= COOKIE.title_3
+				.content__desc
+					each text in COOKIE.block_3
+						p.content__text.text-2--1!= text
+			.content__block
+				h2.content__title.title.title--4.title--dark!= COOKIE.title_4
+				ul.content__list.list-tasks.text-2--1
+					each text in COOKIE.block_4
+						li.list-tasks__item!= text
+			.content__block
+				h2.content__title.title.title--4.title--dark!= COOKIE.title_5
+				.content__desc
+					each text in COOKIE.block_5
+						p.content__text.text-2--1!= text
+			.content__block
+				h2.content__title.title.title--4.title--dark!= COOKIE.title_6
+				.content__desc
+					each text in COOKIE.block_6
+						p.content__text.text-2--1!= text
+					p.content__text-link.text-2--1 Email: 
+						a.content__link(href="mailto:support@acurella-tl.com") support@acurella-tl.com
