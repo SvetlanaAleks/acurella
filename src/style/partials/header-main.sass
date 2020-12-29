@@ -12,6 +12,7 @@
 		padding-top: 140px
 	+r(480)
 		padding-top: 110px
+		overflow: hidden
 	&--case
 		.header-main
 			&__content
@@ -62,6 +63,9 @@
 			padding-bottom: 115px
 		+r(768)
 			padding-bottom: 43%
+		+r(480)
+			padding-bottom: 0
+			margin-bottom: 20px
 	&__title
 		max-width: 710px
 		width: 100%
@@ -86,7 +90,7 @@
 	&__text
 		margin-bottom: 65px
 		color: #96A3D2
-		max-width: 365px
+		max-width: 360px
 		width: 100%
 		+r(1140)
 			margin-bottom: 50px
@@ -155,3 +159,15 @@
 			right: auto
 			left: calc(50% - 14%)
 			width: 68%
+		+r(480)
+			position: relative
+			width: 100%
+			left: 30px
+			max-width: 360px
+			margin-left: auto
+			&::before
+				bottom: auto
+				width: 621px
+				height: 310px
+				top: -20px
+				right: -121px

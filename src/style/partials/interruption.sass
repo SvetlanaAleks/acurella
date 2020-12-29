@@ -39,27 +39,33 @@
 		max-width: 360px
 		width: 100%
 		margin: auto
-		padding: 20px
+		padding: 21px
+		font-size: 18px
+		border-radius: 10px
 		+r(480)
 			max-width: 100%
+			font-size: 16px
+			padding: 12px
+			border-radius: 5px
 
 .form-int
 	display: flex
 	align-items: center
 	justify-content: center
 	height: 60px
-	&:hover
-		.form-int__select, .select2-container .select2-selection--single
-			border-top: 1px solid #00B0F7
-			border-bottom: 1px solid #00B0F7
-			border-left: 1px solid #00B0F7
-			background: #F2FBFF
-		.form-int__input
-			background: #F2FBFF
-			border-top: 1px solid #00B0F7
-			border-bottom: 1px solid #00B0F7
-			border-left: none
-			border-right: none
+	+rm(641)
+		&:hover
+			.form-int__select, .select2-container .select2-selection--single
+				border-top: 1px solid #00B0F7
+				border-bottom: 1px solid #00B0F7
+				border-left: 1px solid #00B0F7
+				background: #F2FBFF
+			.form-int__input
+				background: #F2FBFF
+				border-top: 1px solid #00B0F7
+				border-bottom: 1px solid #00B0F7
+				border-left: none
+				border-right: none
 	+r(768)
 		height: 50px
 	+r(640)
@@ -74,6 +80,9 @@
 		width: 196px
 		border-radius: 10px 0px 0px 10px
 		position: relative
+		border: 1px solid transparentize(#000, .999)
+		&:hover
+			background: $white
 		&::after
 			content: ''
 			display: block
@@ -95,10 +104,13 @@
 		max-width: 383px
 		width: 100%
 		flex-shrink: 0
-		border: none
 		border-radius: 0
+		border: 1px solid transparentize(#000, .999)
+		border-left: none
+		border-right: none
 		&:hover, &:focus
 			border: none
+			background: $white
 		+r(1024)
 			max-width: 100%
 			flex: 1
@@ -109,8 +121,8 @@
 			border-bottom-right-radius: 10px
 			border-top: 1px solid #CCD5DC
 			&:hover, &:focus
+				border-bottom: 1px solid #CCD5DC
 				border-top: 1px solid #CCD5DC
-
 	&__btn
 		font-size: 18px
 		height: 100%

@@ -19,11 +19,11 @@ include ../mixins/benefit
 		}
 	];
 
-section.functions-additional
+section.functions-additional.functions-additional--color
 	.container
 		.functions-additional__top
 			h2.functions-additional__title.title.title--dark.title--3.column-big 3-сторонняя интеграция
 			p.functions-additional__desc.text-2--2 API от Acurella допускает возможность трехсторонней интеграции как с нашими, так и сторонними приложениями, создавая уникальную IT-инфраструктуру для бизнеса. Больше никакой рутины и переноса информации вручную! Управляйте сервисами, сайтами и ПО через единое окно.
 		.functions-additional__bottom
 			each item in benefitArray
-				+benefit(item)
+				+benefit(item.src, item.title, item.text)

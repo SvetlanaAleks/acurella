@@ -27,11 +27,10 @@
 		+r(768)
 			padding-bottom: 30%
 		+r(640)
-			display: block
-			padding-top: 55px
-			padding-bottom: calc(50% - 130px)
-		+r(480)
-			padding-bottom: 30px
+			flex-direction: column
+			align-items: flex-start
+			padding-bottom: 0
+			margin-bottom: 30px
 	&__photo
 		position: absolute
 		max-width: inherit
@@ -47,8 +46,11 @@
 		+r(768)
 			max-width: 1030px
 		+r(640)
-			left: 0
-			max-width: 1080px
+			max-width: 140%
+			position: relative
+			order: 1
+			margin-top: 10px
+			margin-bottom: -150px
 	&__content
 		max-width: 510px
 		width: 100%
@@ -86,14 +88,14 @@
 				padding-top: 100px
 		+r(640)
 			max-width: 100%
-			padding-left: 20px
-			background: transparentize($white, .4)
 			+nlt
 				padding-top: 0
 				margin-right: 0
 				margin-bottom: 30px
+				order: -2
 			&:last-of-type
 				padding-top: 0
+				order: -1
 	&__title
 		margin-bottom: 27px
 		+r(1024)
@@ -137,8 +139,6 @@
 			max-width: 100%
 			margin-right: 0
 			margin-bottom: 20px
-		+r(640)
-			background: transparentize($white, .5)
 
 .photos
 	flex-shrink: 0
@@ -149,7 +149,6 @@
 	font-size: 0
 	right: -180px
 	z-index: 2
-	// border: 1px solid
 	+r(1440)
 		max-width: 810px
 		height: 670px

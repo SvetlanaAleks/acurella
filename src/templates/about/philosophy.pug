@@ -3,7 +3,9 @@
 section.philosophy
 	.container
 		.philosophy__top
-			img.philosophy__photo(src="/img/svg/about-map.svg", alt="map")
+			picture
+				source(media="(max-width: 640px)", srcset="/img/svg/about-map_mob.svg")
+				img.philosophy__photo(src="/img/svg/about-map.svg", alt="map")
 			.philosophy__content
 				h2.philosophy__title.title.title--dark.title--2= PHILOSOPHY.title_1
 				p.philosophy__text.text-2.text-2--1= PHILOSOPHY.desc_1

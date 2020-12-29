@@ -254,6 +254,7 @@
 		+r(480)
 			margin-bottom: 30px
 			padding-bottom: 30px
+			padding-left: 0
 	&__col
 		flex-shrink: 0
 	&__ttl
@@ -411,6 +412,8 @@
 		+r(480)
 			width: 100%
 			padding-bottom: 10px
+			display: flex
+			align-items: baseline
 			&:not(:first-of-type)
 				padding-top: 10px
 			&:nth-of-type(even)
@@ -435,7 +438,8 @@
 		+r(1140)
 			margin-bottom: 15px
 		+r(480)
-			margin-bottom: 10px
+			margin-bottom: 0
+			margin-right: 15px
 	.fico
 		color: $white
 		font-size: 9px

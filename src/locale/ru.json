@@ -296,7 +296,7 @@
   },
   "crm": {
     "header": {
-      "title": "Cost Per Action Marketing (CPA)",
+      "title": "Customer Relationship Management (CRM)",
       "desc": "Cистема управления взаимоотношениями с клиентами от компании Acurella контролирует поток заявок, фиксируя любые изменения в заказах и транслируя их на менеджеров."
     },
     "statistics": {
@@ -773,53 +773,33 @@
       "table_ttl_3": "Место",
       "vacancyArray": [
         {
-          "position": "Business Systems Analyst",
-          "direction": "BA",
-          "place": "Anywhere"
-        },
-        {
-          "position": "Engineering Lead - Android (Unfold)",
-          "direction": "Managements, Development",
-          "place": "Ukraine, Kyiv"
-        },
-        {
-          "position": "Engineering Manager, Product Platform",
-          "direction": "Management",
-          "place": "Ukraine, Kyiv"
-        },
-        {
-          "position": "Engineering Team Lead - Frontend, Interface Architecture",
-          "direction": "Architector",
-          "place": "Anywhere"
-        },
-        {
-          "position": "Engineering Team Manager - Site Reliability (Databases)",
-          "direction": "Development",
-          "place": "Anywhere"
-        },
-        {
-          "position": "GRC Operations, Sr Analyst",
+          "position": "Senior QA Engineer",
           "direction": "QA",
-          "place": "Ukraine, Kyiv"
-        },
-        {
-          "position": "Senior Data Engineer, Finance Products",
-          "direction": "Data, Dev",
           "place": "Cyprus, Nicosia"
         },
         {
-          "position": "Senior Security Engineer, Incident Response",
-          "direction": "BA",
+          "position": "Tech/Team Lead JS Developer",
+          "direction": "Managements, Development",
+          "place": "Cyprus, Nicosia"
+        },
+        {
+          "position": "QA Engineer Middle",
+          "direction": "QA",
+          "place": "Cyprus, Nicosia"
+        },
+        {
+          "position": "Project manager / Coordinator",
+          "direction": "Management",
           "place": "Anywhere"
         },
         {
-          "position": "Senior Site Reliability Engineer - Observability",
-          "direction": "Managements, Architector Development",
-          "place": "Cyprus, Nicosia"
+          "position": "UI/UX Designer",
+          "direction": "Design",
+          "place": "Anywhere"
         },
         {
-          "position": "Senior Site Reliability Engineer - Release",
-          "direction": "Management",
+          "position": "Front-End, React Developer",
+          "direction": "Development",
           "place": "Cyprus, Nicosia"
         }
       ]
