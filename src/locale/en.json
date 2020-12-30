@@ -31,8 +31,8 @@
   },
   "footer": {
     "desc": "Acurella Ltd is a full-service software development company.",
-    "address": "Цериу, 136 2 этаж,<br />Строволос, 2045, Никосия,<br />Кипр",
-    "copy": "© 2020 Acurella. Все права защищены."
+    "address": "Tseriou, 136 2nd floor,<br />Strovolos, 2045, Nicosia,<br />Cyprus",
+    "copy": "© 2020 Acurella. All rights reserved."
   },
   "form": {
     "email": "E-mail"
@@ -40,7 +40,7 @@
   "btns": {
     "btn_text_1": "Try demo",
     "btn_text_2": "Read more",
-    "btn_text_3": "Order a demo version",
+    "btn_text_3": "Try demo",
     "btn_text_4": "Contact us",
     "btn_text_5": "Send request"
   },
@@ -93,10 +93,10 @@
     "chart": {
       "title": "Power of modern companies is in digitalization and the use of low-code technologies",
       "desc": "We create intuitive IT solutions. Then we continuously improve them, responding to the challenges of time.",
-      "graph_ttl_1": "Разработка<br />продукта и<br />поиск клиентов",
-      "graph_ttl_2": "800+<br />пользователей",
-      "graph_ttl_3": "2000+<br />пользователей",
-      "graph_ttl_4": "5500+<br />пользователей",
+      "graph_ttl_1": "Product <br />development and <br />customer search",
+      "graph_ttl_2": "800+<br />users",
+      "graph_ttl_3": "2000+<br />users",
+      "graph_ttl_4": "5500+<br />users",
       "graph_label_1": "1st half <br />of 2019",
       "graph_label_2": "2nd half <br />of 2019",
       "graph_label_3": "1st half <br />of 2020",
@@ -106,11 +106,11 @@
       "title": "Acurella solutions are easily scaled",
       "desc": "Company’s developments support simultaneous operation of: dozens of administrative employees; thousands of branches; dozens of advertisers; thousands of operators. CPA solutions process hundreds of thousands of conversions per day, and CRM solutions process tens of thousands of orders.",
       "item_ttl_1": "0,3 sec",
-      "item_text_1": "system response time",
+      "item_text_1": "System response time",
       "item_ttl_2": "10 years",
-      "item_text_2": "expected service life",
+      "item_text_2": "Expected service life",
       "item_ttl_3": "99.95%",
-      "item_text_3": "uptime"
+      "item_text_3": "Uptime"
     },
     "functions": {
       "title": "Key features",
@@ -166,10 +166,10 @@
       "desc": "The network platform for affiliate marketing was created to help the advertiser and webmaster to cooperate mutually, and the owners of CPA networks to control the fulfillment of the terms of the transaction. "
     },
     "statistics": {
-      "title": "360°CPA network monitoring: Security management",
+      "title": "360°CPA network monitoring",
       "desc": "The high-tech solution for CPA networks allows you to manage your partner network, advertising materials and relationships with affiliates in real time. By controlling each process to the smallest detail, the system automatically maintains the safety and high quality of services.",
       "item_text_1": "More than 35 countries",
-      "item_text_2": "round the clock support",
+      "item_text_2": "Round the clock support",
       "item_text_3": "More than 3 800 users"
     },
     "advantages": [
@@ -185,7 +185,7 @@
       "title_form": "Are you ready to experience all the features of the software for CPA networks?"
     },
     "functions": {
-      "title": "Key benefits",
+      "title": "Key features",
       "functionsArray": [
         {
           "ttl": "4-way setup",
@@ -215,7 +215,7 @@
     },
     "integration": {
       "title_main": "Easy integration",
-      "desc": "With the help of API tools, the system can be integrated with Acurella software, as well as third-party software (for example, warehouse management system, logistics, etc.)",
+      "desc": "With the help of API tools, the system can be integrated with Acurella software, as well as third-party software",
       "title": "Optimization of webmaster load",
       "title_slider": "Extensive functionality",
       "subject": "Control tools for top managers",
@@ -304,8 +304,8 @@
       "title": "Full transaction cycle control",
       "desc": "CRM solution controls the entire order cycle: starting from the moment when the customer left the request, and ending with after-sales service. In this way, the Company minimizes the risk of error, automates routine processes, and ultimately exceeds customer expectations.",
       "item_text_1": "More than 15 countries",
-      "item_text_2": "round the clock support",
-      "item_text_3": "More than 1200 users"
+      "item_text_2": "Round the clock support",
+      "item_text_3": "More than 1 200 users"
     },
     "advantages": [
       "A single up-to-date database of orders with indication of their status for all offices of the Company",
@@ -350,7 +350,7 @@
     },
     "integration": {
       "title_main": "Easy integration",
-      "desc": "With the help of API tools, the system can be integrated with Acurella software, as well as third-party software (for example, warehouse management system, logistics, etc.)",
+      "desc": "With the help of API tools, the system can be integrated with Acurella software, as well as third-party software",
       "title": "Optimization of call center managers work",
       "title_slider": "Extensive functionality",
       "subject": "Intelligent applications distribution",
@@ -447,8 +447,8 @@
       "title": "All the necessary functions in one place",
       "desc": "The system collects, stores and processes data necessary for making correct management decisions and making forecasts. Now everything is under control: the system automatically keeps records of goods, controls delivery times, helps to choose the optimal volume of purchases, plan payments, make an action plan in case of force majeure and not only.",
       "item_text_1": "More than 35 countries",
-      "item_text_2": "round the clock support",
-      "item_text_3": "More than 1700 users"
+      "item_text_2": "Round the clock support",
+      "item_text_3": "More than 1 700 users"
     },
     "advantages": [
       "Convenient detailed accounting of planned and already implemented purchases for logisticians",
@@ -493,7 +493,7 @@
     },
     "integration": {
       "title_main": "Easy integration",
-      "desc": "With the help of API tools, the system can be integrated with Acurella software, as well as third-party software (for example, warehouse management system, logistics, etc.)",
+      "desc": "With the help of API tools, the system can be integrated with Acurella software, as well as third-party software",
       "title_1": "Easy planning",
       "desc_1": "The system helps to calculate the optimal stock for each position, taking into account the demand forecast and the insurance stock.",
       "title_2": "Automated sorting",
@@ -603,10 +603,10 @@
     "solutions": {
       "title": "Required software in&nbsp;one place",
       "desc": "We strive to create complete solutions that fully cover the client's tasks. Each stage of the transaction is strictly controlled and recorded by the system: starting from customer acquisition (CPA), ending with order fulfillment (CRM) and fast delivery due to timely replenishment of stocks (SCM).",
-      "solution_ttl_1": "Май 2019",
-      "solution_ttl_2": "Февраль 2020",
-      "solution_ttl_3": "Сентябрь 2020",
-      "solution_ttl_4": "Июль 2021"
+      "solution_ttl_1": "May 2019",
+      "solution_ttl_2": "February 2019",
+      "solution_ttl_3": "September 2020",
+      "solution_ttl_4": "June 2021"
     },
     "interruption": {
       "title": "Are you ready to test all the features<br> of Acurella solutions for free?"
@@ -631,19 +631,19 @@
         "link": "/new-3.html",
         "src": "new_2",
         "ttl": "Reference work of operators and managers at the expense of modern CRM",
-        "date": "04 августа 2020"
+        "date": "04 August 2020"
       },
       {
         "link": "/new-4.html",
         "src": "new_5",
         "ttl": "Цифровая трансформация: бонус или залог выживания?",
-        "date": "20 июня 2020"
+        "date": "20 June 2020"
       },
       {
         "link": "/new-5.html",
         "src": "new_3",
         "ttl": "Timely purchases in the right volume with the new solution from Acurella",
-        "date": "19 мая 2020"
+        "date": "19 May 2020"
       },
       {
         "link": "/new-6.html",
@@ -751,8 +751,8 @@
       "title": "Solution",
       "desc": "Cyclical ecosystem for the C. O. D model helped to take control of the entire transaction cycle and achieve maximum efficiency at each stage.",
       "item_1": "More than 10 countries ",
-      "item_2": "round the clock support",
-      "item_3": "More than 1500 users"
+      "item_2": "Round the clock support",
+      "item_3": "More than 1 500 users"
     },
     "interruption": {
       "title": "Are you ready to reach new business results using<br> high-tech software?"
@@ -1043,6 +1043,7 @@
     }
   },
   "privacy": {
+    "interruption": "Order Demo and test the capabilities of<br> customer relationship management software",
     "title": "Privacy Policy",
     "content": {
       "block_1": [
@@ -1273,10 +1274,111 @@
       ]
     }
   },
-  "integrations": {
+  "integrations_prod": {
     "header": {
       "title": "Integrations",
-      "desc": "Modern programming interface (API) from Acurella easily synchronizes any services, sites and software you need to work, and simplifies the management of business processes. You can choose any type of integration offered by us or your own version."
+      "desc": "Acurella’s modern application programming interface (API) is able to synchronize both internal and external services seamlessly. Choose any integration type from those offered by our company or your alternative."
+    },
+    "desc": {
+      "title_1": "Landing Commander",
+      "text_1": "Landing Commander is a tool that makes it possible to manage, deploy, and monitor ad versions with a single click.",
+      "block_1": [
+        "A module used to create landing page frameworks",
+        "Autocomplete of blocks with texts and wildcards",
+        "Automatic information uploading to the Internet",
+        "Integration with DDL services",
+        "Transfer of page properties, l-n-f settings, styles, images and links to the related content",
+        "A pre-configured toolset for AV testing.",
+        "Support for Look And Feel which provides means for changing the style of all landing page blocks with one operation.",
+        "Setting up integration with the payment system and third-party analytics in real time.",
+        "Dynamic support for multiple languages",
+        "Automatic transfer of client events to the analytics aggregator."
+      ],
+      "title_2": "Integration with ELS",
+      "text_2": "ELS is a system that can process any real or virtual currency and fully supports any loyalty programs in an automated fashion. ",
+      "block_2_1": [
+        "An easy exchange of bonuses for tangible goods and services.",
+        "A current balance in real time.",
+        "Templates of letters for the loyalty program clients.",
+        "A configurable access for third-party users.",
+        "Millions of transactions processed simultaneously."
+      ],
+      "block_2_2": [
+        "High performance in global marketing campaigns.",
+        "Guaranteed, timely executed transactions.",
+        "A multilevel wallet system. ",
+        "Built-in rules for managing bonuses.",
+        "Rules for automatic write-off upon expiration."
+      ],
+      "title_3": "Integration with the ECM-system",
+      "text_3": "ECM is a scalable system developed to tolerate high loads, that is responsible for any data exchange (including electronic documents) with other systems, clients or employees.",
+      "block_3": [
+        "An email template module",
+        "An ability to create and store email templates of different styles and sizes.",
+        "Adaptation of the email language based on client data in CRM.",
+        "A module for editing text message templates.",
+        "Setting up PUSH messages, messages in chats, mobile applications, on websites with wildcard support.",
+        "Message queue management. ",
+        "A set of dynamic KPIs to avoid massive blocking.",
+        "A guaranteed message delivery or prompt notification of support services about a malfunction.",
+        "Sending messages through any messenger with the API integration available.",
+        "A communication campaign management service.",
+        "Event campaign launching (for example, birthday greetings).",
+        "A bot management system."
+      ],
+      "title_4": "Integration with delivery services",
+      "text-4": "A system that automatically tracks all the steps of interaction with delivery services, from sending a parcel to receiving it by the buyer. It saves invoices, receipts and user documents.",
+      "block_4_1": [
+        "An ability to track goodsoutside the WMS system",
+        "Automatic signaling of delays",
+        "Notifying the situations that require the manager’s involvement",
+        "Automatically generated documents",
+        "Aggregated reporting"
+      ],
+      "block_4_2": [
+        "Real-time order tracking",
+        "Frameworks for integration with external delivery services",
+        "Integration with third-party warehouses",
+        "Built-in templates for quick order finalization.",
+        "Transparent managers’ operations"
+      ],
+      "title_5": "Integration with call servers",
+      "text_5": "A solution for integration with call servers that provides extensive real-time reports, ensures quality control and automates some of the managers’ operations, and therefore makes it possible to automatically manage call queues and monitor the quality of operators’ work.",
+      "block_5_1": [
+        "A ready-for-service script module ",
+        "Script adaptation for the desired language (DLL)",
+        "Normalizing unstable audio signals",
+        "A training module for beginners that preserves confidentiality",
+        "Editing audio files (for example, noise suppression)"
+      ],
+      "block_5_2": [
+        "A module for dialog moderation by checkpoints",
+        "Call quality assessment by managers",
+        "Automated request processing",
+        "Integration with technical support",
+        "Converting recordings to multilingual support texts"
+      ]
+    },
+    "functions": {
+      "title": "3-way integration",
+      "desc": "Acurella’s API provides means for 3-way integration with both our own and third-party applications, which creates a unique IT infrastructure for businesses. No more routine and manual information transfer! Manage services, websites and software through a one-stop-shop solution.",
+      "benefitArray": [
+        {
+          "title": "Up-to-date<br> information",
+          "text": "Effective communication between programs and applications in real time"
+        },
+        {
+          "title": "High data<br> exchange speed",
+          "text": "APIs can efficiently and quickly connect to partner and SaaS applications, thereby ensuring operation continuity"
+        },
+        {
+          "title": "Functional<br> extensibility",
+          "text": "If necessary, a user can later integrate any additional service or software via API; the overall system performance will not drop in this case"
+        }
+      ]
+    },
+    "interruption": {
+      "title": "Order a demo version and check the benefits <br /> of easy 3-way integration!"
     }
   },
   "contacts": {
@@ -1288,6 +1390,7 @@
     "input_phone": "Phone number",
     "input_email": "Email",
     "input_company": "Company name",
-    "textarea": "Comment"
+    "textarea": "Comment",
+    "address": "Tseriou, 136 2nd floor,<br />Strovolos, 2045, Nicosia,<br />Cyprus"
   }
 }

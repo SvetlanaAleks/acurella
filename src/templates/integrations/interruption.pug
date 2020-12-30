@@ -1,6 +1,7 @@
+- var INTERRUPTION_INTEGR = LANG.integrations_prod.interruption;
+
+
 div.interruption
 	.container
-		h2.interruption__title.title.title--light.title--4 Закажите Демо — и проверьте преимущества легкой 
-			br
-			|  трехсторонней интеграции!
+		h2.interruption__title.title.title--light.title--4!= INTERRUPTION_INTEGR.title
 		include ../form-int

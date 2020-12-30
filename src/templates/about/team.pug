@@ -11,7 +11,7 @@ mixin employee(src, name, post)
 -
 	const employeePhotos = [
 		'img/employee_1.jpg',
-		'img/employee_1.jpg',
+		'img/employee_2.jpg',
 		'img/employee_3.jpg',
 		'img/employee_4.jpg',
 		'img/employee_5.jpg',
@@ -28,4 +28,4 @@ section.team
 		.team__bottom
 			h2.team__ttl.title.title--light.title--4.column-big!= TEAM.title
 			p.team__desc.text-2.text-2--1= TEAM.desc
-			a.team__btn.btn.btn--empty.js-show-popup(data-target="#popup-demo")= TEAM.btn
+			.team__btn.btn.btn--empty(target="cereer.html")= TEAM.btn

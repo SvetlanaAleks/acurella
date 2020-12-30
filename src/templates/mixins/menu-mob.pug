@@ -5,7 +5,7 @@ mixin menu-mob(page)
 	.menu-mobile#js-mobile-menu
 		.menu-mobile__wrap
 			.menu-mobile__top
-				a.logo.menu-mobile__logo(href="/")
+				a.logo.menu-mobile__logo(href="index.html")
 					img.logo__img(src="/img/svg/logo-w.svg", alt="logo")
 				.burger.js-burger(data-target="#js-mobile-menu")
 					span.burger__line
@@ -13,19 +13,19 @@ mixin menu-mob(page)
 					span.burger__line
 			ul.menu-mobile__nav.nav
 					li.nav__item
-						a.nav__link(href="about") Компания
+						a.nav__link(href="about")= MENU.link1
 					li.nav__item
-						a.nav__link(href='product-cpa') CPA
+						a.nav__link(href='product-cpa')= MENU.link3
 					li.nav__item
-						a.nav__link(href="product-crm") CRM
+						a.nav__link(href="product-crm")= MENU.link4
 					li.nav__item
-						a.nav__link(href="product-scm") SCM
+						a.nav__link(href="product-scm")= MENU.link5
 					li.nav__item
-						a.nav__link(href="case") Кейсы
+						a.nav__link(href="case")= MENU.link7
 					li.nav__item
-						a.nav__link(href="integrations") Интеграции
+						a.nav__link(href="integrations")= MENU.link6
 					li.nav__item
-						a.nav__link(href="contacts") Контакты
+						a.nav__link(href="contacts")= MENU.link8
 			.menu-mobile__bottom
 				.menu-mobile__lang.lang
 					i.fico.fico-world
