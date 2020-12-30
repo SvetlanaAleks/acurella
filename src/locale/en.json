@@ -1444,5 +1444,34 @@
       ],
       "text": "Companies that have switched to digital transformation are expected to furnish <span class=\"bold\">half of the world’s GDP</span> by 2023. Choose Acurella’s solutions and be one of them!"
     }
+  },
+  "new_6": {
+    "title_main": "Benefits of API Integration",
+    "date": "April 2020",
+    "content": {
+      "block_1": [
+        "API (Application Programming Interface) is an interface for application programming that makes it possible to simplify the interaction of various applications and systems without using a complex IT infrastructure.",
+        "The API helps any application “connect” to its corresponding server so that the client can easily view information or perform certain actions. In simple terms, it is the API that enables us to register, purchase, subscribe without leaving the website. ",
+        "You can integrate CRM with messengers or an email marketing service and import all client addresses in just seconds. Or connect voice search for the users’ convenience.",
+        "Below are the examples of functionality that you can add to the website via the API:"
+      ],
+      "list": [
+        "chats;",
+        "a pre-configured authorized access for various roles;",
+        "analytics services;",
+        "polls;",
+        "online payments;",
+        "recommendations;",
+        "publishing media content;",
+        "data protection services;",
+        "search for goods and services;",
+        "messaging services, etc."
+      ],
+      "block_2": [
+        "Acurella’s solutions support the most advanced 3-way integration: both with internal systems (CRM, CPA, SCM) and with external ones. ",
+        "The external integration provides means for a significant expansion of the website capabilities, UX improvement, and automated data exchange. The internal integration helps to debug the enterprise’s business processes. Users can easily download information about orders, clients, browsing history, etc.",
+        "Acurella’s API integration is the ability to deliver great client experiences and seamless processes at scale."
+      ]
+    }
   }
 }

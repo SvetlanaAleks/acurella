@@ -1,6 +1,7 @@
 extends templates/layout/layout-dark.pug
 block head
-	title Преимущества API-интеграции
+	- var TITLE = LANG.new_6.title_main;
+	title= TITLE
 block content
 	include templates/mixins/menu-dark.pug
 	+menu-dark("new-6")
