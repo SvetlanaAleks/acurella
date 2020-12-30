@@ -616,37 +616,37 @@
     "title": "News",
     "newArray": [
       {
-        "link": "/new-1.html",
+        "link": "new-1.html",
         "src": "new_4",
         "ttl": "How COVID-19 changed business processes forever",
         "date": "23 October 2020"
       },
       {
-        "link": "/new-2.html",
+        "link": "new-2.html",
         "src": "new_1",
         "ttl": "Now CPA marketing is easier to manage: a new system from Acurella",
         "date": "12 September 2020"
       },
       {
-        "link": "/new-3.html",
+        "link": "new-3.html",
         "src": "new_2",
         "ttl": "Reference work of operators and managers at the expense of modern CRM",
         "date": "04 August 2020"
       },
       {
-        "link": "/new-4.html",
+        "link": "new-4.html",
         "src": "new_5",
         "ttl": "Digital transformation: a bonus or a guarantee of survival?",
         "date": "20 June 2020"
       },
       {
-        "link": "/new-5.html",
+        "link": "new-5.html",
         "src": "new_3",
         "ttl": "Timely purchases in the right volume with the new solution from Acurella",
         "date": "19 May 2020"
       },
       {
-        "link": "/new-6.html",
+        "link": "new-6.html",
         "src": "new_6",
         "ttl": "Benefits of API Integration",
         "date": "05 April 2020"
@@ -1420,6 +1420,29 @@
         "This is why client relationship management should be a priority. <span class=\"bold\">Acurella’s CRM-solution </span>controls the entire order cycle: from the moment when a client submits a request up to the after-sales service. Thus, the company minimizes the risk of error, automates routine processes and, ultimately, exceeds the client’s expectations.",
         "Analyzing the changes caused by the pandemic argues for the following: things will never be the same. The market is changing, and we need to be able to quickly adapt to the changes, while maintaining high performance at any scale. And Acurella’s systems will be happy to help you meet this goal!"
       ]
+    }
+  },
+  "new_4": {
+    "title_main": "Digital transformation: a bonus or a guarantee of survival?",
+    "date": "June 2020",
+    "content": {
+      "block_1": [
+        "According to the latest Statista study as of <a class=\"new-content__link\" href=\"https://www.statista.com/topics/6778/digital-transformation/#:~:text=In%202020%2C%20projections%20suggest%20that,(COVID%2D19)%20pandemic.\" target=\"_blank\">2020</a> digital transformation appears to be the <span class=\"bold\"># 1 IT priority </span>for most companies worldwide.",
+        "<span class=\"bold\">Digital transformation </span>is digital technology integration into all business areas that constantly improves well-known operational processes and stimulates the introduction of new ones, as well as ensures greater benefits for clients.",
+        "Let’s take Acurella’s product as an example.",
+        "<span class=\"bold\">A solution for the CPA networks </span>optimizes the ad campaign management. The processes of offer registration, webmaster search, setting up and launching a campaign, AV testing, final quality check of leads and many other operations are subject to automation.",
+        "As a result, <span class=\"bold\">the customer </span>receives high-quality traffic and work results presented in ready-made reports, <span class=\"bold\">the webmaster </span>is paid for the work performed, and <span class=\"bold\">the network administrators </span>receive their well-earned commission fee.",
+        "Digital transformation ensures a “win-win” position for everyone involved, saves time, helps scale successful strategies and reduces reliance on manual factors.",
+        "What is more, digital transformation investments are projected to grow to <span class=\"bold\">$ 7 trillion</span> by 2023. And in confirmation, let us put forward some statistics data."
+      ],
+      "list": [
+        "<span class=\"bold\">52%</span> of companies are going to cut and defer investments due to COVID-19, but only 9% express willingness to cut the investments in digital transformation <a class=\"new-content__link\" href=\"https://www.pwc.com/us/en/library/digital-iq.html\" target=\"_blank\">(РwС)</a>",
+        "Intelligent systems will process <span class=\"bold\">70% </span>of your orders as soon as 2022 <a class=\"new-content__link\" href=\"https://www.acquia.com/resources/whitepaper/forrester-report-digital-transformation?cid=7010c000002FssxAAC&amp;ct=search&amp;ls=google&amp;lls=acqu_search_usa_null_transformation_null_nonbrnd&amp;utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=ACQU_Search_USA_Null_Transformation_Null_NonBrnd_Broad&amp;utm_content=Digital+Transformation&amp;utm_term=%2Bdigital+%2Btransformation&amp;creativeID=&amp;gclid=EAIaIQobChMIz_7L0fWT4wIV5__jBx0kuAnZEAAYASAAEgLvFvD_BwE&amp;gclsrc=aw.ds\" target=\"_blank\">(Forrester)</a>",
+        "<span class=\"bold\">93% </span>of the survey respondents agreed that information technology plays a key role in digital transformation <a class=\"new-content__link\" href=\"https://news.sap.com/2019/03/forrester-survey-intelligent-technology-digital-transformation/\" target=\"_blank\">(Forrester)</a>",
+        "<span class=\"bold\">56% </span>of CEOs hold that advancing digital technology has driven more revenue <a class=\"new-content__link\" href=\"https://www.gartner.com/en/newsroom/press-releases/2017-04-24-gartner-survey-shows-42-percent-of-ceos-have-begun-digital-business-transformation\" target=\"_blank\">(Gartner)</a>",
+        "Among the top benefits of digital transformation, executives mention improved operational efficiency <span class=\"bold\">(40%)</span>, faster market entry <span class=\"bold\">(36%) </span>and the ability to meet clients’ expectations <span class=\"bold\">(35%) </span><a class=\"new-content__link\" href=\"https://www.ptc.com/en/products/plm/capabilities/digital-transformation-survey\" target=\"_blank\">(PTC)</a>"
+      ],
+      "text": "Companies that have switched to digital transformation are expected to furnish <span class=\"bold\">half of the world’s GDP</span> by 2023. Choose Acurella’s solutions and be one of them!"
     }
   }
 }

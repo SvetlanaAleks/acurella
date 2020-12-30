@@ -1,6 +1,7 @@
 extends templates/layout/layout-dark.pug
 block head
-	title Цифровая трансформация: бонус или залог выживания?
+	- var TITLE = LANG.new_4.title_main;
+	title= TITLE
 block content
 	include templates/mixins/menu-dark.pug
 	+menu-dark("new-4")

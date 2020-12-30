@@ -1,9 +1,10 @@
+- var NEW_4 = LANG.new_4;
+
+
 header.header-new
 	.container
 		.header-new__content
 			.header-new__col.date
 				p.date__day 20
-				p.date__month Июня 
-					br
-					| 2020
-			h1.header-new__title.title.title--dark.title--2 Цифровая трансформация: бонус или залог выживания?
+				p.date__month!= NEW_4.date
+			h1.header-new__title.title.title--dark.title--2= NEW_4.title_main
