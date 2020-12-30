@@ -1,6 +1,7 @@
 extends templates/layout/layout-dark.pug
 block head
-	title Как COVID-19 навсегда изменил бизнес-процессы
+	- var TITLE = LANG.new_1.title_main;
+	title= TITLE
 block content
 	include templates/mixins/menu-dark.pug
 	+menu-dark("new-1")

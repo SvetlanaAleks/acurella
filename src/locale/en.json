@@ -320,7 +320,7 @@
       "title_form": "Are you ready to experience all the features of the software for call centers and sales departments?"
     },
     "functions": {
-      "title": "Key benefits",
+      "title": "Key features",
       "functionsArray": [
         {
           "ttl": "Dynamic sales<br> script",
@@ -463,7 +463,7 @@
       "title_form": "Are you ready to experience all the possibilities of logistics software?"
     },
     "functions": {
-      "title": "Key benefits",
+      "title": "Key features",
       "functionsArray": [
         {
           "ttl": "Single<br> database",
@@ -618,14 +618,14 @@
       {
         "link": "/new-1.html",
         "src": "new_4",
-        "ttl": "Как COVID-19 навсегда изменил бизнес-процессы",
-        "date": "23 октября 2020"
+        "ttl": "How COVID-19 changed business processes forever",
+        "date": "23 October 2020"
       },
       {
         "link": "/new-2.html",
         "src": "new_1",
         "ttl": "Now CPA marketing is easier to manage: a new system from Acurella",
-        "date": "12 сентября 2020"
+        "date": "12 September 2020"
       },
       {
         "link": "/new-3.html",
@@ -636,7 +636,7 @@
       {
         "link": "/new-4.html",
         "src": "new_5",
-        "ttl": "Цифровая трансформация: бонус или залог выживания?",
+        "ttl": "Digital transformation: a bonus or a guarantee of survival?",
         "date": "20 June 2020"
       },
       {
@@ -648,8 +648,8 @@
       {
         "link": "/new-6.html",
         "src": "new_6",
-        "ttl": "Преимущества API-интеграции",
-        "date": "05 апреля 2020"
+        "ttl": "Benefits of API Integration",
+        "date": "05 April 2020"
       }
     ]
   },
@@ -1392,5 +1392,34 @@
     "input_company": "Company name",
     "textarea": "Comment",
     "address": "Tseriou, 136 2nd floor,<br />Strovolos, 2045, Nicosia,<br />Cyprus"
+  },
+  "new_1": {
+    "title_main": "How COVID-19 changed business processes forever",
+    "date": "October 2020",
+    "content": {
+      "block_1": [
+        "As shown by the <a class=\"new-content__link\" href=\"https://www.pwc.com/us/en/library/digital-iq.html\" target=\"_blank\">РwС</a> studies, <span class=\"bold\">52% </span>of companies are going to cut and defer investments due to COVID-19, but only <span class=\"bold\">9% </span>express willingness to cut the investments in digital transformation.",
+        "Moreover, according to experts’ opinion, the growth of annual investments in digital transformation by <span class=\"bold\">10,4% </span> (to $ 1.3 trillion) will be observable next year despite the economic recession due to the epidemic.",
+        "The pandemic has highlighted the need for increasing <span class=\"bold\">operational efficiency </span>and improving the <span class=\"bold\">customer experience, </span>faced by businesses as customers are the ones who can help companies stay afloat in times of economic turbulence. Unsurprisingly, digital transformation has mainly focused on <span class=\"bold\">saving businesses during the 2020-crisis.</span>",
+        "Under the quarantine conditions and restrictions, businesses worldwide had to put into practice an “express digitalization” of some kind while learning to operate in a new fashion. Let's discuss the main trends:"
+      ],
+      "title_1": "Integrating dozens of applications and services that enable employees to work remotely, introducing electronic document flow.",
+      "block_2": [
+        "For many clients, digitalization posed a real challenge: employees got confused in dozens of programs, and business processes began to deteriorate, along with the client experience. Moreover, employees of some companies openly sabotaged the transition to new services appealing to their lack of education in the technical sphere.",
+        "But that didn’t apply to <span class=\"bold\">Acurella’s</span> clients. Thanks to the convenient API integration, all systems operate as a whole organism and are controlled with the help of a one-stop-shop solution while keeping up-to-date information in real time. It is now possible to manage online processes more easily."
+      ],
+      "title_2": "Remote control of contractor management",
+      "block_3": [
+        "If before the epidemic the suppliers were “always green” and ready to visit the warehouse to check, purchase and independently transport the necessary material at any time, then during the pandemic many processes had to be transferred online. Some contractors left the market altogether, which made it necessary to look for their alternatives in a prompt manner. And the process of information exchange between offices in other countries became even more complicated upon the border closure.",
+        "And again, information technology has come to the rescue. For example, <span class=\"bold\">Acurella’s </span>complex supply chain management (SCM) system automatically monitors the entire production chain, from planning purchases to dispatching orders. The warehouse location makes no matter. The system automatically keeps track of goods, controls delivery times, selects the optimal volume of purchases, plans payments, draws up an action plan in case of force majeure and so on."
+      ],
+      "title_3": "Optimizing internal processes",
+      "block_4": [
+        "Digital transformation also involves the workforce transformation.  The use of innovative technologies like AI helps to increase employees’ productivity, efficiency and their transition to new roles.",
+        "Good team work invariably ensures improved client experience. According to <span class=\"bold\">McKinsey & Company</span>, focusing on the customer experience can increase the satisfaction level by <span class=\"bold\">20-30% </span>and boost the economic growth by <span class=\"bold\">20-50%</span>.",
+        "This is why client relationship management should be a priority. <span class=\"bold\">Acurella’s CRM-solution </span>controls the entire order cycle: from the moment when a client submits a request up to the after-sales service. Thus, the company minimizes the risk of error, automates routine processes and, ultimately, exceeds the client’s expectations.",
+        "Analyzing the changes caused by the pandemic argues for the following: things will never be the same. The market is changing, and we need to be able to quickly adapt to the changes, while maintaining high performance at any scale. And Acurella’s systems will be happy to help you meet this goal!"
+      ]
+    }
   }
 }

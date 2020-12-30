@@ -1,9 +1,9 @@
+- var NEW_1 = LANG.new_1;
+
 header.header-new
 	.container
 		.header-new__content
 			.header-new__col.date
 				p.date__day 23
-				p.date__month Октября 
-					br
-					| 2020
-			h1.header-new__title.title.title--dark.title--2 Как COVID-19 навсегда изменил бизнес-процессы
+				p.date__month!= NEW_1.date
+			h1.header-new__title.title.title--dark.title--2= NEW_1.title_main
