@@ -20,7 +20,7 @@
 .slide
 	display: flex !important
 	align-items: flex-end
-	padding-bottom: 238px
+	padding-bottom: 200px
 	min-height: 900px
 	&--0
 		.slide__wrap-img
@@ -125,6 +125,12 @@
 		&--1, &--2, &--3
 			.slide__wrap-img
 				width: 322px
+	&__content
+		min-height: 470px
+		+r(1440)
+			min-height: 450px
+		+r(1300)
+			min-height: auto
 	&__title
 		max-width: 710px
 		width: 100%
