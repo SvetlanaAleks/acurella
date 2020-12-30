@@ -1,928 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="icon" href="/img/svg/favicon.svg" />
-  <link rel="stylesheet" href="/css/main.css" type="text/css" />
-  <script>var locale = "en"</script>
-  <title>Политика конфиденциальности</title>
-</head>
-
-<body>
-  <div class="menu-mobile" id="js-mobile-menu">
-    <div class="menu-mobile__wrap">
-      <div class="menu-mobile__top"><a class="logo menu-mobile__logo" href="/"><img class="logo__img"
-            src="/img/svg/logo-w.svg" alt="logo" /></a>
-        <div class="burger js-burger" data-target="#js-mobile-menu"><span class="burger__line"></span><span
-            class="burger__line"></span><span class="burger__line"></span></div>
-      </div>
-      <ul class="menu-mobile__nav nav">
-        <li class="nav__item"><a class="nav__link" href="about">Компания</a></li>
-        <li class="nav__item"><a class="nav__link" href="product-cpa">CPA</a></li>
-        <li class="nav__item"><a class="nav__link" href="product-crm">CRM</a></li>
-        <li class="nav__item"><a class="nav__link" href="product-scm">SCM</a></li>
-        <li class="nav__item"><a class="nav__link" href="case">Кейсы</a></li>
-        <li class="nav__item"><a class="nav__link" href="integrations">Интеграции</a></li>
-        <li class="nav__item"><a class="nav__link" href="contacts">Контакты</a></li>
-      </ul>
-      <div class="menu-mobile__bottom">
-        <div class="menu-mobile__lang lang"><i class="fico fico-world"></i>
-          <div class="lang__list-wrap">
-            <div class="lang__list"><a class="lang-item" href="/en/undefined.html"><img class="lang-item__ico"
-                  src="/img/svg/langEN.svg" alt="langEN" /><span class="lang-item__text">International</span></a><a
-                class="lang-item" href="/undefined.html"><img class="lang-item__ico" src="/img/svg/langRU.svg"
-                  alt="langRU" /><span class="lang-item__text">Русский</span></a></div>
-          </div>
-        </div>
-        <button class="menu-mobile__btn btn btn--full js-show-popup" data-target="#popup-demo">Try demo</button>
-      </div>
-    </div>
-  </div>
-  <div class="menu menu--dark js-fixed-menu">
-    <div class="container">
-      <div class="menu__wrap"><a class="logo menu__logo" href="/">
-          <svg class="logo__img" width="198" height="30" viewbox="0 0 198 30" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M44.28 29.9792C42.0666 29.9792 40.08 29.5126 38.32 28.5792C36.56 27.6459 35.1866 26.3526 34.2 24.6992C33.2133 23.0192 32.72 21.1259 32.72 19.0192C32.72 16.9126 33.2133 15.0326 34.2 13.3792C35.1866 11.7259 36.5466 10.4326 38.28 9.49922C40.04 8.56588 42.04 8.09922 44.28 8.09922C46.3866 8.09922 48.2266 8.52589 49.8 9.37922C51.4 10.2326 52.6 11.4592 53.4 13.0592L49.56 15.2992C48.9466 14.3126 48.1733 13.5792 47.24 13.0992C46.3333 12.5926 45.3333 12.3392 44.24 12.3392C42.3733 12.3392 40.8266 12.9526 39.6 14.1792C38.3733 15.3792 37.76 16.9926 37.76 19.0192C37.76 21.0459 38.36 22.6726 39.56 23.8992C40.7866 25.0992 42.3466 25.6992 44.24 25.6992C45.3333 25.6992 46.3333 25.4592 47.24 24.9792C48.1733 24.4726 48.9466 23.7259 49.56 22.7392L53.4 24.9792C52.5733 26.5792 51.36 27.8192 49.76 28.6992C48.1866 29.5526 46.36 29.9792 44.28 29.9792Z"
-              fill="white"></path>
-            <path
-              d="M78.4021 8.33922V29.6992H73.6421V26.9792C72.8421 27.9392 71.8421 28.6859 70.6421 29.2192C69.4421 29.7259 68.1488 29.9792 66.7621 29.9792C63.9088 29.9792 61.6555 29.1926 60.0021 27.6192C58.3755 26.0192 57.5621 23.6592 57.5621 20.5392V8.33922H62.5621V19.8592C62.5621 21.7792 62.9888 23.2192 63.8421 24.1792C64.7221 25.1126 65.9621 25.5792 67.5621 25.5792C69.3488 25.5792 70.7621 25.0326 71.8021 23.9392C72.8688 22.8192 73.4021 21.2192 73.4021 19.1392V8.33922H78.4021Z"
-              fill="white"></path>
-            <path
-              d="M89.7087 11.4592C91.1487 9.21922 93.682 8.09922 97.3087 8.09922V12.8592C96.882 12.7792 96.4954 12.7392 96.1487 12.7392C94.202 12.7392 92.682 13.3126 91.5887 14.4592C90.4954 15.5792 89.9487 17.2059 89.9487 19.3392V29.6992H84.9487V8.33922H89.7087V11.4592Z"
-              fill="white"></path>
-            <path
-              d="M121.435 19.1392C121.435 19.4859 121.408 19.9792 121.355 20.6192H104.595C104.888 22.1926 105.648 23.4459 106.875 24.3792C108.128 25.2859 109.675 25.7392 111.515 25.7392C113.862 25.7392 115.795 24.9659 117.315 23.4192L119.995 26.4992C119.035 27.6459 117.822 28.5126 116.355 29.0992C114.888 29.6859 113.235 29.9792 111.395 29.9792C109.048 29.9792 106.982 29.5126 105.195 28.5792C103.408 27.6459 102.022 26.3526 101.035 24.6992C100.075 23.0192 99.595 21.1259 99.595 19.0192C99.595 16.9392 100.062 15.0726 100.995 13.4192C101.955 11.7392 103.275 10.4326 104.955 9.49922C106.635 8.56588 108.528 8.09922 110.635 8.09922C112.715 8.09922 114.568 8.56588 116.195 9.49922C117.848 10.4059 119.128 11.6992 120.035 13.3792C120.968 15.0326 121.435 16.9526 121.435 19.1392ZM110.635 12.0992C109.035 12.0992 107.675 12.5792 106.555 13.5392C105.462 14.4726 104.795 15.7259 104.555 17.2992H116.675C116.462 15.7526 115.808 14.4992 114.715 13.5392C113.622 12.5792 112.262 12.0992 110.635 12.0992Z"
-              fill="white"></path>
-            <path d="M126.238 0.0192165H131.238V29.6992H126.238V0.0192165Z" fill="white"></path>
-            <path d="M137.8 0.0192165H142.8V29.6992H137.8V0.0192165Z" fill="white"></path>
-            <path
-              d="M170.243 8.33922V29.6992H165.483V26.9392C164.656 27.9526 163.629 28.7126 162.403 29.2192C161.203 29.7259 159.869 29.9792 158.403 29.9792C156.323 29.9792 154.456 29.5259 152.803 28.6192C151.176 27.7126 149.896 26.4326 148.963 24.7792C148.056 23.1259 147.603 21.2059 147.603 19.0192C147.603 16.8326 148.056 14.9259 148.963 13.2992C149.896 11.6459 151.176 10.3659 152.803 9.45922C154.456 8.55255 156.323 8.09922 158.403 8.09922C159.789 8.09922 161.056 8.33922 162.203 8.81922C163.376 9.29922 164.389 10.0059 165.243 10.9392V8.33922H170.243ZM158.963 25.6992C160.803 25.6992 162.323 25.0859 163.523 23.8592C164.723 22.6326 165.323 21.0192 165.323 19.0192C165.323 17.0192 164.723 15.4059 163.523 14.1792C162.323 12.9526 160.803 12.3392 158.963 12.3392C157.123 12.3392 155.603 12.9526 154.403 14.1792C153.229 15.4059 152.643 17.0192 152.643 19.0192C152.643 21.0192 153.229 22.6326 154.403 23.8592C155.603 25.0859 157.123 25.6992 158.963 25.6992Z"
-              fill="white"></path>
-            <path fill-rule="evenodd" clip-rule="evenodd"
-              d="M5.36 29.6992H0L12.6 1.69922H17.72L30.36 29.6992H24.92L22.12 23.2192L6.63778 26.6992L5.36 29.6992ZM15.12 6.89922L20.4 19.1392L8.77569 21.6992L15.12 6.89922Z"
-              fill="white"></path>
-            <path d="M175 0H176.782V6.248H180.643V7.7H175V0Z" fill="white"></path>
-            <path d="M183.784 1.452H181.32V0H188.03V1.452H185.566V7.7H183.784V1.452Z" fill="white"></path>
-            <path
-              d="M189.428 0H192.926C193.762 0 194.499 0.161334 195.137 0.484C195.783 0.799334 196.281 1.24667 196.633 1.826C196.993 2.40533 197.172 3.08 197.172 3.85C197.172 4.62 196.993 5.29467 196.633 5.874C196.281 6.45333 195.783 6.90433 195.137 7.227C194.499 7.54233 193.762 7.7 192.926 7.7H189.428V0ZM192.838 6.237C193.608 6.237 194.221 6.02433 194.675 5.599C195.137 5.16633 195.368 4.58333 195.368 3.85C195.368 3.11667 195.137 2.53733 194.675 2.112C194.221 1.67933 193.608 1.463 192.838 1.463H191.21V6.237H192.838Z"
-              fill="white"></path>
-          </svg></a>
-        <ul class="menu__list nav">
-          <li class="nav__item"><a class="nav__link" href="about.html">Company</a></li>
-          <li class="nav__item nav__item--sub">
-            <div class="nav__link">Products</div>
-            <div class="nav__submenu submenu">
-              <div class="submenu__wrap"><a class="submenu__link submenu__link--1" href="product-cpa.html">
-                  <div class="submenu__wrap-ico"><i class="fico fico-cpa"></i></div>
-                  <div class="submenu__info">
-                    <p class="submenu__ttl">CPA</p>
-                    <p class="submenu__text">A ready-made solution for CPA networks</p>
-                  </div>
-                </a><a class="submenu__link submenu__link--2" href="product-crm.html">
-                  <div class="submenu__wrap-ico"><i class="fico fico-crm"></i></div>
-                  <div class="submenu__info">
-                    <p class="submenu__ttl">CRM</p>
-                    <p class="submenu__text">System for automating complex strategies for interaction</p>
-                  </div>
-                </a><a class="submenu__link submenu__link--3" href="product-scm.html">
-                  <div class="submenu__wrap-ico"><i class="fico fico-scm"></i></div>
-                  <div class="submenu__info">
-                    <p class="submenu__ttl">SCM</p>
-                    <p class="submenu__text">Cистема, управляющая сложными цепочками поставок</p>
-                  </div>
-                </a><a class="submenu__link submenu__link--4" href="integrations.html">
-                  <div class="submenu__wrap-ico"><i class="fico fico-int"></i></div>
-                  <div class="submenu__info">
-                    <p class="submenu__ttl">Integrations</p>
-                    <p class="submenu__text">Легкая интеграция модулей</p>
-                  </div>
-                </a></div>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="icon" href="/img/svg/favicon.svg"/>
+    <link rel="stylesheet" href="/css/main.css" type="text/css"/>
+    <script>var locale = "en"</script>
+    <title>Politics Confidentiality</title>
+  </head>
+  <body>
+        <div class="menu-mobile" id="js-mobile-menu">
+          <div class="menu-mobile__wrap">
+            <div class="menu-mobile__top"><a class="logo menu-mobile__logo" href="index.html"><img class="logo__img" src="/img/svg/logo-w.svg" alt="logo"/></a>
+              <div class="burger js-burger" data-target="#js-mobile-menu"><span class="burger__line"></span><span class="burger__line"></span><span class="burger__line"></span></div>
             </div>
-          </li>
-          <li class="nav__item"><a class="nav__link" href="case.html">Cases</a></li>
-          <li class="nav__item"><a class="nav__link" href="contacts.html">Contacts</a></li>
-        </ul>
-        <div class="menu__right">
-          <div class="menu__lang lang"><i class="fico fico-world"></i>
-            <div class="lang__list-wrap">
-              <div class="lang__list"><a class="lang-item" href="/en/politics-confidentiality.html"><img
-                    class="lang-item__ico" src="/img/svg/langEN.svg" alt="langEN" /><span
-                    class="lang-item__text">International</span></a><a class="lang-item"
-                  href="/politics-confidentiality.html"><img class="lang-item__ico" src="/img/svg/langRU.svg"
-                    alt="langRU" /><span class="lang-item__text">Русский</span></a></div>
+            <ul class="menu-mobile__nav nav">
+              <li class="nav__item"><a class="nav__link" href="about">Company</a></li>
+              <li class="nav__item"><a class="nav__link" href="product-cpa">CPA</a></li>
+              <li class="nav__item"><a class="nav__link" href="product-crm">CRM</a></li>
+              <li class="nav__item"><a class="nav__link" href="product-scm">SCM</a></li>
+              <li class="nav__item"><a class="nav__link" href="case">Cases</a></li>
+              <li class="nav__item"><a class="nav__link" href="integrations">Integrations</a></li>
+              <li class="nav__item"><a class="nav__link" href="contacts">Contacts</a></li>
+            </ul>
+            <div class="menu-mobile__bottom">
+              <div class="menu-mobile__lang lang"><i class="fico fico-world"></i>
+                <div class="lang__list-wrap">
+                  <div class="lang__list"><a class="lang-item" href="/en/undefined.html"><img class="lang-item__ico" src="/img/svg/langEN.svg" alt="langEN"/><span class="lang-item__text">International</span></a><a class="lang-item" href="/undefined.html"><img class="lang-item__ico" src="/img/svg/langRU.svg" alt="langRU"/><span class="lang-item__text">Русский</span></a></div>
+                </div>
+              </div>
+              <button class="menu-mobile__btn btn btn--full js-show-popup" data-target="#popup-demo">Try demo</button>
             </div>
           </div>
-          <button class="menu__btn btn btn--full js-show-popup" data-target="#popup-demo">Try demo</button>
-          <div class="burger js-burger" data-target="#js-mobile-menu"><span class="burger__line"></span><span
-              class="burger__line"></span><span class="burger__line"></span></div>
         </div>
-      </div>
-    </div>
-  </div>
-  <header class="header-privacy">
-    <div class="container">
-      <h1 class="header-privacy__title title title--dark title--2">Privacy Policy</h1>
-    </div>
-  </header>
-  <section class="content">
-    <div class="container">
-      <div class="content__wrapper">
-        <div class="content__block">
-          <div class="content__desc">
-            <p class="content__text text-2--1">We are very delighted that you have shown interest in our enterprise.
-              Data protection is of a particularly high priority for the management of the Acurella Limited. The use of
-              the Internet pages of the Acurella Limited is possible without any indication of personal data; however,
-              if a data subject wants to use special enterprise services via our website, processing of personal data
-              could become necessary. If the processing of personal data is necessary and there is no statutory basis
-              for such processing, we generally obtain consent from the data subject.</p>
-            <p class="content__text text-2--1">The processing of personal data, such as the name, address, e-mail
-              address, or telephone number of a data subject shall always be in line with the General Data Protection
-              Regulation (GDPR), and in accordance with the country-specific data protection regulations applicable to
-              the Acurella Limited. By means of this data protection declaration, our enterprise would like to inform
-              the general public of the nature, scope, and purpose of the personal data we collect, use and process.
-              Furthermore, data subjects are informed, by means of this data protection declaration, of the rights to
-              which they are entitled.</p>
-            <p class="content__text text-2--1">As the controller, the Acurella Limited has implemented numerous
-              technical and organizational measures to ensure the most complete protection of personal data processed
-              through this website. However, Internet-based data transmissions may in principle have security gaps, so
-              absolute protection may not be guaranteed. For this reason, every data subject is free to transfer
-              personal data to us via alternative means, e.g. by telephone.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Definitions</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">The data protection declaration of the Acurella Limited is based on the
-              terms used by the European legislator for the adoption of the General Data Protection Regulation (GDPR).
-              Our data protection declaration should be legible and understandable for the general public, as well as
-              our customers and business partners. To ensure this, we would like to first explain the terminology used.
-            </p>
-            <p class="content__text text-2--1">In this data protection declaration, we use, inter alia, the following
-              terms:</p>
-          </div>
-          <ul class="content__list list-tasks text-2--1">
-            <li class="list-tasks__item"><span>Data subject</span>:<br> Data subject is any identified or identifiable
-              natural person, whose personal data is processed by the controller responsible for the processing.</li>
-            <li class="list-tasks__item"><span>Processing</span>:<br> Processing is any operation or set of operations
-              which is performed on personal data or on sets of personal data, whether or not by automated means, such
-              as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval,
-              consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or
-              combination, restriction, erasure or destruction.</li>
-            <li class="list-tasks__item"><span>Restriction of processing</span>:<br> Restriction of processing is the
-              marking of stored personal data with the aim of limiting their processing in the future.</li>
-            <li class="list-tasks__item"><span>Profiling</span>:<br> Profiling means any form of automated processing of
-              personal data consisting of the use of personal data to evaluate certain personal aspects relating to a
-              natural person, in particular to analyse or predict aspects concerning that natural person's performance
-              at work, economic situation, health, personal preferences, interests, reliability, behaviour, location or
-              movements.</li>
-            <li class="list-tasks__item"><span>Pseudonymisation</span>:<br> Pseudonymisation is the processing of
-              personal data in such a manner that the personal data can no longer be attributed to a specific data
-              subject without the use of additional information, provided that such additional information is kept
-              separately and is subject to technical and organisational measures to ensure that the personal data are
-              not attributed to an identified or identifiable natural person.</li>
-            <li class="list-tasks__item"><span>Controller or controller responsible for the processing</span>:<br>
-              Controller or controller responsible for the processing is the natural or legal person, public authority,
-              agency or other body which, alone or jointly with others, determines the purposes and means of the
-              processing of personal data; where the purposes and means of such processing are determined by Union or
-              Member State law, the controller or the specific criteria for its nomination may be provided for by Union
-              or Member State law.</li>
-            <li class="list-tasks__item"><span>Processor</span>:<br> Processor is a natural or legal person, public
-              authority, agency or other body which processes personal data on behalf of the controller.</li>
-            <li class="list-tasks__item"><span>Recipient</span>:<br> Recipient is a natural or legal person, public
-              authority, agency or another body, to which the personal data are disclosed, whether a third party or not.
-              However, public authorities which may receive personal data in the framework of a particular inquiry in
-              accordance with Union or Member State law shall not be regarded as recipients; the processing of those
-              data by those public authorities shall be in compliance with the applicable data protection rules
-              according to the purposes of the processing.</li>
-            <li class="list-tasks__item"><span>Third party</span>:<br> Third party is a natural or legal person, public
-              authority, agency or body other than the data subject, controller, processor and persons who, under the
-              direct authority of the controller or processor, are authorised to process personal data.</li>
-            <li class="list-tasks__item"><span>Consent</span>:<br> Consent of the data subject is any freely given,
-              specific, informed and unambiguous indication of the data subject's wishes by which he or she, by a
-              statement or by a clear affirmative action, signifies agreement to the processing of personal data
-              relating to him or her.</li>
-          </ul>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Name and Address of the controller</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">Controller for the purposes of the General Data Protection Regulation
-              (GDPR), other data protection laws applicable in Member states of the European Union and other provisions
-              related to data protection is:</p>
-            <p class="content__text-link text-2--1">Acurella Limited</p>
-            <p class="content__text-link text-2--1">Email: <a class="content__link"
-                href="mailto:contact@licante.com">contact@licante.com</a></p>
-            <p class="content__text-link text-2--1">Website: <a class="content__link" href="licante.com"
-                target="_blank">licante.com</a></p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Cookies</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">The Internet pages of the Acurella Limited use cookies. Cookies are text
-              files that are stored in a computer system via an Internet browser.</p>
-            <p class="content__text text-2--1">Many Internet sites and servers use cookies. Many cookies contain a
-              so-called cookie ID. A cookie ID is a unique identifier of the cookie. It consists of a character string
-              through which Internet pages and servers can be assigned to the specific Internet browser in which the
-              cookie was stored. This allows visited Internet sites and servers to differentiate the individual browser
-              of the dats subject from other Internet browsers that contain other cookies. A specific Internet browser
-              can be recognized and identified using the unique cookie ID.</p>
-            <p class="content__text text-2--1">Through the use of cookies, the Acurella Limited can provide the users of
-              this website with more user-friendly services that would not be possible without the cookie setting.</p>
-            <p class="content__text text-2--1">By means of a cookie, the information and offers on our website can be
-              optimized with the user in mind. Cookies allow us, as previously mentioned, to recognize our website
-              users. The purpose of this recognition is to make it easier for users to utilize our website. The website
-              user that uses cookies, e.g. does not have to enter access data each time the website is accessed, because
-              this is taken over by the website, and the cookie is thus stored on the user's computer system. Another
-              example is the cookie of a shopping cart in an online shop. The online store remembers the articles that a
-              customer has placed in the virtual shopping cart via a cookie.</p>
-            <p class="content__text text-2--1">The data subject may, at any time, prevent the setting of cookies through
-              our website by means of a corresponding setting of the Internet browser used, and may thus permanently
-              deny the setting of cookies. Furthermore, already set cookies may be deleted at any time via an Internet
-              browser or other software programs. This is possible in all popular Internet browsers. If the data subject
-              deactivates the setting of cookies in the Internet browser used, not all functions of our website may be
-              entirely usable.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Collection of general data and information</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">The website of the Acurella Limited collects a series of general data and
-              information when a data subject or automated system calls up the website. This general data and
-              information are stored in the server log files. Collected may be (1) the browser types and versions used,
-              (2) the operating system used by the accessing system, (3) the website from which an accessing system
-              reaches our website (so-called referrers), (4) the sub-websites, (5) the date and time of access to the
-              Internet site, (6) an Internet protocol address (IP address), (7) the Internet service provider of the
-              accessing system, and (8) any other similar data and information that may be used in the event of attacks
-              on our information technology systems.</p>
-            <p class="content__text text-2--1">When using these general data and information, the Acurella Limited does
-              not draw any conclusions about the data subject. Rather, this information is needed to (1) deliver the
-              content of our website correctly, (2) optimize the content of our website as well as its advertisement,
-              (3) ensure the long-term viability of our information technology systems and website technology, and (4)
-              provide law enforcement authorities with the information necessary for criminal prosecution in case of a
-              cyber-attack. Therefore, the Acurella Limited analyzes anonymously collected data and information
-              statistically, with the aim of increasing the data protection and data security of our enterprise, and to
-              ensure an optimal level of protection for the personal data we process. The anonymous data of the server
-              log files are stored separately from all personal data provided by a data subject.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Registration on our website</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">The data subject has the possibility to register on the website of the
-              controller with the indication of personal data. Which personal data are transmitted to the controller is
-              determined by the respective input mask used for the registration. The personal data entered by the data
-              subject are collected and stored exclusively for internal use by the controller, and for his own purposes.
-              The controller may request transfer to one or more processors (e.g. a parcel service) that also uses
-              personal data for an internal purpose which is attributable to the controller.</p>
-            <p class="content__text text-2--1">By registering on the website of the controller, the IP address—assigned
-              by the Internet service provider (ISP) and used by the data subject—date, and time of the registration are
-              also stored. The storage of this data takes place against the background that this is the only way to
-              prevent the misuse of our services, and, if necessary, to make it possible to investigate committed
-              offenses. Insofar, the storage of this data is necessary to secure the controller. This data is not passed
-              on to third parties unless there is a statutory obligation to pass on the data, or if the transfer serves
-              the aim of criminal prosecution.</p>
-            <p class="content__text text-2--1">The registration of the data subject, with the voluntary indication of
-              personal data, is intended to enable the controller to offer the data subject contents or services that
-              may only be offered to registered users due to the nature of the matter in question. Registered persons
-              are free to change the personal data specified during the registration at any time, or to have them
-              completely deleted from the data stock of the controller.</p>
-            <p class="content__text text-2--1">The data controller shall, at any time, provide information upon request
-              to each data subject as to what personal data are stored about the data subject. In addition, the data
-              controller shall correct or erase personal data at the request or indication of the data subject, insofar
-              as there are no statutory storage obligations. The entirety of the controller’s employees are available to
-              the data subject in this respect as contact persons.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Subscription to our newsletters</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">On the website of the Acurella Limited, users are given the opportunity
-              to subscribe to our enterprise's newsletter. The input mask used for this purpose determines what personal
-              data are transmitted, as well as when the newsletter is ordered from the controller.</p>
-            <p class="content__text text-2--1">The Acurella Limited informs its customers and business partners
-              regularly by means of a newsletter about enterprise offers. The enterprise's newsletter may only be
-              received by the data subject if (1) the data subject has a valid e-mail address and (2) the data subject
-              registers for the newsletter shipping. A confirmation e-mail will be sent to the e-mail address registered
-              by a data subject for the first time for newsletter shipping, for legal reasons, in the double opt-in
-              procedure. This confirmation e-mail is used to prove whether the owner of the e-mail address as the data
-              subject is authorized to receive the newsletter.</p>
-            <p class="content__text text-2--1">During the registration for the newsletter, we also store the IP address
-              of the computer system assigned by the Internet service provider (ISP) and used by the data subject at the
-              time of the registration, as well as the date and time of the registration. The collection of this data is
-              necessary in order to understand the (possible) misuse of the e-mail address of a data subject at a later
-              date, and it therefore serves the aim of the legal protection of the controller.</p>
-            <p class="content__text text-2--1">The personal data collected as part of a registration for the newsletter
-              will only be used to send our newsletter. In addition, subscribers to the newsletter may be informed by
-              e-mail, as long as this is necessary for the operation of the newsletter service or a registration in
-              question, as this could be the case in the event of modifications to the newsletter offer, or in the event
-              of a change in technical circumstances. There will be no transfer of personal data collected by the
-              newsletter service to third parties. The subscription to our newsletter may be terminated by the data
-              subject at any time. The consent to the storage of personal data, which the data subject has given for
-              shipping the newsletter, may be revoked at any time. For the purpose of revocation of consent, a
-              corresponding link is found in each newsletter. It is also possible to unsubscribe from the newsletter at
-              any time directly on the website of the controller, or to communicate this to the controller in a
-              different way.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Newsletter-Tracking</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">The newsletter of the Acurella Limited contains so-called tracking
-              pixels. A tracking pixel is a miniature graphic embedded in such e-mails, which are sent in HTML format to
-              enable log file recording and analysis. This allows a statistical analysis of the success or failure of
-              online marketing campaigns. Based on the embedded tracking pixel, the Acurella Limited may see if and when
-              an e-mail was opened by a data subject, and which links in the e-mail were called up by data subjects.</p>
-            <p class="content__text text-2--1">Such personal data collected in the tracking pixels contained in the
-              newsletters are stored and analyzed by the controller in order to optimize the shipping of the newsletter,
-              as well as to adapt the content of future newsletters even better to the interests of the data subject.
-              These personal data will not be passed on to third parties. Data subjects are at any time entitled to
-              revoke the respective separate declaration of consent issued by means of the double-opt-in procedure.
-              After a revocation, these personal data will be deleted by the controller. The Acurella Limited
-              automatically regards a withdrawal from the receipt of the newsletter as a revocation.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Contact possibility via the website</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">The website of the Acurella Limited contains information that enables a
-              quick electronic contact to our enterprise, as well as direct communication with us, which also includes a
-              general address of the so-called electronic mail (e-mail address). If a data subject contacts the
-              controller by e-mail or via a contact form, the personal data transmitted by the data subject are
-              automatically stored. Such personal data transmitted on a voluntary basis by a data subject to the data
-              controller are stored for the purpose of processing or contacting the data subject. There is no transfer
-              of this personal data to third parties.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Comments function in the blog on the website</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">The Acurella Limited offers users the possibility to leave individual
-              comments on individual blog contributions on a blog, which is on the website of the controller. A blog is
-              a web-based, publicly-accessible portal, through which one or more people called bloggers or web-bloggers
-              may post articles or write down thoughts in so-called blogposts. Blogposts may usually be commented by
-              third parties.</p>
-            <p class="content__text text-2--1">If a data subject leaves a comment on the blog published on this website,
-              the comments made by the data subject are also stored and published, as well as information on the date of
-              the commentary and on the user's (pseudonym) chosen by the data subject. In addition, the IP address
-              assigned by the Internet service provider (ISP) to the data subject is also logged. This storage of the IP
-              address takes place for security reasons, and in case the data subject violates the rights of third
-              parties, or posts illegal content through a given comment. The storage of these personal data is,
-              therefore, in the own interest of the data controller, so that he can exculpate in the event of an
-              infringement. This collected personal data will not be passed to third parties, unless such a transfer is
-              required by law or serves the aim of the defense of the data controller.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Subscription to comments in the blog on the website</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">The comments made in the blog of the Acurella Limited may be subscribed
-              to by third parties. In particular, there is the possibility that a commenter subscribes to the comments
-              following his comments on a particular blog post.</p>
-            <p class="content__text text-2--1">If a data subject decides to subscribe to the option, the controller will
-              send an automatic confirmation e-mail to check the double opt-in procedure as to whether the owner of the
-              specified e-mail address decided in favor of this option. The option to subscribe to comments may be
-              terminated at any time.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Routine erasure and blocking of personal data</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">The data controller shall process and store the personal data of the data
-              subject only for the period necessary to achieve the purpose of storage, or as far as this is granted by
-              the European legislator or other legislators in laws or regulations to which the controller is subject to.
-            </p>
-            <p class="content__text text-2--1">If the storage purpose is not applicable, or if a storage period
-              prescribed by the European legislator or another competent legislator expires, the personal data are
-              routinely blocked or erased in accordance with legal requirements.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Rights of the data subject</h2>
-          <ul class="content__list list-tasks text-2--1">
-            <li class="list-tasks__item"><span>Right of confirmation</span><br> Each data subject shall have the right
-              granted by the European legislator to obtain from the controller the confirmation as to whether or not
-              personal data concerning him or her are being processed. If a data subject wishes to avail himself of this
-              right of confirmation, he or she may, at any time, contact any employee of the controller.</li>
-            <li class="list-tasks__item"><span>Right of access</span><br> Each data subject shall have the right granted
-              by the European legislator to obtain from the controller free information about his or her personal data
-              stored at any time and a copy of this information. Furthermore, the European directives and regulations
-              grant the data subject access to the following information:</li>
-          </ul>
-          <ul class="content__list content__list--sub text-2--1">
-            <li class="list-tasks__item">- the purposes of the processing;</li>
-            <li class="list-tasks__item">- the categories of personal data concerned;</li>
-            <li class="list-tasks__item">- the recipients or categories of recipients to whom the personal data have
-              been or will be disclosed, in particular recipients in third countries or international organisations;
-            </li>
-            <li class="list-tasks__item">- where possible, the envisaged period for which the personal data will be
-              stored, or, if not possible, the criteria used to determine that period;</li>
-            <li class="list-tasks__item">- the existence of the right to request from the controller rectification or
-              erasure of personal data, or restriction of processing of personal data concerning the data subject, or to
-              object to such processing;</li>
-            <li class="list-tasks__item">- the existence of the right to lodge a complaint with a supervisory authority;
-            </li>
-            <li class="list-tasks__item">- where the personal data are not collected from the data subject, any
-              available information as to their source;</li>
-            <li class="list-tasks__item">- the existence of automated decision-making, including profiling, referred to
-              in Article 22(1) and (4) of the GDPR and, at least in those cases, meaningful information about the logic
-              involved, as well as the significance and envisaged consequences of such processing for the data subject.
-            </li>
-          </ul>
-          <div class="content__desc content__desc--list">
-            <p class="content__text text-2--1">Furthermore, the data subject shall have a right to obtain information as
-              to whether personal data are transferred to a third country or to an international organisation. Where
-              this is the case, the data subject shall have the right to be informed of the appropriate safeguards
-              relating to the transfer.</p>
-            <p class="content__text text-2--1">If a data subject wishes to avail himself of this right of access, he or
-              she may, at any time, contact any employee of the controller.</p>
-          </div>
-          <ul class="content__list list-tasks text-2--1">
-            <li class="list-tasks__item"><span>Right to rectification</span><br>Each data subject shall have the right
-              granted by the European legislator to obtain from the controller without undue delay the rectification of
-              inaccurate personal data concerning him or her. Taking into account the purposes of the processing, the
-              data subject shall have the right to have incomplete personal data completed, including by means of
-              providing a supplementary statement.<br>If a data subject wishes to exercise this right to rectification,
-              he or she may, at any time, contact any employee of the controller.</li>
-            <li class="list-tasks__item"><span>Right to erasure (Right to be forgotten)</span><br> Each data subject
-              shall have the right granted by the European legislator to obtain from the controller the erasure of
-              personal data concerning him or her without undue delay, and the controller shall have the obligation to
-              erase personal data without undue delay where one of the following grounds applies, as long as the
-              processing is not necessary:</li>
-          </ul>
-          <ul class="content__list content__list--sub text-2--1">
-            <li class="list-tasks__item">- The personal data are no longer necessary in relation to the purposes for
-              which they were collected or otherwise processed.</li>
-            <li class="list-tasks__item">- The data subject withdraws consent to which the processing is based according
-              to point (a) of Article 6(1) of the GDPR, or point (a) of Article 9(2) of the GDPR, and where there is no
-              other legal ground for the processing.</li>
-            <li class="list-tasks__item">- The data subject objects to the processing pursuant to Article 21(1) of the
-              GDPR and there are no overriding legitimate grounds for the processing, or the data subject objects to the
-              processing pursuant to Article 21(2) of the GDPR.</li>
-            <li class="list-tasks__item">- The personal data have been unlawfully processed.</li>
-            <li class="list-tasks__item">- The personal data must be erased for compliance with a legal obligation in
-              Union or Member State law to which the controller is subject.</li>
-            <li class="list-tasks__item">The personal data have been collected in relation to the offer of information
-              society services referred to in Article 8(1) of the GDPR.</li>
-            <li class="list-tasks__item">- If one of the aforementioned reasons applies, and a data subject wishes to
-              request the erasure of personal data stored by the Acurella Limited, he or she may, at any time, contact
-              any employee of the controller. An employee of Acurella Limited shall promptly ensure that the erasure
-              request is complied with immediately.</li>
-            <li class="list-tasks__item">- Where the controller has made personal data public and is obliged pursuant to
-              Article 17(1) to erase the personal data, the controller, taking account of available technology and the
-              cost of implementation, shall take reasonable steps, including technical measures, to inform other
-              controllers processing the personal data that the data subject has requested erasure by such controllers
-              of any links to, or copy or replication of, those personal data, as far as processing is not required. An
-              employees of the Acurella Limited will arrange the necessary measures in individual cases.</li>
-          </ul>
-          <ul class="content__list list-tasks text-2--1">
-            <li class="list-tasks__item"><span>Right of restriction of processing</span><br> Each data subject shall
-              have the right granted by the European legislator to obtain from the controller restriction of processing
-              where one of the following applies:</li>
-          </ul>
-          <ul class="content__list content__list--sub text-2--1">
-            <li class="list-tasks__item">- The accuracy of the personal data is contested by the data subject, for a
-              period enabling the controller to verify the accuracy of the personal data.</li>
-            <li class="list-tasks__item">- The processing is unlawful and the data subject opposes the erasure of the
-              personal data and requests instead the restriction of their use instead.</li>
-            <li class="list-tasks__item">- The controller no longer needs the personal data for the purposes of the
-              processing, but they are required by the data subject for the establishment, exercise or defence of legal
-              claims.</li>
-            <li class="list-tasks__item">- The data subject has objected to processing pursuant to Article 21(1) of the
-              GDPR pending the verification whether the legitimate grounds of the controller override those of the data
-              subject.</li>
-          </ul>
-          <div class="content__desc content__desc--list">
-            <p class="content__text text-2--1">If one of the aforementioned conditions is met, and a data subject wishes
-              to request the restriction of the processing of personal data stored by the Acurella Limited, he or she
-              may at any time contact any employee of the controller. The employee of the Acurella Limited will arrange
-              the restriction of the processing.</p>
-          </div>
-          <ul class="content__list list-tasks text-2--1">
-            <li class="list-tasks__item"><span>Right to data portability</span> <br>Each data subject shall have the
-              right granted by the European legislator, to receive the personal data concerning him or her, which was
-              provided to a controller, in a structured, commonly used and machine-readable format. He or she shall have
-              the right to transmit those data to another controller without hindrance from the controller to which the
-              personal data have been provided, as long as the processing is based on consent pursuant to point (a) of
-              Article 6(1) of the GDPR or point (a) of Article 9(2) of the GDPR, or on a contract pursuant to point (b)
-              of Article 6(1) of the GDPR, and the processing is carried out by automated means, as long as the
-              processing is not necessary for the performance of a task carried out in the public interest or in the
-              exercise of official authority vested in the controller.<br>Furthermore, in exercising his or her right to
-              data portability pursuant to Article 20(1) of the GDPR, the data subject shall have the right to have
-              personal data transmitted directly from one controller to another, where technically feasible and when
-              doing so does not adversely affect the rights and freedoms of others.<br>In order to assert the right to
-              data portability, the data subject may at any time contact any employee of the Acurella Limited.</li>
-            <li class="list-tasks__item"><span>Right to object</span> <br>Each data subject shall have the right granted
-              by the European legislator to object, on grounds relating to his or her particular situation, at any time,
-              to processing of personal data concerning him or her, which is based on point (e) or (f) of Article 6(1)
-              of the GDPR. This also applies to profiling based on these provisions.<br>The Acurella Limited shall no
-              longer process the personal data in the event of the objection, unless we can demonstrate compelling
-              legitimate grounds for the processing which override the interests, rights and freedoms of the data
-              subject, or for the establishment, exercise or defence of legal claims.<br>If the Acurella Limited
-              processes personal data for direct marketing purposes, the data subject shall have the right to object at
-              any time to processing of personal data concerning him or her for such marketing. This applies to
-              profiling to the extent that it is related to such direct marketing. If the data subject objects to the
-              Acurella Limited to the processing for direct marketing purposes, the Acurella Limited will no longer
-              process the personal data for these purposes.<br>In addition, the data subject has the right, on grounds
-              relating to his or her particular situation, to object to processing of personal data concerning him or
-              her by the Acurella Limited for scientific or historical research purposes, or for statistical purposes
-              pursuant to Article 89(1) of the GDPR, unless the processing is necessary for the performance of a task
-              carried out for reasons of public interest.<br>In order to exercise the right to object, the data subject
-              may contact any employee of the Acurella Limited. In addition, the data subject is free in the context of
-              the use of information society services, and notwithstanding Directive 2002/58/EC, to use his or her right
-              to object by automated means using technical specifications.</li>
-            <li class="list-tasks__item"><span>Automated individual decision-making, including profiling</span><br>Each
-              data subject shall have the right granted by the European legislator not to be subject to a decision based
-              solely on automated processing, including profiling, which produces legal effects concerning him or her,
-              or similarly significantly affects him or her, as long as the decision (1) is not is necessary for
-              entering into, or the performance of, a contract between the data subject and a data controller, or (2) is
-              not authorised by Union or Member State law to which the controller is subject and which also lays down
-              suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, or (3) is
-              not based on the data subject's explicit consent.<br>If the decision (1) is necessary for entering into,
-              or the performance of, a contract between the data subject and a data controller, or (2) it is based on
-              the data subject's explicit consent, the Acurella Limited shall implement suitable measures to safeguard
-              the data subject's rights and freedoms and legitimate interests, at least the right to obtain human
-              intervention on the part of the controller, to express his or her point of view and contest the
-              decision.<br>If the data subject wishes to exercise the rights concerning automated individual
-              decision-making, he or she may, at any time, contact any employee of the Acurella Limited.</li>
-            <li class="list-tasks__item"><span>Right to withdraw data protection consent</span> <br>Each data subject
-              shall have the right granted by the European legislator to withdraw his or her consent to processing of
-              his or her personal data at any time.<br> The data subject wishes to exercise the right to withdraw the
-              consent, he or she may, at any time, contact any employee of the Acurella Limited.</li>
-          </ul>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Data protection provisions about the application and use
-            of Facebook</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">On this website, the controller has integrated components of the
-              enterprise Facebook. Facebook is a social network.</p>
-            <p class="content__text text-2--1">A social network is a place for social meetings on the Internet, an
-              online community, which usually allows users to communicate with each other and interact in a virtual
-              space. A social network may serve as a platform for the exchange of opinions and experiences, or enable
-              the Internet community to provide personal or business-related information. Facebook allows social network
-              users to include the creation of private profiles, upload photos, and network through friend requests.</p>
-            <p class="content__text text-2--1">The operating company of Facebook is Facebook, Inc., 1 Hacker Way, Menlo
-              Park, CA 94025, United States. If a person lives outside of the United States or Canada, the controller is
-              the Facebook Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland.</p>
-            <p class="content__text text-2--1">With each call-up to one of the individual pages of this Internet
-              website, which is operated by the controller and into which a Facebook component (Facebook plug-ins) was
-              integrated, the web browser on the information technology system of the data subject is automatically
-              prompted to download display of the corresponding Facebook component from Facebook through the Facebook
-              component. An overview of all the Facebook Plug-ins may be accessed under <a class="content__link"
-                href="https://developers.facebook.com/docs/plugins/"
-                tagret="_black">https://developers.facebook.com/docs/plugins/</a>. During the course of this technical
-              procedure, Facebook is made aware of what specific sub-site of our website was visited by the data
-              subject.</p>
-            <p class="content__text text-2--1">If the data subject is logged in at the same time on Facebook, Facebook
-              detects with every call-up to our website by the data subject—and for the entire duration of their stay on
-              our Internet site—which specific sub-site of our Internet page was visited by the data subject. This
-              information is collected through the Facebook component and associated with the respective Facebook
-              account of the data subject. If the data subject clicks on one of the Facebook buttons integrated into our
-              website, e.g. the "Like" button, or if the data subject submits a comment, then Facebook matches this
-              information with the personal Facebook user account of the data subject and stores the personal data.</p>
-            <p class="content__text text-2--1">Facebook always receives, through the Facebook component, information
-              about a visit to our website by the data subject, whenever the data subject is logged in at the same time
-              on Facebook during the time of the call-up to our website. This occurs regardless of whether the data
-              subject clicks on the Facebook component or not. If such a transmission of information to Facebook is not
-              desirable for the data subject, then he or she may prevent this by logging off from their Facebook account
-              before a call-up to our website is made.</p>
-            <p class="content__text text-2--1">The data protection guideline published by Facebook, which is available
-              at <a class="content__link" href="https://facebook.com/about/privacy/"
-                tagret="_black">https://facebook.com/about/privacy/</a>, provides information about the collection,
-              processing and use of personal data by Facebook. In addition, it is explained there what setting options
-              Facebook offers to protect the privacy of the data subject. In addition, different configuration options
-              are made available to allow the elimination of data transmission to Facebook. These applications may be
-              used by the data subject to eliminate a data transmission to Facebook.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Data protection provisions about the application and use
-            of Google Analytics (with anonymization function)</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">On this website, the controller has integrated the component of Google
-              Analytics (with the anonymizer function). Google Analytics is a web analytics service. Web analytics is
-              the collection, gathering, and analysis of data about the behavior of visitors to websites. A web analysis
-              service collects, inter alia, data about the website from which a person has come (the so-called
-              referrer), which sub-pages were visited, or how often and for what duration a sub-page was viewed. Web
-              analytics are mainly used for the optimization of a website and in order to carry out a cost-benefit
-              analysis of Internet advertising.</p>
-            <p class="content__text text-2--1">The operator of the Google Analytics component is Google Inc., 1600
-              Amphitheatre Pkwy, Mountain View, CA 94043-1351, United States.</p>
-            <p class="content__text text-2--1">For the web analytics through Google Analytics the controller uses the
-              application "_gat. _anonymizeIp". By means of this application the IP address of the Internet connection
-              of the data subject is abridged by Google and anonymised when accessing our websites from a Member State
-              of the European Union or another Contracting State to the Agreement on the European Economic Area.</p>
-            <p class="content__text text-2--1">The purpose of the Google Analytics component is to analyze the traffic
-              on our website. Google uses the collected data and information, inter alia, to evaluate the use of our
-              website and to provide online reports, which show the activities on our websites, and to provide other
-              services concerning the use of our Internet site for us.</p>
-            <p class="content__text text-2--1">Google Analytics places a cookie on the information technology system of
-              the data subject. The definition of cookies is explained above. With the setting of the cookie, Google is
-              enabled to analyze the use of our website. With each call-up to one of the individual pages of this
-              Internet site, which is operated by the controller and into which a Google Analytics component was
-              integrated, the Internet browser on the information technology system of the data subject will
-              automatically submit data through the Google Analytics component for the purpose of online advertising and
-              the settlement of commissions to Google. During the course of this technical procedure, the enterprise
-              Google gains knowledge of personal information, such as the IP address of the data subject, which serves
-              Google, inter alia, to understand the origin of visitors and clicks, and subsequently create commission
-              settlements.</p>
-            <p class="content__text text-2--1">The cookie is used to store personal information, such as the access
-              time, the location from which the access was made, and the frequency of visits of our website by the data
-              subject. With each visit to our Internet site, such personal data, including the IP address of the
-              Internet access used by the data subject, will be transmitted to Google in the United States of America.
-              These personal data are stored by Google in the United States of America. Google may pass these personal
-              data collected through the technical procedure to third parties.</p>
-            <p class="content__text text-2--1">The data subject may, as stated above, prevent the setting of cookies
-              through our website at any time by means of a corresponding adjustment of the web browser used and thus
-              permanently deny the setting of cookies. Such an adjustment to the Internet browser used would also
-              prevent Google Analytics from setting a cookie on the information technology system of the data subject.
-              In addition, cookies already in use by Google Analytics may be deleted at any time via a web browser or
-              other software programs.</p>
-            <p class="content__text text-2--1">In addition, the data subject has the possibility of objecting to a
-              collection of data that are generated by Google Analytics, which is related to the use of this website, as
-              well as the processing of this data by Google and the chance to preclude any such. For this purpose, the
-              data subject must download a browser add-on under the link <a class="content__link"
-                href="https://tools.google.com/dlpage/gaoptout"
-                tagret="_black">https://tools.google.com/dlpage/gaoptout</a> and install it. This browser add-on tells
-              Google Analytics through a JavaScript, that any data and information about the visits of Internet pages
-              may not be transmitted to Google Analytics. The installation of the browser add-ons is considered an
-              objection by Google. If the information technology system of the data subject is later deleted, formatted,
-              or newly installed, then the data subject must reinstall the browser add-ons to disable Google Analytics.
-              If the browser add-on was uninstalled by the data subject or any other person who is attributable to their
-              sphere of competence, or is disabled, it is possible to execute the reinstallation or reactivation of the
-              browser add-ons.</p>
-            <p class="content__text text-2--1">Further information and the applicable data protection provisions of
-              Google may be retrieved under <a class="content__link"
-                href="https://www.google.com/intl/en/policies/privacy/"
-                tagret="_black">https://www.google.com/intl/en/policies/privacy/</a> and under <a class="content__link"
-                href="http://www.google.com/analytics/terms/us.html"
-                tagret="_black">http://www.google.com/analytics/terms/us.html</a>. Google Analytics is further explained
-              under the following Link <a class="content__link" href="https://www.google.com/analytics/"
-                tagret="_black">https://www.google.com/analytics/</a>.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Data protection provisions about the application and use
-            of Google-AdWords</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">On this website, the controller has integrated Google AdWords. Google
-              AdWords is a service for Internet advertising that allows the advertiser to place ads in Google search
-              engine results and the Google advertising network. Google AdWords allows an advertiser to pre-define
-              specific keywords with the help of which an ad on Google's search results only then displayed, when the
-              user utilizes the search engine to retrieve a keyword-relevant search result. In the Google Advertising
-              Network, the ads are distributed on relevant web pages using an automatic algorithm, taking into account
-              the previously defined keywords.</p>
-            <p class="content__text text-2--1">The operating company of Google AdWords is Google Inc., 1600 Amphitheatre
-              Pkwy, Mountain View, CA 94043-1351, UNITED STATES.</p>
-            <p class="content__text text-2--1">The purpose of Google AdWords is the promotion of our website by the
-              inclusion of relevant advertising on the websites of third parties and in the search engine results of the
-              search engine Google and an insertion of third-party advertising on our website.</p>
-            <p class="content__text text-2--1">If a data subject reaches our website via a Google ad, a conversion
-              cookie is filed on the information technology system of the data subject through Google. The definition of
-              cookies is explained above. A conversion cookie loses its validity after 30 days and is not used to
-              identify the data subject. If the cookie has not expired, the conversion cookie is used to check whether
-              certain sub-pages, e.g, the shopping cart from an online shop system, were called up on our website.
-              Through the conversion cookie, both Google and the controller can understand whether a person who reached
-              an AdWords ad on our website generated sales, that is, executed or canceled a sale of goods.</p>
-            <p class="content__text text-2--1">The data and information collected through the use of the conversion
-              cookie is used by Google to create visit statistics for our website. These visit statistics are used in
-              order to determine the total number of users who have been served through AdWords ads to ascertain the
-              success or failure of each AdWords ad and to optimize our AdWords ads in the future. Neither our company
-              nor other Google AdWords advertisers receive information from Google that could identify the data subject.
-            </p>
-            <p class="content__text text-2--1"> The conversion cookie stores personal information, e.g. the Internet
-              pages visited by the data subject. Each time we visit our Internet pages, personal data, including the IP
-              address of the Internet access used by the data subject, is transmitted to Google in the United States of
-              America. These personal data are stored by Google in the United States of America. Google may pass these
-              personal data collected through the technical procedure to third parties.</p>
-            <p class="content__text text-2--1">The data subject may, at any time, prevent the setting of cookies by our
-              website, as stated above, by means of a corresponding setting of the Internet browser used and thus
-              permanently deny the setting of cookies. Such a setting of the Internet browser used would also prevent
-              Google from placing a conversion cookie on the information technology system of the data subject. In
-              addition, a cookie set by Google AdWords may be deleted at any time via the Internet browser or other
-              software programs.</p>
-            <p class="content__text text-2--1">The data subject has a possibility of objecting to the interest based
-              advertisement of Google. Therefore, the data subject must access from each of the browsers in use the link
-              www.google.com/settings/ads and set the desired settings.</p>
-            <p class="content__text text-2--1">Further information and the applicable data protection provisions of
-              Google may be retrieved under <a class="content__link"
-                href="https://www.google.com/intl/en/policies/privacy/"
-                tagret="_black">https://www.google.com/intl/en/policies/privacy/</a>.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Data protection provisions about the application and use
-            of Instagram</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">On this website, the controller has integrated components of the service
-              Instagram. Instagram is a service that may be qualified as an audiovisual platform, which allows users to
-              share photos and videos, as well as disseminate such data in other social networks.</p>
-            <p class="content__text text-2--1">The operating company of the services offered by Instagram is Instagram
-              LLC, 1 Hacker Way, Building 14 First Floor, Menlo Park, CA, UNITED STATES.</p>
-            <p class="content__text text-2--1">With each call-up to one of the individual pages of this Internet site,
-              which is operated by the controller and on which an Instagram component (Insta button) was integrated, the
-              Internet browser on the information technology system of the data subject is automatically prompted to the
-              download of a display of the corresponding Instagram component of Instagram. During the course of this
-              technical procedure, Instagram becomes aware of what specific sub-page of our website was visited by the
-              data subject.</p>
-            <p class="content__text text-2--1">If the data subject is logged in at the same time on Instagram, Instagram
-              detects with every call-up to our website by the data subject—and for the entire duration of their stay on
-              our Internet site—which specific sub-page of our Internet page was visited by the data subject. This
-              information is collected through the Instagram component and is associated with the respective Instagram
-              account of the data subject. If the data subject clicks on one of the Instagram buttons integrated on our
-              website, then Instagram matches this information with the personal Instagram user account of the data
-              subject and stores the personal data.</p>
-            <p class="content__text text-2--1">Instagram receives information via the Instagram component that the data
-              subject has visited our website provided that the data subject is logged in at Instagram at the time of
-              the call to our website. This occurs regardless of whether the person clicks on the Instagram button or
-              not. If such a transmission of information to Instagram is not desirable for the data subject, then he or
-              she can prevent this by logging off from their Instagram account before a call-up to our website is made.
-            </p>
-            <p class="content__text text-2--1">Further information and the applicable data protection provisions of
-              Instagram may be retrieved under <a class="content__link"
-                href="https://help.instagram.com/155833707900388"
-                tagret="_black">https://help.instagram.com/155833707900388</a> and <a class="content__link"
-                href="https://www.instagram.com/about/legal/privacy/"
-                tagret="_black">https://www.instagram.com/about/legal/privacy/</a>.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Legal basis for the processing</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">Art. 6(1) lit. a GDPR serves as the legal basis for processing operations
-              for which we obtain consent for a specific processing purpose. If the processing of personal data is
-              necessary for the performance of a contract to which the data subject is party, as is the case, for
-              example, when processing operations are necessary for the supply of goods or to provide any other service,
-              the processing is based on Article 6(1) lit. b GDPR. The same applies to such processing operations which
-              are necessary for carrying out pre-contractual measures, for example in the case of inquiries concerning
-              our products or services. Is our company subject to a legal obligation by which processing of personal
-              data is required, such as for the fulfillment of tax obligations, the processing is based on Art. 6(1)
-              lit. c GDPR. In rare cases, the processing of personal data may be necessary to protect the vital
-              interests of the data subject or of another natural person. This would be the case, for example, if a
-              visitor were injured in our company and his name, age, health insurance data or other vital information
-              would have to be passed on to a doctor, hospital or other third party. Then the processing would be based
-              on Art. 6(1) lit. d GDPR. Finally, processing operations could be based on Article 6(1) lit. f GDPR. This
-              legal basis is used for processing operations which are not covered by any of the abovementioned legal
-              grounds, if processing is necessary for the purposes of the legitimate interests pursued by our company or
-              by a third party, except where such interests are overridden by the interests or fundamental rights and
-              freedoms of the data subject which require protection of personal data. Such processing operations are
-              particularly permissible because they have been specifically mentioned by the European legislator. He
-              considered that a legitimate interest could be assumed if the data subject is a client of the controller
-              (Recital 47 Sentence 2 GDPR).</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">The legitimate interests pursued by the controller or by
-            a third party</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">Where the processing of personal data is based on Article 6(1) lit. f
-              GDPR our legitimate interest is to carry out our business in favor of the well-being of all our employees
-              and the shareholders.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Period for which the personal data will be stored</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">The criteria used to determine the period of storage of personal data is
-              the respective statutory retention period. After expiration of that period, the corresponding data is
-              routinely deleted, as long as it is no longer necessary for the fulfillment of the contract or the
-              initiation of a contract.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Provision of personal data as statutory or contractual
-            requirement; Requirement necessary to enter into a contract; Obligation of the data subject to provide the
-            personal data; possible consequences of failure to provide such data</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">We clarify that the provision of personal data is partly required by law
-              (e.g. tax regulations) or can also result from contractual provisions (e.g. information on the contractual
-              partner). Sometimes it may be necessary to conclude a contract that the data subject provides us with
-              personal data, which must subsequently be processed by us. The data subject is, for example, obliged to
-              provide us with personal data when our company signs a contract with him or her. The non-provision of the
-              personal data would have the consequence that the contract with the data subject could not be concluded.
-              Before personal data is provided by the data subject, the data subject must contact any employee. The
-              employee clarifies to the data subject whether the provision of the personal data is required by law or
-              contract or is necessary for the conclusion of the contract, whether there is an obligation to provide the
-              personal data and the consequences of non-provision of the personal data.</p>
-          </div>
-        </div>
-        <div class="content__block">
-          <h2 class="content__title title title--4 title--dark">Existence of automated decision-making</h2>
-          <div class="content__desc">
-            <p class="content__text text-2--1">As a responsible company, we do not use automatic decision-making or
-              profiling.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="interruption">
-    <div class="container">
-      <h2 class="interruption__title title title--light title--4">Закажите Демо — и проверьте возможности ПО <br />для
-        управления взаимоотношениями с клиентами</h2>
-      <form class="form-int" action="/" method="post">
-        <select class="select form-int__select js-select--product">
-          <option value="">&nbsp;</option>
-          <option value="CPA">CPA</option>
-          <option value="CRM">CRM</option>
-          <option value="SCM">SCM</option>
-        </select>
-        <input class="input form-int__input" type="email" name="email" placeholder="E-mail" required="required" />
-        <button class="form-int__btn btn btn--full" type="submit">Try demo</button>
-      </form>
-    </div>
-  </div>
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__top">
-        <div class="footer__col column"><img class="footer__logo" src="/img/svg/logo-b.svg" alt="logo" />
-          <p class="footer__desc text-3">Acurella ltd – компания разработки программного обеспечения полного&nbsp;цикла.
-          </p>
-        </div>
-        <div class="footer__links-wrap">
-          <ul class="links">
-            <li class="links__item"><a class="links__link" href="about.html">Company</a></li>
-            <li class="links__item"><a class="links__link" href="contacts.html">Contacts</a></li>
-            <li class="links__item"><a class="links__link" href="cereer.html">Cereer <span>6</span></a></li>
-          </ul>
-          <ul class="links">
-            <li class="links__item"><a class="links__link" href="case.html">Cases</a></li>
-            <li class="links__item"><a class="links__link" href="product-cpa.html">CPA</a></li>
-            <li class="links__item"><a class="links__link" href="product-crm.html">CRM</a></li>
-            <li class="links__item"><a class="links__link" href="product-scm.html">SCM</a></li>
-            <li class="links__item"><a class="links__link" href="integrations.html">Integrations</a></li>
-          </ul>
-        </div>
-        <div class="footer__data column"><a class="footer__link-tel" href="tel:+35722090244">(+357) 22 090244</a>
-          <p class="footer__text text-3">Цериу, 136 2 этаж,<br />Строволос, 2045, Никосия,<br />Кипр</p>
-        </div><a class="footer__btn btn btn--empty-dark js-show-popup" data-target="#popup-demo">Try demo</a>
-      </div>
-      <div class="footer__bottom">
-        <p class="footer__copy text-3">© 2020 Acurella. Все права защищены.</p>
-        <div class="footer__info column-big"><a class="footer__link" href="#">Cookie Policy</a><a class="footer__link"
-            href="politics-confidentiality.html">Privacy Policy</a></div><a class="footer__link-email column"
-          href="mailto:support@acurella-tl.com">support@acurella-tl.com</a>
-        <div class="footer__social social"><a class="social__item" href="#"><i class="fico fico-in"></i></a><a
-            class="social__item" href="#"><i class="fico fico-tw"></i></a><a class="social__item" href="#"><i
-              class="fico fico-fb"></i></a></div>
-      </div>
-    </div>
-  </footer>
-  <div class="popup-demo js-popup" id="popup-demo">
-    <div class="popup-demo__wrap">
-      <div class="popup-demo__close js-close"><i class="fico fico-close"></i></div>
-      <div class="popup-demo__content">
-        <div class="popup-demo__left">
-          <div class="popup-demo__top">
-            <h2 class="popup-demo__title title title--light">Try demo version</h2>
-            <p class="popup-demo__desc text-3">Send your request and we will find an individual solution that will solve
-              your business problems</p>
-          </div>
-          <div class="popup-demo__bottom"><a class="popup-demo__link-tel" href="tel:+35729660724">(+357) 29 660724</a><a
-              class="popup-demo__link-email column" href="mailto:c.office@acurella-tl.com">c.office@acurella-tl.com</a>
-          </div>
-        </div>
-        <div class="popup-demo__right">
-          <form class="popup-demo__form-p form-p" action="/" method="post">
-            <div class="form-p__wrap">
-              <input class="form-p__input form-p__input--max input" type="text" name="name" placeholder="Your name"
-                required="required" />
-              <input class="form-p__input form-p__input--med input" type="tel" name="name" placeholder="Phone number"
-                required="required" />
-              <input class="form-p__input form-p__input--med input" type="email" name="name" placeholder="Email"
-                required="required" />
-              <input class="form-p__input form-p__input--med input" type="text" name="company"
-                placeholder="Company name" required="required" />
-              <select class="select form-p__select js-select--product">
-                <option value="">&nbsp;</option>
-                <option value="CPA">CPA</option>
-                <option value="CRM">CRM</option>
-                <option value="SCM">SCM</option>
-              </select>
-              <textarea class="form-p__textarea textarea" name="textarea" placeholder="Your message"></textarea>
+        <div class="menu menu--dark js-fixed-menu">
+          <div class="container">
+            <div class="menu__wrap"><a class="logo menu__logo" href="index.html">
+                <svg class="logo__img" width="198" height="30" viewbox="0 0 198 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M44.28 29.9792C42.0666 29.9792 40.08 29.5126 38.32 28.5792C36.56 27.6459 35.1866 26.3526 34.2 24.6992C33.2133 23.0192 32.72 21.1259 32.72 19.0192C32.72 16.9126 33.2133 15.0326 34.2 13.3792C35.1866 11.7259 36.5466 10.4326 38.28 9.49922C40.04 8.56588 42.04 8.09922 44.28 8.09922C46.3866 8.09922 48.2266 8.52589 49.8 9.37922C51.4 10.2326 52.6 11.4592 53.4 13.0592L49.56 15.2992C48.9466 14.3126 48.1733 13.5792 47.24 13.0992C46.3333 12.5926 45.3333 12.3392 44.24 12.3392C42.3733 12.3392 40.8266 12.9526 39.6 14.1792C38.3733 15.3792 37.76 16.9926 37.76 19.0192C37.76 21.0459 38.36 22.6726 39.56 23.8992C40.7866 25.0992 42.3466 25.6992 44.24 25.6992C45.3333 25.6992 46.3333 25.4592 47.24 24.9792C48.1733 24.4726 48.9466 23.7259 49.56 22.7392L53.4 24.9792C52.5733 26.5792 51.36 27.8192 49.76 28.6992C48.1866 29.5526 46.36 29.9792 44.28 29.9792Z" fill="white"></path>
+                  <path d="M78.4021 8.33922V29.6992H73.6421V26.9792C72.8421 27.9392 71.8421 28.6859 70.6421 29.2192C69.4421 29.7259 68.1488 29.9792 66.7621 29.9792C63.9088 29.9792 61.6555 29.1926 60.0021 27.6192C58.3755 26.0192 57.5621 23.6592 57.5621 20.5392V8.33922H62.5621V19.8592C62.5621 21.7792 62.9888 23.2192 63.8421 24.1792C64.7221 25.1126 65.9621 25.5792 67.5621 25.5792C69.3488 25.5792 70.7621 25.0326 71.8021 23.9392C72.8688 22.8192 73.4021 21.2192 73.4021 19.1392V8.33922H78.4021Z" fill="white"></path>
+                  <path d="M89.7087 11.4592C91.1487 9.21922 93.682 8.09922 97.3087 8.09922V12.8592C96.882 12.7792 96.4954 12.7392 96.1487 12.7392C94.202 12.7392 92.682 13.3126 91.5887 14.4592C90.4954 15.5792 89.9487 17.2059 89.9487 19.3392V29.6992H84.9487V8.33922H89.7087V11.4592Z" fill="white"></path>
+                  <path d="M121.435 19.1392C121.435 19.4859 121.408 19.9792 121.355 20.6192H104.595C104.888 22.1926 105.648 23.4459 106.875 24.3792C108.128 25.2859 109.675 25.7392 111.515 25.7392C113.862 25.7392 115.795 24.9659 117.315 23.4192L119.995 26.4992C119.035 27.6459 117.822 28.5126 116.355 29.0992C114.888 29.6859 113.235 29.9792 111.395 29.9792C109.048 29.9792 106.982 29.5126 105.195 28.5792C103.408 27.6459 102.022 26.3526 101.035 24.6992C100.075 23.0192 99.595 21.1259 99.595 19.0192C99.595 16.9392 100.062 15.0726 100.995 13.4192C101.955 11.7392 103.275 10.4326 104.955 9.49922C106.635 8.56588 108.528 8.09922 110.635 8.09922C112.715 8.09922 114.568 8.56588 116.195 9.49922C117.848 10.4059 119.128 11.6992 120.035 13.3792C120.968 15.0326 121.435 16.9526 121.435 19.1392ZM110.635 12.0992C109.035 12.0992 107.675 12.5792 106.555 13.5392C105.462 14.4726 104.795 15.7259 104.555 17.2992H116.675C116.462 15.7526 115.808 14.4992 114.715 13.5392C113.622 12.5792 112.262 12.0992 110.635 12.0992Z" fill="white"></path>
+                  <path d="M126.238 0.0192165H131.238V29.6992H126.238V0.0192165Z" fill="white"></path>
+                  <path d="M137.8 0.0192165H142.8V29.6992H137.8V0.0192165Z" fill="white"></path>
+                  <path d="M170.243 8.33922V29.6992H165.483V26.9392C164.656 27.9526 163.629 28.7126 162.403 29.2192C161.203 29.7259 159.869 29.9792 158.403 29.9792C156.323 29.9792 154.456 29.5259 152.803 28.6192C151.176 27.7126 149.896 26.4326 148.963 24.7792C148.056 23.1259 147.603 21.2059 147.603 19.0192C147.603 16.8326 148.056 14.9259 148.963 13.2992C149.896 11.6459 151.176 10.3659 152.803 9.45922C154.456 8.55255 156.323 8.09922 158.403 8.09922C159.789 8.09922 161.056 8.33922 162.203 8.81922C163.376 9.29922 164.389 10.0059 165.243 10.9392V8.33922H170.243ZM158.963 25.6992C160.803 25.6992 162.323 25.0859 163.523 23.8592C164.723 22.6326 165.323 21.0192 165.323 19.0192C165.323 17.0192 164.723 15.4059 163.523 14.1792C162.323 12.9526 160.803 12.3392 158.963 12.3392C157.123 12.3392 155.603 12.9526 154.403 14.1792C153.229 15.4059 152.643 17.0192 152.643 19.0192C152.643 21.0192 153.229 22.6326 154.403 23.8592C155.603 25.0859 157.123 25.6992 158.963 25.6992Z" fill="white"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.36 29.6992H0L12.6 1.69922H17.72L30.36 29.6992H24.92L22.12 23.2192L6.63778 26.6992L5.36 29.6992ZM15.12 6.89922L20.4 19.1392L8.77569 21.6992L15.12 6.89922Z" fill="white"></path>
+                  <path d="M175 0H176.782V6.248H180.643V7.7H175V0Z" fill="white"></path>
+                  <path d="M183.784 1.452H181.32V0H188.03V1.452H185.566V7.7H183.784V1.452Z" fill="white"></path>
+                  <path d="M189.428 0H192.926C193.762 0 194.499 0.161334 195.137 0.484C195.783 0.799334 196.281 1.24667 196.633 1.826C196.993 2.40533 197.172 3.08 197.172 3.85C197.172 4.62 196.993 5.29467 196.633 5.874C196.281 6.45333 195.783 6.90433 195.137 7.227C194.499 7.54233 193.762 7.7 192.926 7.7H189.428V0ZM192.838 6.237C193.608 6.237 194.221 6.02433 194.675 5.599C195.137 5.16633 195.368 4.58333 195.368 3.85C195.368 3.11667 195.137 2.53733 194.675 2.112C194.221 1.67933 193.608 1.463 192.838 1.463H191.21V6.237H192.838Z" fill="white"></path>
+                </svg></a>
+              <ul class="menu__list nav">
+                <li class="nav__item"><a class="nav__link" href="about.html">Company</a></li>
+                <li class="nav__item nav__item--sub">
+                  <div class="nav__link">Products</div>
+                  <div class="nav__submenu submenu">
+                    <div class="submenu__wrap"><a class="submenu__link submenu__link--1" href="product-cpa.html">
+                        <div class="submenu__wrap-ico"><i class="fico fico-cpa"></i></div>
+                        <div class="submenu__info">
+                          <p class="submenu__ttl">CPA</p>
+                          <p class="submenu__text">A ready-made solution for CPA networks</p>
+                        </div></a><a class="submenu__link submenu__link--2" href="product-crm.html">
+                        <div class="submenu__wrap-ico"><i class="fico fico-crm"></i></div>
+                        <div class="submenu__info">
+                          <p class="submenu__ttl">CRM</p>
+                          <p class="submenu__text">System for automating complex strategies for interaction</p>
+                        </div></a><a class="submenu__link submenu__link--3" href="product-scm.html">
+                        <div class="submenu__wrap-ico"><i class="fico fico-scm"></i></div>
+                        <div class="submenu__info">
+                          <p class="submenu__ttl">SCM</p>
+                          <p class="submenu__text">System that manages comple supply chains</p>
+                        </div></a><a class="submenu__link submenu__link--4" href="integrations.html">
+                        <div class="submenu__wrap-ico"><i class="fico fico-int"></i></div>
+                        <div class="submenu__info">
+                          <p class="submenu__ttl">Integrations</p>
+                          <p class="submenu__text">Easy modules integration</p>
+                        </div></a></div>
+                  </div>
+                </li>
+                <li class="nav__item"><a class="nav__link" href="case.html">Cases</a></li>
+                <li class="nav__item"><a class="nav__link" href="contacts.html">Contacts</a></li>
+              </ul>
+              <div class="menu__right">
+                <div class="menu__lang lang"><i class="fico fico-world"></i>
+                  <div class="lang__list-wrap">
+                    <div class="lang__list"><a class="lang-item" href="/en/politics-confidentiality.html"><img class="lang-item__ico" src="/img/svg/langEN.svg" alt="langEN"/><span class="lang-item__text">International</span></a><a class="lang-item" href="/politics-confidentiality.html"><img class="lang-item__ico" src="/img/svg/langRU.svg" alt="langRU"/><span class="lang-item__text">Русский</span></a></div>
+                  </div>
+                </div>
+                <button class="menu__btn btn btn--full js-show-popup" data-target="#popup-demo">Try demo</button>
+                <div class="burger js-burger" data-target="#js-mobile-menu"><span class="burger__line"></span><span class="burger__line"></span><span class="burger__line"></span></div>
+              </div>
             </div>
-            <div class="form-p__checkbox checkbox">
-              <label class="checkbox__label">I agree to receive information about the best developments and special
-                offers of Acurella
-                <input class="checkbox__input" type="checkbox" checked="checked" /><span class="checkbox__checkmark"><i
-                    class="fico fico-checkOrder"></i></span>
-              </label>
+          </div>
+        </div>
+    <header class="header-privacy">
+      <div class="container">
+        <h1 class="header-privacy__title title title--dark title--2">Privacy Policy</h1>
+      </div>
+    </header>
+    <section class="content">
+      <div class="container">
+        <div class="content__wrapper">
+          <div class="content__block">
+            <div class="content__desc">
+              <p class="content__text text-2--1">We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of the Acurella Limited. The use of the Internet pages of the Acurella Limited is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.</p>
+              <p class="content__text text-2--1">The processing of personal data, such as the name, address, e-mail address, or telephone number of a data subject shall always be in line with the General Data Protection Regulation (GDPR), and in accordance with the country-specific data protection regulations applicable to the Acurella Limited. By means of this data protection declaration, our enterprise would like to inform the general public of the nature, scope, and purpose of the personal data we collect, use and process. Furthermore, data subjects are informed, by means of this data protection declaration, of the rights to which they are entitled.</p>
+              <p class="content__text text-2--1">As the controller, the Acurella Limited has implemented numerous technical and organizational measures to ensure the most complete protection of personal data processed through this website. However, Internet-based data transmissions may in principle have security gaps, so absolute protection may not be guaranteed. For this reason, every data subject is free to transfer personal data to us via alternative means, e.g. by telephone.</p>
             </div>
-            <button class="form-p__btn btn btn--full" type="submit">Send your message</button>
-          </form>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Definitions</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">The data protection declaration of the Acurella Limited is based on the terms used by the European legislator for the adoption of the General Data Protection Regulation (GDPR). Our data protection declaration should be legible and understandable for the general public, as well as our customers and business partners. To ensure this, we would like to first explain the terminology used.</p>
+              <p class="content__text text-2--1">In this data protection declaration, we use, inter alia, the following terms:</p>
+            </div>
+            <ul class="content__list list-tasks text-2--1">
+              <li class="list-tasks__item"><span>Data subject</span>:<br> Data subject is any identified or identifiable natural person, whose personal data is processed by the controller responsible for the processing.</li>
+              <li class="list-tasks__item"><span>Processing</span>:<br> Processing is any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.</li>
+              <li class="list-tasks__item"><span>Restriction of processing</span>:<br> Restriction of processing is the marking of stored personal data with the aim of limiting their processing in the future.</li>
+              <li class="list-tasks__item"><span>Profiling</span>:<br> Profiling means any form of automated processing of personal data consisting of the use of personal data to evaluate certain personal aspects relating to a natural person, in particular to analyse or predict aspects concerning that natural person's performance at work, economic situation, health, personal preferences, interests, reliability, behaviour, location or movements.</li>
+              <li class="list-tasks__item"><span>Pseudonymisation</span>:<br> Pseudonymisation is the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable natural person.</li>
+              <li class="list-tasks__item"><span>Controller or controller responsible for the processing</span>:<br> Controller or controller responsible for the processing is the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; where the purposes and means of such processing are determined by Union or Member State law, the controller or the specific criteria for its nomination may be provided for by Union or Member State law.</li>
+              <li class="list-tasks__item"><span>Processor</span>:<br> Processor is a natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller.</li>
+              <li class="list-tasks__item"><span>Recipient</span>:<br> Recipient is a natural or legal person, public authority, agency or another body, to which the personal data are disclosed, whether a third party or not. However, public authorities which may receive personal data in the framework of a particular inquiry in accordance with Union or Member State law shall not be regarded as recipients; the processing of those data by those public authorities shall be in compliance with the applicable data protection rules according to the purposes of the processing.</li>
+              <li class="list-tasks__item"><span>Third party</span>:<br> Third party is a natural or legal person, public authority, agency or body other than the data subject, controller, processor and persons who, under the direct authority of the controller or processor, are authorised to process personal data.</li>
+              <li class="list-tasks__item"><span>Consent</span>:<br> Consent of the data subject is any freely given, specific, informed and unambiguous indication of the data subject's wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her.</li>
+            </ul>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Name and Address of the controller</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:</p>
+              <p class="content__text-link text-2--1">Acurella Limited</p>
+              <p class="content__text-link text-2--1">Email: <a class="content__link" href="mailto:contact@licante.com">contact@licante.com</a></p>
+              <p class="content__text-link text-2--1">Website: <a class="content__link" href="licante.com" target="_blank">licante.com</a></p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Cookies</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">The Internet pages of the Acurella Limited use cookies. Cookies are text files that are stored in a computer system via an Internet browser.</p>
+              <p class="content__text text-2--1">Many Internet sites and servers use cookies. Many cookies contain a so-called cookie ID. A cookie ID is a unique identifier of the cookie. It consists of a character string through which Internet pages and servers can be assigned to the specific Internet browser in which the cookie was stored. This allows visited Internet sites and servers to differentiate the individual browser of the dats subject from other Internet browsers that contain other cookies. A specific Internet browser can be recognized and identified using the unique cookie ID.</p>
+              <p class="content__text text-2--1">Through the use of cookies, the Acurella Limited can provide the users of this website with more user-friendly services that would not be possible without the cookie setting.</p>
+              <p class="content__text text-2--1">By means of a cookie, the information and offers on our website can be optimized with the user in mind. Cookies allow us, as previously mentioned, to recognize our website users. The purpose of this recognition is to make it easier for users to utilize our website. The website user that uses cookies, e.g. does not have to enter access data each time the website is accessed, because this is taken over by the website, and the cookie is thus stored on the user's computer system. Another example is the cookie of a shopping cart in an online shop. The online store remembers the articles that a customer has placed in the virtual shopping cart via a cookie.</p>
+              <p class="content__text text-2--1">The data subject may, at any time, prevent the setting of cookies through our website by means of a corresponding setting of the Internet browser used, and may thus permanently deny the setting of cookies. Furthermore, already set cookies may be deleted at any time via an Internet browser or other software programs. This is possible in all popular Internet browsers. If the data subject deactivates the setting of cookies in the Internet browser used, not all functions of our website may be entirely usable.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Collection of general data and information</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">The website of the Acurella Limited collects a series of general data and information when a data subject or automated system calls up the website. This general data and information are stored in the server log files. Collected may be (1) the browser types and versions used, (2) the operating system used by the accessing system, (3) the website from which an accessing system reaches our website (so-called referrers), (4) the sub-websites, (5) the date and time of access to the Internet site, (6) an Internet protocol address (IP address), (7) the Internet service provider of the accessing system, and (8) any other similar data and information that may be used in the event of attacks on our information technology systems.</p>
+              <p class="content__text text-2--1">When using these general data and information, the Acurella Limited does not draw any conclusions about the data subject. Rather, this information is needed to (1) deliver the content of our website correctly, (2) optimize the content of our website as well as its advertisement, (3) ensure the long-term viability of our information technology systems and website technology, and (4) provide law enforcement authorities with the information necessary for criminal prosecution in case of a cyber-attack. Therefore, the Acurella Limited analyzes anonymously collected data and information statistically, with the aim of increasing the data protection and data security of our enterprise, and to ensure an optimal level of protection for the personal data we process. The anonymous data of the server log files are stored separately from all personal data provided by a data subject.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Registration on our website</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">The data subject has the possibility to register on the website of the controller with the indication of personal data. Which personal data are transmitted to the controller is determined by the respective input mask used for the registration. The personal data entered by the data subject are collected and stored exclusively for internal use by the controller, and for his own purposes. The controller may request transfer to one or more processors (e.g. a parcel service) that also uses personal data for an internal purpose which is attributable to the controller.</p>
+              <p class="content__text text-2--1">By registering on the website of the controller, the IP address—assigned by the Internet service provider (ISP) and used by the data subject—date, and time of the registration are also stored. The storage of this data takes place against the background that this is the only way to prevent the misuse of our services, and, if necessary, to make it possible to investigate committed offenses. Insofar, the storage of this data is necessary to secure the controller. This data is not passed on to third parties unless there is a statutory obligation to pass on the data, or if the transfer serves the aim of criminal prosecution.</p>
+              <p class="content__text text-2--1">The registration of the data subject, with the voluntary indication of personal data, is intended to enable the controller to offer the data subject contents or services that may only be offered to registered users due to the nature of the matter in question. Registered persons are free to change the personal data specified during the registration at any time, or to have them completely deleted from the data stock of the controller.</p>
+              <p class="content__text text-2--1">The data controller shall, at any time, provide information upon request to each data subject as to what personal data are stored about the data subject. In addition, the data controller shall correct or erase personal data at the request or indication of the data subject, insofar as there are no statutory storage obligations. The entirety of the controller’s employees are available to the data subject in this respect as contact persons.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Subscription to our newsletters</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">On the website of the Acurella Limited, users are given the opportunity to subscribe to our enterprise's newsletter. The input mask used for this purpose determines what personal data are transmitted, as well as when the newsletter is ordered from the controller.</p>
+              <p class="content__text text-2--1">The Acurella Limited informs its customers and business partners regularly by means of a newsletter about enterprise offers. The enterprise's newsletter may only be received by the data subject if (1) the data subject has a valid e-mail address and (2) the data subject registers for the newsletter shipping. A confirmation e-mail will be sent to the e-mail address registered by a data subject for the first time for newsletter shipping, for legal reasons, in the double opt-in procedure. This confirmation e-mail is used to prove whether the owner of the e-mail address as the data subject is authorized to receive the newsletter.</p>
+              <p class="content__text text-2--1">During the registration for the newsletter, we also store the IP address of the computer system assigned by the Internet service provider (ISP) and used by the data subject at the time of the registration, as well as the date and time of the registration. The collection of this data is necessary in order to understand the (possible) misuse of the e-mail address of a data subject at a later date, and it therefore serves the aim of the legal protection of the controller.</p>
+              <p class="content__text text-2--1">The personal data collected as part of a registration for the newsletter will only be used to send our newsletter. In addition, subscribers to the newsletter may be informed by e-mail, as long as this is necessary for the operation of the newsletter service or a registration in question, as this could be the case in the event of modifications to the newsletter offer, or in the event of a change in technical circumstances. There will be no transfer of personal data collected by the newsletter service to third parties. The subscription to our newsletter may be terminated by the data subject at any time. The consent to the storage of personal data, which the data subject has given for shipping the newsletter, may be revoked at any time. For the purpose of revocation of consent, a corresponding link is found in each newsletter. It is also possible to unsubscribe from the newsletter at any time directly on the website of the controller, or to communicate this to the controller in a different way.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Newsletter-Tracking</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">The newsletter of the Acurella Limited contains so-called tracking pixels. A tracking pixel is a miniature graphic embedded in such e-mails, which are sent in HTML format to enable log file recording and analysis. This allows a statistical analysis of the success or failure of online marketing campaigns. Based on the embedded tracking pixel, the Acurella Limited may see if and when an e-mail was opened by a data subject, and which links in the e-mail were called up by data subjects.</p>
+              <p class="content__text text-2--1">Such personal data collected in the tracking pixels contained in the newsletters are stored and analyzed by the controller in order to optimize the shipping of the newsletter, as well as to adapt the content of future newsletters even better to the interests of the data subject. These personal data will not be passed on to third parties. Data subjects are at any time entitled to revoke the respective separate declaration of consent issued by means of the double-opt-in procedure. After a revocation, these personal data will be deleted by the controller. The Acurella Limited automatically regards a withdrawal from the receipt of the newsletter as a revocation.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Contact possibility via the website</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">The website of the Acurella Limited contains information that enables a quick electronic contact to our enterprise, as well as direct communication with us, which also includes a general address of the so-called electronic mail (e-mail address). If a data subject contacts the controller by e-mail or via a contact form, the personal data transmitted by the data subject are automatically stored. Such personal data transmitted on a voluntary basis by a data subject to the data controller are stored for the purpose of processing or contacting the data subject. There is no transfer of this personal data to third parties.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Comments function in the blog on the website</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">The Acurella Limited offers users the possibility to leave individual comments on individual blog contributions on a blog, which is on the website of the controller. A blog is a web-based, publicly-accessible portal, through which one or more people called bloggers or web-bloggers may post articles or write down thoughts in so-called blogposts. Blogposts may usually be commented by third parties.</p>
+              <p class="content__text text-2--1">If a data subject leaves a comment on the blog published on this website, the comments made by the data subject are also stored and published, as well as information on the date of the commentary and on the user's (pseudonym) chosen by the data subject. In addition, the IP address assigned by the Internet service provider (ISP) to the data subject is also logged. This storage of the IP address takes place for security reasons, and in case the data subject violates the rights of third parties, or posts illegal content through a given comment. The storage of these personal data is, therefore, in the own interest of the data controller, so that he can exculpate in the event of an infringement. This collected personal data will not be passed to third parties, unless such a transfer is required by law or serves the aim of the defense of the data controller.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Subscription to comments in the blog on the website</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">The comments made in the blog of the Acurella Limited may be subscribed to by third parties. In particular, there is the possibility that a commenter subscribes to the comments following his comments on a particular blog post.</p>
+              <p class="content__text text-2--1">If a data subject decides to subscribe to the option, the controller will send an automatic confirmation e-mail to check the double opt-in procedure as to whether the owner of the specified e-mail address decided in favor of this option. The option to subscribe to comments may be terminated at any time.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Routine erasure and blocking of personal data</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">The data controller shall process and store the personal data of the data subject only for the period necessary to achieve the purpose of storage, or as far as this is granted by the European legislator or other legislators in laws or regulations to which the controller is subject to.</p>
+              <p class="content__text text-2--1">If the storage purpose is not applicable, or if a storage period prescribed by the European legislator or another competent legislator expires, the personal data are routinely blocked or erased in accordance with legal requirements.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Rights of the data subject</h2>
+            <ul class="content__list list-tasks text-2--1">
+              <li class="list-tasks__item"><span>Right of confirmation</span><br> Each data subject shall have the right granted by the European legislator to obtain from the controller the confirmation as to whether or not personal data concerning him or her are being processed. If a data subject wishes to avail himself of this right of confirmation, he or she may, at any time, contact any employee of the controller.</li>
+              <li class="list-tasks__item"><span>Right of access</span><br> Each data subject shall have the right granted by the European legislator to obtain from the controller free information about his or her personal data stored at any time and a copy of this information. Furthermore, the European directives and regulations grant the data subject access to the following information:</li>
+            </ul>
+            <ul class="content__list content__list--sub text-2--1">
+              <li class="list-tasks__item">- the purposes of the processing;</li>
+              <li class="list-tasks__item">- the categories of personal data concerned;</li>
+              <li class="list-tasks__item">- the recipients or categories of recipients to whom the personal data have been or will be disclosed, in particular recipients in third countries or international organisations;</li>
+              <li class="list-tasks__item">- where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period;</li>
+              <li class="list-tasks__item">- the existence of the right to request from the controller rectification or erasure of personal data, or restriction of processing of personal data concerning the data subject, or to object to such processing;</li>
+              <li class="list-tasks__item">- the existence of the right to lodge a complaint with a supervisory authority;</li>
+              <li class="list-tasks__item">- where the personal data are not collected from the data subject, any available information as to their source;</li>
+              <li class="list-tasks__item">- the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) of the GDPR and, at least in those cases, meaningful information about the logic involved, as well as the significance and envisaged consequences of such processing for the data subject.</li>
+            </ul>
+            <div class="content__desc content__desc--list">
+              <p class="content__text text-2--1">Furthermore, the data subject shall have a right to obtain information as to whether personal data are transferred to a third country or to an international organisation. Where this is the case, the data subject shall have the right to be informed of the appropriate safeguards relating to the transfer.</p>
+              <p class="content__text text-2--1">If a data subject wishes to avail himself of this right of access, he or she may, at any time, contact any employee of the controller.</p>
+            </div>
+            <ul class="content__list list-tasks text-2--1">
+              <li class="list-tasks__item"><span>Right to rectification</span><br>Each data subject shall have the right granted by the European legislator to obtain from the controller without undue delay the rectification of inaccurate personal data concerning him or her. Taking into account the purposes of the processing, the data subject shall have the right to have incomplete personal data completed, including by means of providing a supplementary statement.<br>If a data subject wishes to exercise this right to rectification, he or she may, at any time, contact any employee of the controller.</li>
+              <li class="list-tasks__item"><span>Right to erasure (Right to be forgotten)</span><br> Each data subject shall have the right granted by the European legislator to obtain from the controller the erasure of personal data concerning him or her without undue delay, and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies, as long as the processing is not necessary:</li>
+            </ul>
+            <ul class="content__list content__list--sub text-2--1">
+              <li class="list-tasks__item">- The personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed.</li>
+              <li class="list-tasks__item">- The data subject withdraws consent to which the processing is based according to point (a) of Article 6(1) of the GDPR, or point (a) of Article 9(2) of the GDPR, and where there is no other legal ground for the processing.</li>
+              <li class="list-tasks__item">- The data subject objects to the processing pursuant to Article 21(1) of the GDPR and there are no overriding legitimate grounds for the processing, or the data subject objects to the processing pursuant to Article 21(2) of the GDPR.</li>
+              <li class="list-tasks__item">- The personal data have been unlawfully processed.</li>
+              <li class="list-tasks__item">- The personal data must be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject.</li>
+              <li class="list-tasks__item">The personal data have been collected in relation to the offer of information society services referred to in Article 8(1) of the GDPR.</li>
+              <li class="list-tasks__item">- If one of the aforementioned reasons applies, and a data subject wishes to request the erasure of personal data stored by the Acurella Limited, he or she may, at any time, contact any employee of the controller. An employee of Acurella Limited shall promptly ensure that the erasure request is complied with immediately.</li>
+              <li class="list-tasks__item">- Where the controller has made personal data public and is obliged pursuant to Article 17(1) to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform other controllers processing the personal data that the data subject has requested erasure by such controllers of any links to, or copy or replication of, those personal data, as far as processing is not required. An employees of the Acurella Limited will arrange the necessary measures in individual cases.</li>
+            </ul>
+            <ul class="content__list list-tasks text-2--1">
+              <li class="list-tasks__item"><span>Right of restriction of processing</span><br> Each data subject shall have the right granted by the European legislator to obtain from the controller restriction of processing where one of the following applies:</li>
+            </ul>
+            <ul class="content__list content__list--sub text-2--1">
+              <li class="list-tasks__item">- The accuracy of the personal data is contested by the data subject, for a period enabling the controller to verify the accuracy of the personal data.</li>
+              <li class="list-tasks__item">- The processing is unlawful and the data subject opposes the erasure of the personal data and requests instead the restriction of their use instead.</li>
+              <li class="list-tasks__item">- The controller no longer needs the personal data for the purposes of the processing, but they are required by the data subject for the establishment, exercise or defence of legal claims.</li>
+              <li class="list-tasks__item">- The data subject has objected to processing pursuant to Article 21(1) of the GDPR pending the verification whether the legitimate grounds of the controller override those of the data subject.</li>
+            </ul>
+            <div class="content__desc content__desc--list">
+              <p class="content__text text-2--1">If one of the aforementioned conditions is met, and a data subject wishes to request the restriction of the processing of personal data stored by the Acurella Limited, he or she may at any time contact any employee of the controller. The employee of the Acurella Limited will arrange the restriction of the processing.</p>
+            </div>
+            <ul class="content__list list-tasks text-2--1">
+              <li class="list-tasks__item"><span>Right to data portability</span> <br>Each data subject shall have the right granted by the European legislator, to receive the personal data concerning him or her, which was provided to a controller, in a structured, commonly used and machine-readable format. He or she shall have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, as long as the processing is based on consent pursuant to point (a) of Article 6(1) of the GDPR or point (a) of Article 9(2) of the GDPR, or on a contract pursuant to point (b) of Article 6(1) of the GDPR, and the processing is carried out by automated means, as long as the processing is not necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller.<br>Furthermore, in exercising his or her right to data portability pursuant to Article 20(1) of the GDPR, the data subject shall have the right to have personal data transmitted directly from one controller to another, where technically feasible and when doing so does not adversely affect the rights and freedoms of others.<br>In order to assert the right to data portability, the data subject may at any time contact any employee of the Acurella Limited.</li>
+              <li class="list-tasks__item"><span>Right to object</span> <br>Each data subject shall have the right granted by the European legislator to object, on grounds relating to his or her particular situation, at any time, to processing of personal data concerning him or her, which is based on point (e) or (f) of Article 6(1) of the GDPR. This also applies to profiling based on these provisions.<br>The Acurella Limited shall no longer process the personal data in the event of the objection, unless we can demonstrate compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject, or for the establishment, exercise or defence of legal claims.<br>If the Acurella Limited processes personal data for direct marketing purposes, the data subject shall have the right to object at any time to processing of personal data concerning him or her for such marketing. This applies to profiling to the extent that it is related to such direct marketing. If the data subject objects to the Acurella Limited to the processing for direct marketing purposes, the Acurella Limited will no longer process the personal data for these purposes.<br>In addition, the data subject has the right, on grounds relating to his or her particular situation, to object to processing of personal data concerning him or her by the Acurella Limited for scientific or historical research purposes, or for statistical purposes pursuant to Article 89(1) of the GDPR, unless the processing is necessary for the performance of a task carried out for reasons of public interest.<br>In order to exercise the right to object, the data subject may contact any employee of the Acurella Limited. In addition, the data subject is free in the context of the use of information society services, and notwithstanding Directive 2002/58/EC, to use his or her right to object by automated means using technical specifications.</li>
+              <li class="list-tasks__item"><span>Automated individual decision-making, including profiling</span><br>Each data subject shall have the right granted by the European legislator not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her, or similarly significantly affects him or her, as long as the decision (1) is not is necessary for entering into, or the performance of, a contract between the data subject and a data controller, or (2) is not authorised by Union or Member State law to which the controller is subject and which also lays down suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, or (3) is not based on the data subject's explicit consent.<br>If the decision (1) is necessary for entering into, or the performance of, a contract between the data subject and a data controller, or (2) it is based on the data subject's explicit consent, the Acurella Limited shall implement suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, at least the right to obtain human intervention on the part of the controller, to express his or her point of view and contest the decision.<br>If the data subject wishes to exercise the rights concerning automated individual decision-making, he or she may, at any time, contact any employee of the Acurella Limited.</li>
+              <li class="list-tasks__item"><span>Right to withdraw data protection consent</span> <br>Each data subject shall have the right granted by the European legislator to withdraw his or her consent to processing of his or her personal data at any time.<br> The data subject wishes to exercise the right to withdraw the consent, he or she may, at any time, contact any employee of the Acurella Limited.</li>
+            </ul>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Data protection provisions about the application and use of Facebook</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">On this website, the controller has integrated components of the enterprise Facebook. Facebook is a social network.</p>
+              <p class="content__text text-2--1">A social network is a place for social meetings on the Internet, an online community, which usually allows users to communicate with each other and interact in a virtual space. A social network may serve as a platform for the exchange of opinions and experiences, or enable the Internet community to provide personal or business-related information. Facebook allows social network users to include the creation of private profiles, upload photos, and network through friend requests.</p>
+              <p class="content__text text-2--1">The operating company of Facebook is Facebook, Inc., 1 Hacker Way, Menlo Park, CA 94025, United States. If a person lives outside of the United States or Canada, the controller is the Facebook Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland.</p>
+              <p class="content__text text-2--1">With each call-up to one of the individual pages of this Internet website, which is operated by the controller and into which a Facebook component (Facebook plug-ins) was integrated, the web browser on the information technology system of the data subject is automatically prompted to download display of the corresponding Facebook component from Facebook through the Facebook component. An overview of all the Facebook Plug-ins may be accessed under <a class="content__link" href="https://developers.facebook.com/docs/plugins/" tagret="_black">https://developers.facebook.com/docs/plugins/</a>. During the course of this technical procedure, Facebook is made aware of what specific sub-site of our website was visited by the data subject.</p>
+              <p class="content__text text-2--1">If the data subject is logged in at the same time on Facebook, Facebook detects with every call-up to our website by the data subject—and for the entire duration of their stay on our Internet site—which specific sub-site of our Internet page was visited by the data subject. This information is collected through the Facebook component and associated with the respective Facebook account of the data subject. If the data subject clicks on one of the Facebook buttons integrated into our website, e.g. the "Like" button, or if the data subject submits a comment, then Facebook matches this information with the personal Facebook user account of the data subject and stores the personal data.</p>
+              <p class="content__text text-2--1">Facebook always receives, through the Facebook component, information about a visit to our website by the data subject, whenever the data subject is logged in at the same time on Facebook during the time of the call-up to our website. This occurs regardless of whether the data subject clicks on the Facebook component or not. If such a transmission of information to Facebook is not desirable for the data subject, then he or she may prevent this by logging off from their Facebook account before a call-up to our website is made.</p>
+              <p class="content__text text-2--1">The data protection guideline published by Facebook, which is available at <a class="content__link" href="https://facebook.com/about/privacy/" tagret="_black">https://facebook.com/about/privacy/</a>, provides information about the collection, processing and use of personal data by Facebook. In addition, it is explained there what setting options Facebook offers to protect the privacy of the data subject. In addition, different configuration options are made available to allow the elimination of data transmission to Facebook. These applications may be used by the data subject to eliminate a data transmission to Facebook.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Data protection provisions about the application and use of Google Analytics (with anonymization function)</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">On this website, the controller has integrated the component of Google Analytics (with the anonymizer function). Google Analytics is a web analytics service. Web analytics is the collection, gathering, and analysis of data about the behavior of visitors to websites. A web analysis service collects, inter alia, data about the website from which a person has come (the so-called referrer), which sub-pages were visited, or how often and for what duration a sub-page was viewed. Web analytics are mainly used for the optimization of a website and in order to carry out a cost-benefit analysis of Internet advertising.</p>
+              <p class="content__text text-2--1">The operator of the Google Analytics component is Google Inc., 1600 Amphitheatre Pkwy, Mountain View, CA 94043-1351, United States.</p>
+              <p class="content__text text-2--1">For the web analytics through Google Analytics the controller uses the application "_gat. _anonymizeIp". By means of this application the IP address of the Internet connection of the data subject is abridged by Google and anonymised when accessing our websites from a Member State of the European Union or another Contracting State to the Agreement on the European Economic Area.</p>
+              <p class="content__text text-2--1">The purpose of the Google Analytics component is to analyze the traffic on our website. Google uses the collected data and information, inter alia, to evaluate the use of our website and to provide online reports, which show the activities on our websites, and to provide other services concerning the use of our Internet site for us.</p>
+              <p class="content__text text-2--1">Google Analytics places a cookie on the information technology system of the data subject. The definition of cookies is explained above. With the setting of the cookie, Google is enabled to analyze the use of our website. With each call-up to one of the individual pages of this Internet site, which is operated by the controller and into which a Google Analytics component was integrated, the Internet browser on the information technology system of the data subject will automatically submit data through the Google Analytics component for the purpose of online advertising and the settlement of commissions to Google. During the course of this technical procedure, the enterprise Google gains knowledge of personal information, such as the IP address of the data subject, which serves Google, inter alia, to understand the origin of visitors and clicks, and subsequently create commission settlements.</p>
+              <p class="content__text text-2--1">The cookie is used to store personal information, such as the access time, the location from which the access was made, and the frequency of visits of our website by the data subject. With each visit to our Internet site, such personal data, including the IP address of the Internet access used by the data subject, will be transmitted to Google in the United States of America. These personal data are stored by Google in the United States of America. Google may pass these personal data collected through the technical procedure to third parties.</p>
+              <p class="content__text text-2--1">The data subject may, as stated above, prevent the setting of cookies through our website at any time by means of a corresponding adjustment of the web browser used and thus permanently deny the setting of cookies. Such an adjustment to the Internet browser used would also prevent Google Analytics from setting a cookie on the information technology system of the data subject. In addition, cookies already in use by Google Analytics may be deleted at any time via a web browser or other software programs.</p>
+              <p class="content__text text-2--1">In addition, the data subject has the possibility of objecting to a collection of data that are generated by Google Analytics, which is related to the use of this website, as well as the processing of this data by Google and the chance to preclude any such. For this purpose, the data subject must download a browser add-on under the link <a class="content__link" href="https://tools.google.com/dlpage/gaoptout" tagret="_black">https://tools.google.com/dlpage/gaoptout</a> and install it. This browser add-on tells Google Analytics through a JavaScript, that any data and information about the visits of Internet pages may not be transmitted to Google Analytics. The installation of the browser add-ons is considered an objection by Google. If the information technology system of the data subject is later deleted, formatted, or newly installed, then the data subject must reinstall the browser add-ons to disable Google Analytics. If the browser add-on was uninstalled by the data subject or any other person who is attributable to their sphere of competence, or is disabled, it is possible to execute the reinstallation or reactivation of the browser add-ons.</p>
+              <p class="content__text text-2--1">Further information and the applicable data protection provisions of Google may be retrieved under <a class="content__link" href="https://www.google.com/intl/en/policies/privacy/" tagret="_black">https://www.google.com/intl/en/policies/privacy/</a> and under <a class="content__link" href="http://www.google.com/analytics/terms/us.html" tagret="_black">http://www.google.com/analytics/terms/us.html</a>. Google Analytics is further explained under the following Link <a class="content__link" href="https://www.google.com/analytics/" tagret="_black">https://www.google.com/analytics/</a>.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Data protection provisions about the application and use of Google-AdWords</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">On this website, the controller has integrated Google AdWords. Google AdWords is a service for Internet advertising that allows the advertiser to place ads in Google search engine results and the Google advertising network. Google AdWords allows an advertiser to pre-define specific keywords with the help of which an ad on Google's search results only then displayed, when the user utilizes the search engine to retrieve a keyword-relevant search result. In the Google Advertising Network, the ads are distributed on relevant web pages using an automatic algorithm, taking into account the previously defined keywords.</p>
+              <p class="content__text text-2--1">The operating company of Google AdWords is Google Inc., 1600 Amphitheatre Pkwy, Mountain View, CA 94043-1351, UNITED STATES.</p>
+              <p class="content__text text-2--1">The purpose of Google AdWords is the promotion of our website by the inclusion of relevant advertising on the websites of third parties and in the search engine results of the search engine Google and an insertion of third-party advertising on our website.</p>
+              <p class="content__text text-2--1">If a data subject reaches our website via a Google ad, a conversion cookie is filed on the information technology system of the data subject through Google. The definition of cookies is explained above. A conversion cookie loses its validity after 30 days and is not used to identify the data subject. If the cookie has not expired, the conversion cookie is used to check whether certain sub-pages, e.g, the shopping cart from an online shop system, were called up on our website. Through the conversion cookie, both Google and the controller can understand whether a person who reached an AdWords ad on our website generated sales, that is, executed or canceled a sale of goods.</p>
+              <p class="content__text text-2--1">The data and information collected through the use of the conversion cookie is used by Google to create visit statistics for our website. These visit statistics are used in order to determine the total number of users who have been served through AdWords ads to ascertain the success or failure of each AdWords ad and to optimize our AdWords ads in the future. Neither our company nor other Google AdWords advertisers receive information from Google that could identify the data subject.</p>
+              <p class="content__text text-2--1"> The conversion cookie stores personal information, e.g. the Internet pages visited by the data subject. Each time we visit our Internet pages, personal data, including the IP address of the Internet access used by the data subject, is transmitted to Google in the United States of America. These personal data are stored by Google in the United States of America. Google may pass these personal data collected through the technical procedure to third parties.</p>
+              <p class="content__text text-2--1">The data subject may, at any time, prevent the setting of cookies by our website, as stated above, by means of a corresponding setting of the Internet browser used and thus permanently deny the setting of cookies. Such a setting of the Internet browser used would also prevent Google from placing a conversion cookie on the information technology system of the data subject. In addition, a cookie set by Google AdWords may be deleted at any time via the Internet browser or other software programs.</p>
+              <p class="content__text text-2--1">The data subject has a possibility of objecting to the interest based advertisement of Google. Therefore, the data subject must access from each of the browsers in use the link www.google.com/settings/ads and set the desired settings.</p>
+              <p class="content__text text-2--1">Further information and the applicable data protection provisions of Google may be retrieved under  <a class="content__link" href="https://www.google.com/intl/en/policies/privacy/" tagret="_black">https://www.google.com/intl/en/policies/privacy/</a>.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Data protection provisions about the application and use of Instagram</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">On this website, the controller has integrated components of the service Instagram. Instagram is a service that may be qualified as an audiovisual platform, which allows users to share photos and videos, as well as disseminate such data in other social networks.</p>
+              <p class="content__text text-2--1">The operating company of the services offered by Instagram is Instagram LLC, 1 Hacker Way, Building 14 First Floor, Menlo Park, CA, UNITED STATES.</p>
+              <p class="content__text text-2--1">With each call-up to one of the individual pages of this Internet site, which is operated by the controller and on which an Instagram component (Insta button) was integrated, the Internet browser on the information technology system of the data subject is automatically prompted to the download of a display of the corresponding Instagram component of Instagram. During the course of this technical procedure, Instagram becomes aware of what specific sub-page of our website was visited by the data subject.</p>
+              <p class="content__text text-2--1">If the data subject is logged in at the same time on Instagram, Instagram detects with every call-up to our website by the data subject—and for the entire duration of their stay on our Internet site—which specific sub-page of our Internet page was visited by the data subject. This information is collected through the Instagram component and is associated with the respective Instagram account of the data subject. If the data subject clicks on one of the Instagram buttons integrated on our website, then Instagram matches this information with the personal Instagram user account of the data subject and stores the personal data.</p>
+              <p class="content__text text-2--1">Instagram receives information via the Instagram component that the data subject has visited our website provided that the data subject is logged in at Instagram at the time of the call to our website. This occurs regardless of whether the person clicks on the Instagram button or not. If such a transmission of information to Instagram is not desirable for the data subject, then he or she can prevent this by logging off from their Instagram account before a call-up to our website is made.</p>
+              <p class="content__text text-2--1">Further information and the applicable data protection provisions of Instagram may be retrieved under <a class="content__link" href="https://help.instagram.com/155833707900388" tagret="_black">https://help.instagram.com/155833707900388</a> and <a class="content__link" href="https://www.instagram.com/about/legal/privacy/" tagret="_black">https://www.instagram.com/about/legal/privacy/</a>.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Legal basis for the processing</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">Art. 6(1) lit. a GDPR serves as the legal basis for processing operations for which we obtain consent for a specific processing purpose. If the processing of personal data is necessary for the performance of a contract to which the data subject is party, as is the case, for example, when processing operations are necessary for the supply of goods or to provide any other service, the processing is based on Article 6(1) lit. b GDPR. The same applies to such processing operations which are necessary for carrying out pre-contractual measures, for example in the case of inquiries concerning our products or services. Is our company subject to a legal obligation by which processing of personal data is required, such as for the fulfillment of tax obligations, the processing is based on Art. 6(1) lit. c GDPR. In rare cases, the processing of personal data may be necessary to protect the vital interests of the data subject or of another natural person. This would be the case, for example, if a visitor were injured in our company and his name, age, health insurance data or other vital information would have to be passed on to a doctor, hospital or other third party. Then the processing would be based on Art. 6(1) lit. d GDPR. Finally, processing operations could be based on Article 6(1) lit. f GDPR. This legal basis is used for processing operations which are not covered by any of the abovementioned legal grounds, if processing is necessary for the purposes of the legitimate interests pursued by our company or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data. Such processing operations are particularly permissible because they have been specifically mentioned by the European legislator. He considered that a legitimate interest could be assumed if the data subject is a client of the controller (Recital 47 Sentence 2 GDPR).</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">The legitimate interests pursued by the controller or by a third party</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">Where the processing of personal data is based on Article 6(1) lit. f GDPR our legitimate interest is to carry out our business in favor of the well-being of all our employees and the shareholders.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Period for which the personal data will be stored</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">The criteria used to determine the period of storage of personal data is the respective statutory retention period. After expiration of that period, the corresponding data is routinely deleted, as long as it is no longer necessary for the fulfillment of the contract or the initiation of a contract.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Provision of personal data as statutory or contractual requirement; Requirement necessary to enter into a contract; Obligation of the data subject to provide the personal data; possible consequences of failure to provide such data</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">We clarify that the provision of personal data is partly required by law (e.g. tax regulations) or can also result from contractual provisions (e.g. information on the contractual partner). Sometimes it may be necessary to conclude a contract that the data subject provides us with personal data, which must subsequently be processed by us. The data subject is, for example, obliged to provide us with personal data when our company signs a contract with him or her. The non-provision of the personal data would have the consequence that the contract with the data subject could not be concluded. Before personal data is provided by the data subject, the data subject must contact any employee. The employee clarifies to the data subject whether the provision of the personal data is required by law or contract or is necessary for the conclusion of the contract, whether there is an obligation to provide the personal data and the consequences of non-provision of the personal data.</p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title title title--4 title--dark">Existence of automated decision-making</h2>
+            <div class="content__desc">
+              <p class="content__text text-2--1">As a responsible company, we do not use automatic decision-making or profiling.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="interruption">
+      <div class="container">
+        <h2 class="interruption__title title title--light title--4">Order Demo and test the capabilities of<br> customer relationship management software</h2>
+        <form class="form-int" action="/" method="post">
+          <select class="select form-int__select js-select--product">
+            <option value="">&nbsp;</option>
+            <option value="CPA">CPA</option>
+            <option value="CRM">CRM</option>
+            <option value="SCM">SCM</option>
+          </select>
+          <input class="input form-int__input" type="email" name="email" placeholder="E-mail" required="required"/>
+          <button class="form-int__btn btn btn--full" type="submit">Try demo</button>
+        </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__col column"><img class="footer__logo" src="/img/svg/logo-b.svg" alt="logo"/>
+            <p class="footer__desc text-3">Acurella Ltd is a full-service software development company.</p>
+          </div>
+          <div class="footer__links-wrap">
+            <ul class="links">
+              <li class="links__item"><a class="links__link" href="about.html">Company</a></li>
+              <li class="links__item"><a class="links__link" href="contacts.html">Contacts</a></li>
+              <li class="links__item"><a class="links__link" href="cereer.html">Cereer <span>6</span></a></li>
+            </ul>
+            <ul class="links">
+              <li class="links__item"><a class="links__link" href="case.html">Cases</a></li>
+              <li class="links__item"><a class="links__link" href="product-cpa.html">CPA</a></li>
+              <li class="links__item"><a class="links__link" href="product-crm.html">CRM</a></li>
+              <li class="links__item"><a class="links__link" href="product-scm.html">SCM</a></li>
+              <li class="links__item"><a class="links__link" href="integrations.html">Integrations</a></li>
+            </ul>
+          </div>
+          <div class="footer__data column"><a class="footer__link-tel" href="tel:+35722090244">(+357) 22 090244</a>
+            <p class="footer__text text-3">Tseriou, 136 2nd floor,<br />Strovolos, 2045, Nicosia,<br />Cyprus</p>
+          </div><a class="footer__btn btn btn--empty-dark js-show-popup" data-target="#popup-demo">Try demo</a>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copy text-3">© 2020 Acurella. All rights reserved.</p>
+          <div class="footer__info column-big"><a class="footer__link" href="cookie-policy.html">Cookie Policy</a><a class="footer__link" href="politics-confidentiality.html">Privacy Policy</a></div><a class="footer__link-email column" href="mailto:support@acurella-tl.com">support@acurella-tl.com</a>
+          <div class="footer__social social"><a class="social__item" href="#"><i class="fico fico-in"></i></a><a class="social__item" href="#"><i class="fico fico-tw"></i></a><a class="social__item" href="#"><i class="fico fico-fb"></i></a></div>
+        </div>
+      </div>
+    </footer>
+    <div class="popup-demo js-popup" id="popup-demo">
+      <div class="popup-demo__wrap">
+        <div class="popup-demo__close js-close"><i class="fico fico-close"></i></div>
+        <div class="popup-demo__content">
+          <div class="popup-demo__left">
+            <div class="popup-demo__top">
+              <h2 class="popup-demo__title title title--light">Try demo version</h2>
+              <p class="popup-demo__desc text-3">Send your request and we will find an individual solution that will solve your business problems</p>
+            </div>
+            <div class="popup-demo__bottom"><a class="popup-demo__link-tel" href="tel:+35729660724">(+357) 29 660724</a><a class="popup-demo__link-email column" href="mailto:c.office@acurella-tl.com">c.office@acurella-tl.com</a></div>
+          </div>
+          <div class="popup-demo__right">
+            <form class="popup-demo__form-p form-p" action="/" method="post">
+              <div class="form-p__wrap">
+                <input class="form-p__input form-p__input--max input" type="text" name="name" placeholder="Your name" required="required"/>
+                <input class="form-p__input form-p__input--med input" type="tel" name="name" placeholder="Phone number" required="required"/>
+                <input class="form-p__input form-p__input--med input" type="email" name="name" placeholder="Email" required="required"/>
+                <input class="form-p__input form-p__input--med input" type="text" name="company" placeholder="Company name" required="required"/>
+                <select class="select form-p__select js-select--product">
+                  <option value="">&nbsp;</option>
+                  <option value="CPA">CPA</option>
+                  <option value="CRM">CRM</option>
+                  <option value="SCM">SCM</option>
+                </select>
+                <textarea class="form-p__textarea textarea" name="textarea" placeholder="Your message"></textarea>
+              </div>
+              <div class="form-p__checkbox checkbox">
+                <label class="checkbox__label">I agree to receive information about the best developments and special offers of Acurella
+                  <input class="checkbox__input" type="checkbox" checked="checked"/><span class="checkbox__checkmark"><i class="fico fico-checkOrder"></i></span>
+                </label>
+              </div>
+              <button class="form-p__btn btn btn--full" type="submit">Send your message</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="overlay js-overlay"></div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="/js/main.js"></script>
-</body>
-
+    <div class="overlay js-overlay"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
 </html>
