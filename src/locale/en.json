@@ -149,7 +149,7 @@
     },
     "information": {
       "text": "Before we got acquainted with Acurella solutions, we thought that high-tech software makes it more difficult for a company with a huge number of processes. There are emergencies where an instant reaction of a person is necessary. However, in practice, it turned out that complex systems not only control every process to the smallest detail, minimizing the probability of force majeure, but also suggest optimal solutions that people do not always think of. This is the highest level!",
-      "name": "Богдан Бровый",
+      "name": "Anton Vlasenko",
       "post": "Head of Sales Department"
     },
     "support": {
@@ -246,8 +246,8 @@
     },
     "information": {
       "text": "Thanks to the solution from Acurella, we were able to implement hundreds of offers in different parts of the world, receiving a regular stream of high quality and targeted leads. Acurella is a reliable and secure solution for those who do not have time for mistakes.",
-      "name": "Наталия Островчкая",
-      "post": "Head of Sales Department"
+      "name": "Natalia Ostrovskaya",
+      "post": "Head of Marketing"
     },
     "faq": {
       "title": "FAQ",
@@ -389,8 +389,8 @@
     },
     "information": {
       "text": "We chose CRM for Acurella when there was a need to expand the geography and enter new markets. Thanks to the fact that the system is completely autonomous, clear and automated, we were able to quickly establish the work of remote offices and did not overdue a single order.",
-      "name": "Богдан Бровый",
-      "post": "Head of Sales Department"
+      "name": "Bohdan Brovy",
+      "post": "Chief Executive Officer"
     },
     "faq": {
       "title": "FAQ",
@@ -502,8 +502,8 @@
     },
     "information": {
       "text": "Order management has never been easier. Acurella creates intuitive solutions that do not require special training and do not allow a beginner to get involved in business processes from the first working day. ",
-      "name": "Богдан Бровый",
-      "post": "Head of Sales Department"
+      "name": "Nicolas Zabrovski",
+      "post": "Chief Operating Officer"
     },
     "faq": {
       "title": "FAQ",
@@ -655,7 +655,7 @@
   },
   "new_2": {
     "title_main": "Now CPA marketing is easier to manage: a new system from Acurella",
-    "date": "Сентября <br />2020",
+    "date": "September <br />2020",
     "content": {
       "text_1": "Companies that sell a mass product to a wide audience are faced with the need to constantly attract new customers. ",
       "text_2": "CPA networks, intermediaries between advertisers and webmasters, help to automate and optimize the process. At the same time, the first ones get high-quality traffic, and the second ones get a stipulated payment for their work. ",
@@ -669,7 +669,7 @@
   },
   "new_3": {
     "title_main": "Reference work of operators and managers at the expense of modern CRM",
-    "date": "Августа <br />2020",
+    "date": "August <br />2020",
     "content": {
       "text_1": "Every company that sells products online has to monitor a huge number of parallel processes on a daily basis.  Any transaction takes place with the involvement of marketers (traffic attraction), call center managers (communication with a client), production and warehouse workers (creation and packaging), as well as representatives of logistics service (delivery). ",
       "text_2": "In order to avoid failures at one of the steps and create a positive experience for a client, companies resort to automating order management processes through a special software – CRM system.",
@@ -687,7 +687,7 @@
   },
   "new_5": {
     "title_main": "Timely purchases in the right volume with the new solution from Acurella",
-    "date": "Мая <br />2020",
+    "date": "May <br />2020",
     "content": {
       "text_1": "The ability to choose the optimal volume of the order batch is a prerequisite for improving the efficiency of the enterprise. If the batch is too large, it can be fraught with freezing of funds. In addition, if it is too small, administrative costs increase for repeated orders.",
       "text_2": "Supply chain management (SCM) software helps to integrate the management of raw materials, materials, products and services related to production and logistics. Thus, the customer always receives the ordered goods on time and in the right amount, and the company reduces costs significantly.",
@@ -730,8 +730,8 @@
     },
     "information": {
       "text": "The best part is that now we can control every process. We have a powerful competitive advantage that fully meets the challenges of the time. The main thing is that the ecosystem is dynamic and can be easily adjusted. All Acurella systems are integrated with each other and can be integrated via API network with any third-party software",
-      "name": "Vlad Matrosov",
-      "post": "Head of Smart Media Sales Department"
+      "name": "Alex Derzhinsky",
+      "post": "Chief Operating Officer"
     },
     "purpose": {
       "title": "Goals",
@@ -759,7 +759,7 @@
     }
   },
   "cereer": {
-    "title": "Карьера",
+    "title": "Career",
     "header": {
       "title": "Software that units processes, systems and people"
     },
@@ -1280,7 +1280,7 @@
       "desc": "Acurella’s modern application programming interface (API) is able to synchronize both internal and external services seamlessly. Choose any integration type from those offered by our company or your alternative."
     },
     "desc": {
-      "title_1": "Landing Commander",
+      "title_1": "Landing<br> Commander",
       "text_1": "Landing Commander is a tool that makes it possible to manage, deploy, and monitor ad versions with a single click.",
       "block_1": [
         "A module used to create landing page frameworks",
@@ -1294,7 +1294,7 @@
         "Dynamic support for multiple languages",
         "Automatic transfer of client events to the analytics aggregator."
       ],
-      "title_2": "Integration with ELS",
+      "title_2": "Integration<br> with ELS",
       "text_2": "ELS is a system that can process any real or virtual currency and fully supports any loyalty programs in an automated fashion. ",
       "block_2_1": [
         "An easy exchange of bonuses for tangible goods and services.",
@@ -1310,7 +1310,7 @@
         "Built-in rules for managing bonuses.",
         "Rules for automatic write-off upon expiration."
       ],
-      "title_3": "Integration with the ECM-system",
+      "title_3": "Integration with<br> the ECM-system",
       "text_3": "ECM is a scalable system developed to tolerate high loads, that is responsible for any data exchange (including electronic documents) with other systems, clients or employees.",
       "block_3": [
         "An email template module",
@@ -1326,7 +1326,7 @@
         "Event campaign launching (for example, birthday greetings).",
         "A bot management system."
       ],
-      "title_4": "Integration with delivery services",
+      "title_4": "Integration with <br>delivery services",
       "text-4": "A system that automatically tracks all the steps of interaction with delivery services, from sending a parcel to receiving it by the buyer. It saves invoices, receipts and user documents.",
       "block_4_1": [
         "An ability to track goodsoutside the WMS system",
@@ -1342,7 +1342,7 @@
         "Built-in templates for quick order finalization.",
         "Transparent managers’ operations"
       ],
-      "title_5": "Integration with call servers",
+      "title_5": "Integration with<br> call servers",
       "text_5": "A solution for integration with call servers that provides extensive real-time reports, ensures quality control and automates some of the managers’ operations, and therefore makes it possible to automatically manage call queues and monitor the quality of operators’ work.",
       "block_5_1": [
         "A ready-for-service script module ",
@@ -1398,7 +1398,7 @@
     "date": "October 2020",
     "content": {
       "block_1": [
-        "As shown by the <a class=\"new-content__link\" href=\"https://www.pwc.com/us/en/library/digital-iq.html\" target=\"_blank\">РwС</a> studies, <span class=\"bold\">52% </span>of companies are going to cut and defer investments due to COVID-19, but only <span class=\"bold\">9% </span>express willingness to cut the investments in digital transformation.",
+        "As shown by the <a class=\"new-content__link\" href=\"https://www.pwc.com/us/en/library/digital-iq.html\" target=\"_blank\">PwC</a> studies, <span class=\"bold\">52% </span>of companies are going to cut and defer investments due to COVID-19, but only <span class=\"bold\">9% </span>express willingness to cut the investments in digital transformation.",
         "Moreover, according to experts’ opinion, the growth of annual investments in digital transformation by <span class=\"bold\">10,4% </span> (to $ 1.3 trillion) will be observable next year despite the economic recession due to the epidemic.",
         "The pandemic has highlighted the need for increasing <span class=\"bold\">operational efficiency </span>and improving the <span class=\"bold\">customer experience, </span>faced by businesses as customers are the ones who can help companies stay afloat in times of economic turbulence. Unsurprisingly, digital transformation has mainly focused on <span class=\"bold\">saving businesses during the 2020-crisis.</span>",
         "Under the quarantine conditions and restrictions, businesses worldwide had to put into practice an “express digitalization” of some kind while learning to operate in a new fashion. Let's discuss the main trends:"
@@ -1436,7 +1436,7 @@
         "What is more, digital transformation investments are projected to grow to <span class=\"bold\">$ 7 trillion</span> by 2023. And in confirmation, let us put forward some statistics data."
       ],
       "list": [
-        "<span class=\"bold\">52%</span> of companies are going to cut and defer investments due to COVID-19, but only 9% express willingness to cut the investments in digital transformation <a class=\"new-content__link\" href=\"https://www.pwc.com/us/en/library/digital-iq.html\" target=\"_blank\">(РwС)</a>",
+        "<span class=\"bold\">52%</span> of companies are going to cut and defer investments due to COVID-19, but only 9% express willingness to cut the investments in digital transformation <a class=\"new-content__link\" href=\"https://www.pwc.com/us/en/library/digital-iq.html\" target=\"_blank\">(PwC)</a>",
         "Intelligent systems will process <span class=\"bold\">70% </span>of your orders as soon as 2022 <a class=\"new-content__link\" href=\"https://www.acquia.com/resources/whitepaper/forrester-report-digital-transformation?cid=7010c000002FssxAAC&amp;ct=search&amp;ls=google&amp;lls=acqu_search_usa_null_transformation_null_nonbrnd&amp;utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=ACQU_Search_USA_Null_Transformation_Null_NonBrnd_Broad&amp;utm_content=Digital+Transformation&amp;utm_term=%2Bdigital+%2Btransformation&amp;creativeID=&amp;gclid=EAIaIQobChMIz_7L0fWT4wIV5__jBx0kuAnZEAAYASAAEgLvFvD_BwE&amp;gclsrc=aw.ds\" target=\"_blank\">(Forrester)</a>",
         "<span class=\"bold\">93% </span>of the survey respondents agreed that information technology plays a key role in digital transformation <a class=\"new-content__link\" href=\"https://news.sap.com/2019/03/forrester-survey-intelligent-technology-digital-transformation/\" target=\"_blank\">(Forrester)</a>",
         "<span class=\"bold\">56% </span>of CEOs hold that advancing digital technology has driven more revenue <a class=\"new-content__link\" href=\"https://www.gartner.com/en/newsroom/press-releases/2017-04-24-gartner-survey-shows-42-percent-of-ceos-have-begun-digital-business-transformation\" target=\"_blank\">(Gartner)</a>",
