@@ -26,11 +26,11 @@
     "link12": "Privacy Policy",
     "menu_desc_1": "A ready-made solution for CPA networks",
     "menu_desc_2": "System for automating complex strategies for interaction",
-    "menu_desc_3": "Cистема, управляющая сложными цепочками поставок",
-    "menu_desc_4": "Легкая интеграция модулей"
+    "menu_desc_3": "System that manages comple supply chains",
+    "menu_desc_4": "Easy modules integration"
   },
   "footer": {
-    "desc": "Acurella ltd – компания разработки программного обеспечения полного&nbsp;цикла.",
+    "desc": "Acurella Ltd is a full-service software development company.",
     "address": "Цериу, 136 2 этаж,<br />Строволос, 2045, Никосия,<br />Кипр",
     "copy": "© 2020 Acurella. Все права защищены."
   },
@@ -216,17 +216,17 @@
     "integration": {
       "title_main": "Easy integration",
       "desc": "With the help of API tools, the system can be integrated with Acurella software, as well as third-party software (for example, warehouse management system, logistics, etc.)",
-      "title": "Оптимизация нагрузки <span>веб-мастеров</span>",
+      "title": "Optimization of webmaster load",
       "title_slider": "Extensive functionality",
-      "subject": "Инструменты контроля для топ-менеджеров",
-      "text": "Руководители компаний могут в любой момент зайти в систему и проверить качество работы маркетинга: просмотреть данные в виде преднастроенных дашбордов, проанализировать их через систему фильтров и сгруппировать в удобные отчеты.",
+      "subject": "Control tools for top managers",
+      "text": "Company managers can log in at any time and check the quality of marketing: view data in the form of pre-configured dashboards, analyze them through a filter system and group them into convenient reports.",
       "listArray": {
         "color": "orange",
         "list": [
-          "Быстрая фильтрация <br>предложений от<br> рекламодателей",
-          "Создание и настройка промо-материалов",
-          "Удобный вывод дохода после реализации оффера",
-          "Управление работой команды"
+          "Fast filtering of offers from advertisers",
+          "Creation and configuration of promotional materials",
+          "Convenient withdrawal of income after offer implementation",
+          "Team work management"
         ]
       }
     },
@@ -251,7 +251,7 @@
     },
     "faq": {
       "title": "FAQ",
-      "desc": "Answers to popular questions. Если вы не нашли ответ на ваш вопрос, вы можете задать его написав в службу поддержки",
+      "desc": "Answers to popular questions. If you do not find an answer to your question, you can ask it by writing to the support service",
       "questionArray": [
         {
           "ttl": "Why do we need a CPA network?",
@@ -374,15 +374,15 @@
       "desc": "CRM has built-in additional features for logisticians. You can set tasks for packers, send order information to the delivery service, monitor the status of shipment of orders, etc. ",
       "benefitArray": [
         {
-          "title": "Увеличивает количество продаж и помогает выполнять план",
+          "title": "Increases the number of sales and helps to fulfill the plan",
           "text": "By controlling the entire path of the client and helping to choose the optimal communication scenario, the system increases the conversion rate and the number of sales in general"
         },
         {
-          "title": "Повышает обучаемость и&nbsp;продуктивность менеджеров",
+          "title": "Increases learning and productivity of managers",
           "text": "By automating routine tasks and maintaining the best scripts, CRM increases study skills and productivity of sales managers and call center employees"
         },
         {
-          "title": "Контролирует своевременную доставку товара",
+          "title": "Controls the timely delivery of goods",
           "text": "Due to the built-in functionality for logisticians, CRM instantly transmits a signal about the order and tracks the delivery of goods"
         }
       ]
@@ -394,7 +394,7 @@
     },
     "faq": {
       "title": "FAQ",
-      "desc": "Answers to popular questions. Если вы не нашли ответ на ваш вопрос, вы можете задать его написав в службу поддержки",
+      "desc": "Answers to popular questions. If you do not find an answer to your question, you can ask it by writing to the support service",
       "questionArray": [
         {
           "ttl": "What are CRM systems for?",
@@ -507,7 +507,7 @@
     },
     "faq": {
       "title": "FAQ",
-      "desc": "Answers to popular questions. Если вы не нашли ответ на ваш вопрос, вы можете задать его написав в службу поддержки",
+      "desc": "Answers to popular questions. If you do not find an answer to your question, you can ask it by writing to the support service",
       "questionArray": [
         {
           "ttl": "What are SCM systems for?",
@@ -565,7 +565,7 @@
       "desc_3_2": "Acurella team continuously monitors IT trends and improves its skills, challenging itself all the time."
     },
     "team": {
-      "title_main": "Ключевая команда",
+      "title_main": "Key members of the team",
       "employeeArray": [
         {
           "name": "Carlos Gustalino",
@@ -596,9 +596,9 @@
           "post": "QA Team Lead"
         }
       ],
-      "title": "Мы всегда рады<br /> новым талантам",
-      "desc": "Мы ищем мбициозных и талантливых профессионалов, которые не боятся бросать себе вызовы и отстаивают интересы наших клиентов.",
-      "btn": "Присоединиться"
+      "title": "We are always looking forward to new talents",
+      "desc": "We are looking for ambitious and talented professionals who are not afraid to challenge themselves and defend the interests of our clients.",
+      "btn": "Join"
     },
     "solutions": {
       "title": "Required software in&nbsp;one place",
@@ -1272,5 +1272,22 @@
         "However if you are still looking for more information then you can contact us through one of our preferred contact methods:"
       ]
     }
+  },
+  "integrations": {
+    "header": {
+      "title": "Integrations",
+      "desc": "Modern programming interface (API) from Acurella easily synchronizes any services, sites and software you need to work, and simplifies the management of business processes. You can choose any type of integration offered by us or your own version."
+    }
+  },
+  "contacts": {
+    "title": "Get a free consultation",
+    "desc": "Send your request and we find an individual solution that will solve your business problems",
+    "label": "I consent to the processing of my personal data and to receive information about Acurella's special offers",
+    "btn": "Send a message",
+    "input_name": "Your name",
+    "input_phone": "Phone number",
+    "input_email": "Email",
+    "input_company": "Company name",
+    "textarea": "Comment"
   }
 }

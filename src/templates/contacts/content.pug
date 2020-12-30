@@ -1,9 +1,11 @@
+- var CONTACTS = LANG.contacts;
+
 section.contacts
 	.container
 		.contacts__inner
 			.contacts__left
-				h2.contacts__title.title.title--dark.title--2 Получите бесплатную консультацию
-				p.contacts__desc Отправьте ваш запрос — и мы подберем индивидуальное решение, которое наилучшим образом решит ваши бизнес-задачи
+				h2.contacts__title.title.title--dark.title--2= CONTACTS.title
+				p.contacts__desc= CONTACTS.desc
 				.contacts__col
 					p.contacts__place Cyprus, Nicosia
 					.contacts__links
@@ -17,19 +19,19 @@ section.contacts
 			.contacts__form
 				form.contacts__form-p.form-p(action="/", method="post")
 					.form-p__wrap
-						input.form-p__input.form-p__input--max.input(type="text", name="name" placeholder="Ваше имя" required)
-						input.form-p__input.form-p__input--med.input(type="tel", name="name" placeholder="Телефон" required)
-						input.form-p__input.form-p__input--med.input(type="email", name="name" placeholder="Email" required)
-						input.form-p__input.form-p__input--med.input(type="text", name="company" placeholder="Компания" required)
+						input.form-p__input.form-p__input--max.input(type="text", name="name" placeholder=CONTACTS.input_name required)
+						input.form-p__input.form-p__input--med.input(type="tel", name="name" placeholder=CONTACTS.input_phone required)
+						input.form-p__input.form-p__input--med.input(type="email", name="name" placeholder=CONTACTS.input_email required)
+						input.form-p__input.form-p__input--med.input(type="text", name="company" placeholder=CONTACTS.input_company required)
 						select.select.form-p__select.js-select--product
 							option(value="") &nbsp;
 							option(value="CPA") CPA
 							option(value="CRM") CRM
 							option(value="SCM") SCM
-						textarea.form-p__textarea.textarea(name="textarea" placeholder="Комментарий")
+						textarea.form-p__textarea.textarea(name="textarea" placeholder=CONTACTS.textarea)
 					.form-p__checkbox.checkbox
-						label.checkbox__label Я даю согласие на обработку личныйх данных и получение информации о специальных предложениях компании Acurella
+						label.checkbox__label= CONTACTS.label
 							input.checkbox__input(type="checkbox" checked)
 							span.checkbox__checkmark
 								i.fico.fico-checkOrder
-					button.form-p__btn.btn.btn--full(type="submit") Отправить сообщение
+					button.form-p__btn.btn.btn--full(type="submit")= CONTACTS.btn
